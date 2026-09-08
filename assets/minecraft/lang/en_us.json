@@ -769,7 +769,7 @@
   "ff.info.fossil_heists.1.title": "HOW TO PLAY",
   "ff.info.fossil_heists.1.content": "Thieves try to steal $1000 worth of merchandise while guards continuously stop them during a 10-minute night shift.",
   "ff.info.fossil_heists.2.title": "GUARDS",
-  "ff.info.fossil_heists.2.content": "Use a series of items: a night stick for killing, an ice cannon for freezing, plus glow traps and cameras for finding the thieves.\n\nGuards are shown a list of all available items on the sidebar. Entries flash red if stolen and are crossed out if captured.\n\nIf less than $1000 of loot is stolen before 10 minutes is up, the guards win.",
+  "ff.info.fossil_heists.2.content": "Use a series of items: a night stick for killing, an ice cannon for freezing, plus glow traps and cameras for finding the thieves.\n\nGuards are shown a list of all available items on the sidebar. Entries flash red if stolen and are crossed out if captured.\n\nGuards secure any un-keyed loot by visiting and holding right click for 2 seconds.\n\nIf less than $1000 of loot is stolen before 10 minutes is up, the guards win.",
   "ff.info.fossil_heists.3.title": "THIEVES",
   "ff.info.fossil_heists.3.content": "The thieves start in the vent. Review the sidebar list and try to steal at least $1000 of loot by collecting it and bringing it to the capture point at the museum entry.\n\nOn death, thieves lose any items they are carrying.\n\nIf thieves punch a guard, they are given a key and coin plus a short amount of invisibility to escape.",
   "ff.info.fossil_heists.4.title": "LOOT",

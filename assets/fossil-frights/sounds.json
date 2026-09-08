@@ -152,6 +152,24 @@
       }
     ]
   },
+  "heists.loot_secured": {
+    "subtitle": "subtitles.fossil_frights.heists.loot_secured",
+    "sounds": [
+      {
+        "name": "fossil-frights:heists/loot_secured",
+        "stream": false
+      }
+    ]
+  },
+  "heists.loot_unsecuring": {
+    "subtitle": "subtitles.fossil_frights.heists.loot_unsecuring",
+    "sounds": [
+      {
+        "name": "fossil-frights:heists/loot_unsecuring",
+        "stream": false
+      }
+    ]
+  },
   "heists.music": {
     "sounds": [
       {

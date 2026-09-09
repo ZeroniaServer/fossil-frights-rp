@@ -676,6 +676,9 @@
   "ff.button.heist_ready.override": "",
   "ff.button.heist_unready": "",
   "ff.button.heist_unready.override": "",
+  "ff.button.run_breakdown": "",
+  "ff.button.run_breakdown.override": "",
+  "ff.button.run_breakdown.hover": "Open Run Breakdown on Web",
 
   "ff.boss": "Boss",
   "ff.boss.hey": "<%1$s> Hey %2$s",

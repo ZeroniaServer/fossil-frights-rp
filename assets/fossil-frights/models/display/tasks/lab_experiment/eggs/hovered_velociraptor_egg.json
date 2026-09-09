@@ -5,6 +5,7 @@
 	"textures": {
 		"0": "fossil-frights:display/tasks/lab_experiment/eggs/velociraptor_egg",
 		"1": "fossil-frights:display/tasks/lab_experiment/eggs/hover_outline",
+		"emissive": "fossil-frights:display/tasks/lab_experiment/eggs/hover_outline_emissive",
 		"particle": "fossil-frights:display/tasks/lab_experiment/eggs/velociraptor_egg"
 	},
 	"elements": [
@@ -60,6 +61,39 @@
 				"west": {"uv": [2.5, 0, 5, 5], "rotation": 180, "texture": "#1"},
 				"up": {"uv": [2.5, 10, 0, 12.5], "rotation": 180, "texture": "#1", "cullface": "down"},
 				"down": {"uv": [7.5, 12, 5, 9.5], "rotation": 180, "texture": "#1", "cullface": "up"}
+			}
+		},
+		{
+			"name": "cube_outline_emissive",
+			"from": [5.4, 9.4, 19.4],
+			"to": [-0.4, -0.4, 13.6],
+			"rotation": {"angle": 32.5, "axis": "y", "origin": [-6, 0, 11]},
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [7.5, 0, 10, 4.5], "rotation": 180, "texture": "#emissive"},
+				"east": {"uv": [7.5, 4.5, 10, 9], "rotation": 180, "texture": "#emissive"},
+				"south": {"uv": [2.5, 5, 5, 9.5], "rotation": 180, "texture": "#emissive"},
+				"west": {"uv": [5, 5, 7.5, 9.5], "rotation": 180, "texture": "#emissive"},
+				"up": {"uv": [5, 9.5, 2.5, 12], "rotation": 180, "texture": "#emissive", "cullface": "down"},
+				"down": {"uv": [10, 11.5, 7.5, 9], "rotation": 180, "texture": "#emissive", "cullface": "up"}
+			}
+		}
+		,
+		{
+			"name": "cube_outline_emissive",
+			"from": [12.4, 10.4, 7.4],
+			"to": [6.6, -0.4, 1.6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, -1]},
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [0, 5, 2.5, 10], "rotation": 180, "texture": "#emissive"},
+				"east": {"uv": [5, 0, 7.5, 5], "rotation": 180, "texture": "#emissive"},
+				"south": {"uv": [0, 0, 2.5, 5], "rotation": 180, "texture": "#emissive"},
+				"west": {"uv": [2.5, 0, 5, 5], "rotation": 180, "texture": "#emissive"},
+				"up": {"uv": [2.5, 10, 0, 12.5], "rotation": 180, "texture": "#emissive", "cullface": "down"},
+				"down": {"uv": [7.5, 12, 5, 9.5], "rotation": 180, "texture": "#emissive", "cullface": "up"}
 			}
 		}
 	],

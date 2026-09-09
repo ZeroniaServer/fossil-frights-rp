@@ -5,6 +5,7 @@
 	"textures": {
 		"2": "fossil-frights:display/tasks/lab_experiment/eggs/hover_outline",
 		"6": "fossil-frights:display/tasks/lab_experiment/eggs/plesiosaur_egg",
+		"emissive": "fossil-frights:display/tasks/lab_experiment/eggs/hover_outline_emissive",
 		"particle": "fossil-frights:display/tasks/lab_experiment/eggs/plesiosaur_egg"
 	},
 	"elements": [
@@ -31,6 +32,21 @@
 				"west": {"uv": [0, 4.25, 3, 7.5], "rotation": 180, "texture": "#2"},
 				"up": {"uv": [10.25, 0, 7.25, 3], "rotation": 180, "texture": "#2", "cullface": "down"},
 				"down": {"uv": [9.25, 7, 6.25, 4], "rotation": 180, "texture": "#2", "cullface": "up"}
+			}
+		},
+		{
+			"name": "cube_outline_emissive",
+			"from": [14.4, 13.4, 14.4],
+			"to": [1.6, -0.4, 1.6],
+			"shade": false,
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [3.75, 0, 6.75, 3.25], "rotation": 180, "texture": "#emissive"},
+				"east": {"uv": [3, 4.25, 6, 7.5], "rotation": 180, "texture": "#emissive", "cullface": "west"},
+				"south": {"uv": [0.25, 0, 3.25, 3.25], "rotation": 180, "texture": "#emissive"},
+				"west": {"uv": [0, 4.25, 3, 7.5], "rotation": 180, "texture": "#emissive"},
+				"up": {"uv": [10.25, 0, 7.25, 3], "rotation": 180, "texture": "#emissive", "cullface": "down"},
+				"down": {"uv": [9.25, 7, 6.25, 4], "rotation": 180, "texture": "#emissive", "cullface": "up"}
 			}
 		}
 	],

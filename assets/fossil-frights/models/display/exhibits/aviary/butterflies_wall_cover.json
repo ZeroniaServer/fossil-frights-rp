@@ -1,0 +1,6 @@
+{
+	"parent": "fossil-frights:display/exhibits/aviary/amphibians_wall_cover",
+	"textures": {
+		"0": "block/light_blue_concrete"
+	}
+}

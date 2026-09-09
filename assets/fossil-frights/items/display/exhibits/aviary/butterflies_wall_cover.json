@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "fossil-frights:display/exhibits/aviary/butterflies_wall_cover",
+    "transformation": {
+      "right_rotation": [0,0,0,1],
+      "scale": [8,2,1],
+      "left_rotation": [0,0,0,1],
+      "translation": [-3.5,0.5,1]
+    }
+  }
+}

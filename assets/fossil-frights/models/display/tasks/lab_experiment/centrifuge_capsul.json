@@ -15,8 +15,7 @@
 				"east": {"uv": [4, 0, 8, 8], "texture": "#1"},
 				"south": {"uv": [0, 0, 4, 8], "texture": "#1"},
 				"west": {"uv": [4, 0, 8, 8], "texture": "#1"},
-				"up": {"uv": [8, 12, 4, 8], "texture": "#1"},
-				"down": {"uv": [12, 8, 8, 12], "texture": "#1"}
+				"up": {"uv": [8, 12, 4, 8], "texture": "#1"}
 			}
 		},
 		{
@@ -28,8 +27,7 @@
 				"east": {"uv": [0, 0, 4, 8], "texture": "#1"},
 				"south": {"uv": [4, 0, 8, 8], "texture": "#1"},
 				"west": {"uv": [0, 0, 4, 8], "texture": "#1"},
-				"up": {"uv": [8, 12, 4, 8], "rotation": 270, "texture": "#1"},
-				"down": {"uv": [12, 8, 8, 12], "rotation": 90, "texture": "#1"}
+				"up": {"uv": [8, 12, 4, 8], "rotation": 270, "texture": "#1"}
 			}
 		},
 		{
@@ -41,8 +39,7 @@
 				"east": {"uv": [0, 0, 4, 8], "texture": "#1"},
 				"south": {"uv": [4, 0, 8, 8], "texture": "#1"},
 				"west": {"uv": [0, 0, 4, 8], "texture": "#1"},
-				"up": {"uv": [8, 12, 4, 8], "rotation": 270, "texture": "#1"},
-				"down": {"uv": [12, 8, 8, 12], "rotation": 90, "texture": "#1"}
+				"up": {"uv": [8, 12, 4, 8], "rotation": 270, "texture": "#1"}
 			}
 		},
 		{
@@ -54,8 +51,7 @@
 				"east": {"uv": [4, 0, 8, 8], "texture": "#1"},
 				"south": {"uv": [0, 0, 4, 8], "texture": "#1"},
 				"west": {"uv": [4, 0, 8, 8], "texture": "#1"},
-				"up": {"uv": [8, 12, 4, 8], "rotation": 180, "texture": "#1"},
-				"down": {"uv": [12, 8, 8, 12], "rotation": 180, "texture": "#1"}
+				"up": {"uv": [8, 12, 4, 8], "rotation": 180, "texture": "#1"}
 			}
 		},
 		{
@@ -67,8 +63,7 @@
 				"east": {"uv": [0, 0, 4, 8], "texture": "#1"},
 				"south": {"uv": [4, 0, 8, 8], "texture": "#1"},
 				"west": {"uv": [0, 0, 4, 8], "texture": "#1"},
-				"up": {"uv": [8, 12, 4, 8], "rotation": 90, "texture": "#1"},
-				"down": {"uv": [12, 8, 8, 12], "rotation": 270, "texture": "#1"}
+				"up": {"uv": [8, 12, 4, 8], "rotation": 90, "texture": "#1"}
 			}
 		},
 		{
@@ -80,8 +75,7 @@
 				"east": {"uv": [0, 0, 4, 8], "texture": "#1"},
 				"south": {"uv": [4, 0, 8, 8], "texture": "#1"},
 				"west": {"uv": [0, 0, 4, 8], "texture": "#1"},
-				"up": {"uv": [8, 12, 4, 8], "rotation": 90, "texture": "#1"},
-				"down": {"uv": [12, 8, 8, 12], "rotation": 270, "texture": "#1"}
+				"up": {"uv": [8, 12, 4, 8], "rotation": 90, "texture": "#1"}
 			}
 		}
 	],
@@ -108,6 +102,7 @@
 		{
 			"name": "capsuls",
 			"origin": [8, 21, 8],
+			"scope": 0,
 			"color": 0,
 			"children": [0, 1, 2, 3, 4, 5]
 		}

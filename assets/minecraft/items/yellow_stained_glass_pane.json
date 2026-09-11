@@ -11,54 +11,28 @@
       "model": "fossil-frights:display/lobby/parkour/arrow"
     },
     "on_false": {
-      "type": "minecraft:condition",
+      "type": "minecraft:select",
       "property": "minecraft:component",
-      "predicate": "minecraft:custom_data",
-      "value": {
-        "itemID": "ochre_projector_beam"
-      },
-      "on_true": {
-        "type": "minecraft:model",
-        "model": "fossil-frights:display/lobby/holograms/ochre_projector_beam"
-      },
-      "on_false": {
-        "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:lore",
-        "cases": [
-          {
-            "when": [
-              {
-                "extra": [
-                  "arrow"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:display/lobby/parkour/arrow"
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "arrow"
+              ],
+              "text": ""
             }
-          },
-          {
-            "when": [
-              {
-                "extra": [
-                  "ochre_projector_beam"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:display/lobby/holograms/ochre_projector_beam"
-            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:display/lobby/parkour/arrow"
           }
-        ],
-        "fallback": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/yellow_stained_glass_pane"
         }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/yellow_stained_glass_pane"
       }
     }
   }

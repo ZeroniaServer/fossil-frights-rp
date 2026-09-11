@@ -11,54 +11,28 @@
       "model": "fossil-frights:display/lobby/parkour/arrow"
     },
     "on_false": {
-      "type": "minecraft:condition",
+      "type": "minecraft:select",
       "property": "minecraft:component",
-      "predicate": "minecraft:custom_data",
-      "value": {
-        "itemID": "queue_beam"
-      },
-      "on_true": {
-        "type": "minecraft:model",
-        "model": "fossil-frights:display/lobby/join_pads/queue_beam"
-      },
-      "on_false": {
-        "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:lore",
-        "cases": [
-          {
-            "when": [
-              {
-                "extra": [
-                  "arrow"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:display/lobby/parkour/arrow"
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "arrow"
+              ],
+              "text": ""
             }
-          },
-          {
-            "when": [
-              {
-                "extra": [
-                  "queue_beam"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:display/lobby/join_pads/queue_beam"
-            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:display/lobby/parkour/arrow"
           }
-        ],
-        "fallback": {
-          "type": "minecraft:model",
-          "model": "minecraft:block/yellow_stained_glass"
         }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:block/yellow_stained_glass"
       }
     }
   }

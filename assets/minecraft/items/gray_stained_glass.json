@@ -4,61 +4,35 @@
     "property": "minecraft:component",
     "predicate": "minecraft:custom_data",
     "value": {
-      "itemID": "spectate_beam"
+      "itemID": "hologram"
     },
     "on_true": {
       "type": "minecraft:model",
-      "model": "fossil-frights:display/lobby/join_pads/spectate_beam"
+      "model": "minecraft:block/gray_stained_glass"
     },
     "on_false": {
-      "type": "minecraft:condition",
+      "type": "minecraft:select",
       "property": "minecraft:component",
-      "predicate": "minecraft:custom_data",
-      "value": {
-        "itemID": "hologram"
-      },
-      "on_true": {
+      "component": "minecraft:lore",
+      "cases": [
+        {
+          "when": [
+            {
+              "extra": [
+                "hologram"
+              ],
+              "text": ""
+            }
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/gray_stained_glass"
+          }
+        }
+      ],
+      "fallback": {
         "type": "minecraft:model",
         "model": "minecraft:block/gray_stained_glass"
-      },
-      "on_false": {
-        "type": "minecraft:select",
-        "property": "minecraft:component",
-        "component": "minecraft:lore",
-        "cases": [
-          {
-            "when": [
-              {
-                "extra": [
-                  "spectate_beam"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:display/lobby/join_pads/spectate_beam"
-            }
-          },
-          {
-            "when": [
-              {
-                "extra": [
-                  "hologram"
-                ],
-                "text": ""
-              }
-            ],
-            "model": {
-              "type": "minecraft:model",
-              "model": "minecraft:block/gray_stained_glass"
-            }
-          }
-        ],
-        "fallback": {
-          "type": "minecraft:model",
-          "model": "minecraft:block/gray_stained_glass"
-        }
       }
     }
   }

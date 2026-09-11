@@ -5,7 +5,6 @@
 	"textures": {
 		"1": "fossil-frights:display/tasks/lab_experiment/eggs/hover_outline",
 		"6": "fossil-frights:display/tasks/lab_experiment/eggs/t_rex_egg",
-		"emissive": "fossil-frights:display/tasks/lab_experiment/eggs/hover_outline_emissive",
 		"particle": "fossil-frights:display/tasks/lab_experiment/eggs/t_rex_egg"
 	},
 	"elements": [
@@ -17,8 +16,7 @@
 				"east": {"uv": [0, 4.75, 3, 8], "texture": "#6"},
 				"south": {"uv": [3.75, 0.75, 6.75, 4], "texture": "#6"},
 				"west": {"uv": [3, 4.75, 6, 8], "texture": "#6"},
-				"up": {"uv": [9.25, 7, 6.25, 4], "texture": "#6", "cullface": "up"},
-				"down": {"uv": [10.5, 0, 7, 3], "texture": "#6", "cullface": "down"}
+				"up": {"uv": [9.25, 7, 6.25, 4], "texture": "#6", "cullface": "up"}
 			}
 		},
 		{
@@ -30,14 +28,13 @@
 				"east": {"uv": [3.25, 4, 5.75, 7.5], "texture": "#6"},
 				"south": {"uv": [0.5, 0, 3, 3.5], "texture": "#6"},
 				"west": {"uv": [0.25, 4, 2.75, 7.5], "texture": "#6"},
-				"up": {"uv": [9, 6.75, 6.5, 4.25], "rotation": 180, "texture": "#6", "cullface": "up"},
-				"down": {"uv": [10.5, 0, 7, 3], "rotation": 180, "texture": "#6", "cullface": "down"}
+				"up": {"uv": [9, 6.75, 6.5, 4.25], "rotation": 180, "texture": "#6", "cullface": "up"}
 			}
 		},
 		{
 			"name": "cube_outline",
 			"from": [14.4, 13.4, 14.4],
-			"to": [1.6, -0.4, 1.6],
+			"to": [1.6, 0.01, 1.6],
 			"faces": {
 				"north": {"uv": [3.75, 0.75, 6.75, 4], "rotation": 180, "texture": "#1"},
 				"east": {"uv": [3, 4.75, 6, 8], "rotation": 180, "texture": "#1"},
@@ -57,40 +54,7 @@
 				"east": {"uv": [0.25, 4, 2.75, 7.5], "rotation": 180, "texture": "#1"},
 				"south": {"uv": [4, 0, 6.5, 3.5], "rotation": 180, "texture": "#1"},
 				"west": {"uv": [3.25, 4, 5.75, 7.5], "rotation": 180, "texture": "#1"},
-				"up": {"uv": [10.5, 0, 7, 3], "rotation": 180, "texture": "#1", "cullface": "down"},
 				"down": {"uv": [9, 6.75, 6.5, 4.25], "rotation": 180, "texture": "#1", "cullface": "up"}
-			}
-		},
-		{
-			"name": "cube_outline_emissive",
-			"from": [14.4, 13.4, 14.4],
-			"to": [1.6, -0.4, 1.6],
-			"shade": false,
-			"light_emission": 15,
-			"faces": {
-				"north": {"uv": [3.75, 0.75, 6.75, 4], "rotation": 180, "texture": "#emissive"},
-				"east": {"uv": [3, 4.75, 6, 8], "rotation": 180, "texture": "#emissive"},
-				"south": {"uv": [0.25, 0.75, 3.25, 4], "rotation": 180, "texture": "#emissive"},
-				"west": {"uv": [0, 4.75, 3, 8], "rotation": 180, "texture": "#emissive"},
-				"up": {"uv": [10.5, 0, 7, 3], "rotation": 180, "texture": "#emissive", "cullface": "down"},
-				"down": {"uv": [9.25, 7, 6.25, 4], "rotation": 180, "texture": "#emissive", "cullface": "up"}
-			}
-		}
-		,
-		{
-			"name": "cube_outline_emissive",
-			"from": [13.4, 20.4, 13.4],
-			"to": [2.6, 5.6, 2.6],
-			"rotation": {"angle": 0, "axis": "y", "origin": [16, 6, 16]},
-			"shade": false,
-			"light_emission": 15,
-			"faces": {
-				"north": {"uv": [0.5, 0, 3, 3.5], "rotation": 180, "texture": "#emissive"},
-				"east": {"uv": [0.25, 4, 2.75, 7.5], "rotation": 180, "texture": "#emissive"},
-				"south": {"uv": [4, 0, 6.5, 3.5], "rotation": 180, "texture": "#emissive"},
-				"west": {"uv": [3.25, 4, 5.75, 7.5], "rotation": 180, "texture": "#emissive"},
-				"up": {"uv": [10.5, 0, 7, 3], "rotation": 180, "texture": "#emissive", "cullface": "down"},
-				"down": {"uv": [9, 6.75, 6.5, 4.25], "rotation": 180, "texture": "#emissive", "cullface": "up"}
 			}
 		}
 	],

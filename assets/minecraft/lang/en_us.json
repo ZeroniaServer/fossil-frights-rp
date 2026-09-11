@@ -616,6 +616,7 @@
   "ff.credits.socials.x.formerly_twitter": " (formerly Twitter)",
   "ff.credits.socials.bluesky.hover": "Click to visit our BlueSky page",
 
+  "ff.death.front_door": "%1$s was crushed by a large door",
   "ff.death.security_gate": "%1$s was crushed by a security gate",
   "ff.death.garage_door": "%1$s was crushed by a garage door",
   "ff.death.poisonous_glowberry": "%1$s ate a poisonous glow berry.",

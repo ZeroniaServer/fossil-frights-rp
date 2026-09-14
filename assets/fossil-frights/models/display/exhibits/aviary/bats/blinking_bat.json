@@ -22,7 +22,7 @@
 			"name": "outer_left_wing_emissive",
 			"from": [3, 1, 2.2],
 			"to": [3, 9, 8.2],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 15,
 			"rotation": {"angle": -30, "axis": "y", "origin": [3, 0, 11.7]},
 			"faces": {
@@ -78,7 +78,7 @@
 			"name": "head_emissive",
 			"from": [6, 7, 7],
 			"to": [10, 10, 9],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 15,
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {

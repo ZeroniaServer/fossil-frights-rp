@@ -26,7 +26,7 @@
 			"name": "head_rotation_emissive",
 			"from": [6.5, 7, 2],
 			"to": [9.5, 12, 4],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 15,
 			"rotation": {"angle": 17.5, "axis": "x", "origin": [8, 11, 4]},
 			"faces": {
@@ -52,7 +52,7 @@
 			"name": "left_ear_cube_emissive",
 			"from": [4.5, 10, 2.4],
 			"to": [6.5, 15, 2.4],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 15,
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6, 10]},
 			"faces": {
@@ -74,7 +74,7 @@
 			"name": "right_ear_cube_emissive",
 			"from": [9.5, 10, 2.4],
 			"to": [11.5, 15, 2.4],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 15,
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6, 10]},
 			"faces": {
@@ -113,7 +113,7 @@
 			"name": "body_emissive",
 			"from": [3.7, -1.3, 6.7],
 			"to": [12.3, 11.3, 14.3],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 15,
 			"rotation": {"angle": -27.5, "axis": "x", "origin": [8, 5, 5]},
 			"faces": {
@@ -129,7 +129,7 @@
 			"name": "body_emissive",
 			"from": [4, -1, 7],
 			"to": [12, 11, 14],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 15,
 			"rotation": {"angle": -27.5, "axis": "x", "origin": [8, 5, 5]},
 			"faces": {
@@ -157,7 +157,7 @@
 			"name": "front_left_leg_emissive",
 			"from": [5, 5, 5.4],
 			"to": [7, 8, 7.4],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 15,
 			"rotation": {"angle": 5, "axis": "x", "origin": [8, 5, 10.4]},
 			"faces": {
@@ -185,7 +185,7 @@
 			"name": "front_right_leg_emissive",
 			"from": [9, 5, 5],
 			"to": [11, 8, 7],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 15,
 			"rotation": {"angle": 37.5, "axis": "x", "origin": [8, 8, 6]},
 			"faces": {
@@ -213,7 +213,7 @@
 			"name": "back_left_leg_emissive",
 			"from": [5, 2, 7],
 			"to": [7, 4, 10],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 15,
 			"rotation": {"angle": -45, "axis": "x", "origin": [8, 2, 10]},
 			"faces": {
@@ -241,7 +241,7 @@
 			"name": "back_right_leg_emissive",
 			"from": [9, -1, 8],
 			"to": [11, 2, 10],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 15,
 			"rotation": {"angle": 45, "axis": "x", "origin": [8, 2, 10]},
 			"faces": {
@@ -269,7 +269,7 @@
 			"name": "tail_emissive",
 			"from": [7.5, 2.09326, 9.91355],
 			"to": [8.5, 3.09326, 15.91355],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 15,
 			"rotation": {"angle": 42.5, "axis": "x", "origin": [8, 2, 13]},
 			"faces": {
@@ -311,7 +311,7 @@
 			"name": "handle_emissive",
 			"from": [7, 0, 2],
 			"to": [9, 7, 4],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 15,
 			"rotation": {"angle": -27.5, "axis": "z", "origin": [8, 1, 1]},
 			"faces": {
@@ -326,7 +326,7 @@
 			"name": "base_emissive",
 			"from": [4, 0, 1],
 			"to": [12, 1, 5],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 15,
 			"rotation": {"angle": 0, "axis": "z", "origin": [9, 0, 1]},
 			"faces": {

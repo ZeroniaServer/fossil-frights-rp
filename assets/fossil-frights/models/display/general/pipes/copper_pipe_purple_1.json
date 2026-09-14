@@ -60,7 +60,7 @@
 			"name": "base_emissive",
 			"from": [3, 0, 3],
 			"to": [13, 2, 13],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 15,
 			"rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 2]},
 			"faces": {
@@ -76,7 +76,7 @@
 			"name": "top_cap_emissive",
 			"from": [3, 31, 3],
 			"to": [13, 32, 13],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 15,
 			"rotation": {"angle": 0, "axis": "y", "origin": [14, 32, 2]},
 			"faces": {
@@ -92,7 +92,7 @@
 			"name": "pipe_emissive",
 			"from": [4, 2, 4],
 			"to": [12, 32, 12],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 15,
 			"rotation": {"angle": 0, "axis": "y", "origin": [2, 2, 2]},
 			"faces": {
@@ -106,7 +106,7 @@
 			"name": "inner_pipe_emissive",
 			"from": [5, 1, 5],
 			"to": [11, 30, 11],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 15,
 			"rotation": {"angle": 0, "axis": "y", "origin": [5, 1, 5]},
 			"faces": {

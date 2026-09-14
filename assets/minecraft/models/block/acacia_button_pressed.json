@@ -40,7 +40,7 @@
 			"name": "plate_emissive",
 			"from": [4, 0, 4],
 			"to": [12, 1, 12],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 5,
 			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
 			"faces": {
@@ -56,7 +56,7 @@
 			"name": "button_emissive",
 			"from": [5, 1, 5],
 			"to": [11, 2, 11],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 5,
 			"rotation": {"angle": 0, "axis": "y", "origin": [7, -2.5, 7]},
 			"faces": {

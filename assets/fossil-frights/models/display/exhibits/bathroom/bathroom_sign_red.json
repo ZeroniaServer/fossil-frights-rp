@@ -24,7 +24,7 @@
 			"name": "emissive_0",
 			"from": [0, 0, 0],
 			"to": [16, 16, 2],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 5,
 			"faces": {
 				"north": {"uv": [0, 0, 4, 4], "texture": "#emissive"},

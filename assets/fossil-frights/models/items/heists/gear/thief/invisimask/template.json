@@ -83,7 +83,7 @@
 			"name": "normal",
 			"from": [0, -4, 0],
 			"to": [16, 12, 0],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 2,
 			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 0]},
 			"faces": {
@@ -95,7 +95,7 @@
 			"name": "up",
 			"from": [0, -3.5, -0.001],
 			"to": [16, 12.5, 0.001],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 2,
 			"rotation": {"angle": 0, "axis": "y", "origin": [7, 1, 0]},
 			"faces": {
@@ -107,7 +107,7 @@
 			"name": "right",
 			"from": [-0.5, -4, -0.001],
 			"to": [15.5, 12, 0.001],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 2,
 			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 0]},
 			"faces": {
@@ -119,7 +119,7 @@
 			"name": "diagonal",
 			"from": [-0.5, -3.5, -0.001],
 			"to": [15.5, 12.5, 0.001],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 2,
 			"rotation": {"angle": 0, "axis": "y", "origin": [6, 1, 0]},
 			"faces": {

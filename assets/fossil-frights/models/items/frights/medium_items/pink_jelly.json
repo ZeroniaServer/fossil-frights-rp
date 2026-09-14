@@ -96,7 +96,7 @@
 			"name": "left_side_emissive",
 			"from": [4, 0, 4],
 			"to": [5, 9, 12],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 4,
 			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0, 4]},
 			"faces": {
@@ -112,7 +112,7 @@
 			"name": "right_side_emissive",
 			"from": [11, 0, 4],
 			"to": [12, 9, 12],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 4,
 			"rotation": {"angle": 0, "axis": "y", "origin": [11, 0, 4]},
 			"faces": {
@@ -128,7 +128,7 @@
 			"name": "front_emissive",
 			"from": [5, 0, 4],
 			"to": [11, 9, 5],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 4,
 			"rotation": {"angle": 0, "axis": "y", "origin": [5, 0, 4]},
 			"faces": {
@@ -142,7 +142,7 @@
 			"name": "back_emissive",
 			"from": [5, 0, 11],
 			"to": [11, 9, 12],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 4,
 			"rotation": {"angle": 0, "axis": "y", "origin": [5, 0, 11]},
 			"faces": {
@@ -156,7 +156,7 @@
 			"name": "top_emissive",
 			"from": [5, 0, 5],
 			"to": [11, 8, 11],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 4,
 			"rotation": {"angle": 0, "axis": "y", "origin": [5, 0, 11]},
 			"faces": {
@@ -168,7 +168,7 @@
 			"name": "front_stem_emissive",
 			"from": [7, 6, 3.9],
 			"to": [9, 12, 3.9],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 4,
 			"rotation": {"angle": 0, "axis": "y", "origin": [4, 9, 3.9]},
 			"faces": {
@@ -180,7 +180,7 @@
 			"name": "back_stem_emissive",
 			"from": [7, 6, 12.1],
 			"to": [9, 12, 12.1],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 4,
 			"rotation": {"angle": 0, "axis": "y", "origin": [4, 9, 12.1]},
 			"faces": {
@@ -192,7 +192,7 @@
 			"name": "top_stem_emissive",
 			"from": [7, 12, 3.9],
 			"to": [9, 12, 12.1],
-			"shade": false,
+			"shade_direction_override": "up",
 			"light_emission": 4,
 			"rotation": {"angle": 0, "axis": "y", "origin": [4, 9, 12.1]},
 			"faces": {

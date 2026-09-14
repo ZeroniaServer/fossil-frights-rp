@@ -1,4 +1,5 @@
 #version 330
+#extension GL_ARB_separate_shader_objects : require
 
 layout(std140) uniform LightmapInfo {
     float SkyFactor;
@@ -13,9 +14,9 @@ layout(std140) uniform LightmapInfo {
     vec3 NightVisionColor;
 } lightmapInfo;
 
-in vec2 texCoord;
+layout (location = 0) in vec2 texCoord;
 
-out vec4 fragColor;
+layout (location = 0) out vec4 fragColor;
 
 float get_brightness(float level) {
     return level / (4.0 - 3.0 * level);
@@ -43,21 +44,22 @@ void main() {
     vec3 OverrideAmbientColor = lightmapInfo.AmbientColor;
     vec3 OverrideBlockLightTint = lightmapInfo.BlockLightTint;
 
+    // CUSTOM CODE
     if (lightmapInfo.AmbientColor.g > 0.0392156863 && lightmapInfo.AmbientColor.r <= 0.0392156863 && lightmapInfo.AmbientColor.b <= 0.0392156863) { // bright green is our marker
         OverrideBlockLightTint = mix(lightmapInfo.BlockLightTint, vec3(1, 0.847058824, 0.549019608), clamp((lightmapInfo.AmbientColor.g - 0.0392156863) / 0.1, 0, 1));
     }
-
     OverrideAmbientColor = vec3(0.0392156863, 0.0392156863, 0.0392156863);
+    // END CUSTOM CODE
 
     // Calculate ambient color with or without night vision
     vec3 nightVisionColor = lightmapInfo.NightVisionColor * lightmapInfo.NightVisionFactor;
-    vec3 color = max(OverrideAmbientColor, nightVisionColor); // modified
+    vec3 color = max(OverrideAmbientColor, nightVisionColor); // MODIFIED
 
     // Add sky light
     color += lightmapInfo.SkyLightColor * sky_brightness;
 
     // Add block light
-    vec3 BlockLightColor = mix(OverrideBlockLightTint, vec3(1.0), 0.9 * parabolicMixFactor(block_level)); // modified
+    vec3 BlockLightColor = mix(OverrideBlockLightTint, vec3(1.0), 0.9 * parabolicMixFactor(block_level)); // MODIFIED
     color += BlockLightColor * block_brightness;
 
     // Apply boss overlay darkening effect

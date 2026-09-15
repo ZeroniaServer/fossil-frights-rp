@@ -77,8 +77,22 @@
                   {
                     "when": "slime",
                     "model": {
-                      "type": "minecraft:model",
-                      "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/slime"
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:custom_data",
+                      "value": {
+                        "ff_invisimask": {
+                          "frozen": true
+                        }
+                      },
+                      "on_true": {
+                        "type": "minecraft:model",
+                        "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/slime_opaque"
+                      },
+                      "on_false": {
+                        "type": "minecraft:model",
+                        "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/slime"
+                      }
                     }
                   },
                   {

@@ -1,0 +1,6 @@
+{
+	"parent": "animation:blueprint/detonator/main",
+	"textures": {
+		"1": "animation:blueprint/detonator/sparks_2"
+	}
+}

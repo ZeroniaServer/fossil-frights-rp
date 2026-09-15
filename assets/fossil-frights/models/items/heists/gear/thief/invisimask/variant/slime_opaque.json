@@ -1,0 +1,6 @@
+{
+	"parent": "fossil-frights:items/heists/gear/thief/invisimask/template",
+	"textures": {
+		"mask": "fossil-frights:items/heists/gear/thief/invisimask/variant/slime_opaque"
+	}
+}

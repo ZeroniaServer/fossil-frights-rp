@@ -578,6 +578,13 @@
   "ff.heists.capture_point": "CAPTURE POINT",
   "ff.heists.scissors.found": "%s found scissors in %s",
   "ff.heists.scissors.unsafe_to_run": "It's unsafe to run with scissors.",
+  "ff.heists.scissors.note.ruins": "Scissors\nin Ruins",
+  "ff.heists.scissors.note.above": "Scissors\n^^^",
+  "ff.heists.scissors.note.floor_1": "Scissors\non Floor 1",
+  "ff.heists.scissors.note.fish_tank": "Scissors\nin Fish Tank",
+  "ff.heists.scissors.note.floor_2": "Scissors\non Floor 2",
+  "ff.heists.scissors.note.theatre": "Scissors\nin Theatre",
+  "ff.heists.scissors.note.basement": "Scissors\nin Basement",
   "ff.heists.guard_coin.reported": "%s reported in %s",
   "ff.heists.guard_coin.location.boss_office": "Boss Office",
   "ff.heists.guard_coin.location.security_closet": "Security Room Closet",
@@ -742,6 +749,7 @@
 
   "ff.sculkadillo": "Sculkadillo",
   "ff.sculkadillo.thanks": "<%1$s> Thanks for the %2$s,  Now hurry, you have %3$s to ride the pulley",
+  "ff.sculkadillo.ride": "<%1$s> Fine I'll give you a lift, you have %2$s to ride the pulley",
   "ff.sculkadillo.broke": "<%1$s> Hey pal, if you can't give me %2$s, you're gonna have to parkour your own way up.",
 
   "ff.crab": "Crab",

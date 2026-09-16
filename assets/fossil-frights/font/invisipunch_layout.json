@@ -1,0 +1,12 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "\uE600": 0,
+        "\uE601": -56,
+        "\uE602": 2
+      }
+    }
+  ]
+}

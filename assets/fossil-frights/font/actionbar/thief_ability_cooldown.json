@@ -3,7 +3,7 @@
     {
       "type": "bitmap",
       "file": "fossil-frights:font/actionbar/thief_ability_cooldown.png",
-      "ascent": 9,
+      "ascent": -2,
       "height": 9,
       "chars": [
       "",

@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "fossil-frights:display/general/doors/left_hinge/dark_oak_restricted_area",
+    "transformation": {
+      "left_rotation": [0, 0, 0, 1],
+      "right_rotation": [0, 0, 0, 1],
+      "scale": [1, 1, 1],
+      "translation": [-0.40625, 1, 0]
+    }
+  }
+}

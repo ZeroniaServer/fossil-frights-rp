@@ -1,0 +1,14 @@
+{
+  "entity.player.attack.weak": {
+    "replace": "true",
+    "sounds": [
+      "fossil-frights:silent"
+    ]
+  },
+  "entity.player.attack.nodamage": {
+    "replace": "true",
+    "sounds": [
+      "fossil-frights:silent"
+    ]
+  }
+}

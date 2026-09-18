@@ -1,0 +1,49 @@
+{
+	"textures": {
+		"0": "fossil-frights:display/tasks/refill_popcorn/popcorn_machine",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [7.5, 7.5, 7.5],
+			"to": [8.5, 8.5, 8.5],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [8.5, 7.5, 8.5]
+			},
+			"faces": {
+				"north": {
+					"uv": [8.5, 4.25, 8.625, 4.375],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [8.5, 4.25, 8.625, 4.375],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [8.375, 4.25, 8.5, 4.375],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [8.375, 4.25, 8.5, 4.375],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [8.375, 4.125, 8.5, 4.25],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [8.375, 4.25, 8.5, 4.375],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

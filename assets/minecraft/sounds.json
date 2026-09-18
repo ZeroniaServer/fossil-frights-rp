@@ -1,4 +1,14 @@
 {
+  "entity.creaking.attack": {
+    "replace": "true",
+    "subtitle": "subtitles.fossil_frights.velociraptor_skull",
+    "sounds": [
+      "minecraft:mob/creaking/creaking_attack1",
+      "minecraft:mob/creaking/creaking_attack2",
+      "minecraft:mob/creaking/creaking_attack3",
+      "minecraft:mob/creaking/creaking_attack4"
+    ]
+  },
   "entity.player.attack.weak": {
     "replace": "true",
     "sounds": [

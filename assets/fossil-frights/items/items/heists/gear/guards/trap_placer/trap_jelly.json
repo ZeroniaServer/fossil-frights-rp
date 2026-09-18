@@ -1,6 +1,36 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "fossil-frights:items/heists/gear/guards/trap_placer/trap_jelly"
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "ff_invisible": true
+    },
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": "thirdperson_righthand",
+          "model": {
+            "type": "minecraft:empty"
+          }
+        },
+        {
+          "when": "thirdperson_lefthand",
+          "model": {
+            "type": "minecraft:empty"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "fossil-frights:items/heists/gear/guards/trap_placer/trap_jelly"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "fossil-frights:items/heists/gear/guards/trap_placer/trap_jelly"
+    }
   }
 }

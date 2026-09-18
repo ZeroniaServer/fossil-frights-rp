@@ -215,6 +215,9 @@
   "subtitles.fossil_frights.heists.highlight_thief": "Camera shutter",
   "subtitles.fossil_frights.vending_machine.refill": "Vending machine refills",
   "subtitles.fossil_frights.heists.loot_capture": "Loot captured",
+  "subtitles.fossil_frights.heists.loot_secured": "Loot secured",
+  "subtitles.fossil_frights.heists.loot_unsecuring": "Loot unsecuring",
+  "subtitles.fossil_frights.velociraptor_skull": "Statue creaks",
 
   "ff.day_count.day": "Day %s",
   "ff.day_count.complete": "Complete Day %s",
@@ -2244,7 +2247,5 @@
   "ff.task_book.task.water_crops.description.0": "Can you please water the crops in the trail ruins exhibit, next to the jungle temple? Grab a water balloon and toss it onto the crops.",
   "ff.actionbar.heists.loot_security.already_secured": "Already secured",
   "ff.actionbar.heists.loot_security.recently_secured": "Secured too recently",
-  "ff.actionbar.heists.loot_security.in_progress": "A guard is already securing...",
-  "subtitles.fossil_frights.heists.loot_secured": "Loot secured",
-  "subtitles.fossil_frights.heists.loot_unsecuring": "Loot unsecuring"
+  "ff.actionbar.heists.loot_security.in_progress": "A guard is already securing..."
 }

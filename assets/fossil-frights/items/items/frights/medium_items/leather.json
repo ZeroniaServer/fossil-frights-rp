@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/medium_items/instant_coffee_jar"
+        "model": "minecraft:item/leather"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/frights/medium_items/instant_coffee_jar"
+      "model": "minecraft:item/leather"
     }
   }
 }

@@ -25,12 +25,24 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/medium_items/instant_coffee_liquid"
+        "model": "minecraft:item/leather_boots",
+        "tints": [
+          {
+            "type": "minecraft:constant",
+            "value": -6265536
+          }
+        ]
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/frights/medium_items/instant_coffee_liquid"
+      "model": "minecraft:item/leather_boots",
+      "tints": [
+        {
+          "type": "minecraft:constant",
+          "value": -6265536
+        }
+      ]
     }
   }
 }

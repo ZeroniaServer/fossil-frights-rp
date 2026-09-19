@@ -24,31 +24,13 @@
         }
       ],
       "fallback": {
-        "type": "minecraft:composite",
-        "models": [
-          {
-            "type": "model",
-            "model": "fossil-frights:items/drinks/raptor_rush"
-          },
-          {
-            "type": "model",
-            "model": "fossil-frights:items/drinks/empty_glass"
-          }
-        ]
+        "type": "minecraft:model",
+        "model": "minecraft:item/spyglass"
       }
     },
     "on_false": {
-      "type": "minecraft:composite",
-      "models": [
-        {
-          "type": "model",
-          "model": "fossil-frights:items/drinks/raptor_rush"
-        },
-        {
-          "type": "model",
-          "model": "fossil-frights:items/drinks/empty_glass"
-        }
-      ]
+      "type": "minecraft:model",
+      "model": "minecraft:item/spyglass"
     }
   }
 }

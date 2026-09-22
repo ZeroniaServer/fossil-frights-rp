@@ -741,7 +741,9 @@
   "ff.security_camera.aviary": "Aviary",
   "ff.security_camera.eggshibit": "Eggshibit",
   "ff.security_camera.top_floor": "Top Floor",
-  "ff.security_camera.player_spotted": "%1$s spotted %2$s in %3$s",
+  "ff.security_camera.actionbar.thief_visible.exclamation": "Thief Visible!",
+  "ff.security_camera.actionbar.thief_visible.prompt": "Press %1$s to Report.",
+  "ff.security_camera.actionbar.player_spotted": "%1$s spotted %2$s in %3$s",
 
   "ff.survived_to_day": "%1$s survived to day %2$s.",
 

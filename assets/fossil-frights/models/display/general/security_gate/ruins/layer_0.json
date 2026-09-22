@@ -2,7 +2,7 @@
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"2": "block/iron_bars"
+		"2": "block/copper_bars"
 	},
 	"elements": [
 		{

@@ -24,39 +24,13 @@
         }
       ],
       "fallback": {
-        "type": "minecraft:select",
-        "property": "minecraft:display_context",
-        "cases": [
-          {
-            "when": "gui",
-            "model": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:items/frights/medium_items/water_balloon_inventory"
-            }
-          }
-        ],
-        "fallback": {
-          "type": "minecraft:model",
-          "model": "fossil-frights:items/frights/medium_items/water_balloon"
-        }
-      }
-    },
-    "on_false": {
-      "type": "minecraft:select",
-      "property": "minecraft:display_context",
-      "cases": [
-        {
-          "when": "gui",
-          "model": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:items/frights/medium_items/water_balloon_inventory"
-          }
-        }
-      ],
-      "fallback": {
         "type": "minecraft:model",
         "model": "fossil-frights:items/frights/medium_items/water_balloon"
       }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "fossil-frights:items/frights/medium_items/water_balloon"
     }
   }
 }

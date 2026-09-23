@@ -24,71 +24,13 @@
         }
       ],
       "fallback": {
-        "type": "minecraft:special",
-        "base": "minecraft:item/template_skull",
-        "model": {
-          "type": "minecraft:head",
-          "kind": "player",
-          "texture": "fossil-frights:skins/basketball"
-        },
-        "transformation": {
-          "left_rotation": [
-            1,
-            0,
-            0,
-            0
-          ],
-          "right_rotation": [
-            0,
-            0,
-            0,
-            1
-          ],
-          "scale": [
-            1,
-            1,
-            1
-          ],
-          "translation": [
-            0.5,
-            0,
-            0.5
-          ]
-        }
+        "type": "minecraft:model",
+        "model": "fossil-frights:items/frights/hard_items/basketball"
       }
     },
     "on_false": {
-      "type": "minecraft:special",
-      "base": "minecraft:item/template_skull",
-      "model": {
-        "type": "minecraft:head",
-        "kind": "player",
-        "texture": "fossil-frights:skins/basketball"
-      },
-      "transformation": {
-        "left_rotation": [
-          1,
-          0,
-          0,
-          0
-        ],
-        "right_rotation": [
-          0,
-          0,
-          0,
-          1
-        ],
-        "scale": [
-          1,
-          1,
-          1
-        ],
-        "translation": [
-          0.5,
-          0,
-          0.5
-        ]
-      }
+      "type": "minecraft:model",
+      "model": "fossil-frights:items/frights/hard_items/basketball"
     }
   }
 }

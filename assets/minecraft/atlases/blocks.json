@@ -24,6 +24,10 @@
       "type": "directory",
       "source": "skins/players",
       "prefix": "skins/players/"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "fossil-frights:skins/basketball"
     }
   ]
 }

@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "fossil-frights:display/lobby/credits/players/endyblaze201",
-		"particle": "fossil-frights:display/lobby/credits/players/endyblaze201"
+		"0": "fossil-frights:skins/players/endyblaze201",
+		"particle": "fossil-frights:skins/players/endyblaze201"
 	},
 	"elements": [
 		{

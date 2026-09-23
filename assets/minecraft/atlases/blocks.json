@@ -19,6 +19,11 @@
       "type": "directory",
       "source": "blueprint",
       "prefix": "blueprint/"
+    },
+    {
+      "type": "directory",
+      "source": "skins/players",
+      "prefix": "skins/players/"
     }
   ]
 }

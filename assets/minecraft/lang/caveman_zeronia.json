@@ -19,7 +19,7 @@
   
   "language.name": "Cave Man",
   "language.region": "Zeronia",
-  "language.code": "cm_ze",
+  "language.code": "caveman_zeronia",
 
   "ff.messages.info": "ℹ %s",
   "ff.messages.warning": "⚠ %s",

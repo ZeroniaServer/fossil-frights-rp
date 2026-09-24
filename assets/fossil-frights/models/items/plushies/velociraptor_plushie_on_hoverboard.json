@@ -4,9 +4,9 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "fossil-frights:items/plushies/velociraptor_plushie",
-		"1": "fossil-frights:display/tasks/hoverraptor/hoverboard",
+		"1": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard",
 		"particle": "fossil-frights:items/plushies/velociraptor_plushie",
-		"emissive": "fossil-frights:display/tasks/hoverraptor/hoverboard_emissive"
+		"emissive": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_emissive"
 	},
 	"elements": [
 		{

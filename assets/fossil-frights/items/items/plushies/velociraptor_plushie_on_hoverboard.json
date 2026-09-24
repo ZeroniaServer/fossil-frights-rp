@@ -25,12 +25,24 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/plushies/velociraptor_plushie_on_hoverboard"
+        "model": "fossil-frights:items/plushies/velociraptor_plushie_on_hoverboard",
+        "tints": [
+          {
+            "type": "minecraft:constant",
+            "value": -11407105
+          }
+        ]
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/plushies/velociraptor_plushie_on_hoverboard"
+      "model": "fossil-frights:items/plushies/velociraptor_plushie_on_hoverboard",
+      "tints": [
+        {
+          "type": "minecraft:constant",
+          "value": -11407105
+        }
+      ]
     }
   }
 }

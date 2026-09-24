@@ -25,12 +25,24 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/hard_items/hoverboard_item"
+        "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard",
+        "tints": [
+          {
+            "type": "minecraft:constant",
+            "value": -16711936
+          }
+        ]
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/frights/hard_items/hoverboard_item"
+      "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard",
+      "tints": [
+        {
+          "type": "minecraft:constant",
+          "value": -16711936
+        }
+      ]
     }
   }
 }

@@ -7,7 +7,6 @@
     },
     "facing=east,in_wall=false,open=true": {
       "model": "fossil-frights:block/sink",
-      "uvlock": true,
       "y": 90
     },
     "facing=east,in_wall=true,open=false": {
@@ -17,7 +16,6 @@
     },
     "facing=east,in_wall=true,open=true": {
       "model": "fossil-frights:block/toilet_roll",
-      "uvlock": true,
       "y": 270
     },
     "facing=north,in_wall=false,open=false": {
@@ -27,7 +25,6 @@
     },
     "facing=north,in_wall=false,open=true": {
       "model": "fossil-frights:block/sink",
-      "uvlock": true
     },
     "facing=north,in_wall=true,open=false": {
       "model": "minecraft:block/crimson_fence_gate_wall",
@@ -36,7 +33,6 @@
     },
     "facing=north,in_wall=true,open=true": {
       "model": "fossil-frights:block/toilet_roll",
-      "uvlock": true,
       "y": 180
     },
     "facing=south,in_wall=false,open=false": {
@@ -45,16 +41,14 @@
     },
     "facing=south,in_wall=false,open=true": {
       "model": "fossil-frights:block/sink",
-      "y": 180,
-      "uvlock": true
+      "y": 180
     },
     "facing=south,in_wall=true,open=false": {
       "model": "minecraft:block/crimson_fence_gate_wall",
       "uvlock": true
     },
     "facing=south,in_wall=true,open=true": {
-      "model": "fossil-frights:block/toilet_roll",
-      "uvlock": true
+      "model": "fossil-frights:block/toilet_roll"
     },
     "facing=west,in_wall=false,open=false": {
       "model": "minecraft:block/crimson_fence_gate",
@@ -63,7 +57,6 @@
     },
     "facing=west,in_wall=false,open=true": {
       "model": "fossil-frights:block/sink",
-      "uvlock": true,
       "y": 270
     },
     "facing=west,in_wall=true,open=false": {
@@ -73,7 +66,6 @@
     },
     "facing=west,in_wall=true,open=true": {
       "model": "fossil-frights:block/toilet_roll",
-      "uvlock": true,
       "y": 90
     }
   }

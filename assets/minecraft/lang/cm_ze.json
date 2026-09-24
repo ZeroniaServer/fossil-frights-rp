@@ -16,6 +16,10 @@
   "recipe.toast.title": "",
   "tutorial.craft_planks.description": "",
   "effect.minecraft.luck": "Bounce Bounce",
+  
+  "language.name": "Cave Man",
+  "language.region": "Zeronia",
+  "language.code": "cm_ze",
 
   "ff.messages.info": "ℹ %s",
   "ff.messages.warning": "⚠ %s",

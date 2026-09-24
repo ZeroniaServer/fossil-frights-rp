@@ -1,5 +1,5 @@
 {
-  "menu.game": "",
+  "menu.game": "\ue000",
   "container.crafting": "",
   "gui.recipebook.moreRecipes": "",
   "gui.recipebook.page": "",
@@ -15,18 +15,5 @@
   "recipe.toast.description": "",
   "recipe.toast.title": "",
   "tutorial.craft_planks.description": "",
-  "effect.minecraft.luck": "Double Jump",
-  
-  "ff.button.tutorial_start": "",
-  "ff.button.tutorial_start.override": "SAIL AWAY",
-  "ff.button.queue_start": "",
-  "ff.button.queue_start.override": "SAIL AWAY",
-  "ff.button.invite_accept": "",
-  "ff.button.invite_accept.override": "SAIL AWAY",
-  "ff.button.leave_now": "",
-  "ff.button.leave_now.override": "JUMP SHIP",
-  "ff.button.heist_ready": "",
-  "ff.button.heist_ready.override": "READY",
-  "ff.button.heist_unready": "",
-  "ff.button.heist_unready.override": "UNREADY"
+  "effect.minecraft.luck": "Double Jump"
 }

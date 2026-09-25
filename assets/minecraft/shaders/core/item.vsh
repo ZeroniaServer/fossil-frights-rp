@@ -20,6 +20,7 @@ uniform sampler2D Sampler2;
 out float sphericalVertexDistance;
 out float cylindricalVertexDistance;
 out vec4 vertexColor;
+out vec4 diffuseColor;
 out vec4 lightMapColor;
 out vec4 overlayColor;
 out vec2 texCoord0;
@@ -31,6 +32,7 @@ void main() {
     cylindricalVertexDistance = fog_cylindrical_distance(Position);
 
     vertexColor = minecraft_mix_light(Light0_Direction, Light1_Direction, Normal, Color);
+    diffuseColor = Color:
     lightMapColor = sample_lightmap(Sampler2, UV2);
     overlayColor = texelFetch(Sampler1, UV1, 0);
 

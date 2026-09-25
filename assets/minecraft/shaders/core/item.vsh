@@ -32,7 +32,7 @@ void main() {
     cylindricalVertexDistance = fog_cylindrical_distance(Position);
 
     vertexColor = minecraft_mix_light(Light0_Direction, Light1_Direction, Normal, Color);
-    diffuseColor = Color:
+    diffuseColor = Color;
     lightMapColor = sample_lightmap(Sampler2, UV2);
     overlayColor = texelFetch(Sampler1, UV1, 0);
 

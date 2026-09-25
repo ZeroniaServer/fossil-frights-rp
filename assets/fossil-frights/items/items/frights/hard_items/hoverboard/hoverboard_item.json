@@ -11,6 +11,18 @@
       "property": "minecraft:display_context",
       "cases": [
         {
+          "when": "firstperson_righthand",
+          "model": {
+            "type": "minecraft:empty"
+          }
+        },
+        {
+          "when": "firstperson_lefthand",
+          "model": {
+            "type": "minecraft:empty"
+          }
+        },
+        {
           "when": "thirdperson_righthand",
           "model": {
             "type": "minecraft:empty"

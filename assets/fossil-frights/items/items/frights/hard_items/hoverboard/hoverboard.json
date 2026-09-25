@@ -1,46 +1,38 @@
 {
   "model": {
-    "type": "minecraft:condition",
-    "property": "minecraft:component",
-    "predicate": "minecraft:custom_data",
-    "value": {
-      "name": "polysquarazoid"
-    },
-    "on_true": {
-      "type": "minecraft:model",
-      "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard",
-      "tints": [
-        {
-          "type": "minecraft:constant",
-          "value": -8186127
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "polysquarazoid",
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -8186127
+            }
+          ]
         }
-      ]
-    },
-    "on_false": {
-      "type": "minecraft:condition",
-      "property": "minecraft:component",
-      "predicate": "minecraft:custom_data",
-      "value": {
-        "name": "rivertiger76"
       },
-      "on_true": {
-        "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard",
-        "tints": [
-          {
-            "type": "minecraft:constant",
-            "value": -13738
-          }
-        ]
+      {
+        "when": "rivertiger76",
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -13738
+            }
+          ]
+        }
       },
-      "on_false": {
-        "type": "minecraft:condition",
-        "property": "minecraft:component",
-        "predicate": "minecraft:custom_data",
-        "value": {
-          "name": "dorkorc_"
-        },
-        "on_true": {
+      {
+        "when": "dorkorc_",
+        "model": {
           "type": "minecraft:model",
           "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard",
           "tints": [
@@ -49,72 +41,57 @@
               "value": -5649972
             }
           ]
-        },
-        "on_false": {
-          "type": "minecraft:condition",
-          "property": "minecraft:component",
-          "predicate": "minecraft:custom_data",
-          "value": {
-            "name": "endyblaze201"
-          },
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard",
-            "tints": [
-              {
-                "type": "minecraft:constant",
-                "value": -12811674
-              }
-            ]
-          },
-          "on_false": {
-            "type": "minecraft:condition",
-            "property": "minecraft:component",
-            "predicate": "minecraft:custom_data",
-            "value": {
-              "name": "stuffy"
-            },
-            "on_true": {
-              "type": "minecraft:model",
-              "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard",
-              "tints": [
-                {
-                  "type": "minecraft:constant",
-                  "value": -13142841
-                }
-              ]
-            },
-            "on_false": {
-              "type": "minecraft:condition",
-              "property": "minecraft:component",
-              "predicate": "minecraft:custom_data",
-              "value": {
-                "name": "evtema3"
-              },
-              "on_true": {
-                "type": "minecraft:model",
-                "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard",
-                "tints": [
-                  {
-                    "type": "minecraft:constant",
-                    "value": -327680
-                  }
-                ]
-              },
-              "on_false": {
-                "type": "minecraft:model",
-                "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard",
-                "tints": [
-                  {
-                    "type": "minecraft:constant",
-                    "value": -11407105
-                  }
-                ]
-              }
+        }
+      },
+      {
+        "when": "endyblaze201",
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -12811674
             }
-          }
+          ]
+        }
+      },
+      {
+        "when": "stuffy",
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -13142841
+            }
+          ]
+        }
+      },
+      {
+        "when": "evtema3",
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -327680
+            }
+          ]
         }
       }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard",
+      "tints": [
+        {
+          "type": "minecraft:constant",
+          "value": -11407105
+        }
+      ]
     }
   }
 }

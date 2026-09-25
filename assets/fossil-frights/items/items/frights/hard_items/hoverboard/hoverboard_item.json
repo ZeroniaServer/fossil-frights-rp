@@ -45,12 +45,18 @@
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_item"
+            "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory_active",
+            "transformation": {
+              "right_rotation": [0,0,0,1],
+              "scale": [2,2,2],
+              "left_rotation": [0,0,0,1],
+              "translation": [-0.5,0,0]
+            }
           }
         },
         "on_false": {
           "type": "minecraft:model",
-          "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_item"
+          "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory"
         }
       }
     },
@@ -79,13 +85,20 @@
         ],
         "fallback": {
           "type": "minecraft:model",
-          "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_item"
+          "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory_active",
+          "transformation": {
+            "right_rotation": [0,0,0,1],
+            "scale": [2,2,2],
+            "left_rotation": [0,0,0,1],
+            "translation": [-0.5,0,0]
+          }
         }
       },
       "on_false": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_item"
+        "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory"
       }
     }
-  }
+  },
+  "oversized_in_gui": true
 }

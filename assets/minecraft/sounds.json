@@ -68,5 +68,107 @@
     "sounds": [
       "fossil-frights:silent"
     ]
+  },
+  "block.nether_ore.break": {
+    "replace": "true",
+    "sounds": [
+      "minecraft:dig/stone1",
+      "minecraft:dig/stone2",
+      "minecraft:dig/stone3",
+      "minecraft:dig/stone4"
+    ]
+  },
+  "block.nether_ore.step": {
+    "replace": "true",
+    "sounds": [
+      "minecraft:step/stone1",
+      "minecraft:step/stone2",
+      "minecraft:step/stone3",
+      "minecraft:step/stone4",
+      "minecraft:step/stone5",
+      "minecraft:step/stone6"
+    ]
+  },
+  "block.nether_ore.place": {
+    "replace": "true",
+    "sounds": [
+      "minecraft:dig/stone1",
+      "minecraft:dig/stone2",
+      "minecraft:dig/stone3",
+      "minecraft:dig/stone4"
+    ]
+  },
+  "block.nether_ore.hit": {
+    "replace": "true",
+    "sounds": [
+      "minecraft:step/stone1",
+      "minecraft:step/stone2",
+      "minecraft:step/stone3",
+      "minecraft:step/stone4",
+      "minecraft:step/stone5",
+      "minecraft:step/stone6"
+    ]
+  },
+  "block.nether_ore.fall": {
+    "replace": "true",
+    "sounds": [
+      "minecraft:step/stone1",
+      "minecraft:step/stone2",
+      "minecraft:step/stone3",
+      "minecraft:step/stone4",
+      "minecraft:step/stone5",
+      "minecraft:step/stone6"
+    ]
+  },
+  "block.nether_bricks.break": {
+    "replace": "true",
+    "sounds": [
+      "minecraft:dig/stone1",
+      "minecraft:dig/stone2",
+      "minecraft:dig/stone3",
+      "minecraft:dig/stone4"
+    ]
+  },
+  "block.nether_bricks.step": {
+    "replace": "true",
+    "sounds": [
+      "minecraft:step/stone1",
+      "minecraft:step/stone2",
+      "minecraft:step/stone3",
+      "minecraft:step/stone4",
+      "minecraft:step/stone5",
+      "minecraft:step/stone6"
+    ]
+  },
+  "block.nether_bricks.place": {
+    "replace": "true",
+    "sounds": [
+      "minecraft:dig/stone1",
+      "minecraft:dig/stone2",
+      "minecraft:dig/stone3",
+      "minecraft:dig/stone4"
+    ]
+  },
+  "block.nether_bricks.hit": {
+    "replace": "true",
+    "sounds": [
+      "minecraft:step/stone1",
+      "minecraft:step/stone2",
+      "minecraft:step/stone3",
+      "minecraft:step/stone4",
+      "minecraft:step/stone5",
+      "minecraft:step/stone6"
+    ]
+  },
+  "block.nether_bricks.fall": {
+    "replace": "true",
+    "sounds": [
+      "minecraft:step/stone1",
+      "minecraft:step/stone2",
+      "minecraft:step/stone3",
+      "minecraft:step/stone4",
+      "minecraft:step/stone5",
+      "minecraft:step/stone6"
+    ]
   }
 }

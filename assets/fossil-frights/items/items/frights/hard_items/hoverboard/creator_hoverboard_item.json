@@ -1,0 +1,280 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "ff_hoverboard_active": true
+    },
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "thirdperson_righthand",
+            "thirdperson_lefthand",
+            "firstperson_righthand",
+            "firstperson_lefthand"
+          ],
+          "model": {
+            "type": "minecraft:empty"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "cases": [
+          {
+            "when": "polysquarazoid",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory_active",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:constant",
+                  "value": -8186127
+                }
+              ]
+            }
+          },
+          {
+            "when": "rivertiger76",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory_active",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:constant",
+                  "value": -207511
+                }
+              ]
+            }
+          },
+          {
+            "when": "dorkorc_",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory_active",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:constant",
+                  "value": -5649972
+                }
+              ]
+            }
+          },
+          {
+            "when": "endyblaze201",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory_active",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:constant",
+                  "value": -15439069
+                }
+              ]
+            }
+          },
+          {
+            "when": "stuffy",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory_active",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:constant",
+                  "value": -13142841
+                }
+              ]
+            }
+          },
+          {
+            "when": "evtema3",
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory_active",
+              "tints": [
+                {
+                  "type": "minecraft:constant",
+                  "value": -1
+                },
+                {
+                  "type": "minecraft:constant",
+                  "value": -327680
+                }
+              ]
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory_active",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:constant",
+              "value": -11407105
+            }
+          ]
+        },
+        "transformation": {
+          "right_rotation": [0,0,0,1],
+          "scale": [2,2,2],
+          "left_rotation": [0,0,0,1],
+          "translation": [-0.5,0,0]
+        }
+      }
+    },
+    "on_false": {
+      "type": "minecraft:select",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "cases": [
+        {
+          "when": "polysquarazoid",
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": -1
+              },
+              {
+                "type": "minecraft:constant",
+                "value": -8186127
+              }
+            ]
+          }
+        },
+        {
+          "when": "rivertiger76",
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": -1
+              },
+              {
+                "type": "minecraft:constant",
+                "value": -207511
+              }
+            ]
+          }
+        },
+        {
+          "when": "dorkorc_",
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": -1
+              },
+              {
+                "type": "minecraft:constant",
+                "value": -5649972
+              }
+            ]
+          }
+        },
+        {
+          "when": "endyblaze201",
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": -1
+              },
+              {
+                "type": "minecraft:constant",
+                "value": -15439069
+              }
+            ]
+          }
+        },
+        {
+          "when": "stuffy",
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": -1
+              },
+              {
+                "type": "minecraft:constant",
+                "value": -13142841
+              }
+            ]
+          }
+        },
+        {
+          "when": "evtema3",
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": -1
+              },
+              {
+                "type": "minecraft:constant",
+                "value": -327680
+              }
+            ]
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory",
+        "tints": [
+          {
+            "type": "minecraft:constant",
+            "value": -1
+          },
+          {
+            "type": "minecraft:constant",
+            "value": -11407105
+          }
+        ]
+      }
+    }
+  },
+  "oversized_in_gui": true
+}

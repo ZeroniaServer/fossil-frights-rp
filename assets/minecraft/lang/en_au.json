@@ -492,7 +492,7 @@
   "ff.item.trap_explosive": "Explosive Trap",
   "ff.item.trap.description.1": "%1$s or %2$s to place next trap.",
   "ff.item.trap.description.cycle": "%1$s to cycle traps.",
-  "ff.item.trap.description.2": "%1$s %2$s to pick up trap.",
+  "ff.item.trap.description.2": "%1$s + %2$s to pick up trap.",
   "ff.item.trap_glow.description.2": "Makes thief glow for 10s.",
   "ff.item.trap_glow.description.3": "Visible to guards, and to thieves during curse. 2 second cooldown.",
   "ff.item.trap_freeze.description.2": "Freeze thief in ice for 2.5 seconds.",

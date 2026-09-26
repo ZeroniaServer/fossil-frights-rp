@@ -1,7 +1,6 @@
 #version 330
 
 uniform sampler2D InSampler;
-uniform sampler2D BaseSampler;
 
 in vec2 texCoord;
 

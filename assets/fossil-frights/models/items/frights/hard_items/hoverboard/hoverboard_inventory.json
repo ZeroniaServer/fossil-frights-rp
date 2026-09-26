@@ -1,6 +1,7 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory"
+        "layer0": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory",
+        "layer1": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory_overlay"
     }
 }

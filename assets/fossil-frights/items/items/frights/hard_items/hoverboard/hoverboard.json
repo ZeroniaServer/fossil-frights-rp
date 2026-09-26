@@ -1,28 +1,12 @@
 {
   "model": {
-    "type": "minecraft:composite",
-    "models": [
+    "type": "minecraft:model",
+    "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard",
+    "tints": [
       {
-        "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_board",
-        "tints": [
-          {
-            "type": "minecraft:custom_model_data",
-            "index": 0,
-            "default": -11407105
-          }
-        ]
-      },
-      {
-        "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_beam",
-        "tints": [
-          {
-            "type": "minecraft:custom_model_data",
-            "index": 0,
-            "default": -11407105
-          }
-        ]
+        "type": "minecraft:custom_model_data",
+        "index": 0,
+        "default": -11407105
       }
     ]
   }

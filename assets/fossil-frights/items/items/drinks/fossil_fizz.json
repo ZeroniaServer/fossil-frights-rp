@@ -1,15 +1,54 @@
 {
   "model": {
-    "type": "minecraft:composite",
-    "models": [
-      {
-        "type": "model",
-        "model": "fossil-frights:items/drinks/fossil_fizz"
-      },
-      {
-        "type": "model",
-        "model": "fossil-frights:items/drinks/empty_glass"
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "ff_invisible": true
+    },
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": "thirdperson_righthand",
+          "model": {
+            "type": "minecraft:empty"
+          }
+        },
+        {
+          "when": "thirdperson_lefthand",
+          "model": {
+            "type": "minecraft:empty"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:composite",
+        "models": [
+          {
+            "type": "model",
+            "model": "fossil-frights:items/drinks/fossil_fizz"
+          },
+          {
+            "type": "model",
+            "model": "fossil-frights:items/drinks/empty_glass"
+          }
+        ]
       }
-    ]
+    },
+    "on_false": {
+      "type": "minecraft:composite",
+      "models": [
+        {
+          "type": "model",
+          "model": "fossil-frights:items/drinks/fossil_fizz"
+        },
+        {
+          "type": "model",
+          "model": "fossil-frights:items/drinks/empty_glass"
+        }
+      ]
+    }
   }
 }

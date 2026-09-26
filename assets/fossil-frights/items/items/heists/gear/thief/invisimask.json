@@ -117,18 +117,17 @@
               }
             },
             {
-              "type": "minecraft:select",
-              "property": "minecraft:trim_material",
-              "cases": [
-                {
-                  "when": "fossil_frights:paint",
-                  "model": {
-                    "type": "minecraft:model",
-                    "model": "fossil-frights:items/heists/gear/thief/invisimask/paint_overlay"
-                  }
-                }
-              ],
-              "fallback": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:custom_data",
+              "value": {
+                "ff_painted": true
+              },
+              "on_true": {
+                "type": "minecraft:model",
+                "model": "fossil-frights:items/heists/gear/thief/invisimask/paint_overlay"
+              },
+              "on_false": {
                 "type": "minecraft:empty"
               }
             },
@@ -489,18 +488,17 @@
                     }
                   },
                   {
-                    "type": "minecraft:select",
-                    "property": "minecraft:trim_material",
-                    "cases": [
-                      {
-                        "when": "fossil_frights:paint",
-                        "model": {
-                          "type": "minecraft:model",
-                          "model": "fossil-frights:items/heists/gear/thief/invisimask/loot_bag/paint_overlay"
-                        }
-                      }
-                    ],
-                    "fallback": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:custom_data",
+                    "value": {
+                      "ff_painted": true
+                    },
+                    "on_true": {
+                      "type": "minecraft:model",
+                      "model": "fossil-frights:items/heists/gear/thief/invisimask/loot_bag/paint_overlay"
+                    },
+                    "on_false": {
                       "type": "minecraft:empty"
                     }
                   }

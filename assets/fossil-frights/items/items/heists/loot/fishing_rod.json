@@ -1,0 +1,44 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:fishing_rod/cast",
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "ff_invisible": true
+      },
+      "on_true": {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+          {
+            "when": "thirdperson_righthand",
+            "model": {
+              "type": "minecraft:empty"
+            }
+          },
+          {
+            "when": "thirdperson_lefthand",
+            "model": {
+              "type": "minecraft:empty"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/fishing_rod"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/fishing_rod"
+      }
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/fishing_rod_cast"
+    }
+  }
+}

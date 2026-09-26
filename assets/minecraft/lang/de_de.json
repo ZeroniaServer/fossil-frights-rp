@@ -1,0 +1,19 @@
+{
+  "menu.game": "\ue000",
+  "container.crafting": "",
+  "gui.recipebook.moreRecipes": "",
+  "gui.recipebook.page": "",
+  "gui.recipebook.search_hint": "",
+  "gui.recipebook.toggleRecipes.all": "",
+  "gui.recipebook.toggleRecipes.blastable": "",
+  "gui.recipebook.toggleRecipes.craftable": "",
+  "gui.recipebook.toggleRecipes.smeltable": "",
+  "gui.recipebook.toggleRecipes.smokable": "",
+  "narration.recipe": "",
+  "narration.recipe.usage": "",
+  "narration.recipe.usage.more": "",
+  "recipe.toast.description": "",
+  "recipe.toast.title": "",
+  "tutorial.craft_planks.description": "",
+  "effect.minecraft.luck": "Double Jump"
+}

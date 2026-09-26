@@ -4,9 +4,9 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "fossil-frights:items/plushies/velociraptor_plushie",
-		"1": "fossil-frights:display/tasks/hoverraptor/hoverboard",
+		"1": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard",
 		"particle": "fossil-frights:items/plushies/velociraptor_plushie",
-		"emissive": "fossil-frights:display/tasks/hoverraptor/hoverboard_emissive"
+		"emissive": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_emissive"
 	},
 	"elements": [
 		{
@@ -211,11 +211,11 @@
 			"light_emission": 15,
 			"rotation": {"angle":0,"axis":"y","origin":[0,6,0]},
 			"faces": {
-				"north": {"uv": [0, 7, 2.5, 8], "texture": "#emissive"},
-				"east": {"uv": [8.5, 0, 15, 1], "texture": "#emissive"},
-				"south": {"uv": [0, 7, 2.5, 8], "texture": "#emissive"},
-				"west": {"uv": [8.5, 0, 15, 1], "texture": "#emissive"},
-				"down": {"uv": [8.5, 0, 6, 6.5], "texture": "#emissive"}
+				"north": {"uv": [0, 7, 2.5, 8], "texture": "#emissive", "tintindex": 0},
+				"east": {"uv": [8.5, 0, 15, 1], "texture": "#emissive", "tintindex": 0},
+				"south": {"uv": [0, 7, 2.5, 8], "texture": "#emissive", "tintindex": 0},
+				"west": {"uv": [8.5, 0, 15, 1], "texture": "#emissive", "tintindex": 0},
+				"down": {"uv": [8.5, 0, 6, 6.5], "texture": "#emissive", "tintindex": 0}
 			}
 		}
 		,
@@ -227,12 +227,12 @@
 			"light_emission": 15,
 			"rotation": {"angle":0,"axis":"y","origin":[0,9,0]},
 			"faces": {
-				"north": {"uv": [0, 8, 3, 8.75], "texture": "#emissive"},
-				"east": {"uv": [8.5, 2, 15.5, 2.75], "texture": "#emissive"},
-				"south": {"uv": [0, 8, 3, 8.75], "texture": "#emissive"},
-				"west": {"uv": [8.5, 2, 15.5, 2.75], "texture": "#emissive"},
-				"up": {"uv": [3, 7, 0, 0], "texture": "#emissive"},
-				"down": {"uv": [6, 0, 3, 7], "texture": "#emissive"}
+				"north": {"uv": [0, 8, 3, 8.75], "texture": "#emissive", "tintindex": 0},
+				"east": {"uv": [8.5, 2, 15.5, 2.75], "texture": "#emissive", "tintindex": 0},
+				"south": {"uv": [0, 8, 3, 8.75], "texture": "#emissive", "tintindex": 0},
+				"west": {"uv": [8.5, 2, 15.5, 2.75], "texture": "#emissive", "tintindex": 0},
+				"up": {"uv": [3, 7, 0, 0], "texture": "#emissive", "tintindex": 0},
+				"down": {"uv": [6, 0, 3, 7], "texture": "#emissive", "tintindex": 0}
 			}
 		}
 	],

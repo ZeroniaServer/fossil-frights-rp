@@ -1,0 +1,49 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "fossil-frights:display/general/security_gate/2x2/layer_0",
+        "transformation": {"right_rotation":[0,0,0,1],"scale":[1,1,1],"left_rotation":[0,0,0,1],"translation":[0,0,0]}
+      },
+      {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+          {
+            "threshold": 0.001,
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:display/general/security_gate/2x2/layer_0",
+              "transformation": {"right_rotation":[0,0,0,1],"scale":[1,1,1],"left_rotation":[0,0,0,1],"translation":[0,1,0]}
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+          {
+            "threshold": 1.001,
+            "model": {
+              "type": "minecraft:model",
+              "model": "fossil-frights:display/general/security_gate/2x2/layer_0",
+              "transformation": {"right_rotation":[0,0,0,1],"scale":[1,1,1],"left_rotation":[0,0,0,1],"translation":[0,2,0]}
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      }
+    ],
+    "transformation": {"right_rotation":[0,0,0,1],"scale":[2,1,1],"left_rotation":[0,0,0,1],"translation":[-0.5,0.5,0]}
+  }
+}

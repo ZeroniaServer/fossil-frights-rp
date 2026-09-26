@@ -1,0 +1,104 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "ff_invisible": true
+    },
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "thirdperson_righthand",
+            "thirdperson_lefthand"
+          ],
+          "model": {
+            "type": "minecraft:empty"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "ff_hoverboard_active": true
+        },
+        "on_true": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "thirdperson_righthand",
+                "thirdperson_lefthand",
+                "firstperson_righthand",
+                "firstperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:empty"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory_active",
+            "transformation": {
+              "right_rotation": [0,0,0,1],
+              "scale": [2,2,2],
+              "left_rotation": [0,0,0,1],
+              "translation": [-0.5,0,0]
+            }
+          }
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory"
+        }
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "ff_hoverboard_active": true
+      },
+      "on_true": {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+          {
+            "when": [
+              "thirdperson_righthand",
+              "thirdperson_lefthand",
+              "firstperson_righthand",
+              "firstperson_lefthand"
+            ],
+            "model": {
+              "type": "minecraft:empty"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory_active",
+          "transformation": {
+            "right_rotation": [0,0,0,1],
+            "scale": [2,2,2],
+            "left_rotation": [0,0,0,1],
+            "translation": [-0.5,0,0]
+          }
+        }
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "fossil-frights:items/frights/hard_items/hoverboard/hoverboard_inventory"
+      }
+    }
+  },
+  "oversized_in_gui": true
+}

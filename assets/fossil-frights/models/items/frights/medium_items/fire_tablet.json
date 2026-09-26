@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "fossil-frights:items/frights/medium_items/fire_tablet"
+    "layer0": "fossil-frights:items/frights/medium_items/fire_tablet_inventory"
   }
 }

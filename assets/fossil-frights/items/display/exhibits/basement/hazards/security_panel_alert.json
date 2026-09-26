@@ -1,6 +1,15 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "fossil-frights:display/exhibits/basement/hazards/security_panel_alert"
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "fossil-frights:display/exhibits/basement/hazards/security_panel_alert"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil-frights:display/exhibits/basement/hazards/security_panel_alert_flashing"
+      }
+    ]
   }
 }

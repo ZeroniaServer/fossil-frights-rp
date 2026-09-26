@@ -23,6 +23,9 @@ layout(location = 0) in float sphericalVertexDistance;
 layout(location = 1) in float cylindricalVertexDistance;
 #endif
 layout(location = 2) in vec4 vertexColor;
+// CUSTOM CODE
+layout(location = 8) in vec4 diffuseColor;
+// END CUSTOM CODE
 #ifndef OIT_ALPHA_ONLY
 layout(location = 3) in vec4 lightMapColor;
 layout(location = 4) in vec4 overlayColor;
@@ -77,6 +80,7 @@ void main() {
     if (!check_alpha(alpha, 250.0)) {
         color *= vertexColor;
     } else {
+        color *= diffuseColor;
         color.a = 1.0;
     }
     color *= ColorModulator;

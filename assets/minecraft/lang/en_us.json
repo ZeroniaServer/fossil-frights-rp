@@ -545,6 +545,7 @@
   "ff.final_task.clone.velociraptor": "Velociraptor",
 
   "ff.bossbar.available": "AVAILABLE",
+  "ff.bossbar.waiting_for_queue": "WAITING FOR NEXT QUEUED...",
   "ff.bossbar.victory": "VICTORY",
   "ff.bossbar.waiting_to_start": "WAITING TO START",
   "ff.bossbar.game_starting": "GAME STARTING...",

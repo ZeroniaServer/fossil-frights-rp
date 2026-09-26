@@ -52,8 +52,9 @@
                 "value": -1
               },
               {
-                "type": "minecraft:constant",
-                "value": -11407105
+                "type": "minecraft:custom_model_data",
+                "index": 0,
+                "default": -11407105
               }
             ],
             "transformation": {
@@ -73,8 +74,9 @@
               "value": -1
             },
             {
-              "type": "minecraft:constant",
-              "value": -11407105
+              "type": "minecraft:custom_model_data",
+              "index": 0,
+              "default": -11407105
             }
           ]
         }
@@ -112,8 +114,9 @@
               "value": -1
             },
             {
-              "type": "minecraft:constant",
-              "value": -11407105
+              "type": "minecraft:custom_model_data",
+              "index": 0,
+              "default": -11407105
             }
           ],
           "transformation": {
@@ -133,8 +136,9 @@
             "value": -1
           },
           {
-            "type": "minecraft:constant",
-            "value": -11407105
+            "type": "minecraft:custom_model_data",
+            "index": 0,
+            "default": -11407105
           }
         ]
       }

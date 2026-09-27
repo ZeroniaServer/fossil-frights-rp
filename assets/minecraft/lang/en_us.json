@@ -839,6 +839,8 @@
   "ff.actionbar.trap.too_close": "Too close to another trap",
   "ff.actionbar.locator_bar": "Look at the locator bar",
 
+  "ff.queue_mannequin.description": "Waiting in queue",
+
   "ff.admin.heists.title": "Fossil Heists Admin",
   "ff.admin.frights.title": "Fossil Frights Admin",
   "ff.admin.quick_start.title": "Quick Start",

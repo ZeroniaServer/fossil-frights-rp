@@ -838,6 +838,7 @@
   "ff.actionbar.trap.picked_up": "Picked up Trap",
   "ff.actionbar.trap.too_close": "Too close to another trap",
   "ff.actionbar.locator_bar": "Look at the locator bar",
+  "ff.actionbar.ice_cannon_obstructed": "Ice cannon obstructed",
 
   "ff.queue_mannequin.description.in_queue": "Waiting in queue...",
   "ff.queue_mannequin.description.next_up": "Up next! Waiting to confirm...",

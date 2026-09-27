@@ -827,6 +827,9 @@
   "ff.lobby.ant_fight.below_name": "SCORE: %s",
   "ff.lobby.ant_fight.no_scores_yet": "No scores yet",
 
+  "ff.tablist.in_queue": "IN QUEUE (%1$s)",
+  "ff.tablist.in_queue.up_next": "UP NEXT",
+
   "ff.actionbar.trap.invalid_block": "Not valid block",
   "ff.actionbar.trap.too_many_basement": "Too many traps in basement",
   "ff.actionbar.trap.no_trap_to_pickup": "No trap to pick up",

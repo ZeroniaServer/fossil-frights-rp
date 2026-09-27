@@ -55,6 +55,7 @@
   "ff.messages.info.now_spectating": "%s is now spectating.",
   "ff.messages.info.up_next_prompt": "You're up next.",
   "ff.messages.info.joined_the_queue": "%s joined the queue.",
+  "ff.messages.info.left_queue": "You've left the queue.",
   "ff.messages.info.victory_leave.loser": "Better luck next time. The game will reset in 30 seconds.",
   "ff.messages.info.victory_leave.winner": "Congratulations. The game will reset in 30 seconds.",
   "ff.messages.info.challenge_max": "%s has set the maximum bounty for a challenge.",
@@ -542,6 +543,7 @@
   "ff.final_task.clone.velociraptor": "Velociraptor",
 
   "ff.bossbar.available": "AVAILABLE",
+  "ff.bossbar.waiting_for_queue": "WAITING FOR NEXT QUEUED...",
   "ff.bossbar.victory": "VICTORY",
   "ff.bossbar.waiting_to_start": "WAITING TO START",
   "ff.bossbar.game_starting": "GAME STARTING...",

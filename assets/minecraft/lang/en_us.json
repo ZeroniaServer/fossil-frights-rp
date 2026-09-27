@@ -543,7 +543,7 @@
   "ff.final_task.clone.velociraptor": "Velociraptor",
 
   "ff.bossbar.available": "AVAILABLE",
-  "ff.bossbar.waiting_for_queue": "WAITING FOR NEXT QUEUED...",
+  "ff.bossbar.waiting_for_queue": "WAITING FOR NEXT UP...",
   "ff.bossbar.victory": "VICTORY",
   "ff.bossbar.waiting_to_start": "WAITING TO START",
   "ff.bossbar.game_starting": "GAME STARTING...",
@@ -839,7 +839,8 @@
   "ff.actionbar.trap.too_close": "Too close to another trap",
   "ff.actionbar.locator_bar": "Look at the locator bar",
 
-  "ff.queue_mannequin.description": "Waiting in queue",
+  "ff.queue_mannequin.description.in_queue": "Waiting in queue...",
+  "ff.queue_mannequin.description.next_up": "Up next! Waiting to confirm...",
 
   "ff.admin.heists.title": "Fossil Heists Admin",
   "ff.admin.frights.title": "Fossil Frights Admin",

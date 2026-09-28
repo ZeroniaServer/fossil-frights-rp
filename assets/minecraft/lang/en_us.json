@@ -632,7 +632,7 @@
   "ff.credits.socials.x.formerly_twitter": " (formerly Twitter)",
   "ff.credits.socials.bluesky.hover": "Click to visit our BlueSky page",
 
-  "ff.death.front_door": "%1$s was crushed by a large door",
+  "ff.death.front_door": "%1$s was slammed behind a large door",
   "ff.death.security_gate": "%1$s was crushed by a security gate",
   "ff.death.garage_door": "%1$s was crushed by a garage door",
   "ff.death.poisonous_glowberry": "%1$s ate a poisonous glow berry.",
@@ -640,6 +640,8 @@
   "ff.death.explosive_trap": "%1$s was blown up by an explosive trap",
   "ff.death.explosive_trap.player": "%1$s was blown up by %2$s's explosive trap",
   "ff.death.explosive_trap.self": "%1$s was blown up by their own explosive trap",
+  "ff.death.forklift": "%1$s was pinned by a forklift",
+  "ff.death.deep_dark_elevator": "%1$s got squished under an elevator",
 
   "ff.stats.title": "========== Your Stats ==========",
   "ff.stats.best_time": "Best Time: %1$s%2$s%3$s%4$s%5$s%6$s%7$s%8$s",

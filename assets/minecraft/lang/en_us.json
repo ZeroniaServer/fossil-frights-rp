@@ -2267,5 +2267,6 @@
   "ff.task_book.task.water_crops.description.0": "Can you please water the crops in the trail ruins exhibit, next to the jungle temple? Grab a water balloon and toss it onto the crops.",
   "ff.actionbar.heists.loot_security.already_secured": "Already secured",
   "ff.actionbar.heists.loot_security.recently_secured": "Secured too recently",
-  "ff.actionbar.heists.loot_security.in_progress": "A guard is already securing..."
+  "ff.actionbar.heists.loot_security.in_progress": "A guard is already securing...",
+  "ff.actionbar.task_book_reminder": "Don't forget your task book."
 }

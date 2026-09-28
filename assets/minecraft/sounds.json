@@ -180,5 +180,289 @@
       "minecraft:step/stone6"
     ],
     "subtitle": "subtitles.block.generic.fall"
+  },
+  "block.resin_bricks.break": {
+    "replace": "true",
+    "sounds": [
+      {
+        "name": "block/tuff/break1",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/break2",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/break3",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/break4",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/break5",
+        "pitch": 1.2
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.resin_bricks.fall": {
+    "replace": "true",
+    "sounds": [
+      {
+        "name": "block/tuff/step1",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step2",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step3",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step4",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step5",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step6",
+        "pitch": 1.2
+      }
+    ],
+    "subtitle": "subtitles.block.generic.fall"
+  },
+  "block.resin_bricks.hit": {
+    "replace": "true",
+    "sounds": [
+      {
+        "name": "block/tuff/step1",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step2",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step3",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step4",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step5",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step6",
+        "pitch": 1.2
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.resin_bricks.place": {
+    "replace": "true",
+    "sounds": [
+      {
+        "name": "block/tuff/break1",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/break2",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/break3",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/break4",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/break5",
+        "pitch": 1.2
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.resin_bricks.step": {
+    "replace": "true",
+    "sounds": [
+      {
+        "name": "block/tuff/step1",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step2",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step3",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step4",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step5",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step6",
+        "pitch": 1.2
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.sulfur.break": {
+    "replace": "true",
+    "sounds": [
+      {
+        "name": "block/tuff/break1",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/break2",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/break3",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/break4",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/break5",
+        "pitch": 1.2
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.sulfur.fall": {
+    "replace": "true",
+    "sounds": [
+      {
+        "name": "block/tuff/step1",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step2",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step3",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step4",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step5",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step6",
+        "pitch": 1.2
+      }
+    ],
+    "subtitle": "subtitles.block.generic.fall"
+  },
+  "block.sulfur.hit": {
+    "replace": "true",
+    "sounds": [
+      {
+        "name": "block/tuff/step1",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step2",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step3",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step4",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step5",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step6",
+        "pitch": 1.2
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.sulfur.place": {
+    "replace": "true",
+    "sounds": [
+      {
+        "name": "block/tuff/break1",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/break2",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/break3",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/break4",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/break5",
+        "pitch": 1.2
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.sulfur.step": {
+    "replace": "true",
+    "sounds": [
+      {
+        "name": "block/tuff/step1",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step2",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step3",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step4",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step5",
+        "pitch": 1.2
+      },
+      {
+        "name": "block/tuff/step6",
+        "pitch": 1.2
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
   }
 }

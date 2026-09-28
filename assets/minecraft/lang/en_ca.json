@@ -470,7 +470,7 @@
   "ff.item.ice_cannon_remote": "Ice Cannon Remote",
   "ff.item.ice_cannon_remote.description.1": "Shoots an icy projectile to freeze thieves.",
   "ff.item.ice_cannon_remote.description.2": "3 second cooldown.",
-  "ff.item.ice_cannon_remote.description.3": "Does not work during lava hazard.",
+  "ff.item.ice_cannon_remote.description.3": "Does not work during lava hazards.",
   "ff.item.loot_book": "Loot Book",
   "ff.item.hazard_cookie": "Hazard Cookie",
   "ff.item.hazard_cookie.description": "Enables a random hazard to help thieving.",

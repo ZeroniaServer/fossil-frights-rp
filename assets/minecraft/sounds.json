@@ -1,13 +1,13 @@
 {
   "entity.creaking.attack": {
     "replace": "true",
-    "subtitle": "subtitles.fossil_frights.velociraptor_skull",
     "sounds": [
       "minecraft:mob/creaking/creaking_attack1",
       "minecraft:mob/creaking/creaking_attack2",
       "minecraft:mob/creaking/creaking_attack3",
       "minecraft:mob/creaking/creaking_attack4"
-    ]
+    ],
+    "subtitle": "subtitles.fossil_frights.velociraptor_skull"
   },
   "entity.player.attack.weak": {
     "replace": "true",
@@ -76,7 +76,8 @@
       "minecraft:dig/stone2",
       "minecraft:dig/stone3",
       "minecraft:dig/stone4"
-    ]
+    ],
+    "subtitle": "subtitles.block.generic.break"
   },
   "block.nether_ore.step": {
     "replace": "true",
@@ -87,7 +88,8 @@
       "minecraft:step/stone4",
       "minecraft:step/stone5",
       "minecraft:step/stone6"
-    ]
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
   },
   "block.nether_ore.place": {
     "replace": "true",
@@ -96,7 +98,8 @@
       "minecraft:dig/stone2",
       "minecraft:dig/stone3",
       "minecraft:dig/stone4"
-    ]
+    ],
+    "subtitle": "subtitles.block.generic.place"
   },
   "block.nether_ore.hit": {
     "replace": "true",
@@ -107,7 +110,8 @@
       "minecraft:step/stone4",
       "minecraft:step/stone5",
       "minecraft:step/stone6"
-    ]
+    ],
+    "subtitle": "subtitles.block.generic.hit"
   },
   "block.nether_ore.fall": {
     "replace": "true",
@@ -118,7 +122,8 @@
       "minecraft:step/stone4",
       "minecraft:step/stone5",
       "minecraft:step/stone6"
-    ]
+    ],
+    "subtitle": "subtitles.block.generic.fall"
   },
   "block.nether_bricks.break": {
     "replace": "true",
@@ -127,7 +132,8 @@
       "minecraft:dig/stone2",
       "minecraft:dig/stone3",
       "minecraft:dig/stone4"
-    ]
+    ],
+    "subtitle": "subtitles.block.generic.break"
   },
   "block.nether_bricks.step": {
     "replace": "true",
@@ -138,7 +144,8 @@
       "minecraft:step/stone4",
       "minecraft:step/stone5",
       "minecraft:step/stone6"
-    ]
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
   },
   "block.nether_bricks.place": {
     "replace": "true",
@@ -147,7 +154,8 @@
       "minecraft:dig/stone2",
       "minecraft:dig/stone3",
       "minecraft:dig/stone4"
-    ]
+    ],
+    "subtitle": "subtitles.block.generic.place"
   },
   "block.nether_bricks.hit": {
     "replace": "true",
@@ -158,7 +166,8 @@
       "minecraft:step/stone4",
       "minecraft:step/stone5",
       "minecraft:step/stone6"
-    ]
+    ],
+    "subtitle": "subtitles.block.generic.hit"
   },
   "block.nether_bricks.fall": {
     "replace": "true",
@@ -169,6 +178,7 @@
       "minecraft:step/stone4",
       "minecraft:step/stone5",
       "minecraft:step/stone6"
-    ]
+    ],
+    "subtitle": "subtitles.block.generic.fall"
   }
 }

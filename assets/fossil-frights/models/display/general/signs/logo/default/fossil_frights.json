@@ -4,10 +4,10 @@
 	"render_type": "translucent",
 	"texture_size": [64, 64],
 	"textures": {
-		"2": "fossil-frights:display/general/signs/logo/fossil_frights_background",
-		"3": "fossil-frights:display/general/signs/logo/fossil_frights_text",
-		"4": "fossil-frights:display/general/signs/logo/fossil_frights_trim",
-		"particle": "fossil-frights:display/general/signs/logo/fossil_frights"
+		"2": "fossil-frights:display/general/signs/logo/default/fossil_frights_background",
+		"3": "fossil-frights:display/general/signs/logo/default/fossil_frights_text",
+		"4": "fossil-frights:display/general/signs/logo/default/fossil_frights_trim",
+		"particle": "fossil-frights:display/general/signs/logo/default/fossil_frights"
 	},
 	"elements": [
 		{

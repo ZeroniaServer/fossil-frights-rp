@@ -6,7 +6,8 @@
 	"textures": {
 		"5": "fossil-frights:display/general/signs/logo/christmas/fossil_frights_christmas_foreground",
 		"6": "fossil-frights:display/general/signs/logo/christmas/fossil_frights_christmas_bow",
-		"7": "fossil-frights:display/general/signs/logo/christmas/fossil_frights_christmas_background"
+		"7": "fossil-frights:display/general/signs/logo/christmas/fossil_frights_christmas_background",
+		"particle": "minecraft:item/pufferfish"
 	},
 	"elements": [
 		{

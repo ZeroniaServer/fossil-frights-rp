@@ -4,7 +4,6 @@
     "property": "minecraft:local_time",
     "pattern": "MM-dd",
     "cases": [
-      {"when": "09-28", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/christmas/fossil_frights"}},
       {"when": "10-18", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/halloween/fossil_frights"}},
       {"when": "10-19", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/halloween/fossil_frights"}},
       {"when": "10-20", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/halloween/fossil_frights"}},

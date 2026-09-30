@@ -1,6 +1,41 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "fossil-frights:display/general/signs/logo/fossil_frights"
+    "type": "minecraft:select",
+    "property": "minecraft:local_time",
+    "pattern": "MM-dd",
+    "cases": [
+      {"when": "10-18", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/halloween/fossil_frights"}},
+      {"when": "10-19", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/halloween/fossil_frights"}},
+      {"when": "10-20", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/halloween/fossil_frights"}},
+      {"when": "10-21", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/halloween/fossil_frights"}},
+      {"when": "10-22", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/halloween/fossil_frights"}},
+      {"when": "10-23", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/halloween/fossil_frights"}},
+      {"when": "10-24", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/halloween/fossil_frights"}},
+      {"when": "10-25", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/halloween/fossil_frights"}},
+      {"when": "10-26", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/halloween/fossil_frights"}},
+      {"when": "10-27", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/halloween/fossil_frights"}},
+      {"when": "10-28", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/halloween/fossil_frights"}},
+      {"when": "10-29", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/halloween/fossil_frights"}},
+      {"when": "10-30", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/halloween/fossil_frights"}},
+      {"when": "10-31", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/halloween/fossil_frights"}},
+      {"when": "12-12", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/christmas/fossil_frights"}},
+      {"when": "12-13", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/christmas/fossil_frights"}},
+      {"when": "12-14", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/christmas/fossil_frights"}},
+      {"when": "12-15", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/christmas/fossil_frights"}},
+      {"when": "12-16", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/christmas/fossil_frights"}},
+      {"when": "12-17", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/christmas/fossil_frights"}},
+      {"when": "12-18", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/christmas/fossil_frights"}},
+      {"when": "12-19", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/christmas/fossil_frights"}},
+      {"when": "12-20", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/christmas/fossil_frights"}},
+      {"when": "12-21", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/christmas/fossil_frights"}},
+      {"when": "12-22", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/christmas/fossil_frights"}},
+      {"when": "12-23", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/christmas/fossil_frights"}},
+      {"when": "12-24", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/christmas/fossil_frights"}},
+      {"when": "12-25", "model": {"type": "minecraft:model", "model": "fossil-frights:display/general/signs/logo/christmas/fossil_frights"}}
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "fossil-frights:display/general/signs/logo/default/fossil_frights"
+    }
   }
 }

@@ -267,10 +267,6 @@
     "subtitle": "subtitles.fossil_frights.task.feed_the_plants",
     "sounds": [{ "name": "fossil-frights:tasks/feed_the_plants", "stream": false }]
   },
-  "task.hoveraptor": {
-    "subtitle": "subtitles.fossil_frights.task.hoveraptor",
-    "sounds": [{ "name": "fossil-frights:tasks/hoveraptor", "stream": false }]
-  },
   "task.picnic_with_trike": {
     "subtitle": "subtitles.fossil_frights.task.picnic_with_trike",
     "sounds": [{ "name": "fossil-frights:tasks/picnic_with_trike", "stream": false }]
@@ -338,5 +334,20 @@
   "task.toilet_clog": {
     "subtitle": "subtitles.fossil_frights.task.toilet_clog",
     "sounds": [{ "name": "fossil-frights:tasks/toilet_clog", "stream": false }]
+  },
+  "hoverboard.enable": {
+    "subtitle": "subtitles.fossil_frights.task.hoveraptor",
+    "sounds": [
+      {
+        "name": "fossil-frights:tasks/hoveraptor",
+        "stream": false
+      }
+    ]
+  },
+  "hoverboard.disable": {
+    "subtitle": "subtitles.fossil_frights.hoverboard.disable",
+    "sounds": [
+      "minecraft:block/beacon/deactivate"
+    ]
   }
 }

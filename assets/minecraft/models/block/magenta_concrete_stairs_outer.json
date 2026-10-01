@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "minecraft:block/nether_quartz_ore",
+    "side": "minecraft:block/nether_quartz_ore",
+    "top": "minecraft:block/nether_quartz_ore"
+  }
+}

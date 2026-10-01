@@ -242,6 +242,24 @@
       }
     ]
   },
+  "lily_pad_bounce_1": {
+    "subtitle": "subtitles.fossil_frights.lily_pad_bounce",
+    "sounds": [
+      {
+        "name": "fossil-frights:animations/lily_pad_bounce_1",
+        "stream": false
+      }
+    ]
+  },
+  "lily_pad_bounce_2": {
+    "subtitle": "subtitles.fossil_frights.lily_pad_bounce",
+    "sounds": [
+      {
+        "name": "fossil-frights:animations/lily_pad_bounce_2",
+        "stream": false
+      }
+    ]
+  },
   "task.polish_bell": {
     "subtitle": "subtitles.fossil_frights.task.polish_bell",
     "sounds": [

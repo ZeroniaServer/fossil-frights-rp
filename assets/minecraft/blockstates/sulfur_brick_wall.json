@@ -2,88 +2,70 @@
   "multipart": [
     {
       "apply": {
-        "model": "minecraft:block/polished_tuff_wall_post"
-      },
-      "when": {
-        "up": "true"
+        "model": "fossil-frights:block/railing_post"
       }
     },
     {
       "apply": {
-        "model": "minecraft:block/polished_tuff_wall_side_tall",
-        "uvlock": true
+        "model": "fossil-frights:block/railing_side"
       },
       "when": {
-        "north": "low"
+        "OR": [
+          {
+            "north": "low"
+          },
+          {
+            "north": "tall"
+          }
+        ]
       }
     },
     {
       "apply": {
-        "model": "minecraft:block/polished_tuff_wall_side_tall",
-        "uvlock": true,
+        "model": "fossil-frights:block/railing_side",
         "y": 90
       },
       "when": {
-        "east": "low"
+        "OR": [
+          {
+            "east": "low"
+          },
+          {
+            "east": "tall"
+          }
+        ]
       }
     },
     {
       "apply": {
-        "model": "minecraft:block/polished_tuff_wall_side_tall",
-        "uvlock": true,
+        "model": "fossil-frights:block/railing_side",
         "y": 180
       },
       "when": {
-        "south": "low"
+        "OR": [
+          {
+            "south": "low"
+          },
+          {
+            "south": "tall"
+          }
+        ]
       }
     },
     {
       "apply": {
-        "model": "minecraft:block/polished_tuff_wall_side_tall",
-        "uvlock": true,
+        "model": "fossil-frights:block/railing_side",
         "y": 270
       },
       "when": {
-        "west": "low"
-      }
-    },
-    {
-      "apply": {
-        "model": "minecraft:block/polished_tuff_wall_side_tall",
-        "uvlock": true
-      },
-      "when": {
-        "north": "tall"
-      }
-    },
-    {
-      "apply": {
-        "model": "minecraft:block/polished_tuff_wall_side_tall",
-        "uvlock": true,
-        "y": 90
-      },
-      "when": {
-        "east": "tall"
-      }
-    },
-    {
-      "apply": {
-        "model": "minecraft:block/polished_tuff_wall_side_tall",
-        "uvlock": true,
-        "y": 180
-      },
-      "when": {
-        "south": "tall"
-      }
-    },
-    {
-      "apply": {
-        "model": "minecraft:block/polished_tuff_wall_side_tall",
-        "uvlock": true,
-        "y": 270
-      },
-      "when": {
-        "west": "tall"
+        "OR": [
+          {
+            "west": "low"
+          },
+          {
+            "west": "tall"
+          }
+        ]
       }
     }
   ]

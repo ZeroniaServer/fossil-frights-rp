@@ -35,8 +35,8 @@ void main() {
     texCoord0 = UV0;
 
     // CUSTOM CODE
-    vertexColor = Color;
     lightMapColor = sample_lightmap(Sampler2, UV2);
     maxLightMapColor = sample_lightmap(Sampler2, ivec2(240.0, 240.0));
+    vertexColor = Color * lightMapColor;
     // END CUSTOM CODE
 }

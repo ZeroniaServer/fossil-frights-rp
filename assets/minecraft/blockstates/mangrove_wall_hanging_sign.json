@@ -5,15 +5,14 @@
       "y": 270
     },
     "facing=north": {
-      "model": "fossil-frights:block/railing",
-      "y": 180
+      "model": "fossil-frights:block/railing"
     },
     "facing=south": {
       "model": "fossil-frights:block/railing"
     },
     "facing=west": {
       "model": "fossil-frights:block/railing",
-      "y": 90
+      "y": 270
     }
   }
 }

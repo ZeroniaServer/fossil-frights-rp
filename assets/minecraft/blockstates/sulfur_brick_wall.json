@@ -7,7 +7,7 @@
     },
     {
       "apply": {
-        "model": "fossil-frights:block/railing_side"
+        "model": "fossil-frights:block/railing_side_alt"
       },
       "when": {
         "OR": [
@@ -22,7 +22,7 @@
     },
     {
       "apply": {
-        "model": "fossil-frights:block/railing_side",
+        "model": "fossil-frights:block/railing_side_alt",
         "y": 90
       },
       "when": {

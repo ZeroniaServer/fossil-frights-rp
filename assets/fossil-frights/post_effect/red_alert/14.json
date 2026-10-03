@@ -13,6 +13,15 @@
                     "bilinear": false
                 }
             ],
+            "uniforms": {
+                "AlertData": [
+                    {
+                        "name": "Offset",
+                        "type": "float",
+                        "value": -14
+                    }
+                ]
+            },
             "output": "swap"
         },
         {

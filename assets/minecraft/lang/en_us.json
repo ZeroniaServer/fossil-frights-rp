@@ -518,6 +518,9 @@
   "ff.item.invisimask.description.4": "%s second cooldown",
   "ff.item.paint_armor": "Paint Splat",
 
+  "ff.tooltip.heist_loot": "Throw into the capture point for %s",
+  "ff.tooltip.heist_loot.amount": "$%s",
+
   "ff.drink_purchased": "Purchased: %1$s",
 
   "ff.drink.bubbly_bat": "Bubbly Bat",

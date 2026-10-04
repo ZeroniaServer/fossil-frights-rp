@@ -54,6 +54,13 @@
                     }
                   },
                   {
+                    "when": "golden_shark",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/special/golden_shark"
+                    }
+                  },
+                  {
                     "when": "guardian",
                     "model": {
                       "type": "minecraft:model",
@@ -560,6 +567,13 @@
           "model": {
             "type": "minecraft:model",
             "model": "fossil-frights:items/heists/gear/thief/invisimask/icon/enderman"
+          }
+        },
+        {
+          "when": "golden_shark",
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil-frights:items/heists/gear/thief/invisimask/icon/special/golden_shark"
           }
         },
         {

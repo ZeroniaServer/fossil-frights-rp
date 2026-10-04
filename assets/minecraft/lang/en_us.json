@@ -1891,7 +1891,7 @@
   "ff.settings.mode.switch.body": "Players must be removed before switching game modes.",
   "ff.settings.mode.switch.confirm": "Remove Players & Switch",
 
-  "ff.item.loot_book.description": "Right-click to browse museum loot.",
+  "ff.item.loot_book.description": "%s to browse museum loot.",
 
   "ff.lootbook.title": "MUSEUM LOOT",
   "ff.lootbook.button.round": "Round",

@@ -35,29 +35,29 @@
 			}
 		},
 		{
-			"from": [0, 1, 6],
-			"to": [16, 3, 10],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1, 7]},
+			"from": [6, 1, 0],
+			"to": [10, 3, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
 			"faces": {
-				"north": {"uv": [2, 7, 14, 9], "texture": "#all"},
-				"east": {"uv": [2, 7, 6, 9], "texture": "#all", "cullface": "east"},
-				"south": {"uv": [2, 7, 14, 9], "texture": "#all"},
-				"west": {"uv": [10, 7, 14, 9], "texture": "#all", "cullface": "west"},
-				"up": {"uv": [0, 2, 16, 6], "texture": "#all", "cullface": "up"},
-				"down": {"uv": [16, 2, 0, 6], "texture": "#all"}
+				"north": {"uv": [10, 7, 14, 9], "texture": "#all", "cullface": "west"},
+				"east": {"uv": [2, 7, 14, 9], "texture": "#all"},
+				"south": {"uv": [2, 7, 6, 9], "texture": "#all", "cullface": "east"},
+				"west": {"uv": [2, 7, 14, 9], "texture": "#all"},
+				"up": {"uv": [0, 2, 16, 6], "rotation": 90, "texture": "#all", "cullface": "up"},
+				"down": {"uv": [16, 2, 0, 6], "rotation": 270, "texture": "#all"}
 			}
 		},
 		{
-			"from": [0, 14, 6],
-			"to": [16, 16, 10],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 14, 7]},
+			"from": [6, 14, 0],
+			"to": [10, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
 			"faces": {
-				"north": {"uv": [0, 7, 16, 9], "texture": "#all"},
-				"east": {"uv": [2, 7, 6, 9], "texture": "#all", "cullface": "east"},
-				"south": {"uv": [0, 7, 16, 9], "texture": "#all"},
-				"west": {"uv": [10, 7, 14, 9], "texture": "#all", "cullface": "west"},
-				"up": {"uv": [0, 2, 16, 6], "texture": "#all", "cullface": "up"},
-				"down": {"uv": [16, 2, 0, 6], "texture": "#all"}
+				"north": {"uv": [10, 7, 14, 9], "texture": "#all", "cullface": "west"},
+				"east": {"uv": [0, 7, 16, 9], "texture": "#all"},
+				"south": {"uv": [2, 7, 6, 9], "texture": "#all", "cullface": "east"},
+				"west": {"uv": [0, 7, 16, 9], "texture": "#all"},
+				"up": {"uv": [0, 2, 16, 6], "rotation": 90, "texture": "#all", "cullface": "up"},
+				"down": {"uv": [16, 2, 0, 6], "rotation": 270, "texture": "#all"}
 			}
 		}
 	],

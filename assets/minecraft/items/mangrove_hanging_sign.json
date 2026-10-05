@@ -1,0 +1,40 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": "gui",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "minecraft:item/mangrove_hanging_sign",
+              "transformation": {
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1],
+                "left_rotation": [0,0,0,1],
+                "translation": [-0.125,0.125,0]
+              }
+            },
+            {
+              "type": "minecraft:model",
+              "model": "fossil-frights:block/railing",
+              "transformation": {
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1],
+                "left_rotation": [0,0,0,1],
+                "translation": [-0.25,-0.25,-0.25]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/mangrove_hanging_sign"
+    }
+  }
+}

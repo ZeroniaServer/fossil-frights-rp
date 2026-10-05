@@ -4,7 +4,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "fossil-frights:items/heists/loot/popcorn",
-		"1": "fossil-frights:items/frights/medium_items/empty_popcorn",
+		"1": "fossil-frights:items/frights/medium_items/empty_popcorn_bucket",
 		"particle": "fossil-frights:display/misc/popcorn_particle"
 	},
 	"elements": [

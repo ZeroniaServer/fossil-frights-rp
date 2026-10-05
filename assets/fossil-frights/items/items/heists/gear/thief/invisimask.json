@@ -54,10 +54,10 @@
                     }
                   },
                   {
-                    "when": "golden_shark",
+                    "when": "gold_shark",
                     "model": {
                       "type": "minecraft:model",
-                      "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/special/golden_shark"
+                      "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/special/gold_shark"
                     }
                   },
                   {
@@ -570,10 +570,10 @@
           }
         },
         {
-          "when": "golden_shark",
+          "when": "gold_shark",
           "model": {
             "type": "minecraft:model",
-            "model": "fossil-frights:items/heists/gear/thief/invisimask/icon/special/golden_shark"
+            "model": "fossil-frights:items/heists/gear/thief/invisimask/icon/special/gold_shark"
           }
         },
         {

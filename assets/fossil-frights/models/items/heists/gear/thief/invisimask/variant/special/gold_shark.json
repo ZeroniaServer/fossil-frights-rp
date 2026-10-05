@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"particle": "fossil-frights:items/heists/gear/thief/invisimask/variant/special/golden_shark",
-		"mask": "fossil-frights:items/heists/gear/thief/invisimask/variant/special/golden_shark",
+		"particle": "fossil-frights:items/heists/gear/thief/invisimask/variant/special/gold_shark",
+		"mask": "fossil-frights:items/heists/gear/thief/invisimask/variant/special/gold_shark",
 		"band": "fossil-frights:items/heists/gear/thief/invisimask/band"
 	},
 	"elements": [

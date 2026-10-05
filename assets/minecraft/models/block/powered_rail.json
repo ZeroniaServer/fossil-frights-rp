@@ -1,5 +1,5 @@
 {
-	"format_version": "26.2",
+	"format_version": "26.3",
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/coral_fan",
 	"texture_size": [32, 32],

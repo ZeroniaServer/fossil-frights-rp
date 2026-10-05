@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "fossil-frights:block/balls/basket/top",
+    "up": "fossil-frights:block/balls/basket/top",
+    "north": "fossil-frights:block/balls/basket/front",
+    "south": "fossil-frights:block/balls/basket/front",
+    "east": "fossil-frights:block/balls/basket/side",
+    "west": "fossil-frights:block/balls/basket/side",
+    "particle": "fossil-frights:block/balls/basket/side"
+  }
+}

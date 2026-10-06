@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/heists/loot/poster_tube"
+        "model": "fossil_frights:items/heists/loot/poster_tube"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/heists/loot/poster_tube"
+      "model": "fossil_frights:items/heists/loot/poster_tube"
     }
   }
 }

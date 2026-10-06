@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/title_overlays/fossil_frights.png",
+      "ascent": 28,
+      "height": 56,
+      "chars": [
+        "\ue000"
+      ]
+    }
+  ]
+}

@@ -4,11 +4,11 @@
     "models": [
       {
         "type": "minecraft:model",
-        "model": "fossil-frights:display/exhibits/basement/hazards/security_panel_alert"
+        "model": "fossil_frights:display/exhibits/basement/hazards/security_panel_alert"
       },
       {
         "type": "minecraft:model",
-        "model": "fossil-frights:display/exhibits/basement/hazards/security_panel_alert_flashing"
+        "model": "fossil_frights:display/exhibits/basement/hazards/security_panel_alert_flashing"
       }
     ]
   }

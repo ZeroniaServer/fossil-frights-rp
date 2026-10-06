@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/medium_items/febreeze_rod"
+        "model": "fossil_frights:items/frights/medium_items/febreeze_rod"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/frights/medium_items/febreeze_rod"
+      "model": "fossil_frights:items/frights/medium_items/febreeze_rod"
     }
   }
 }

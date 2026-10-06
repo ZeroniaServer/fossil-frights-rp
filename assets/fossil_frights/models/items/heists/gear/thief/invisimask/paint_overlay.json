@@ -1,0 +1,88 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"particle": "fossil_frights:items/heists/gear/thief/invisimask/paint_overlay",
+		"mask": "fossil_frights:items/heists/gear/thief/invisimask/paint_overlay"
+	},
+	"elements": [
+		{
+			"from": [4, 0, -0.012],
+			"to": [12, 8, -0.012],
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#mask"}
+			}
+		},
+		{
+			"from": [3.99, 0, 0],
+			"to": [3.99, 8, 8],
+			"light_emission": 15,
+			"faces": {
+				"west": {"uv": [0, 4, 4, 8], "texture": "#mask"}
+			}
+		},
+		{
+			"from": [4, 0, 8.01],
+			"to": [12, 8, 8.01],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1, 0, 0]},
+			"faces": {
+				"south": {"uv": [0, 4, 4, 8], "texture": "#mask"}
+			}
+		},
+		{
+			"from": [12.01, 0, 0],
+			"to": [12.01, 8, 8],
+			"light_emission": 15,
+			"faces": {
+				"east": {"uv": [0, 4, 4, 8], "texture": "#mask"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-34, 0, 0],
+			"translation": [0, 4, -2.75],
+			"scale": [0.86, 0.86, 0.86]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-156, 0, 0],
+			"translation": [0, -7.5, -2.75],
+			"scale": [0.86, 0.86, 0.86]
+		},
+		"firstperson_righthand": {
+			"rotation": [-71, 0, 0],
+			"translation": [0, 3.75, 0],
+			"scale": [0.69, 0.69, 0.69]
+		},
+		"firstperson_lefthand": {
+			"rotation": [95, 0, 0],
+			"translation": [1.5, 0.25, 5.5],
+			"scale": [0.69, 0.69, 0.69]
+		},
+		"ground": {
+			"translation": [0, 5.75, 0]
+		},
+		"gui": {
+			"rotation": [30, -142, 0],
+			"translation": [-2.75, 6, 0]
+		},
+		"head": {
+			"translation": [0, 8.25, 8],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"rotation": [87, 0, 0],
+			"translation": [0, 0, 10.5],
+			"scale": [2, 2, 2]
+		},
+		"on_shelf": {
+			"rotation": [65, -180, 0],
+			"translation": [0, 12, 29.75],
+			"scale": [4, 4, 4]
+		}
+	}
+}

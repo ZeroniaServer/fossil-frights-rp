@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "fossil-frights:display/exhibits/terrarium/item/plants/carnivorous_flytrap"
+    "model": "fossil_frights:display/exhibits/terrarium/item/plants/carnivorous_flytrap"
   }
 }

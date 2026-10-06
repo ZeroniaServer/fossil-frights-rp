@@ -18,7 +18,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/heists/loot/loot_bag_item"
+      "model": "fossil_frights:items/heists/loot/loot_bag_item"
     }
   }
 }

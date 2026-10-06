@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "fossil-frights:display/tasks/shark_bait/gold_shark"
+    "model": "fossil_frights:display/tasks/shark_bait/gold_shark"
   }
 }

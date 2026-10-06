@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/medium_items/fire_tablet_block"
+        "model": "fossil_frights:items/frights/medium_items/fire_tablet_block"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/frights/medium_items/fire_tablet_block"
+      "model": "fossil_frights:items/frights/medium_items/fire_tablet_block"
     }
   }
 }

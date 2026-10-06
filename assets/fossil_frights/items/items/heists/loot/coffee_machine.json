@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/heists/loot/coffee_machine"
+        "model": "fossil_frights:items/heists/loot/coffee_machine"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/heists/loot/coffee_machine"
+      "model": "fossil_frights:items/heists/loot/coffee_machine"
     }
   }
 }

@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/title_overlays/fade_black.png",
+      "ascent": 64,
+      "height": 256,
+      "chars": [
+        ""
+      ]
+    }
+  ]
+}

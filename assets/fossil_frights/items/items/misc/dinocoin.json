@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/misc/dinocoin"
+        "model": "fossil_frights:items/misc/dinocoin"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/misc/dinocoin"
+      "model": "fossil_frights:items/misc/dinocoin"
     }
   }
 }

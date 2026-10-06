@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/hard_items/dna/plesiosaur_dna_cloth"
+        "model": "fossil_frights:items/frights/hard_items/dna/plesiosaur_dna_cloth"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/frights/hard_items/dna/plesiosaur_dna_cloth"
+      "model": "fossil_frights:items/frights/hard_items/dna/plesiosaur_dna_cloth"
     }
   }
 }

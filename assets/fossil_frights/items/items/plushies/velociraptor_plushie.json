@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/plushies/velociraptor_plushie"
+        "model": "fossil_frights:items/plushies/velociraptor_plushie"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/plushies/velociraptor_plushie"
+      "model": "fossil_frights:items/plushies/velociraptor_plushie"
     }
   }
 }

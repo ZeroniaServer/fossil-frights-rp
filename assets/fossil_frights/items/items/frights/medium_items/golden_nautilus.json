@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/medium_items/golden_nautilus"
+        "model": "fossil_frights:items/frights/medium_items/golden_nautilus"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/frights/medium_items/golden_nautilus"
+      "model": "fossil_frights:items/frights/medium_items/golden_nautilus"
     }
   }
 }

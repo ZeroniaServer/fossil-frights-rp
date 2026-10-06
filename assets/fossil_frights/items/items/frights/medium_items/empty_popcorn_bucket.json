@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/medium_items/empty_popcorn_bucket"
+        "model": "fossil_frights:items/frights/medium_items/empty_popcorn_bucket"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/frights/medium_items/empty_popcorn_bucket"
+      "model": "fossil_frights:items/frights/medium_items/empty_popcorn_bucket"
     }
   }
 }

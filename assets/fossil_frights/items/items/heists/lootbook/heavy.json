@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/heists/lootbook/heavy"
+        "model": "fossil_frights:items/heists/lootbook/heavy"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/heists/lootbook/heavy"
+      "model": "fossil_frights:items/heists/lootbook/heavy"
     }
   }
 }

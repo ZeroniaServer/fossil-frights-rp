@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:display/heists/heavy_items/treasure_chest"
+        "model": "fossil_frights:display/heists/heavy_items/treasure_chest"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:display/heists/heavy_items/treasure_chest"
+      "model": "fossil_frights:display/heists/heavy_items/treasure_chest"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "fossil-frights:display/general/lock"
+    "model": "fossil_frights:display/general/lock"
   }
 }

@@ -5,11 +5,11 @@
     "index": 0,
     "on_true": {
       "type": "minecraft:model",
-      "model": "fossil-frights:display/tasks/lock_register/cash_register_open"
+      "model": "fossil_frights:display/tasks/lock_register/cash_register_open"
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:display/tasks/lock_register/cash_register"
+      "model": "fossil_frights:display/tasks/lock_register/cash_register"
     }
   }
 }

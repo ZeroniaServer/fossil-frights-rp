@@ -4,7 +4,7 @@
     "models": [
       {
         "type": "minecraft:model",
-        "model": "fossil-frights:display/exhibits/deep_dark/deep_dark_elevator",
+        "model": "fossil_frights:display/exhibits/deep_dark/deep_dark_elevator",
         "transformation": {
           "translation": [
             -0.5,

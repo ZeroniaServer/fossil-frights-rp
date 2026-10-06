@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/heists/loot/lollipop"
+        "model": "fossil_frights:items/heists/loot/lollipop"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/heists/loot/lollipop"
+      "model": "fossil_frights:items/heists/loot/lollipop"
     }
   }
 }

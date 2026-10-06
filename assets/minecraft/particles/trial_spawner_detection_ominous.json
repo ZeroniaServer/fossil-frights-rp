@@ -1,9 +1,9 @@
 {
   "textures": [
-    "fossil-frights:trial_spawner_detection_ominous_0",
-    "fossil-frights:trial_spawner_detection_ominous_1",
-    "fossil-frights:trial_spawner_detection_ominous_2",
-    "fossil-frights:trial_spawner_detection_ominous_3",
-    "fossil-frights:trial_spawner_detection_ominous_4"
+    "fossil_frights:trial_spawner_detection_ominous_0",
+    "fossil_frights:trial_spawner_detection_ominous_1",
+    "fossil_frights:trial_spawner_detection_ominous_2",
+    "fossil_frights:trial_spawner_detection_ominous_3",
+    "fossil_frights:trial_spawner_detection_ominous_4"
   ]
 }

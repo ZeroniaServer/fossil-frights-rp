@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:display/heists/heavy_items/t_rex_skull"
+        "model": "fossil_frights:display/heists/heavy_items/t_rex_skull"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:display/heists/heavy_items/t_rex_skull"
+      "model": "fossil_frights:display/heists/heavy_items/t_rex_skull"
     }
   }
 }

@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/medium_items/chlorine_tablet"
+        "model": "fossil_frights:items/frights/medium_items/chlorine_tablet"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/frights/medium_items/chlorine_tablet"
+      "model": "fossil_frights:items/frights/medium_items/chlorine_tablet"
     }
   }
 }

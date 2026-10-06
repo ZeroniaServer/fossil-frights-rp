@@ -1,0 +1,21 @@
+{
+  "textures": {
+    "copper_golem_eyes": "fossil_frights:display/tasks/basketball_dance/copper_golem/copper_golem_eyes_weathered",
+    "particle": "minecraft:block/copper_block"
+  },
+  "elements": [
+    {
+      "from": [3.988, 10.9925, 2.984],
+      "to": [12.012, 16.0075, 13.014],
+      "light_emission": 15,
+      "faces": {
+        "north": {"uv": [2.5, 2.5, 4.5, 3.75], "texture": "#copper_golem_eyes"},
+        "east": {"uv": [0, 2.5, 2.5, 3.75], "texture": "#copper_golem_eyes"},
+        "south": {"uv": [7, 2.5, 9, 3.75], "texture": "#copper_golem_eyes"},
+        "west": {"uv": [4.5, 2.5, 7, 3.75], "texture": "#copper_golem_eyes"},
+        "up": {"uv": [2.5, 0, 4.5, 2.5], "rotation": 180, "texture": "#copper_golem_eyes"},
+        "down": {"uv": [4.5, 0, 6.5, 2.5], "texture": "#copper_golem_eyes"}
+      }
+    }
+  ]
+}

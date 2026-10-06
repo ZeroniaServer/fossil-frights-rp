@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/misc/confetti_cannon"
+        "model": "fossil_frights:items/misc/confetti_cannon"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/misc/confetti_cannon"
+      "model": "fossil_frights:items/misc/confetti_cannon"
     }
   }
 }

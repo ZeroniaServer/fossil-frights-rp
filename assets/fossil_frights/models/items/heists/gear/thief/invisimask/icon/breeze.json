@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "fossil_frights:items/heists/gear/thief/invisimask/icon/breeze"
+	}
+}

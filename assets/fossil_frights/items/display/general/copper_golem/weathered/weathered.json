@@ -14,7 +14,7 @@
               "model": {
                 "type": "minecraft:copper_golem_statue",
                 "pose": "running",
-                "texture": "fossil-frights:textures/display/tasks/basketball_dance/copper_golem/copper_golem_weathered.png"
+                "texture": "fossil_frights:textures/display/tasks/basketball_dance/copper_golem/copper_golem_weathered.png"
               },
               "base": "minecraft:block/copper_golem_statue",
               "transformation": {
@@ -48,7 +48,7 @@
               "index": 0,
               "on_true": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/tasks/basketball_dance/copper_golem/weathered/eyes_running"
+                "model": "fossil_frights:display/tasks/basketball_dance/copper_golem/weathered/eyes_running"
               },
               "on_false": {
                 "type": "minecraft:empty"
@@ -60,7 +60,7 @@
               "index": 1,
               "on_true": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/tasks/basketball_dance/copper_golem/swag_glasses_running"
+                "model": "fossil_frights:display/tasks/basketball_dance/copper_golem/swag_glasses_running"
               },
               "on_false": {
                 "type": "minecraft:empty"
@@ -79,7 +79,7 @@
               "model": {
                 "type": "minecraft:copper_golem_statue",
                 "pose": "sitting",
-                "texture": "fossil-frights:textures/display/tasks/basketball_dance/copper_golem/copper_golem_weathered.png"
+                "texture": "fossil_frights:textures/display/tasks/basketball_dance/copper_golem/copper_golem_weathered.png"
               },
               "base": "minecraft:block/copper_golem_statue",
               "transformation": {
@@ -113,7 +113,7 @@
               "index": 0,
               "on_true": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/tasks/basketball_dance/copper_golem/weathered/eyes_sitting"
+                "model": "fossil_frights:display/tasks/basketball_dance/copper_golem/weathered/eyes_sitting"
               },
               "on_false": {
                 "type": "minecraft:empty"
@@ -125,7 +125,7 @@
               "index": 1,
               "on_true": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/tasks/basketball_dance/copper_golem/swag_glasses_sitting"
+                "model": "fossil_frights:display/tasks/basketball_dance/copper_golem/swag_glasses_sitting"
               },
               "on_false": {
                 "type": "minecraft:empty"
@@ -144,7 +144,7 @@
               "model": {
                 "type": "minecraft:copper_golem_statue",
                 "pose": "star",
-                "texture": "fossil-frights:textures/display/tasks/basketball_dance/copper_golem/copper_golem_weathered.png"
+                "texture": "fossil_frights:textures/display/tasks/basketball_dance/copper_golem/copper_golem_weathered.png"
               },
               "base": "minecraft:block/copper_golem_statue",
               "transformation": {
@@ -178,7 +178,7 @@
               "index": 0,
               "on_true": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/tasks/basketball_dance/copper_golem/weathered/eyes_star"
+                "model": "fossil_frights:display/tasks/basketball_dance/copper_golem/weathered/eyes_star"
               },
               "on_false": {
                 "type": "minecraft:empty"
@@ -190,7 +190,7 @@
               "index": 1,
               "on_true": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/tasks/basketball_dance/copper_golem/swag_glasses_star"
+                "model": "fossil_frights:display/tasks/basketball_dance/copper_golem/swag_glasses_star"
               },
               "on_false": {
                 "type": "minecraft:empty"
@@ -208,7 +208,7 @@
           "model": {
             "type": "minecraft:copper_golem_statue",
             "pose": "standing",
-            "texture": "fossil-frights:textures/display/tasks/basketball_dance/copper_golem/copper_golem_weathered.png"
+            "texture": "fossil_frights:textures/display/tasks/basketball_dance/copper_golem/copper_golem_weathered.png"
           },
           "base": "minecraft:block/copper_golem_statue",
           "transformation": {
@@ -242,7 +242,7 @@
           "index": 0,
           "on_true": {
             "type": "minecraft:model",
-            "model": "fossil-frights:display/tasks/basketball_dance/copper_golem/weathered/eyes_standing"
+            "model": "fossil_frights:display/tasks/basketball_dance/copper_golem/weathered/eyes_standing"
           },
           "on_false": {
             "type": "minecraft:empty"
@@ -254,7 +254,7 @@
           "index": 1,
           "on_true": {
             "type": "minecraft:model",
-            "model": "fossil-frights:display/tasks/basketball_dance/copper_golem/swag_glasses_standing"
+            "model": "fossil_frights:display/tasks/basketball_dance/copper_golem/swag_glasses_standing"
           },
           "on_false": {
             "type": "minecraft:empty"

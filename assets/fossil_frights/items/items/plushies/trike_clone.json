@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/plushies/trike_clone"
+        "model": "fossil_frights:items/plushies/trike_clone"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/plushies/trike_clone"
+      "model": "fossil_frights:items/plushies/trike_clone"
     }
   }
 }

@@ -1,9 +1,9 @@
 {
   "textures": [
-    "fossil-frights:trial_spawner_detection_0",
-    "fossil-frights:trial_spawner_detection_1",
-    "fossil-frights:trial_spawner_detection_2",
-    "fossil-frights:trial_spawner_detection_3",
-    "fossil-frights:trial_spawner_detection_4"
+    "fossil_frights:trial_spawner_detection_0",
+    "fossil_frights:trial_spawner_detection_1",
+    "fossil_frights:trial_spawner_detection_2",
+    "fossil_frights:trial_spawner_detection_3",
+    "fossil_frights:trial_spawner_detection_4"
   ]
 }

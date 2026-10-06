@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/medium_items/scrap_metal"
+        "model": "fossil_frights:items/frights/medium_items/scrap_metal"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/frights/medium_items/scrap_metal"
+      "model": "fossil_frights:items/frights/medium_items/scrap_metal"
     }
   }
 }

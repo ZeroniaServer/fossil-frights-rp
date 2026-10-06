@@ -1,0 +1,384 @@
+{
+  "front_door_close": {
+    "subtitle": "subtitles.fossil_frights.front_door_close",
+    "sounds": [
+      {
+        "name": "fossil_frights:animations/front_door_close",
+        "stream": false
+      }
+    ]
+  },
+  "animations.key": {
+    "subtitle": "subtitles.fossil_frights.animations.key",
+    "sounds": [
+      {
+        "name": "fossil_frights:animations/key",
+        "stream": false
+      }
+    ]
+  },
+  "hazards.lights": {
+    "subtitle": "subtitles.fossil_frights.hazards.lights",
+    "sounds": [
+      {
+        "name": "fossil_frights:hazards/lights",
+        "stream": false
+      }
+    ]
+  },
+  "hazards.breaker_close": {
+    "subtitle": "subtitles.fossil_frights.hazards.breaker_close",
+    "sounds": [
+      {
+        "name": "fossil_frights:animations/breaker_close",
+        "stream": false
+      }
+    ]
+  },
+  "hazards.lava": {
+    "subtitle": "subtitles.fossil_frights.hazards.lava",
+    "sounds": [
+      {
+        "name": "fossil_frights:hazards/lava",
+        "stream": false
+      }
+    ]
+  },
+  "hazards.floods": {
+    "subtitle": "subtitles.fossil_frights.hazards.floods",
+    "sounds": [
+      {
+        "name": "fossil_frights:hazards/floods",
+        "stream": false
+      }
+    ]
+  },
+  "hazards.security": {
+    "subtitle": "subtitles.fossil_frights.hazards.security",
+    "sounds": [
+      {
+        "name": "fossil_frights:hazards/security",
+        "stream": false
+      }
+    ]
+  },
+  "hazards.curse": {
+    "subtitle": "subtitles.fossil_frights.hazards.curse",
+    "sounds": [
+      {
+        "name": "fossil_frights:hazards/curse",
+        "stream": false
+      }
+    ]
+  },
+  "ff_night_shift": {
+    "subtitle": "subtitles.fossil_frights.ff_night_shift",
+    "sounds": [
+      {
+        "name": "fossil_frights:music/ff_night_shift",
+        "stream": true
+      }
+    ]
+  },
+  "ff_day_complete": {
+    "subtitle": "subtitles.fossil_frights.ff_day_complete",
+    "sounds": [
+      {
+        "name": "fossil_frights:music/ff_day_complete",
+        "stream": false
+      }
+    ]
+  },
+  "heists.alarm": {
+    "subtitle": "subtitles.fossil_frights.heists.alarm",
+    "sounds": [
+      {
+        "name": "fossil_frights:heists/alarm",
+        "stream": false
+      }
+    ]
+  },
+  "camera.open": {
+    "subtitle": "subtitles.fossil_frights.camera.open",
+    "sounds": [
+      {
+        "name": "fossil_frights:cameras/camera_open",
+        "stream": false
+      }
+    ]
+  },
+  "camera.switch": {
+    "subtitle": "subtitles.fossil_frights.camera.switch",
+    "sounds": [
+      {
+        "name": "fossil_frights:cameras/camera_switch",
+        "stream": false
+      }
+    ]
+  },
+  "camera.close": {
+    "subtitle": "subtitles.fossil_frights.camera.close",
+    "sounds": [
+      {
+        "name": "fossil_frights:cameras/camera_close",
+        "stream": false
+      }
+    ]
+  },
+  "heists.highlight_thief": {
+    "subtitle": "subtitles.fossil_frights.heists.highlight_thief",
+    "sounds": [
+      {
+        "name": "fossil_frights:cameras/highlight_thief",
+        "stream": false
+      }
+    ]
+  },
+  "vending_machine.refill": {
+    "subtitle": "subtitles.fossil_frights.vending_machine.refill",
+    "sounds": [
+      {
+        "name": "fossil_frights:animations/vending_machine_refill",
+        "stream": false
+      }
+    ]
+  },
+  "heists.loot_capture": {
+    "subtitle": "subtitles.fossil_frights.heists.loot_capture",
+    "sounds": [
+      {
+        "name": "fossil_frights:heists/loot_capture",
+        "stream": false
+      }
+    ]
+  },
+  "heists.loot_secured": {
+    "subtitle": "subtitles.fossil_frights.heists.loot_secured",
+    "sounds": [
+      {
+        "name": "fossil_frights:heists/loot_secured",
+        "stream": false
+      }
+    ]
+  },
+  "heists.loot_unsecuring": {
+    "subtitle": "subtitles.fossil_frights.heists.loot_unsecuring",
+    "sounds": [
+      {
+        "name": "fossil_frights:heists/loot_unsecuring",
+        "stream": false
+      }
+    ]
+  },
+  "heists.music": {
+    "sounds": [
+      {
+        "name": "fossil_frights:music/heists_music",
+        "stream": true
+      }
+    ]
+  },
+  "music_loop.bee_parkour": {
+    "sounds": [
+      {
+        "name": "fossil_frights:music/bee_parkour_loop",
+        "stream": true
+      }
+    ]
+  },
+  "music_stinger.bee_parkour": {
+    "sounds": [
+      {
+        "name": "fossil_frights:music/bee_parkour_stinger",
+        "stream": true
+      }
+    ]
+  },
+  "music_loop.temple_run": {
+    "sounds": [
+      {
+        "name": "fossil_frights:music/temple_run_loop",
+        "stream": true
+      }
+    ]
+  },
+  "music_stinger.temple_run": {
+    "sounds": [
+      {
+        "name": "fossil_frights:music/temple_run_stinger",
+        "stream": true
+      }
+    ]
+  },
+  "music_loop.ant_fight": {
+    "sounds": [
+      {
+        "name": "fossil_frights:music/ant_fight_loop",
+        "stream": true
+      }
+    ]
+  },
+  "music_stinger.ant_fight": {
+    "sounds": [
+      {
+        "name": "fossil_frights:music/ant_fight_stinger",
+        "stream": true
+      }
+    ]
+  },
+  "music_loop.sulfur_striker": {
+    "sounds": [
+      {
+        "name": "fossil_frights:music/sulfur_striker_loop",
+        "stream": true
+      }
+    ]
+  },
+  "music_stinger.sulfur_striker": {
+    "sounds": [
+      {
+        "name": "fossil_frights:music/sulfur_striker_stinger",
+        "stream": true
+      }
+    ]
+  },
+  "lily_pad_bounce_1": {
+    "subtitle": "subtitles.fossil_frights.lily_pad_bounce",
+    "sounds": [
+      {
+        "name": "fossil_frights:animations/lily_pad_bounce_1",
+        "stream": false
+      }
+    ]
+  },
+  "lily_pad_bounce_2": {
+    "subtitle": "subtitles.fossil_frights.lily_pad_bounce",
+    "sounds": [
+      {
+        "name": "fossil_frights:animations/lily_pad_bounce_2",
+        "stream": false
+      }
+    ]
+  },
+  "lily_pad_bounce": {
+    "subtitle": "subtitles.fossil_frights.lily_pad_bounce",
+    "sounds": [
+      {
+        "name": "fossil_frights:animations/lily_pad_bounce_1",
+        "stream": false
+      },
+      {
+        "name": "fossil_frights:animations/lily_pad_bounce_2",
+        "stream": false
+      }
+    ]
+  },
+  "task.polish_bell": {
+    "subtitle": "subtitles.fossil_frights.task.polish_bell",
+    "sounds": [
+      {
+        "name": "fossil_frights:tasks/polish_bell",
+        "stream": false
+      }
+    ]
+  },
+  "task.coffee_top_up": {
+    "subtitle": "subtitles.fossil_frights.task.coffee_top_up",
+    "sounds": [{ "name": "fossil_frights:tasks/coffee_top_up", "stream": false }]
+  },
+  "task.credit_reel": {
+    "subtitle": "subtitles.fossil_frights.task.credit_reel",
+    "sounds": [{ "name": "fossil_frights:tasks/credit_reel", "stream": false }]
+  },
+  "task.feed_parrot": {
+    "subtitle": "subtitles.fossil_frights.task.feed_parrot",
+    "sounds": [{ "name": "fossil_frights:tasks/feed_parrot", "stream": false }]
+  },
+  "task.feed_the_plants": {
+    "subtitle": "subtitles.fossil_frights.task.feed_the_plants",
+    "sounds": [{ "name": "fossil_frights:tasks/feed_the_plants", "stream": false }]
+  },
+  "task.picnic_with_trike": {
+    "subtitle": "subtitles.fossil_frights.task.picnic_with_trike",
+    "sounds": [{ "name": "fossil_frights:tasks/picnic_with_trike", "stream": false }]
+  },
+  "task.popcorn_buckets": {
+    "subtitle": "subtitles.fossil_frights.task.popcorn_buckets",
+    "sounds": [{ "name": "fossil_frights:tasks/popcorn_buckets", "stream": false }]
+  },
+  "task.refill_coffee": {
+    "subtitle": "subtitles.fossil_frights.task.refill_coffee",
+    "sounds": [{ "name": "fossil_frights:tasks/refill_coffee", "stream": false }]
+  },
+  "task.refill_ice": {
+    "subtitle": "subtitles.fossil_frights.task.refill_ice",
+    "sounds": [{ "name": "fossil_frights:tasks/refill_ice", "stream": false }]
+  },
+  "task.return_the_key": {
+    "subtitle": "subtitles.fossil_frights.task.return_the_key",
+    "sounds": [{ "name": "fossil_frights:tasks/return_the_key", "stream": false }]
+  },
+  "task.sweep_popcorn": {
+    "subtitle": "subtitles.fossil_frights.task.sweep_popcorn",
+    "sounds": [{ "name": "fossil_frights:tasks/sweep_popcorn", "stream": false }]
+  },
+  "task.a_c_reset": {
+    "subtitle": "subtitles.fossil_frights.task.a_c_reset",
+    "sounds": [{ "name": "fossil_frights:tasks/a_c_reset", "stream": false }]
+  },
+  "task.basketball_dance": {
+    "subtitle": "subtitles.fossil_frights.task.basketball_dance",
+    "sounds": [{ "name": "fossil_frights:tasks/basketball_dance", "stream": false }]
+  },
+  "task.bathroom_leak": {
+    "subtitle": "subtitles.fossil_frights.task.bathroom_leak",
+    "sounds": [{ "name": "fossil_frights:tasks/bathroom_leak", "stream": false }]
+  },
+  "task.check_ankylo": {
+    "subtitle": "subtitles.fossil_frights.task.check_ankylo",
+    "sounds": [{ "name": "fossil_frights:tasks/check_ankylo", "stream": false }]
+  },
+  "task.cool_it": {
+    "subtitle": "subtitles.fossil_frights.task.cool_it",
+    "sounds": [{ "name": "fossil_frights:tasks/cool_it", "stream": false }]
+  },
+  "task.holy_grail": {
+    "subtitle": "subtitles.fossil_frights.task.holy_grail",
+    "sounds": [{ "name": "fossil_frights:tasks/holy_grail", "stream": false }]
+  },
+  "task.lock_register": {
+    "subtitle": "subtitles.fossil_frights.task.lock_register",
+    "sounds": [{ "name": "fossil_frights:tasks/lock_register", "stream": false }]
+  },
+  "task.nautilus_guard": {
+    "subtitle": "subtitles.fossil_frights.task.nautilus_guard",
+    "sounds": [{ "name": "fossil_frights:tasks/nautilus_guard", "stream": false }]
+  },
+  "task.smelly_toilet": {
+    "subtitle": "subtitles.fossil_frights.task.smelly_toilet",
+    "sounds": [{ "name": "fossil_frights:tasks/smelly_toilet", "stream": false }]
+  },
+  "task.the_lost_code": {
+    "subtitle": "subtitles.fossil_frights.task.the_lost_code",
+    "sounds": [{ "name": "fossil_frights:tasks/the_lost_code", "stream": false }]
+  },
+  "task.toilet_clog": {
+    "subtitle": "subtitles.fossil_frights.task.toilet_clog",
+    "sounds": [{ "name": "fossil_frights:tasks/toilet_clog", "stream": false }]
+  },
+  "hoverboard.enable": {
+    "subtitle": "subtitles.fossil_frights.task.hoveraptor",
+    "sounds": [
+      {
+        "name": "fossil_frights:tasks/hoveraptor",
+        "stream": false
+      }
+    ]
+  },
+  "hoverboard.disable": {
+    "subtitle": "subtitles.fossil_frights.hoverboard.disable",
+    "sounds": [
+      "minecraft:block/beacon/deactivate"
+    ]
+  }
+}

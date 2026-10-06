@@ -29,56 +29,56 @@
                     "when": "blaze",
                     "model": {
                       "type": "minecraft:model",
-                      "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/blaze"
+                      "model": "fossil_frights:items/heists/gear/thief/invisimask/variant/blaze"
                     }
                   },
                   {
                     "when": "breeze",
                     "model": {
                       "type": "minecraft:model",
-                      "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/breeze"
+                      "model": "fossil_frights:items/heists/gear/thief/invisimask/variant/breeze"
                     }
                   },
                   {
                     "when": "creeper",
                     "model": {
                       "type": "minecraft:model",
-                      "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/creeper"
+                      "model": "fossil_frights:items/heists/gear/thief/invisimask/variant/creeper"
                     }
                   },
                   {
                     "when": "enderman",
                     "model": {
                       "type": "minecraft:model",
-                      "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/enderman"
+                      "model": "fossil_frights:items/heists/gear/thief/invisimask/variant/enderman"
                     }
                   },
                   {
                     "when": "gold_shark",
                     "model": {
                       "type": "minecraft:model",
-                      "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/special/gold_shark"
+                      "model": "fossil_frights:items/heists/gear/thief/invisimask/variant/special/gold_shark"
                     }
                   },
                   {
                     "when": "guardian",
                     "model": {
                       "type": "minecraft:model",
-                      "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/guardian"
+                      "model": "fossil_frights:items/heists/gear/thief/invisimask/variant/guardian"
                     }
                   },
                   {
                     "when": "piglin",
                     "model": {
                       "type": "minecraft:model",
-                      "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/piglin"
+                      "model": "fossil_frights:items/heists/gear/thief/invisimask/variant/piglin"
                     }
                   },
                   {
                     "when": "skeleton",
                     "model": {
                       "type": "minecraft:model",
-                      "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/skeleton"
+                      "model": "fossil_frights:items/heists/gear/thief/invisimask/variant/skeleton"
                     }
                   },
                   {
@@ -94,11 +94,11 @@
                       },
                       "on_true": {
                         "type": "minecraft:model",
-                        "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/slime_opaque"
+                        "model": "fossil_frights:items/heists/gear/thief/invisimask/variant/slime_opaque"
                       },
                       "on_false": {
                         "type": "minecraft:model",
-                        "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/slime"
+                        "model": "fossil_frights:items/heists/gear/thief/invisimask/variant/slime"
                       }
                     }
                   },
@@ -106,20 +106,20 @@
                     "when": "spider",
                     "model": {
                       "type": "minecraft:model",
-                      "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/spider"
+                      "model": "fossil_frights:items/heists/gear/thief/invisimask/variant/spider"
                     }
                   },
                   {
                     "when": "zombie",
                     "model": {
                       "type": "minecraft:model",
-                      "model": "fossil-frights:items/heists/gear/thief/invisimask/variant/zombie"
+                      "model": "fossil_frights:items/heists/gear/thief/invisimask/variant/zombie"
                     }
                   }
                 ],
                 "fallback": {
                   "type": "minecraft:model",
-                  "model": "fossil-frights:items/heists/gear/thief/invisimask/template"
+                  "model": "fossil_frights:items/heists/gear/thief/invisimask/template"
                 }
               }
             },
@@ -132,7 +132,7 @@
               },
               "on_true": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:items/heists/gear/thief/invisimask/paint_overlay"
+                "model": "fossil_frights:items/heists/gear/thief/invisimask/paint_overlay"
               },
               "on_false": {
                 "type": "minecraft:empty"
@@ -164,7 +164,7 @@
                       "models": [
                         {
                           "type": "minecraft:model",
-                          "model": "fossil-frights:items/heists/gear/thief/invisimask/loot_bag/loot_bag_hidden"
+                          "model": "fossil_frights:items/heists/gear/thief/invisimask/loot_bag/loot_bag_hidden"
                         },
                         {
                           "type": "minecraft:select",
@@ -175,7 +175,7 @@
                               "when": "t_rex_skull",
                               "model": {
                                 "type": "minecraft:model",
-                                "model": "fossil-frights:display/heists/heavy_items/t_rex_skull",
+                                "model": "fossil_frights:display/heists/heavy_items/t_rex_skull",
                                 "transformation": {
                                   "right_rotation": {
                                     "axis": [
@@ -210,7 +210,7 @@
                               "when": "velociraptor_statue",
                               "model": {
                                 "type": "minecraft:model",
-                                "model": "fossil-frights:items/plushies/velociraptor_plushie",
+                                "model": "fossil_frights:items/plushies/velociraptor_plushie",
                                 "transformation": {
                                   "right_rotation": {
                                     "axis": [
@@ -245,7 +245,7 @@
                               "when": "vault",
                               "model": {
                                 "type": "minecraft:model",
-                                "model": "fossil-frights:display/heists/heavy_items/safe",
+                                "model": "fossil_frights:display/heists/heavy_items/safe",
                                 "transformation": {
                                   "right_rotation": {
                                     "axis": [
@@ -281,7 +281,7 @@
                                 "models": [
                                   {
                                     "type": "minecraft:model",
-                                    "model": "fossil-frights:display/heists/heavy_items/biplane_body",
+                                    "model": "fossil_frights:display/heists/heavy_items/biplane_body",
                                     "transformation": {
                                       "right_rotation": {
                                         "axis": [
@@ -311,7 +311,7 @@
                                   },
                                   {
                                     "type": "minecraft:model",
-                                    "model": "fossil-frights:display/heists/heavy_items/biplane_wings",
+                                    "model": "fossil_frights:display/heists/heavy_items/biplane_wings",
                                     "transformation": {
                                       "right_rotation": {
                                         "axis": [
@@ -348,7 +348,7 @@
                               "when": "raptor_skull",
                               "model": {
                                 "type": "minecraft:model",
-                                "model": "fossil-frights:display/exhibits/skeletons/velociraptor_skull",
+                                "model": "fossil_frights:display/exhibits/skeletons/velociraptor_skull",
                                 "transformation": {
                                   "right_rotation": {
                                     "axis": [
@@ -383,7 +383,7 @@
                               "when": "crab",
                               "model": {
                                 "type": "minecraft:model",
-                                "model": "fossil-frights:display/heists/heavy_items/crab",
+                                "model": "fossil_frights:display/heists/heavy_items/crab",
                                 "transformation": {
                                   "right_rotation": {
                                     "axis": [
@@ -416,7 +416,7 @@
                               "when": "warden",
                               "model": {
                                 "type": "minecraft:model",
-                                "model": "fossil-frights:items/heists/loot/warden_in_bag",
+                                "model": "fossil_frights:items/heists/loot/warden_in_bag",
                                 "transformation": {
                                   "right_rotation": {
                                     "axis": [
@@ -451,7 +451,7 @@
                               "when": "treasure_chest",
                               "model": {
                                 "type": "minecraft:model",
-                                "model": "fossil-frights:display/heists/heavy_items/treasure_chest_in_bag",
+                                "model": "fossil_frights:display/heists/heavy_items/treasure_chest_in_bag",
                                 "transformation": {
                                   "right_rotation": {
                                     "axis": [
@@ -491,7 +491,7 @@
                     },
                     "on_false": {
                       "type": "minecraft:model",
-                      "model": "fossil-frights:items/heists/gear/thief/invisimask/loot_bag/loot_bag"
+                      "model": "fossil_frights:items/heists/gear/thief/invisimask/loot_bag/loot_bag"
                     }
                   },
                   {
@@ -503,7 +503,7 @@
                     },
                     "on_true": {
                       "type": "minecraft:model",
-                      "model": "fossil-frights:items/heists/gear/thief/invisimask/loot_bag/paint_overlay"
+                      "model": "fossil_frights:items/heists/gear/thief/invisimask/loot_bag/paint_overlay"
                     },
                     "on_false": {
                       "type": "minecraft:empty"
@@ -526,7 +526,7 @@
               },
               "on_true": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:items/misc/confetti_cannon"
+                "model": "fossil_frights:items/misc/confetti_cannon"
               },
               "on_false": {
                 "type": "minecraft:empty"
@@ -545,83 +545,83 @@
           "when": "blaze",
           "model": {
             "type": "minecraft:model",
-            "model": "fossil-frights:items/heists/gear/thief/invisimask/icon/blaze"
+            "model": "fossil_frights:items/heists/gear/thief/invisimask/icon/blaze"
           }
         },
         {
           "when": "breeze",
           "model": {
             "type": "minecraft:model",
-            "model": "fossil-frights:items/heists/gear/thief/invisimask/icon/breeze"
+            "model": "fossil_frights:items/heists/gear/thief/invisimask/icon/breeze"
           }
         },
         {
           "when": "creeper",
           "model": {
             "type": "minecraft:model",
-            "model": "fossil-frights:items/heists/gear/thief/invisimask/icon/creeper"
+            "model": "fossil_frights:items/heists/gear/thief/invisimask/icon/creeper"
           }
         },
         {
           "when": "enderman",
           "model": {
             "type": "minecraft:model",
-            "model": "fossil-frights:items/heists/gear/thief/invisimask/icon/enderman"
+            "model": "fossil_frights:items/heists/gear/thief/invisimask/icon/enderman"
           }
         },
         {
           "when": "gold_shark",
           "model": {
             "type": "minecraft:model",
-            "model": "fossil-frights:items/heists/gear/thief/invisimask/icon/special/gold_shark"
+            "model": "fossil_frights:items/heists/gear/thief/invisimask/icon/special/gold_shark"
           }
         },
         {
           "when": "guardian",
           "model": {
             "type": "minecraft:model",
-            "model": "fossil-frights:items/heists/gear/thief/invisimask/icon/guardian"
+            "model": "fossil_frights:items/heists/gear/thief/invisimask/icon/guardian"
           }
         },
         {
           "when": "piglin",
           "model": {
             "type": "minecraft:model",
-            "model": "fossil-frights:items/heists/gear/thief/invisimask/icon/piglin"
+            "model": "fossil_frights:items/heists/gear/thief/invisimask/icon/piglin"
           }
         },
         {
           "when": "skeleton",
           "model": {
             "type": "minecraft:model",
-            "model": "fossil-frights:items/heists/gear/thief/invisimask/icon/skeleton"
+            "model": "fossil_frights:items/heists/gear/thief/invisimask/icon/skeleton"
           }
         },
         {
           "when": "slime",
           "model": {
             "type": "minecraft:model",
-            "model": "fossil-frights:items/heists/gear/thief/invisimask/icon/slime"
+            "model": "fossil_frights:items/heists/gear/thief/invisimask/icon/slime"
           }
         },
         {
           "when": "spider",
           "model": {
             "type": "minecraft:model",
-            "model": "fossil-frights:items/heists/gear/thief/invisimask/icon/spider"
+            "model": "fossil_frights:items/heists/gear/thief/invisimask/icon/spider"
           }
         },
         {
           "when": "zombie",
           "model": {
             "type": "minecraft:model",
-            "model": "fossil-frights:items/heists/gear/thief/invisimask/icon/zombie"
+            "model": "fossil_frights:items/heists/gear/thief/invisimask/icon/zombie"
           }
         }
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/heists/gear/thief/invisimask/icon/missingno"
+        "model": "fossil_frights:items/heists/gear/thief/invisimask/icon/missingno"
       }
     }
   }

@@ -4,7 +4,7 @@
     "models": [
       {
         "type": "minecraft:model",
-        "model": "fossil-frights:display/exhibits/humans/diamond_pedestal"
+        "model": "fossil_frights:display/exhibits/humans/diamond_pedestal"
       },
       {
         "type": "minecraft:model",

@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/heists/loot/ancient_scripture"
+        "model": "fossil_frights:items/heists/loot/ancient_scripture"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/heists/loot/ancient_scripture"
+      "model": "fossil_frights:items/heists/loot/ancient_scripture"
     }
   }
 }

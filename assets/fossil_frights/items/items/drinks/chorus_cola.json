@@ -28,11 +28,11 @@
         "models": [
           {
             "type": "model",
-            "model": "fossil-frights:items/drinks/chorus_cola"
+            "model": "fossil_frights:items/drinks/chorus_cola"
           },
           {
             "type": "model",
-            "model": "fossil-frights:items/drinks/empty_glass"
+            "model": "fossil_frights:items/drinks/empty_glass"
           }
         ]
       }
@@ -42,11 +42,11 @@
       "models": [
         {
           "type": "model",
-          "model": "fossil-frights:items/drinks/chorus_cola"
+          "model": "fossil_frights:items/drinks/chorus_cola"
         },
         {
           "type": "model",
-          "model": "fossil-frights:items/drinks/empty_glass"
+          "model": "fossil_frights:items/drinks/empty_glass"
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "fossil-frights:display/lobby/balloons/yellow_balloon"
+    "model": "fossil_frights:display/lobby/balloons/yellow_balloon"
   }
 }

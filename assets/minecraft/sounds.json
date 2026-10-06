@@ -12,61 +12,61 @@
   "entity.player.attack.weak": {
     "replace": "true",
     "sounds": [
-      "fossil-frights:silent"
+      "fossil_frights:silent"
     ]
   },
   "entity.player.attack.nodamage": {
     "replace": "true",
     "sounds": [
-      "fossil-frights:silent"
+      "fossil_frights:silent"
     ]
   },
   "entity.happy_ghast.ambient": {
     "replace": "true",
     "sounds": [
-      "fossil-frights:silent"
+      "fossil_frights:silent"
     ]
   },
   "entity.happy_ghast.death": {
     "replace": "true",
     "sounds": [
-      "fossil-frights:silent"
+      "fossil_frights:silent"
     ]
   },
   "entity.happy_ghast.equip": {
     "replace": "true",
     "sounds": [
-      "fossil-frights:silent"
+      "fossil_frights:silent"
     ]
   },
   "entity.happy_ghast.harness_goggles_down": {
     "replace": "true",
     "sounds": [
-      "fossil-frights:silent"
+      "fossil_frights:silent"
     ]
   },
   "entity.happy_ghast.harness_goggles_up": {
     "replace": "true",
     "sounds": [
-      "fossil-frights:silent"
+      "fossil_frights:silent"
     ]
   },
   "entity.happy_ghast.hurt": {
     "replace": "true",
     "sounds": [
-      "fossil-frights:silent"
+      "fossil_frights:silent"
     ]
   },
   "entity.happy_ghast.riding": {
     "replace": "true",
     "sounds": [
-      "fossil-frights:silent"
+      "fossil_frights:silent"
     ]
   },
   "entity.happy_ghast.unequip": {
     "replace": "true",
     "sounds": [
-      "fossil-frights:silent"
+      "fossil_frights:silent"
     ]
   },
   "block.nether_ore.break": {

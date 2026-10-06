@@ -5,11 +5,11 @@
     "index": 0,
     "on_true": {
       "type": "minecraft:model",
-      "model": "fossil-frights:display/general/cameras/security_camera_on"
+      "model": "fossil_frights:display/general/cameras/security_camera_on"
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:display/general/cameras/security_camera_off"
+      "model": "fossil_frights:display/general/cameras/security_camera_off"
     }
   }
 }

@@ -4,11 +4,11 @@
     "models": [
       {
         "type": "minecraft:model",
-        "model": "fossil-frights:display/heists/heavy_items/biplane_body"
+        "model": "fossil_frights:display/heists/heavy_items/biplane_body"
       },
       {
         "type": "minecraft:model",
-        "model": "fossil-frights:display/heists/heavy_items/biplane_wings"
+        "model": "fossil_frights:display/heists/heavy_items/biplane_wings"
       }
     ]
   }

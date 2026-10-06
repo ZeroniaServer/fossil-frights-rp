@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/medium_items/water_balloon"
+        "model": "fossil_frights:items/frights/medium_items/water_balloon"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/frights/medium_items/water_balloon"
+      "model": "fossil_frights:items/frights/medium_items/water_balloon"
     }
   }
 }

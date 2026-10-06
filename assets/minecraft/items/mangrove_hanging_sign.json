@@ -20,7 +20,7 @@
             },
             {
               "type": "minecraft:model",
-              "model": "fossil-frights:block/railing",
+              "model": "fossil_frights:block/railing",
               "transformation": {
                 "right_rotation": [0,0,0,1],
                 "scale": [1,1,1],

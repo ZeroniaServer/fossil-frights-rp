@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "fossil-frights:display/misc/paint_armour/paint_armor_4"
-  }
-}

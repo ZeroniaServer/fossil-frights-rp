@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/key/key_disabled"
+        "model": "fossil_frights:items/frights/key/key_disabled"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/frights/key/key_disabled"
+      "model": "fossil_frights:items/frights/key/key_disabled"
     }
   }
 }

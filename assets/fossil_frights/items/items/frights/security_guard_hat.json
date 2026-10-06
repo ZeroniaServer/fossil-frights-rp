@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/security_guard_hat"
+        "model": "fossil_frights:items/frights/security_guard_hat"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/frights/security_guard_hat"
+      "model": "fossil_frights:items/frights/security_guard_hat"
     }
   }
 }

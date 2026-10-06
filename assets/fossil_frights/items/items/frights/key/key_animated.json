@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/key/animated_key"
+        "model": "fossil_frights:items/frights/key/animated_key"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/frights/key/animated_key"
+      "model": "fossil_frights:items/frights/key/animated_key"
     }
   }
 }

@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/heists/gear/guards/trap_placer/trap_antigravity"
+        "model": "fossil_frights:items/heists/gear/guards/trap_placer/trap_antigravity"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/heists/gear/guards/trap_placer/trap_antigravity"
+      "model": "fossil_frights:items/heists/gear/guards/trap_placer/trap_antigravity"
     }
   }
 }

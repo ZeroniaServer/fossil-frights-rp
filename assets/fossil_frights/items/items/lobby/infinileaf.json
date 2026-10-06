@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "fossil-frights:items/lobby/infinileaf"
+    "model": "fossil_frights:items/lobby/infinileaf"
   }
 }

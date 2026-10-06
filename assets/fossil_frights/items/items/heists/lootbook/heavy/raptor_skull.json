@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:display/exhibits/skeletons/velociraptor_skull"
+        "model": "fossil_frights:display/exhibits/skeletons/velociraptor_skull"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:display/exhibits/skeletons/velociraptor_skull"
+      "model": "fossil_frights:display/exhibits/skeletons/velociraptor_skull"
     }
   }
 }

@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/normal.png",
+      "ascent": 0,
+      "height": 200,
+      "chars": [
+        "\ue125"
+      ]
+    }
+  ]
+}

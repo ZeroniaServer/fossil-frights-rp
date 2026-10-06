@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "fossil-frights:display/lobby/parkour/wood_arrow"
+    "model": "fossil_frights:display/lobby/parkour/wood_arrow"
   }
 }

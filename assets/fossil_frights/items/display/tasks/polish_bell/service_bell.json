@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "fossil-frights:display/tasks/polish_bell/service_bell"
+    "model": "fossil_frights:display/tasks/polish_bell/service_bell"
   }
 }

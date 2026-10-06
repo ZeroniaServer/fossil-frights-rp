@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/medium_items/fish_food"
+        "model": "fossil_frights:items/frights/medium_items/fish_food"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/frights/medium_items/fish_food"
+      "model": "fossil_frights:items/frights/medium_items/fish_food"
     }
   }
 }

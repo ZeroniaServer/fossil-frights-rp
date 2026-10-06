@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:block/cube",
   "textures": {
-    "down": "fossil-frights:block/balls/puck/top",
-    "up": "fossil-frights:block/balls/puck/top",
-    "north": "fossil-frights:block/balls/puck/front",
-    "south": "fossil-frights:block/balls/puck/front",
-    "east": "fossil-frights:block/balls/puck/side",
-    "west": "fossil-frights:block/balls/puck/side",
-    "particle": "fossil-frights:block/balls/puck/side"
+    "down": "fossil_frights:block/balls/puck/top",
+    "up": "fossil_frights:block/balls/puck/top",
+    "north": "fossil_frights:block/balls/puck/front",
+    "south": "fossil_frights:block/balls/puck/front",
+    "east": "fossil_frights:block/balls/puck/side",
+    "west": "fossil_frights:block/balls/puck/side",
+    "particle": "fossil_frights:block/balls/puck/side"
   }
 }

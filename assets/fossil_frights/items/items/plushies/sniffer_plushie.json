@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/plushies/sniffer_plushie"
+        "model": "fossil_frights:items/plushies/sniffer_plushie"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/plushies/sniffer_plushie"
+      "model": "fossil_frights:items/plushies/sniffer_plushie"
     }
   }
 }

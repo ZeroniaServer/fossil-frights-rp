@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/task_final"
+        "model": "fossil_frights:items/frights/task_final"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/frights/task_final"
+      "model": "fossil_frights:items/frights/task_final"
     }
   }
 }

@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/heists/loot/sand_dollar"
+        "model": "fossil_frights:items/heists/loot/sand_dollar"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/heists/loot/sand_dollar"
+      "model": "fossil_frights:items/heists/loot/sand_dollar"
     }
   }
 }

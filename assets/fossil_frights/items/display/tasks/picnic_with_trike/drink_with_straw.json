@@ -4,11 +4,11 @@
     "models": [
       {
         "type": "model",
-        "model": "fossil-frights:display/tasks/picnic_with_trike/drink_with_straw"
+        "model": "fossil_frights:display/tasks/picnic_with_trike/drink_with_straw"
       },
       {
         "type": "model",
-        "model": "fossil-frights:items/drinks/empty_glass"
+        "model": "fossil_frights:items/drinks/empty_glass"
       }
     ]
   }

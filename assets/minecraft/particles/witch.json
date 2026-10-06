@@ -1,12 +1,12 @@
 {
     "textures": [
-        "fossil-frights:spell_7",
-        "fossil-frights:spell_6",
-        "fossil-frights:spell_5",
-        "fossil-frights:spell_4",
-        "fossil-frights:spell_3",
-        "fossil-frights:spell_2",
-        "fossil-frights:spell_1",
-        "fossil-frights:spell_0"
+        "fossil_frights:spell_7",
+        "fossil_frights:spell_6",
+        "fossil_frights:spell_5",
+        "fossil_frights:spell_4",
+        "fossil_frights:spell_3",
+        "fossil_frights:spell_2",
+        "fossil_frights:spell_1",
+        "fossil_frights:spell_0"
     ]
 }

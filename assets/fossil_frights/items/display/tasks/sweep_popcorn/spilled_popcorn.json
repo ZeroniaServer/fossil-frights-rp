@@ -5,11 +5,11 @@
     "index": 0,
     "on_true": {
       "type": "minecraft:model",
-      "model": "fossil-frights:display/tasks/sweep_popcorn/spilled_popcorn_cleaned"
+      "model": "fossil_frights:display/tasks/sweep_popcorn/spilled_popcorn_cleaned"
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:display/tasks/sweep_popcorn/spilled_popcorn"
+      "model": "fossil_frights:display/tasks/sweep_popcorn/spilled_popcorn"
     }
   }
 }

@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/medium_items/pink_jelly"
+        "model": "fossil_frights:items/frights/medium_items/pink_jelly"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/frights/medium_items/pink_jelly"
+      "model": "fossil_frights:items/frights/medium_items/pink_jelly"
     }
   }
 }

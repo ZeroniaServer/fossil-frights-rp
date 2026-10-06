@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/heists/gear/guards/ice_cannon"
+        "model": "fossil_frights:items/heists/gear/guards/ice_cannon"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/heists/gear/guards/ice_cannon"
+      "model": "fossil_frights:items/heists/gear/guards/ice_cannon"
     }
   }
 }

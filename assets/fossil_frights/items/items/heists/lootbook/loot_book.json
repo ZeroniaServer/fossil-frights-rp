@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/heists/gear/loot_book"
+        "model": "fossil_frights:items/heists/gear/loot_book"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/heists/gear/loot_book"
+      "model": "fossil_frights:items/heists/gear/loot_book"
     }
   }
 }

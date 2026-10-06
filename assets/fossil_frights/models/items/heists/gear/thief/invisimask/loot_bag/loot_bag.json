@@ -1,0 +1,79 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "fossil_frights:items/heists/gear/thief/invisimask/loot_bag/loot_bag",
+		"particle": "fossil_frights:items/heists/gear/thief/invisimask/loot_bag/loot_bag"
+	},
+	"elements": [
+		{
+			"from": [-2, 19, -12],
+			"to": [6, 27, 2],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [-4, 6, -7]},
+			"faces": {
+				"north": {"uv": [8.25, 4.375, 9.25, 5.375], "texture": "#0"},
+				"east": {"uv": [6, 2.625, 7.75, 3.625], "texture": "#0"},
+				"west": {"uv": [5.25, 7, 7, 8], "texture": "#0"},
+				"up": {"uv": [8, 8.75, 7, 7], "texture": "#0"},
+				"down": {"uv": [8.75, 2.625, 7.75, 4.375], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-2, 1.16379, -15.00827],
+			"to": [6, 14.16379, -15.00827],
+			"rotation": {"angle": 35, "axis": "x", "origin": [-4, 3, 0]},
+			"faces": {
+				"north": {"uv": [5.25, 8, 6.25, 9.625], "texture": "#0"},
+				"south": {"uv": [8, 7, 9, 8.625], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-4, -13, -4],
+			"to": [20, 22, 17],
+			"faces": {
+				"north": {"uv": [0, 0, 3, 4.375], "texture": "#0"},
+				"east": {"uv": [0, 4.375, 2.625, 8.75], "texture": "#0"},
+				"south": {"uv": [0, 0, 3, 4.375], "texture": "#0"},
+				"west": {"uv": [0, 4.375, 2.625, 8.75], "texture": "#0"},
+				"up": {"uv": [8.25, 7, 5.25, 4.375], "texture": "#0"},
+				"down": {"uv": [9, 0, 6, 2.625], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [81, -180, 0],
+			"translation": [3.25, 2.25, 4.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [81, -180, 0],
+			"translation": [3.25, 2.25, 4.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [11, -180, 0],
+			"scale": [0.41, 0.41, 0.41]
+		},
+		"firstperson_lefthand": {
+			"rotation": [11, -180, 0],
+			"scale": [0.41, 0.41, 0.41]
+		},
+		"ground": {
+			"translation": [0, 17.25, 0]
+		},
+		"gui": {
+			"scale": [0, 0, 0]
+		},
+		"head": {
+			"rotation": [-21, 0, 0],
+			"translation": [-4.25, -14.5, 12.75]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -40.5],
+			"scale": [2, 2, 2]
+		}
+	}
+}

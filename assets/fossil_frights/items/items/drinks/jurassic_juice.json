@@ -28,11 +28,11 @@
         "models": [
           {
             "type": "model",
-            "model": "fossil-frights:items/drinks/jurassic_juice"
+            "model": "fossil_frights:items/drinks/jurassic_juice"
           },
           {
             "type": "model",
-            "model": "fossil-frights:items/drinks/empty_glass"
+            "model": "fossil_frights:items/drinks/empty_glass"
           }
         ]
       }
@@ -42,11 +42,11 @@
       "models": [
         {
           "type": "model",
-          "model": "fossil-frights:items/drinks/jurassic_juice"
+          "model": "fossil_frights:items/drinks/jurassic_juice"
         },
         {
           "type": "model",
-          "model": "fossil-frights:items/drinks/empty_glass"
+          "model": "fossil_frights:items/drinks/empty_glass"
         }
       ]
     }

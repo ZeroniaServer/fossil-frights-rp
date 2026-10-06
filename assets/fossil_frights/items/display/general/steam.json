@@ -1,7 +1,7 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "fossil-frights:items/heists/loot/steam",
+    "model": "fossil_frights:items/heists/loot/steam",
     "tints": [
       {
         "type": "minecraft:custom_model_data",

@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/medium_items/skeleton_plushie"
+        "model": "fossil_frights:items/frights/medium_items/skeleton_plushie"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/frights/medium_items/skeleton_plushie"
+      "model": "fossil_frights:items/frights/medium_items/skeleton_plushie"
     }
   }
 }

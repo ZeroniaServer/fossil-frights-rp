@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/plushies/gold_t-rex_plushie"
+        "model": "fossil_frights:items/plushies/gold_t-rex_plushie"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/plushies/gold_t-rex_plushie"
+      "model": "fossil_frights:items/plushies/gold_t-rex_plushie"
     }
   }
 }

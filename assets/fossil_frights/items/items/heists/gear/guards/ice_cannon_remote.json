@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/heists/gear/guards/ice_cannon_remote"
+        "model": "fossil_frights:items/heists/gear/guards/ice_cannon_remote"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/heists/gear/guards/ice_cannon_remote"
+      "model": "fossil_frights:items/heists/gear/guards/ice_cannon_remote"
     }
   }
 }

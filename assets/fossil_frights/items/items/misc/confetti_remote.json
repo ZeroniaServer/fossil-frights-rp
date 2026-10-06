@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/misc/confetti_remote"
+        "model": "fossil_frights:items/misc/confetti_remote"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/misc/confetti_remote"
+      "model": "fossil_frights:items/misc/confetti_remote"
     }
   }
 }

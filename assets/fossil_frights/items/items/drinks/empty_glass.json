@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/drinks/empty_glass"
+        "model": "fossil_frights:items/drinks/empty_glass"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/drinks/empty_glass"
+      "model": "fossil_frights:items/drinks/empty_glass"
     }
   }
 }

@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/heists/loot/rare/misplaced_scissors"
+        "model": "fossil_frights:items/heists/loot/rare/misplaced_scissors"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/heists/loot/rare/misplaced_scissors"
+      "model": "fossil_frights:items/heists/loot/rare/misplaced_scissors"
     }
   }
 }

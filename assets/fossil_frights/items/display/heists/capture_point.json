@@ -1,7 +1,7 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "fossil-frights:display/heists/capture_point",
+    "model": "fossil_frights:display/heists/capture_point",
     "transformation": {
       "right_rotation": [0,0,0,1],
       "scale": [1,1,1],

@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:display/heists/heavy_items/safe"
+        "model": "fossil_frights:display/heists/heavy_items/safe"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:display/heists/heavy_items/safe"
+      "model": "fossil_frights:display/heists/heavy_items/safe"
     }
   }
 }

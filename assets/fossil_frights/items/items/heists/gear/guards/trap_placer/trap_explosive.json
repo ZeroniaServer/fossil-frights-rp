@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/heists/gear/guards/trap_placer/trap_explosive"
+        "model": "fossil_frights:items/heists/gear/guards/trap_placer/trap_explosive"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/heists/gear/guards/trap_placer/trap_explosive"
+      "model": "fossil_frights:items/heists/gear/guards/trap_placer/trap_explosive"
     }
   }
 }

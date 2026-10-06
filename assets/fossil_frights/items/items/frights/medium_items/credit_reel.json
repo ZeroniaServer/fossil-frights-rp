@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/medium_items/credit_reel"
+        "model": "fossil_frights:items/frights/medium_items/credit_reel"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/frights/medium_items/credit_reel"
+      "model": "fossil_frights:items/frights/medium_items/credit_reel"
     }
   }
 }

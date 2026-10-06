@@ -4,7 +4,7 @@
     "models": [
       {
         "type": "minecraft:model",
-        "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf"
+        "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf"
       },
       {
         "type": "minecraft:condition",
@@ -19,39 +19,39 @@
               "when": "easy",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_0_occupied_easy"
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_0_occupied_easy"
               }
             },
             {
               "when": "medium",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_0_occupied_medium"
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_0_occupied_medium"
               }
             },
             {
               "when": "hard",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_0_occupied_hard"
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_0_occupied_hard"
               }
             },
             {
               "when": "final",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_0_occupied_final"
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_0_occupied_final"
               }
             }
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_0_occupied"
+            "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_0_occupied"
           }
         },
         "on_false": {
           "type": "minecraft:model",
-          "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_0_empty"
+          "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_0_empty"
         }
       },
       {
@@ -67,39 +67,39 @@
               "when": "easy",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_1_occupied_easy"
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_1_occupied_easy"
               }
             },
             {
               "when": "medium",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_1_occupied_medium"
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_1_occupied_medium"
               }
             },
             {
               "when": "hard",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_1_occupied_hard"
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_1_occupied_hard"
               }
             },
             {
               "when": "final",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_1_occupied_final"
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_1_occupied_final"
               }
             }
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_1_occupied"
+            "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_1_occupied"
           }
         },
         "on_false": {
           "type": "minecraft:model",
-          "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_1_empty"
+          "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_1_empty"
         }
       },
       {
@@ -115,39 +115,39 @@
               "when": "easy",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_2_occupied_easy"
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_2_occupied_easy"
               }
             },
             {
               "when": "medium",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_2_occupied_medium"
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_2_occupied_medium"
               }
             },
             {
               "when": "hard",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_2_occupied_hard"
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_2_occupied_hard"
               }
             },
             {
               "when": "final",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_2_occupied_final"
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_2_occupied_final"
               }
             }
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_2_occupied"
+            "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_2_occupied"
           }
         },
         "on_false": {
           "type": "minecraft:model",
-          "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_2_empty"
+          "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_2_empty"
         }
       },
       {
@@ -163,39 +163,39 @@
               "when": "easy",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_3_occupied_easy"
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_3_occupied_easy"
               }
             },
             {
               "when": "medium",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_3_occupied_medium"
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_3_occupied_medium"
               }
             },
             {
               "when": "hard",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_3_occupied_hard"
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_3_occupied_hard"
               }
             },
             {
               "when": "final",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_3_occupied_final"
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_3_occupied_final"
               }
             }
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_3_occupied"
+            "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_3_occupied"
           }
         },
         "on_false": {
           "type": "minecraft:model",
-          "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_3_empty"
+          "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_3_empty"
         }
       },
       {
@@ -211,39 +211,39 @@
               "when": "easy",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_4_occupied_easy"
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_4_occupied_easy"
               }
             },
             {
               "when": "medium",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_4_occupied_medium"
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_4_occupied_medium"
               }
             },
             {
               "when": "hard",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_4_occupied_hard"
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_4_occupied_hard"
               }
             },
             {
               "when": "final",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_4_occupied_final"
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_4_occupied_final"
               }
             }
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_4_occupied"
+            "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_4_occupied"
           }
         },
         "on_false": {
           "type": "minecraft:model",
-          "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_4_empty"
+          "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_4_empty"
         }
       },
       {
@@ -259,39 +259,39 @@
               "when": "easy",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_5_occupied_easy"
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_5_occupied_easy"
               }
             },
             {
               "when": "medium",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_5_occupied_medium"
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_5_occupied_medium"
               }
             },
             {
               "when": "hard",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_5_occupied_hard"
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_5_occupied_hard"
               }
             },
             {
               "when": "final",
               "model": {
                 "type": "minecraft:model",
-                "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_5_occupied_final"
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_5_occupied_final"
               }
             }
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_5_occupied"
+            "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_5_occupied"
           }
         },
         "on_false": {
           "type": "minecraft:model",
-          "model": "fossil-frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_5_empty"
+          "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_5_empty"
         }
       }
     ]

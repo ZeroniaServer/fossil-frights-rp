@@ -5,11 +5,11 @@
     "index": 0,
     "on_true": {
       "type": "minecraft:model",
-      "model": "fossil-frights:display/tasks/fire_pottery/pot_1_baked"
+      "model": "fossil_frights:display/tasks/fire_pottery/pot_1_baked"
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:display/tasks/fire_pottery/pot_1_clay"
+      "model": "fossil_frights:display/tasks/fire_pottery/pot_1_clay"
     },
     "transformation": {
       "translation": [

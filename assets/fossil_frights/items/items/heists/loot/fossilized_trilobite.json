@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/heists/loot/fossilized_trilobite"
+        "model": "fossil_frights:items/heists/loot/fossilized_trilobite"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/heists/loot/fossilized_trilobite"
+      "model": "fossil_frights:items/heists/loot/fossilized_trilobite"
     }
   }
 }

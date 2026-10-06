@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/task_medium"
+        "model": "fossil_frights:items/frights/task_medium"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/frights/task_medium"
+      "model": "fossil_frights:items/frights/task_medium"
     }
   }
 }

@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/medium_items/muddy_sherd"
+        "model": "fossil_frights:items/frights/medium_items/muddy_sherd"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/frights/medium_items/muddy_sherd"
+      "model": "fossil_frights:items/frights/medium_items/muddy_sherd"
     }
   }
 }

@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil-frights:items/frights/hard_items/basketball"
+        "model": "fossil_frights:items/frights/hard_items/basketball"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/frights/hard_items/basketball"
+      "model": "fossil_frights:items/frights/hard_items/basketball"
     }
   }
 }

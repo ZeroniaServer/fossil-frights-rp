@@ -1,7 +1,7 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "fossil-frights:display/exhibits/boss_office/window",
+    "model": "fossil_frights:display/exhibits/boss_office/window",
     "transformation": {
       "right_rotation": [0,0,0,1],
       "scale": [1,1,1],

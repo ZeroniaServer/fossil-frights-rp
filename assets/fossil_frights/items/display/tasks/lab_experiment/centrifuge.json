@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "fossil-frights:display/tasks/lab_experiment/centrifuge"
+    "model": "fossil_frights:display/tasks/lab_experiment/centrifuge"
   }
 }

@@ -9,111 +9,111 @@
         "threshold": 0,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:items/frights/key/cooldown/0"
+          "model": "fossil_frights:items/frights/key/cooldown/0"
         }
       },
       {
         "threshold": 1,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:items/frights/key/cooldown/1"
+          "model": "fossil_frights:items/frights/key/cooldown/1"
         }
       },
       {
         "threshold": 2,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:items/frights/key/cooldown/2"
+          "model": "fossil_frights:items/frights/key/cooldown/2"
         }
       },
       {
         "threshold": 3,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:items/frights/key/cooldown/3"
+          "model": "fossil_frights:items/frights/key/cooldown/3"
         }
       },
       {
         "threshold": 4,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:items/frights/key/cooldown/4"
+          "model": "fossil_frights:items/frights/key/cooldown/4"
         }
       },
       {
         "threshold": 5,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:items/frights/key/cooldown/5"
+          "model": "fossil_frights:items/frights/key/cooldown/5"
         }
       },
       {
         "threshold": 6,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:items/frights/key/cooldown/6"
+          "model": "fossil_frights:items/frights/key/cooldown/6"
         }
       },
       {
         "threshold": 7,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:items/frights/key/cooldown/7"
+          "model": "fossil_frights:items/frights/key/cooldown/7"
         }
       },
       {
         "threshold": 8,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:items/frights/key/cooldown/8"
+          "model": "fossil_frights:items/frights/key/cooldown/8"
         }
       },
       {
         "threshold": 9,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:items/frights/key/cooldown/9"
+          "model": "fossil_frights:items/frights/key/cooldown/9"
         }
       },
       {
         "threshold": 10,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:items/frights/key/cooldown/10"
+          "model": "fossil_frights:items/frights/key/cooldown/10"
         }
       },
       {
         "threshold": 11,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:items/frights/key/cooldown/11"
+          "model": "fossil_frights:items/frights/key/cooldown/11"
         }
       },
       {
         "threshold": 12,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:items/frights/key/cooldown/12"
+          "model": "fossil_frights:items/frights/key/cooldown/12"
         }
       },
       {
         "threshold": 13,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:items/frights/key/cooldown/13"
+          "model": "fossil_frights:items/frights/key/cooldown/13"
         }
       },
       {
         "threshold": 14,
         "model": {
           "type": "minecraft:model",
-          "model": "fossil-frights:items/frights/key/cooldown/14"
+          "model": "fossil_frights:items/frights/key/cooldown/14"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "fossil-frights:items/frights/key/cooldown/0"
+      "model": "fossil_frights:items/frights/key/cooldown/0"
     }
   },
   "hand_animation_on_swap": false

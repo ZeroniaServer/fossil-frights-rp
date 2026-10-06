@@ -1,7 +1,7 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "fossil-frights:display/lobby/holograms/verdant_projector_beam",
+    "model": "fossil_frights:display/lobby/holograms/verdant_projector_beam",
     "transformation": {
       "right_rotation": [0,0,0,1],
       "scale": [1,1,1],

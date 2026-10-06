@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "fossil-frights:gui/sprites/hud/sidebar/heavy_sidebar"
-  }
-}

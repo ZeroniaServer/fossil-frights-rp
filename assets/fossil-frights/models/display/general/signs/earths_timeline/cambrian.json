@@ -3,7 +3,6 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"missing": "fossil-frights:display/misc/transparent",
 		"1": "fossil-frights:display/general/signs/earths_timeline/cambrian",
 		"2": "fossil-frights:display/general/signs/earths_timeline/large_sign",
 		"particle": "fossil-frights:display/general/signs/earths_timeline/large_sign"
@@ -15,12 +14,7 @@
 			"to": [29, 13, 1.1],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 1.1]},
 			"faces": {
-				"north": {"uv": [0, 3, 10.5, 6], "texture": "#missing"},
-				"east": {"uv": [0, 0, 0, 3], "texture": "#missing"},
 				"south": {"uv": [0, 0, 11.25, 3], "texture": "#1"},
-				"west": {"uv": [0, 0, 0, 3], "texture": "#missing"},
-				"up": {"uv": [10.5, 0, 0, 0], "texture": "#missing"},
-				"down": {"uv": [10.5, 0, 0, 0], "texture": "#missing"}
 			}
 		},
 		{

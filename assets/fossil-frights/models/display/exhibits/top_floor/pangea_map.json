@@ -3,7 +3,6 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"missing": "fossil-frights:display/misc/transparent",
 		"1": "fossil-frights:display/exhibits/top_floor/pangea",
 		"3": "fossil-frights:display/tasks/star_gazing/constellation_frame",
 		"particle": "fossil-frights:display/exhibits/top_floor/pangea"
@@ -14,12 +13,7 @@
 			"to": [31, 0.1, 15],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0.1, 0]},
 			"faces": {
-				"north": {"uv": [0, 1, 8, 1], "texture": "#missing"},
-				"east": {"uv": [0, 1, 1, 1], "texture": "#missing"},
-				"south": {"uv": [0, 1, 8, 1], "texture": "#missing"},
-				"west": {"uv": [0, 1, 8, 1], "texture": "#missing"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
-				"down": {"uv": [0, 0, 8, 1], "texture": "#missing"}
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"}
 			}
 		},
 		{

@@ -27,7 +27,7 @@
     },
     {
       "type": "minecraft:single",
-      "resource": "fossil-frights:skins/basketball"
+      "resource": "fossil_frights:skins/basketball"
     }
   ]
 }

@@ -2,8 +2,8 @@
 	"format_version": "26.3",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "fossil-frights:skins/basketball",
-		"particle": "fossil-frights:skins/basketball"
+		"0": "fossil_frights:skins/basketball",
+		"particle": "fossil_frights:skins/basketball"
 	},
 	"elements": [
 		{

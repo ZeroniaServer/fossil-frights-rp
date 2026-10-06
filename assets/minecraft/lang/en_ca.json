@@ -770,7 +770,7 @@
   "ff.crab": "Crab",
   "ff.crab.prompt": "<%1$s> If you have %2$s I can polish that key for you, should have it reset right away!",
   "ff.crab.success": "<%1$s> Thanks for the %2$s! Here's your polished key.",
-  "ff.crab.cooldown": "<%1$s> If it ever needs polishing, let me know.",
+  "ff.crab.cooldown": "<%1$s> If you're key is ever recharging, I can polish it for you!",
   "ff.crab.key_polished": "Key Polished!",
 
   "ff.dinocoins.required": "Requires %s",

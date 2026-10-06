@@ -1826,6 +1826,12 @@
   "ff.lobby.sulfur_strikers.cyan_score": "Cyan: %s",
   "ff.lobby.sulfur_strikers.yellow_scored": "Yellow scored a point",
   "ff.lobby.sulfur_strikers.cyan_scored": "Cyan scored a point",
+  "ff.lobby.sulfur_strikers.powerup.whacker": "Whacker",
+  "ff.lobby.sulfur_strikers.powerup.mega_whacker": "Mega Whacker",
+  "ff.lobby.sulfur_strikers.powerup.grabber": "Grabber",
+  "ff.lobby.sulfur_strikers.powerup.guster": "Guster",
+  "ff.lobby.sulfur_strikers.powerup.launcher": "Launcher",
+  "ff.lobby.sulfur_strikers.powerup.super_launcher": "Super Launcher",
 
   "ff.settings.board.label": "SETTINGS",
   "ff.settings.board.gamemode.frights": "GAME MODE:",

@@ -717,6 +717,7 @@
 
   "ff.bookshelf_creature": "Bookshelf Creature",
   "ff.bookshelf_creature.hey": "<%1$s> Hey! You! You forgot your task book!",
+  "ff.bookshelf_creature.coffee": "<%1$s> Mmm. Coffee!",
 
   "ff.museum_map_already_claimed": "You already have a map",
 

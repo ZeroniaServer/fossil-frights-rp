@@ -37,12 +37,12 @@ void main() {
     cylindricalVertexDistance = fog_cylindrical_distance(pos);
 
     // CUSTOM CODE
-    vec3 PLAINS_GRASS   = vec3(145/255., 189/255., 89/255.);
-    vec3 MUSEUM_GRASS   = vec3(107/255., 187/255., 62/255.);
-    vec3 PLAINS_FOLIAGE = vec3(119/255., 171/255., 47/255.);
-    vec3 MUSEUM_FOLIAGE = vec3(90/255., 161/255., 58/255.);
-    vec3 PLAINS_WATER   = vec3(63/255., 118/255., 228/255.);
-    vec3 MUSEUM_WATER   = vec3(41/255., 192/255., 222/255.);
+    const vec3 PLAINS_GRASS   = vec3(145/255., 189/255.,  89/255.); // #91bd59
+    const vec3 MUSEUM_GRASS   = vec3(107/255., 187/255.,  62/255.); // #6bbb3e
+    const vec3 PLAINS_FOLIAGE = vec3(119/255., 171/255.,  47/255.); // #77ab2f
+    const vec3 MUSEUM_FOLIAGE = vec3(90/255.,  161/255.,  58/255.); // #5aa13a
+    const vec3 PLAINS_WATER   = vec3(63/255.,  118/255., 228/255.); // #3f76e4
+    const vec3 MUSEUM_WATER   = vec3(41/255.,  192/255., 222/255.); // #29c0de
 
     // Apply custom biome colors for non-experimental worlds
     vec4 customColor = Color;

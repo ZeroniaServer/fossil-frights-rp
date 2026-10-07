@@ -715,6 +715,9 @@
   "ff.boss.title": "You're Fired!",
   "ff.boss.subtitle": "You weren't fast enough",
 
+  "ff.bookshelf_creature": "Bookshelf Creature",
+  "ff.bookshelf_creature.hey": "<%1$s> Hey! You! You forgot your task book!",
+
   "ff.museum_map_already_claimed": "You already have a map",
 
   "ff.museum_map.aquatic": "Aquatic",

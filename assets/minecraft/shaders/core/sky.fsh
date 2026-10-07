@@ -16,15 +16,8 @@ void main() {
     vec4 customSkyColor = ColorModulator;
     const vec3 PLAINS_SKY = vec3(120/255., 167/255., 255/255.); // #78A7FF
     const vec3 MUSEUM_SKY = vec3(126/255., 222/255., 255/255.); // #7EDEFF
-
-    float maxComponent = max(ColorModulator.r, max(ColorModulator.g, ColorModulator.b));
-    vec3 currentNormalized = ColorModulator.rgb / maxComponent;
-
-    vec3 defaultSkyNorm = PLAINS_SKY / max(PLAINS_SKY.r, max(PLAINS_SKY.g, PLAINS_SKY.b));
-    if (distance(currentNormalized, defaultSkyNorm) < 0.08) {
-        vec3 atmosphericFactor = ColorModulator.rgb / PLAINS_SKY;
-        customSkyColor = vec4(MUSEUM_SKY * atmosphericFactor, ColorModulator.a);
-    }
+    vec3 atmosphericFactor = ColorModulator.rgb / PLAINS_SKY;
+    customSkyColor = vec4(MUSEUM_SKY * atmosphericFactor, ColorModulator.a);
 
     vec4 screenPos = gl_FragCoord;
     screenPos.xy = (screenPos.xy / ScreenSize - vec2(0.5)) * 2.0;

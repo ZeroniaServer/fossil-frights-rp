@@ -1,0 +1,37 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/block",
+	"textures": {
+		"top": "fossil_frights:block/railing_post",
+		"wall": "block/polished_tuff",
+		"particle": "block/polished_tuff"
+	},
+	"elements": [
+		{
+			"name": "Center post",
+			"from": [4, 0, 4],
+			"to": [12, 16, 12],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#wall"},
+				"east": {"uv": [4, 0, 12, 16], "texture": "#wall"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#wall"},
+				"west": {"uv": [4, 0, 12, 16], "texture": "#wall"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#wall", "cullface": "down"}
+			}
+		},
+		{
+			"from": [4, 16, 4],
+			"to": [12, 24, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, 16, 4]},
+			"faces": {
+				"north": {"uv": [0, 8, 8, 16], "texture": "#top", "cullface": "up"},
+				"east": {"uv": [0, 8, 8, 16], "texture": "#top", "cullface": "up"},
+				"south": {"uv": [0, 8, 8, 16], "texture": "#top", "cullface": "up"},
+				"west": {"uv": [0, 8, 8, 16], "texture": "#top", "cullface": "up"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#top", "cullface": "up"},
+				"down": {"uv": [0, 8, 8, 16], "texture": "#top", "cullface": "up"}
+			}
+		}
+	]
+}

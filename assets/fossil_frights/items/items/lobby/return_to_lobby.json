@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "fossil_frights:items/lobby/return_to_lobby"
+  }
+}

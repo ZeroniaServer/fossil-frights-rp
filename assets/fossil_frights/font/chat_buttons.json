@@ -1,0 +1,116 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/chat_buttons/start.png",
+      "ascent": 8,
+      "height": 11,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/chat_buttons/start_green.png",
+      "ascent": 8,
+      "height": 11,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/chat_buttons/join.png",
+      "ascent": 8,
+      "height": 11,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/chat_buttons/leave.png",
+      "ascent": 8,
+      "height": 11,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/chat_buttons/leave_red.png",
+      "ascent": 8,
+      "height": 11,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/chat_buttons/ready.png",
+      "ascent": 8,
+      "height": 11,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/chat_buttons/accept.png",
+      "ascent": 8,
+      "height": 11,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/chat_buttons/accept_green.png",
+      "ascent": 8,
+      "height": 11,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/chat_buttons/decline.png",
+      "ascent": 8,
+      "height": 11,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/chat_buttons/decline_red.png",
+      "ascent": 8,
+      "height": 11,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/chat_buttons/unready.png",
+      "ascent": 8,
+      "height": 11,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/chat_buttons/run_breakdown.png",
+      "ascent": 8,
+      "height": 11,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:default"
+    }
+  ]
+}

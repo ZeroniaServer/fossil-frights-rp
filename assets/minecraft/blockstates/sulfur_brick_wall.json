@@ -2,12 +2,12 @@
   "multipart": [
     {
       "apply": {
-        "model": "fossil-frights:block/railing_post"
+        "model": "fossil_frights:block/railing_post"
       }
     },
     {
       "apply": {
-        "model": "fossil-frights:block/railing_side_alt"
+        "model": "fossil_frights:block/railing_side_alt"
       },
       "when": {
         "OR": [
@@ -22,7 +22,7 @@
     },
     {
       "apply": {
-        "model": "fossil-frights:block/railing_side_alt",
+        "model": "fossil_frights:block/railing_side_alt",
         "y": 90
       },
       "when": {
@@ -38,7 +38,7 @@
     },
     {
       "apply": {
-        "model": "fossil-frights:block/railing_side",
+        "model": "fossil_frights:block/railing_side",
         "y": 180
       },
       "when": {
@@ -54,7 +54,7 @@
     },
     {
       "apply": {
-        "model": "fossil-frights:block/railing_side",
+        "model": "fossil_frights:block/railing_side",
         "y": 270
       },
       "when": {

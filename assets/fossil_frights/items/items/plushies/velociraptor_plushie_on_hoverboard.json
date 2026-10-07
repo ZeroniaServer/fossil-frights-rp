@@ -1,0 +1,48 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "ff_invisible": true
+    },
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": "thirdperson_righthand",
+          "model": {
+            "type": "minecraft:empty"
+          }
+        },
+        {
+          "when": "thirdperson_lefthand",
+          "model": {
+            "type": "minecraft:empty"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "fossil_frights:items/plushies/velociraptor_plushie_on_hoverboard",
+        "tints": [
+          {
+            "type": "minecraft:constant",
+            "value": -11407105
+          }
+        ]
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "fossil_frights:items/plushies/velociraptor_plushie_on_hoverboard",
+      "tints": [
+        {
+          "type": "minecraft:constant",
+          "value": -11407105
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "model",
+        "model": "fossil_frights:display/tasks/picnic_with_trike/drink_with_straw"
+      },
+      {
+        "type": "model",
+        "model": "fossil_frights:items/drinks/empty_glass"
+      }
+    ]
+  }
+}

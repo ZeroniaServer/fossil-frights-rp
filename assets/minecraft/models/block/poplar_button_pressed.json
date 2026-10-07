@@ -2,8 +2,8 @@
 	"format_version": "26.3",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "fossil-frights:block/weathered_copper_button",
-		"particle": "fossil-frights:block/weathered_copper_button"
+		"1": "fossil_frights:block/weathered_copper_button",
+		"particle": "fossil_frights:block/weathered_copper_button"
 	},
 	"elements": [
 		{

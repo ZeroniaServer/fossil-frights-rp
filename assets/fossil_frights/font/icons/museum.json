@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/icons/museum.png",
+      "ascent": 12,
+      "height": 25,
+      "chars": [
+        "\ue125"
+      ]
+    }
+  ]
+}

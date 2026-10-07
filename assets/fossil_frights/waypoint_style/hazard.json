@@ -1,0 +1,10 @@
+{
+    "near_distance": 5,
+    "far_distance": 30,
+    "sprites": [
+        "fossil_frights:hazard_0",
+        "fossil_frights:hazard_1",
+        "fossil_frights:hazard_2",
+        "fossil_frights:hazard_3"
+    ]
+}

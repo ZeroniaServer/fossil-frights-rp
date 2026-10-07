@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/very_very_very_large.png",
+      "ascent": -3,
+      "height": 800,
+      "chars": [
+        "\ue125"
+      ]
+    }
+  ]
+}

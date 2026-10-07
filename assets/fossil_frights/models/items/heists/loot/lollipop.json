@@ -1,0 +1,76 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "fossil_frights:items/heists/loot/lollipop",
+		"particle": "fossil_frights:items/heists/loot/lollipop"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [8, 6, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [8, 2, 9, 8], "texture": "#0"},
+				"east": {"uv": [8, 8, 9, 14], "texture": "#0"},
+				"south": {"uv": [9, 2, 10, 8], "texture": "#0"},
+				"west": {"uv": [9, 8, 10, 14], "texture": "#0"},
+				"down": {"uv": [11, 3, 10, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 6, 7],
+			"to": [11, 13, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 8, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 7, 7], "texture": "#0"},
+				"east": {"uv": [7, 0, 8, 7], "texture": "#0"},
+				"south": {"uv": [0, 7, 7, 14], "texture": "#0"},
+				"west": {"uv": [7, 7, 8, 14], "texture": "#0"},
+				"up": {"uv": [15, 1, 8, 0], "texture": "#0"},
+				"down": {"uv": [15, 1, 8, 2], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [68, 12, 17],
+			"translation": [-2, 2, 7.75],
+			"scale": [0.97, 0.97, 0.97]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [38, 12, 0],
+			"translation": [0, 5.25, 5.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [12, -2, 10],
+			"translation": [0, 0, 2.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [12, -2, 10],
+			"translation": [0, 0, 2.25]
+		},
+		"ground": {
+			"rotation": [0, 0, 25],
+			"translation": [0, 5, 0]
+		},
+		"gui": {
+			"rotation": [39, 30, -39]
+		},
+		"head": {
+			"rotation": [82, 7, 14],
+			"translation": [0.5, -4.75, -7.25],
+			"scale": [0.87, 0.87, 0.87]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -15],
+			"scale": [2, 2, 2]
+		},
+		"on_shelf": {
+			"rotation": [12, 45, 0],
+			"translation": [0, 0, 4.25],
+			"scale": [2, 2, 2]
+		}
+	}
+}

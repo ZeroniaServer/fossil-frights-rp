@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "fossil_frights:transparent"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "fossil_frights:transparent"
+      }
+    ]
+  }
+}

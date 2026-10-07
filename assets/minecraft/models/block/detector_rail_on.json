@@ -4,8 +4,8 @@
 	"parent": "minecraft:block/coral_fan",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "fossil-frights:display/general/blue_rope",
-		"particle": "fossil-frights:display/general/blue_rope"
+		"0": "fossil_frights:display/general/blue_rope",
+		"particle": "fossil_frights:display/general/blue_rope"
 	},
 	"elements": [
 		{

@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fossil_frights:display/map/museum_map_item"
+  },
+  "display": {
+    "fixed": {
+      "scale": [2, 2, 2]
+    }
+  }
+}

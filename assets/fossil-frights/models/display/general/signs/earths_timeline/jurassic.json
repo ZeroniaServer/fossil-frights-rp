@@ -1,6 +1,0 @@
-{
-  "parent": "fossil-frights:display/general/signs/earths_timeline/large_sign",
-  "textures": {
-    "1": "fossil-frights:display/general/signs/earths_timeline/jurassic"
-  }
-}

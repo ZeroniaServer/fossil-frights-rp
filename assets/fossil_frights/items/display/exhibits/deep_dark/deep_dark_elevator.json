@@ -1,0 +1,390 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/exhibits/deep_dark/deep_dark_elevator",
+        "transformation": {
+          "translation": [
+            -0.5,
+            1.5,
+            -0.5
+          ],
+          "left_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:block/iron_chain",
+        "transformation": {
+          "translation": [0,5.5,0],
+          "left_rotation": [0,0,0,1],
+          "right_rotation": [0,0,0,1],
+          "scale": [1,1,1]
+        }
+      },
+      {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+          {
+            "threshold": 1,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/iron_chain",
+              "transformation": {
+                "translation": [0,6.5,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+          {
+            "threshold": 2,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/iron_chain",
+              "transformation": {
+                "translation": [0,7.5,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+          {
+            "threshold": 3,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/iron_chain",
+              "transformation": {
+                "translation": [0,8.5,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+          {
+            "threshold": 4,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/iron_chain",
+              "transformation": {
+                "translation": [0,9.5,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+          {
+            "threshold": 5,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/iron_chain",
+              "transformation": {
+                "translation": [0,10.5,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+          {
+            "threshold": 6,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/iron_chain",
+              "transformation": {
+                "translation": [0,11.5,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+          {
+            "threshold": 7,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/iron_chain",
+              "transformation": {
+                "translation": [0,12.5,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+          {
+            "threshold": 8,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/iron_chain",
+              "transformation": {
+                "translation": [0,13.5,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+          {
+            "threshold": 9,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/iron_chain",
+              "transformation": {
+                "translation": [0,14.5,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+          {
+            "threshold": 10,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/iron_chain",
+              "transformation": {
+                "translation": [0,15.5,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+          {
+            "threshold": 11,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/iron_chain",
+              "transformation": {
+                "translation": [0,16.5,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+          {
+            "threshold": 12,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/iron_chain",
+              "transformation": {
+                "translation": [0,17.5,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+          {
+            "threshold": 13,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/iron_chain",
+              "transformation": {
+                "translation": [0,18.5,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+          {
+            "threshold": 14,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/iron_chain",
+              "transformation": {
+                "translation": [0,19.5,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "entries": [
+          {
+            "threshold": 15,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:block/iron_chain",
+              "transformation": {
+                "translation": [0,20.5,0],
+                "left_rotation": [0,0,0,1],
+                "right_rotation": [0,0,0,1],
+                "scale": [1,1,1]
+              }
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      }
+    ]
+  }
+}

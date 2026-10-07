@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/coral_fan",
 	"textures": {
-		"0": "fossil-frights:display/general/blue_rope",
-		"particle": "fossil-frights:display/general/blue_rope"
+		"0": "fossil_frights:display/general/blue_rope",
+		"particle": "fossil_frights:display/general/blue_rope"
 	},
 	"elements": [
 		{

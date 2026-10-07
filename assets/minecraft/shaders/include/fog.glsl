@@ -36,13 +36,8 @@ vec4 get_custom_fog_color() {
         return vec4(MUSEUM_WATER_FOG * 0.325 * atmosphericFactor, u_NativeFogColor.a);
     }
 
-    vec3 defaultPlainsNorm = PLAINS_FOG / max(PLAINS_FOG.r, max(PLAINS_FOG.g, PLAINS_FOG.b));
-    if (distance(currentNormalized, defaultPlainsNorm) < 0.08) {
-        vec3 atmosphericFactor = u_NativeFogColor.rgb / PLAINS_FOG;
-        return vec4(MUSEUM_FOG * atmosphericFactor, u_NativeFogColor.a);
-    }
-
-    return u_NativeFogColor;
+    vec3 atmosphericFactor = u_NativeFogColor.rgb / PLAINS_FOG;
+    return vec4(MUSEUM_FOG * atmosphericFactor, u_NativeFogColor.a);
 }
 
 // Override FogColor globally for all shader files including this header

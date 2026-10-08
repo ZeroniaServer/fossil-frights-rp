@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "bottom=false,distance=0": {
+      "model": "minecraft:block/scaffolding_stable"
+    },
+    "bottom=false,distance=1": {
+      "model": "minecraft:block/scaffolding_stable"
+    },
+    "bottom=false,distance=2": {
+      "model": "minecraft:block/scaffolding_stable"
+    },
+    "bottom=false,distance=3": {
+      "model": "minecraft:block/scaffolding_stable"
+    },
+    "bottom=false,distance=4": {
+      "model": "minecraft:block/scaffolding_stable"
+    },
+    "bottom=false,distance=5": {
+      "model": "minecraft:block/scaffolding_stable"
+    },
+    "bottom=false,distance=6": {
+      "model": "fossil_frights:block/scaffolding_table"
+    },
+    "bottom=false,distance=7": {
+      "model": "fossil_frights:block/scaffolding_wine_crate"
+    },
+    "bottom=true": {
+      "model": "minecraft:block/scaffolding_unstable"
+    }
+  }
+}

@@ -1,174 +1,609 @@
 {
-  "variants": {
-    "facing=east,half=bottom,shape=inner_left": {
-      "model": "minecraft:block/crimson_stairs_inner",
-      "y": 270
+  "multipart": [
+    {
+      "when": {
+        "facing": "east",
+        "half": "bottom",
+        "shape": "inner_left"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_inner",
+        "y": 270,
+        "uvlock": true
+      }
     },
-    "facing=east,half=bottom,shape=inner_right": {
-      "model": "minecraft:block/crimson_stairs_inner"
+    {
+      "when": {
+        "facing": "east",
+        "half": "bottom",
+        "shape": "inner_right"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_inner",
+        "uvlock": true
+      }
     },
-    "facing=east,half=bottom,shape=outer_left": {
-      "model": "minecraft:block/crimson_stairs_outer",
-      "y": 270
+    {
+      "when": {
+        "facing": "east",
+        "half": "bottom",
+        "shape": "outer_left"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_outer",
+        "y": 270,
+        "uvlock": true
+      }
     },
-    "facing=east,half=bottom,shape=outer_right": {
-      "model": "minecraft:block/crimson_stairs_outer"
+    {
+      "when": {
+        "facing": "east",
+        "half": "bottom",
+        "shape": "outer_right"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_outer",
+        "uvlock": true
+      }
     },
-    "facing=east,half=bottom,shape=straight": {
-      "model": "minecraft:block/crimson_stairs"
+
+    {
+      "when": {
+        "facing": "east",
+        "half": "bottom",
+        "shape": "straight"
+      },
+      "apply": 
+        {
+          "model": "minecraft:block/spruce_stairs",
+          "uvlock": true
+        }
     },
-    "facing=east,half=top,shape=inner_left": {
-      "model": "minecraft:block/crimson_stairs_inner",
-      "x": 180
+    {
+      "when": {
+        "facing": "east",
+        "half": "bottom",
+        "shape": "straight"
+      },
+      "apply": 
+        {
+          "model": "fossil_frights:block/crimson_stairs_sides"
+        }
     },
-    "facing=east,half=top,shape=inner_right": {
-      "model": "minecraft:block/crimson_stairs_inner",
-      "x": 180,
-      "y": 90
+    {
+      "when": {
+        "facing": "east",
+        "half": "top",
+        "shape": "inner_left"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_inner",
+        "x": 180,
+        "uvlock": true
+      }
     },
-    "facing=east,half=top,shape=outer_left": {
-      "model": "minecraft:block/crimson_stairs_outer",
-      "x": 180
+    {
+      "when": {
+        "facing": "east",
+        "half": "top",
+        "shape": "inner_right"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_inner",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      }
     },
-    "facing=east,half=top,shape=outer_right": {
-      "model": "minecraft:block/crimson_stairs_outer",
-      "x": 180,
-      "y": 90
+    {
+      "when": {
+        "facing": "east",
+        "half": "top",
+        "shape": "outer_left"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_outer",
+        "x": 180,
+        "uvlock": true
+      }
     },
-    "facing=east,half=top,shape=straight": {
-      "model": "minecraft:block/crimson_stairs",
-      "x": 180
+    {
+      "when": {
+        "facing": "east",
+        "half": "top",
+        "shape": "outer_right"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_outer",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      }
     },
-    "facing=north,half=bottom,shape=inner_left": {
-      "model": "minecraft:block/crimson_stairs_inner",
-      "y": 180
+
+    {
+      "when": {
+        "facing": "east",
+        "half": "top",
+        "shape": "straight"
+      },
+      "apply": 
+        {
+          "model": "minecraft:block/spruce_stairs",
+          "x": 180,
+          "uvlock": true
+        }
     },
-    "facing=north,half=bottom,shape=inner_right": {
-      "model": "minecraft:block/crimson_stairs_inner",
-      "y": 270
+    {
+      "when": {
+        "facing": "east",
+        "half": "top",
+        "shape": "straight"
+      },
+      "apply": 
+        {
+          "model": "fossil_frights:block/crimson_stairs_sides",
+          "x": 180
+        }
     },
-    "facing=north,half=bottom,shape=outer_left": {
-      "model": "minecraft:block/crimson_stairs_outer",
-      "y": 180
+    {
+      "when": {
+        "facing": "north",
+        "half": "bottom",
+        "shape": "inner_left"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_inner",
+        "y": 180,
+        "uvlock": true
+      }
     },
-    "facing=north,half=bottom,shape=outer_right": {
-      "model": "minecraft:block/crimson_stairs_outer",
-      "y": 270
+    {
+      "when": {
+        "facing": "north",
+        "half": "bottom",
+        "shape": "inner_right"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_inner",
+        "y": 270,
+        "uvlock": true
+      }
     },
-    "facing=north,half=bottom,shape=straight": {
-      "model": "minecraft:block/crimson_stairs",
-      "y": 270
+    {
+      "when": {
+        "facing": "north",
+        "half": "bottom",
+        "shape": "outer_left"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_outer",
+        "y": 180,
+        "uvlock": true
+      }
     },
-    "facing=north,half=top,shape=inner_left": {
-      "model": "minecraft:block/crimson_stairs_inner",
-      "x": 180,
-      "y": 270
+    {
+      "when": {
+        "facing": "north",
+        "half": "bottom",
+        "shape": "outer_right"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_outer",
+        "y": 270,
+        "uvlock": true
+      }
     },
-    "facing=north,half=top,shape=inner_right": {
-      "model": "minecraft:block/crimson_stairs_inner",
-      "x": 180
+
+    {
+      "when": {
+        "facing": "north",
+        "half": "bottom",
+        "shape": "straight"
+      },
+      "apply": 
+        {
+          "model": "minecraft:block/spruce_stairs",
+          "y": 270,
+          "uvlock": true
+        }
     },
-    "facing=north,half=top,shape=outer_left": {
-      "model": "minecraft:block/crimson_stairs_outer",
-      "x": 180,
-      "y": 270
+    {
+      "when": {
+        "facing": "north",
+        "half": "bottom",
+        "shape": "straight"
+      },
+      "apply": 
+        {
+          "model": "fossil_frights:block/crimson_stairs_sides",
+          "y": 270
+        }
     },
-    "facing=north,half=top,shape=outer_right": {
-      "model": "minecraft:block/crimson_stairs_outer",
-      "x": 180
+    {
+      "when": {
+        "facing": "north",
+        "half": "top",
+        "shape": "inner_left"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_inner",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      }
     },
-    "facing=north,half=top,shape=straight": {
-      "model": "minecraft:block/crimson_stairs",
-      "x": 180,
-      "y": 270
+    {
+      "when": {
+        "facing": "north",
+        "half": "top",
+        "shape": "inner_right"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_inner",
+        "x": 180,
+        "uvlock": true
+      }
     },
-    "facing=south,half=bottom,shape=inner_left": {
-      "model": "minecraft:block/crimson_stairs_inner"
+    {
+      "when": {
+        "facing": "north",
+        "half": "top",
+        "shape": "outer_left"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_outer",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      }
     },
-    "facing=south,half=bottom,shape=inner_right": {
-      "model": "minecraft:block/crimson_stairs_inner",
-      "y": 90
+    {
+      "when": {
+        "facing": "north",
+        "half": "top",
+        "shape": "outer_right"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_outer",
+        "x": 180,
+        "uvlock": true
+      }
     },
-    "facing=south,half=bottom,shape=outer_left": {
-      "model": "minecraft:block/crimson_stairs_outer"
+
+    {
+      "when": {
+        "facing": "north",
+        "half": "top",
+        "shape": "straight"
+      },
+      "apply": 
+        {
+          "model": "minecraft:block/spruce_stairs",
+          "x": 180,
+          "y": 270,
+          "uvlock": true
+        }
     },
-    "facing=south,half=bottom,shape=outer_right": {
-      "model": "minecraft:block/crimson_stairs_outer",
-      "y": 90
+    {
+      "when": {
+        "facing": "north",
+        "half": "top",
+        "shape": "straight"
+      },
+      "apply": 
+        {
+          "model": "fossil_frights:block/crimson_stairs_sides",
+          "x": 180,
+          "y": 270
+        }
     },
-    "facing=south,half=bottom,shape=straight": {
-      "model": "minecraft:block/crimson_stairs",
-      "y": 90
+    {
+      "when": {
+        "facing": "south",
+        "half": "bottom",
+        "shape": "inner_left"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_inner",
+        "uvlock": true
+      }
     },
-    "facing=south,half=top,shape=inner_left": {
-      "model": "minecraft:block/crimson_stairs_inner",
-      "x": 180,
-      "y": 90
+    {
+      "when": {
+        "facing": "south",
+        "half": "bottom",
+        "shape": "inner_right"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_inner",
+        "y": 90,
+        "uvlock": true
+      }
     },
-    "facing=south,half=top,shape=inner_right": {
-      "model": "minecraft:block/crimson_stairs_inner",
-      "x": 180,
-      "y": 180
+    {
+      "when": {
+        "facing": "south",
+        "half": "bottom",
+        "shape": "outer_left"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_outer",
+        "uvlock": true
+      }
     },
-    "facing=south,half=top,shape=outer_left": {
-      "model": "minecraft:block/crimson_stairs_outer",
-      "x": 180,
-      "y": 90
+    {
+      "when": {
+        "facing": "south",
+        "half": "bottom",
+        "shape": "outer_right"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_outer",
+        "y": 90,
+        "uvlock": true
+      }
     },
-    "facing=south,half=top,shape=outer_right": {
-      "model": "minecraft:block/crimson_stairs_outer",
-      "x": 180,
-      "y": 180
+
+    {
+      "when": {
+        "facing": "south",
+        "half": "bottom",
+        "shape": "straight"
+      },
+      "apply": 
+        {
+          "model": "minecraft:block/spruce_stairs",
+          "y": 90,
+          "uvlock": true
+        }
     },
-    "facing=south,half=top,shape=straight": {
-      "model": "minecraft:block/crimson_stairs",
-      "x": 180,
-      "y": 90
+    {
+      "when": {
+        "facing": "south",
+        "half": "bottom",
+        "shape": "straight"
+      },
+      "apply": 
+        {
+          "model": "fossil_frights:block/crimson_stairs_sides",
+          "y": 90
+        }
     },
-    "facing=west,half=bottom,shape=inner_left": {
-      "model": "minecraft:block/crimson_stairs_inner",
-      "y": 90
+    {
+      "when": {
+        "facing": "south",
+        "half": "top",
+        "shape": "inner_left"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_inner",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      }
     },
-    "facing=west,half=bottom,shape=inner_right": {
-      "model": "minecraft:block/crimson_stairs_inner",
-      "y": 180
+    {
+      "when": {
+        "facing": "south",
+        "half": "top",
+        "shape": "inner_right"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_inner",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      }
     },
-    "facing=west,half=bottom,shape=outer_left": {
-      "model": "minecraft:block/crimson_stairs_outer",
-      "y": 90
+    {
+      "when": {
+        "facing": "south",
+        "half": "top",
+        "shape": "outer_left"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_outer",
+        "x": 180,
+        "y": 90,
+        "uvlock": true
+      }
     },
-    "facing=west,half=bottom,shape=outer_right": {
-      "model": "minecraft:block/crimson_stairs_outer",
-      "y": 180
+    {
+      "when": {
+        "facing": "south",
+        "half": "top",
+        "shape": "outer_right"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_outer",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      }
     },
-    "facing=west,half=bottom,shape=straight": {
-      "model": "minecraft:block/crimson_stairs",
-      "y": 180
+
+    {
+      "when": {
+        "facing": "south",
+        "half": "top",
+        "shape": "straight"
+      },
+      "apply": 
+        {
+          "model": "minecraft:block/spruce_stairs",
+          "x": 180,
+          "y": 90,
+          "uvlock": true
+        }
     },
-    "facing=west,half=top,shape=inner_left": {
-      "model": "minecraft:block/crimson_stairs_inner",
-      "x": 180,
-      "y": 180
+    {
+      "when": {
+        "facing": "south",
+        "half": "top",
+        "shape": "straight"
+      },
+      "apply": 
+        {
+          "model": "fossil_frights:block/crimson_stairs_sides",
+          "x": 180,
+          "y": 90
+        }
     },
-    "facing=west,half=top,shape=inner_right": {
-      "model": "minecraft:block/crimson_stairs_inner",
-      "x": 180,
-      "y": 270
+    {
+      "when": {
+        "facing": "west",
+        "half": "bottom",
+        "shape": "inner_left"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_inner",
+        "y": 90,
+        "uvlock": true
+      }
     },
-    "facing=west,half=top,shape=outer_left": {
-      "model": "minecraft:block/crimson_stairs_outer",
-      "x": 180,
-      "y": 180
+    {
+      "when": {
+        "facing": "west",
+        "half": "bottom",
+        "shape": "inner_right"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_inner",
+        "y": 180,
+        "uvlock": true
+      }
     },
-    "facing=west,half=top,shape=outer_right": {
-      "model": "minecraft:block/crimson_stairs_outer",
-      "x": 180,
-      "y": 270
+    {
+      "when": {
+        "facing": "west",
+        "half": "bottom",
+        "shape": "outer_left"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_outer",
+        "y": 90,
+        "uvlock": true
+      }
     },
-    "facing=west,half=top,shape=straight": {
-      "model": "minecraft:block/crimson_stairs",
-      "x": 180,
-      "y": 180
+    {
+      "when": {
+        "facing": "west",
+        "half": "bottom",
+        "shape": "outer_right"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_outer",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+
+    {
+      "when": {
+        "facing": "west",
+        "half": "bottom",
+        "shape": "straight"
+      },
+      "apply": 
+        {
+          "model": "minecraft:block/spruce_stairs",
+          "y": 180,
+          "uvlock": true
+        }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "bottom",
+        "shape": "straight"
+      },
+      "apply": 
+        {
+          "model": "fossil_frights:block/crimson_stairs_sides",
+          "y": 180
+        }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "top",
+        "shape": "inner_left"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_inner",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "top",
+        "shape": "inner_right"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_inner",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "top",
+        "shape": "outer_left"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_outer",
+        "x": 180,
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "top",
+        "shape": "outer_right"
+      },
+      "apply": {
+        "model": "minecraft:block/crimson_stairs_outer",
+        "x": 180,
+        "y": 270,
+        "uvlock": true
+      }
+    },
+
+    {
+      "when": {
+        "facing": "west",
+        "half": "top",
+        "shape": "straight"
+      },
+      "apply": 
+        {
+          "model": "minecraft:block/spruce_stairs",
+          "x": 180,
+          "y": 180,
+          "uvlock": true
+        }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "top",
+        "shape": "straight"
+      },
+      "apply": 
+        {
+          "model": "fossil_frights:block/crimson_stairs_sides",
+          "x": 180,
+          "y": 180
+        }
     }
-  }
+  ]
 }
+

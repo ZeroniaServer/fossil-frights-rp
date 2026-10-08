@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/pink_wool_slab"
+    },
+    "type=double": {
+      "model": "fossil_frights:block/chiseled_tuff_with_birch_signs"
+    },
+    "type=top": {
+      "model": "minecraft:block/pink_wool_slab_top"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"all": "block/dark_oak_planks",
+		"particle": "block/dark_oak_planks"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"texture": "all", "cullface": "north"},
+				"east": {"texture": "all", "cullface": "east"},
+				"south": {"texture": "all", "cullface": "south"},
+				"west": {"texture": "all", "cullface": "west"},
+				"up": {"texture": "all"},
+				"down": {"texture": "all", "cullface": "down"}
+			}
+		},
+		{
+			"from": [8, 8, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"texture": "all", "cullface": "north"},
+				"east": {"texture": "all", "cullface": "east"},
+				"south": {"texture": "all", "cullface": "south"},
+				"west": {"texture": "all"},
+				"up": {"texture": "all", "cullface": "up"}
+			}
+		},
+		{
+			"from": [0, 4, 16.3333],
+			"to": [16, 12, 17.66664],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 15.99997]},
+			"faces": {
+				"north": {"texture": "#all", "cullface": "south"},
+				"east": {"texture": "#all", "cullface": "south"},
+				"south": {"texture": "#all", "cullface": "south"},
+				"west": {"texture": "#all", "cullface": "south"},
+				"up": {"texture": "#all", "cullface": "south"},
+				"down": {"texture": "#all", "cullface": "south"}
+			}
+		},
+		{
+			"from": [0, 4, -1.66664],
+			"to": [16, 12, -0.3333],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"texture": "#all", "cullface": "north"},
+				"east": {"texture": "#all", "cullface": "north"},
+				"south": {"texture": "#all", "cullface": "north"},
+				"west": {"texture": "#all", "cullface": "north"},
+				"up": {"rotation": 180, "texture": "#all", "cullface": "north"},
+				"down": {"rotation": 180, "texture": "#all", "cullface": "north"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_lefthand": {
+			"rotation": [75, -135, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"gui": {
+			"rotation": [30, 135, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"rotation": [0, -90, 0]
+		}
+	}
+}

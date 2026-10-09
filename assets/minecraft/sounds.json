@@ -464,5 +464,197 @@
       }
     ],
     "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "music.creative": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.credits": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.dragon": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.end": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.game": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.menu": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.nether.basalt_deltas": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.nether.crimson_forest": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.nether.nether_wastes": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.nether.soul_sand_valley": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.nether.warped_forest": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.overworld.badlands": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.overworld.bamboo_jungle": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.overworld.cherry_grove": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.overworld.deep_dark": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.overworld.desert": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.overworld.dripstone_caves": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.overworld.flower_forest": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.overworld.forest": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.overworld.frozen_peaks": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.overworld.grove": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.overworld.jagged_peaks": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.overworld.jungle": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.overworld.lush_caves": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.overworld.meadow": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.overworld.old_growth_taiga": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.overworld.snowy_slopes": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.overworld.sparse_jungle": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.overworld.stony_peaks": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.overworld.sulfur_caves": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.overworld.swamp": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
+  },
+  "music.under_water": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
   }
 }

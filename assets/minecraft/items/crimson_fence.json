@@ -4,11 +4,11 @@
     "models": [
       {
         "type": "minecraft:model",
-        "model": "minecraft:item/pink_stained_glass_pane"
+        "model": "minecraft:item/barrier"
       },
       {
         "type": "minecraft:model",
-        "model": "minecraft:item/barrier"
+        "model": "minecraft:block/crimson_fence_inventory"
       }
     ]
   }

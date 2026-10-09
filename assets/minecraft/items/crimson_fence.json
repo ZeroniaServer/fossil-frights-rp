@@ -3,8 +3,20 @@
     "type": "minecraft:composite",
     "models": [
       {
-        "type": "minecraft:model",
-        "model": "minecraft:item/barrier"
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+          {
+            "when": "gui",
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/barrier"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
       },
       {
         "type": "minecraft:model",

@@ -1,0 +1,22 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/block",
+	"textures": {
+		"layer0": "fossil_frights:items/misc/creative_inventory/pink_shulker_box"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 8, 8, 16], "texture": "#layer0"},
+				"east": {"uv": [0, 8, 8, 16], "texture": "#layer0"},
+				"south": {"uv": [0, 8, 8, 16], "texture": "#layer0"},
+				"west": {"uv": [0, 8, 8, 16], "texture": "#layer0"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#layer0"},
+				"down": {"uv": [8, 0, 16, 8], "texture": "#layer0"}
+			}
+		}
+	]
+}

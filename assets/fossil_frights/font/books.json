@@ -1,0 +1,48 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "\ue000": -128,
+        "\ue001": 127,
+        "\ue003": -15
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/book/easy_left.png",
+      "ascent": 27,
+      "height": 256,
+      "chars": [
+        "\ue100"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/book/easy_right.png",
+      "ascent": 27,
+      "height": 256,
+      "chars": [
+        "\ue101"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/book/hard_left.png",
+      "ascent": 27,
+      "height": 256,
+      "chars": [
+        "\ue200"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/book/hard_right.png",
+      "ascent": 36,
+      "height": 256,
+      "chars": [
+        "\ue201"
+      ]
+    }
+  ]
+}

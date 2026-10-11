@@ -1,0 +1,179 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/2.png",
+      "ascent": 11,
+      "height": 200,
+      "chars": ["\uf001"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/2.png",
+      "ascent": 11,
+      "height": 200,
+      "chars": ["\uf002"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/3.png",
+      "ascent": 11,
+      "height": 200,
+      "chars": ["\uf003"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/4.png",
+      "ascent": 11,
+      "height": 200,
+      "chars": ["\uf004"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/5.png",
+      "ascent": 11,
+      "height": 200,
+      "chars": ["\uf005"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/6.png",
+      "ascent": 11,
+      "height": 200,
+      "chars": ["\uf006"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/7.png",
+      "ascent": 11,
+      "height": 200,
+      "chars": ["\uf007"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/8.png",
+      "ascent": 11,
+      "height": 200,
+      "chars": ["\uf008"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/9.png",
+      "ascent": 11,
+      "height": 200,
+      "chars": ["\uf009"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/10.png",
+      "ascent": 11,
+      "height": 200,
+      "chars": ["\uf00a"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/11.png",
+      "ascent": 11,
+      "height": 200,
+      "chars": ["\uf00b"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/12.png",
+      "ascent": 11,
+      "height": 200,
+      "chars": ["\uf00c"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/13.png",
+      "ascent": 11,
+      "height": 200,
+      "chars": ["\uf00d"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/17.png",
+      "ascent": 11,
+      "height": 200,
+      "chars": ["\uf011"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/18.png",
+      "ascent": 11,
+      "height": 200,
+      "chars": ["\uf012"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/19.png",
+      "ascent": 11,
+      "height": 200,
+      "chars": ["\uf013"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/25.png",
+      "ascent": 11,
+      "height": 400,
+      "chars": ["\uf019"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/27.png",
+      "ascent": 11,
+      "height": 400,
+      "chars": ["\uf01b"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/29.png",
+      "ascent": 11,
+      "height": 400,
+      "chars": ["\uf01d"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/30.png",
+      "ascent": 11,
+      "height": 400,
+      "chars": ["\uf01e"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/35.png",
+      "ascent": 11,
+      "height": 400,
+      "chars": ["\uf023"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/36.png",
+      "ascent": 11,
+      "height": 400,
+      "chars": ["\uf024"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/55.png",
+      "ascent": 11,
+      "height": 800,
+      "chars": ["\uf037"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/63.png",
+      "ascent": 11,
+      "height": 800,
+      "chars": ["\uf03f"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/plaque/64.png",
+      "ascent": 11,
+      "height": 800,
+      "chars": ["\uf040"]
+    }
+  ]
+}

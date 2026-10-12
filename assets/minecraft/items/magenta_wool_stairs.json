@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:block/theater_chair"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:block/theater_chair_cushion"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:block/theater_chair_sides"
+      }
+    ]
+  }
+}

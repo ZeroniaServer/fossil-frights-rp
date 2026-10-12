@@ -54,15 +54,14 @@
       },
       "apply": 
         {
-          "model": "fossil_frights:block/museum_bench",
+          "model": "minecraft:block/spruce_stairs",
           "uvlock": true
         }
     },
     {
       "when": {
         "facing": "east",
-        "half": "bottom",
-        "shape": "straight"
+        "half": "bottom"
       },
       "apply": 
         {
@@ -138,7 +137,7 @@
       },
       "apply": 
         {
-          "model": "fossil_frights:block/museum_bench",
+          "model": "minecraft:block/spruce_stairs",
           "x": 180,
           "uvlock": true
         }
@@ -146,8 +145,7 @@
     {
       "when": {
         "facing": "east",
-        "half": "top",
-        "shape": "straight"
+        "half": "top"
       },
       "apply": 
         {
@@ -223,7 +221,7 @@
       },
       "apply": 
         {
-          "model": "fossil_frights:block/museum_bench",
+          "model": "minecraft:block/spruce_stairs",
           "y": 270,
           "uvlock": true
         }
@@ -231,8 +229,7 @@
     {
       "when": {
         "facing": "north",
-        "half": "bottom",
-        "shape": "straight"
+        "half": "bottom"
       },
       "apply": 
         {
@@ -310,7 +307,7 @@
       },
       "apply": 
         {
-          "model": "fossil_frights:block/museum_bench",
+          "model": "minecraft:block/spruce_stairs",
           "x": 180,
           "y": 270,
           "uvlock": true
@@ -319,8 +316,7 @@
     {
       "when": {
         "facing": "north",
-        "half": "top",
-        "shape": "straight"
+        "half": "top"
       },
       "apply": 
         {
@@ -396,7 +392,7 @@
       },
       "apply": 
         {
-          "model": "fossil_frights:block/museum_bench",
+          "model": "minecraft:block/spruce_stairs",
           "y": 90,
           "uvlock": true
         }
@@ -404,8 +400,7 @@
     {
       "when": {
         "facing": "south",
-        "half": "bottom",
-        "shape": "straight"
+        "half": "bottom"
       },
       "apply": 
         {
@@ -485,7 +480,7 @@
       },
       "apply": 
         {
-          "model": "fossil_frights:block/museum_bench",
+          "model": "minecraft:block/spruce_stairs",
           "x": 180,
           "y": 90,
           "uvlock": true
@@ -494,8 +489,7 @@
     {
       "when": {
         "facing": "south",
-        "half": "top",
-        "shape": "straight"
+        "half": "top"
       },
       "apply": 
         {
@@ -573,7 +567,7 @@
       },
       "apply": 
         {
-          "model": "fossil_frights:block/museum_bench",
+          "model": "minecraft:block/spruce_stairs",
           "y": 180,
           "uvlock": true
         }
@@ -581,8 +575,7 @@
     {
       "when": {
         "facing": "west",
-        "half": "bottom",
-        "shape": "straight"
+        "half": "bottom"
       },
       "apply": 
         {
@@ -662,7 +655,7 @@
       },
       "apply": 
         {
-          "model": "fossil_frights:block/museum_bench",
+          "model": "minecraft:block/spruce_stairs",
           "x": 180,
           "y": 180,
           "uvlock": true
@@ -671,8 +664,7 @@
     {
       "when": {
         "facing": "west",
-        "half": "top",
-        "shape": "straight"
+        "half": "top"
       },
       "apply": 
         {

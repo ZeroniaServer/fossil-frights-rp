@@ -46,7 +46,6 @@
         "uvlock": true
       }
     },
-
     {
       "when": {
         "facing": "east",
@@ -57,6 +56,17 @@
         {
           "model": "fossil_frights:block/museum_bench",
           "uvlock": true
+        }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "bottom",
+        "shape": "straight"
+      },
+      "apply": 
+        {
+          "model": "fossil_frights:block/museum_bench_cushion"
         }
     },
     {
@@ -120,7 +130,6 @@
         "uvlock": true
       }
     },
-
     {
       "when": {
         "facing": "east",
@@ -132,6 +141,18 @@
           "model": "fossil_frights:block/museum_bench",
           "x": 180,
           "uvlock": true
+        }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "half": "top",
+        "shape": "straight"
+      },
+      "apply": 
+        {
+          "model": "fossil_frights:block/museum_bench_cushion",
+          "x": 180
         }
     },
     {
@@ -194,7 +215,6 @@
         "uvlock": true
       }
     },
-
     {
       "when": {
         "facing": "north",
@@ -206,6 +226,18 @@
           "model": "fossil_frights:block/museum_bench",
           "y": 270,
           "uvlock": true
+        }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "bottom",
+        "shape": "straight"
+      },
+      "apply": 
+        {
+          "model": "fossil_frights:block/museum_bench_cushion",
+          "y": 270
         }
     },
     {
@@ -270,7 +302,6 @@
         "uvlock": true
       }
     },
-
     {
       "when": {
         "facing": "north",
@@ -283,6 +314,19 @@
           "x": 180,
           "y": 270,
           "uvlock": true
+        }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "half": "top",
+        "shape": "straight"
+      },
+      "apply": 
+        {
+          "model": "fossil_frights:block/museum_bench_cushion",
+          "x": 180,
+          "y": 270
         }
     },
     {
@@ -344,7 +388,6 @@
         "uvlock": true
       }
     },
-
     {
       "when": {
         "facing": "south",
@@ -356,6 +399,18 @@
           "model": "fossil_frights:block/museum_bench",
           "y": 90,
           "uvlock": true
+        }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "bottom",
+        "shape": "straight"
+      },
+      "apply": 
+        {
+          "model": "fossil_frights:block/museum_bench_cushion",
+          "y": 90
         }
     },
     {
@@ -422,7 +477,6 @@
         "uvlock": true
       }
     },
-
     {
       "when": {
         "facing": "south",
@@ -435,6 +489,19 @@
           "x": 180,
           "y": 90,
           "uvlock": true
+        }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "half": "top",
+        "shape": "straight"
+      },
+      "apply": 
+        {
+          "model": "fossil_frights:block/museum_bench_cushion",
+          "x": 180,
+          "y": 90
         }
     },
     {
@@ -498,7 +565,6 @@
         "uvlock": true
       }
     },
-
     {
       "when": {
         "facing": "west",
@@ -510,6 +576,18 @@
           "model": "fossil_frights:block/museum_bench",
           "y": 180,
           "uvlock": true
+        }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "bottom",
+        "shape": "straight"
+      },
+      "apply": 
+        {
+          "model": "fossil_frights:block/museum_bench_cushion",
+          "y": 180
         }
     },
     {
@@ -576,7 +654,6 @@
         "uvlock": true
       }
     },
-
     {
       "when": {
         "facing": "west",
@@ -589,6 +666,19 @@
           "x": 180,
           "y": 180,
           "uvlock": true
+        }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "half": "top",
+        "shape": "straight"
+      },
+      "apply": 
+        {
+          "model": "fossil_frights:block/museum_bench_cushion",
+          "x": 180,
+          "y": 180
         }
     },
     {

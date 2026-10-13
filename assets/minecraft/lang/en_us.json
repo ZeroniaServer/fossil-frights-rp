@@ -713,8 +713,14 @@
 
   "ff.boss": "Boss",
   "ff.boss.hey": "<%1$s> Hey %2$s",
-  "ff.boss.title": "You're Fired!",
-  "ff.boss.subtitle": "You weren't fast enough",
+  "ff.boss.title.1": "\ue001",
+  "ff.boss.title.2": "\ue010\ue002",
+  "ff.boss.title.3": "\ue011\ue003",
+  "ff.boss.title.4": "\ue012\ue004",
+  "ff.boss.title.5": "\ue013\ue005",
+  "ff.boss.title.6": "\ue014\ue006",
+  "ff.boss.title.7": "\ue015\ue007",
+  "ff.boss.title.override": "",
 
   "ff.bookshelf_creature": "Bookshelf Creature",
   "ff.bookshelf_creature.hey": "<%1$s> Hey! You! You forgot your task book!",

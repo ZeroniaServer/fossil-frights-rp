@@ -1,0 +1,68 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "\ue010": 0,
+        "\ue011": -20,
+        "\ue012": -33,
+        "\ue013": -39,
+        "\ue014": -41,
+        "\ue015": -44
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/title_overlays/defeat/1.png",
+      "ascent": 108,
+      "height": 192,
+      "chars": ["\ue001"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/title_overlays/defeat/2.png",
+      "ascent": 108,
+      "height": 192,
+      "chars": ["\ue002"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/title_overlays/defeat/3.png",
+      "ascent": 108,
+      "height": 192,
+      "chars": ["\ue003"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/title_overlays/defeat/4.png",
+      "ascent": 108,
+      "height": 192,
+      "chars": ["\ue004"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/title_overlays/defeat/5.png",
+      "ascent": 108,
+      "height": 192,
+      "chars": ["\ue005"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/title_overlays/defeat/6.png",
+      "ascent": 108,
+      "height": 192,
+      "chars": ["\ue006"]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/title_overlays/defeat/7.png",
+      "ascent": 108,
+      "height": 192,
+      "chars": ["\ue007"]
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:default"
+    }
+  ]
+}

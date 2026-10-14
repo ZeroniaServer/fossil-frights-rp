@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "minecraft:block/tuff_brick_slab_top"
+      "model": "fossil_frights:block/air_generic_footsteps"
     }
   }
 }

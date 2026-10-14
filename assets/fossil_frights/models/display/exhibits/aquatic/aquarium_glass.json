@@ -1,0 +1,61 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "fossil_frights:display/exhibits/aquatic/aquarium_glass",
+		"particle": "fossil_frights:display/exhibits/aquatic/aquarium_glass"
+	},
+	"elements": [
+		{
+			"name": "inner_side",
+			"from": [5, 8, 19.5],
+			"to": [11, 16.5, 19.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 8, -3.5]},
+			"faces": {
+				"north": {"uv": [0.09375, 8, 3.09375, 12], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 4], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 4], "texture": "#0"},
+				"up": {"uv": [0, 0, 3, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 3, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "inner_side",
+			"from": [5, 8, -3.5],
+			"to": [11, 16.5, -3.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 8, -3.5]},
+			"faces": {
+				"east": {"uv": [0, 0, 0, 4], "texture": "#0"},
+				"south": {"uv": [0.09375, 8, 3.09375, 12], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 4], "texture": "#0"},
+				"up": {"uv": [0, 0, 3, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 3, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "inner_front",
+			"from": [5, 8, -3.5],
+			"to": [5, 16.5, 19.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 8, -3.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 4], "texture": "#0"},
+				"east": {"uv": [0.28125, 0, 11.78125, 4], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 4], "texture": "#0"},
+				"up": {"uv": [0, 0, 0, 11.5], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 11.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "outer",
+			"from": [4.5, 8, -4],
+			"to": [11, 16.5, 20],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 8, -3.5]},
+			"faces": {
+				"north": {"uv": [0, 8, 3.25, 12], "texture": "#0"},
+				"south": {"uv": [0, 8, 3.25, 12], "texture": "#0"},
+				"west": {"uv": [0, 0, 12, 4], "texture": "#0"}
+			}
+		}
+	]
+}

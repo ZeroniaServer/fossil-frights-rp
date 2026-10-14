@@ -5,7 +5,7 @@
       "advances": {
         "\ue000": -128,
         "\ue001": 127,
-        "\ue002": 13,
+        "\ue002": 14,
         "\ue003": -15
       }
     },
@@ -39,7 +39,7 @@
     {
       "type": "bitmap",
       "file": "fossil_frights:font/book/hard_right.png",
-      "ascent": 36,
+      "ascent": 27,
       "height": 256,
       "chars": [
         "\ue201"

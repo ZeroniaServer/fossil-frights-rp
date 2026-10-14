@@ -769,10 +769,13 @@
   "ff.security_camera.actionbar.player_spotted": "%1$s spotted %2$s in %3$s",
 
   "ff.survived_to_day": "%1$s survived to day %2$s.",
+  "ff.survived_to_day.multiple": "%1$s and %2$s survived to day %3$s.",
 
   "ff.beat_time": "%1$s beat the game in %2$s.",
+  "ff.beat_time.multiple": "%1$s and %2$s beat the game in %3$s.",
 
   "ff.exit_day_reached": "%1$s made it to day %2$s.",
+  "ff.exit_day_reached.multiple": "%1$s and %2$s made it to day %3$s.",
 
   "ff.guards_win": "%1$s won playing as %2$s.",
   "ff.thieves_win": "%1$s won playing as %2$s.",

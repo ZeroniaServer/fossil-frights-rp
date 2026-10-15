@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "fossil_frights:block/bench_rail",
-		"1": "fossil_frights:block/bench_wood_1",
+		"1": "fossil_frights:block/bench_wood_2",
 		"particle": "fossil_frights:block/bench_rail"
 	},
 	"elements": [

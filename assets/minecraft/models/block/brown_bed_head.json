@@ -2,9 +2,9 @@
 	"format_version": "26.3",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "fossil_frights:block/bench_wood_1",
+		"0": "fossil_frights:block/bench_wood_2",
 		"1": "fossil_frights:block/bench_rail",
-		"particle": "fossil_frights:block/bench_wood_1"
+		"particle": "fossil_frights:block/bench_wood_2"
 	},
 	"elements": [
 		{

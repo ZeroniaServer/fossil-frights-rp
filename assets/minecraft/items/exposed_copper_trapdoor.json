@@ -20,7 +20,7 @@
       },
       {
         "type": "minecraft:model",
-        "model": "minecraft:block/crimson_trapdoor_bottom"
+        "model": "minecraft:block/exposed_copper_trapdoor_bottom"
       }
     ]
   }

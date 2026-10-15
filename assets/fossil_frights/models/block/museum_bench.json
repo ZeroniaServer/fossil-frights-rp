@@ -1,4 +1,3 @@
 {
-	"parent": "block/spruce_stairs",
-	"ambientocclusion": false
+	"parent": "block/spruce_stairs"
 }

@@ -24,6 +24,9 @@ layout(std140) uniform ShatterConfig {
     vec2 refraction_offset;
     vec2 reflection_offset;
     vec4 reflection_color;
+
+    // Pixelation
+    float pixel_size;
 };
 
 #include <minecraft:globals.glsl>
@@ -134,11 +137,19 @@ vec4 generate_cracks(vec2 uv) {
 }
 
 void main() {
-	fragColor = generate_cracks(texCoord);
+    fragColor = texture(MainSampler, texCoord);
+
+    // Pixelated grid
+    vec2 pixel_grid = InSize / max(1.0, pixel_size);
+    vec2 pixelatedCoord = floor(texCoord * pixel_grid) / pixel_grid;
+
+    vec4 crackData = generate_cracks(pixelatedCoord);
     vec2 oneTexel = 1.0 / InSize;
-	vec4 adjacent_color = generate_cracks(texCoord + oneTexel * reflection_offset);
-    fragColor = texture(MainSampler, texCoord + fragColor.a*(oneTexel * refraction_offset));
-	if (adjacent_color.a >= 1.0) {
-		fragColor = mix(fragColor, vec4(reflection_color.rgb, 1), reflection_color.a);
+    vec4 adjacent_color = generate_cracks(pixelatedCoord + oneTexel * reflection_offset);
+
+    fragColor = texture(MainSampler, texCoord + crackData.a * (oneTexel * refraction_offset));
+
+    if (adjacent_color.a >= 1.0) {
+        fragColor = mix(fragColor, vec4(reflection_color.rgb, 1.0), reflection_color.a);
     }
 }

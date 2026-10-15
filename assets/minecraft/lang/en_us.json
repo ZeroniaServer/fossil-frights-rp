@@ -1884,6 +1884,7 @@
   "ff.leaderboard.hover.previous": "%s to view previous page",
   "ff.leaderboard.hover.next": "%s to view next page",
   "ff.leaderboard.hover.disabled": "(disabled)",
+  "ff.leaderboard.hover.names": "%s to view names",
   "ff.settings.info.title": "%1$s: %2$s",
   "ff.settings.state.on": "On",
   "ff.settings.state.off": "Off",

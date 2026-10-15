@@ -106,7 +106,7 @@
                     {
                         "name": "crack_scale",
                         "type": "float",
-                        "value": 8
+                        "value": 2
                     },
                     {
                         "name": "crack_zebra_scale",
@@ -116,12 +116,12 @@
                     {
                         "name": "crack_zebra_amp",
                         "type": "float",
-                        "value": 0.33
+                        "value": 0.2
                     },
                     {
                         "name": "crack_profile",
                         "type": "float",
-                        "value": 2
+                        "value": 1
                     },
                     {
                         "name": "crack_slope",
@@ -131,22 +131,22 @@
                     {
                         "name": "crack_width",
                         "type": "float",
-                        "value": 0.01
+                        "value": 0.003
                     },
                     {
                         "name": "refraction_offset",
                         "type": "vec2",
-                        "value": [ 50.0, 33.0 ]
+                        "value": [ 25.0, 25.0 ]
                     },
                     {
                         "name": "reflection_offset",
                         "type": "vec2",
-                        "value": [ 2.0, 1.0 ]
+                        "value": [ 2.0, 2.0 ]
                     },
                     {
                         "name": "reflection_color",
                         "type": "vec4",
-                        "value": [ 1, 1, 1, 0.5 ]
+                        "value": [ 1, 1, 1, 0.25 ]
                     },
                     {
                         "name": "pixel_size",

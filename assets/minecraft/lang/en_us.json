@@ -891,6 +891,7 @@
   "ff.admin.start_party": "Start Party",
 
   "ff.lobby.leaderboard.best": "BEST",
+  "ff.lobby.leaderboard.party_record": "Party Record",
   "ff.lobby.leaderboard.player": "PLAYER",
 
   "ff.sidebar.tasks": "Tasks",
@@ -1880,6 +1881,9 @@
   "ff.settings.hover.not_available": "Not available",
   "ff.settings.hover.frights_only": "Frights only, punch for info",
   "ff.settings.hover.heists_only": "Heists only, punch for info",
+  "ff.leaderboard.hover.previous": "%s to view previous page",
+  "ff.leaderboard.hover.next": "%s to view next page",
+  "ff.leaderboard.hover.disabled": "(disabled)",
   "ff.settings.info.title": "%1$s: %2$s",
   "ff.settings.state.on": "On",
   "ff.settings.state.off": "Off",

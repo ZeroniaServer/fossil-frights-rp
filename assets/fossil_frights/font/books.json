@@ -3,15 +3,12 @@
     {
       "type": "space",
       "advances": {
-        "\ue000": -128,
-        "\ue001": 127,
-        "\ue002": 14,
-        "\ue003": -15
+        "\ue001": -257
       }
     },
     {
       "type": "bitmap",
-      "file": "fossil_frights:font/book/easy_left.png",
+      "file": "fossil_frights:font/book/easy.png",
       "ascent": 27,
       "height": 256,
       "chars": [
@@ -20,16 +17,7 @@
     },
     {
       "type": "bitmap",
-      "file": "fossil_frights:font/book/easy_right.png",
-      "ascent": 27,
-      "height": 256,
-      "chars": [
-        "\ue101"
-      ]
-    },
-    {
-      "type": "bitmap",
-      "file": "fossil_frights:font/book/hard_left.png",
+      "file": "fossil_frights:font/book/medium.png",
       "ascent": 27,
       "height": 256,
       "chars": [
@@ -38,11 +26,38 @@
     },
     {
       "type": "bitmap",
-      "file": "fossil_frights:font/book/hard_right.png",
+      "file": "fossil_frights:font/book/hard.png",
       "ascent": 27,
       "height": 256,
       "chars": [
-        "\ue201"
+        "\ue300"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/book/custom/pig_wrangler.png",
+      "ascent": 27,
+      "height": 256,
+      "chars": [
+        "\ue301"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/book/final.png",
+      "ascent": 27,
+      "height": 256,
+      "chars": [
+        "\ue400"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/book/custom/sniffer_clone.png",
+      "ascent": 27,
+      "height": 256,
+      "chars": [
+        "\ue401"
       ]
     }
   ]

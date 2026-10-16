@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil_frights:items/frights/task_hard"
+        "model": "fossil_frights:items/frights/task_books/hard"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil_frights:items/frights/task_hard"
+      "model": "fossil_frights:items/frights/task_books/hard"
     }
   }
 }

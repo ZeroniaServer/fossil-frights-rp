@@ -17,6 +17,24 @@
       }
     ]
   },
+  "security_gate.moving.medium": {
+    "subtitle": "subtitles.fossil_frights.security_gate.moving",
+    "sounds": [
+      {
+        "name": "fossil_frights:animations/security_gate_moving_medium",
+        "stream": false
+      }
+    ]
+  },
+  "security_gate.moving.short": {
+    "subtitle": "subtitles.fossil_frights.security_gate.moving",
+    "sounds": [
+      {
+        "name": "fossil_frights:animations/security_gate_moving_short",
+        "stream": false
+      }
+    ]
+  },
   "security_gate.shut": {
     "subtitle": "subtitles.fossil_frights.security_gate.shut",
     "sounds": [

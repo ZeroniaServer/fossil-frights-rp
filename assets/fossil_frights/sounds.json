@@ -8,6 +8,24 @@
       }
     ]
   },
+  "security_gate.moving": {
+    "subtitle": "subtitles.fossil_frights.security_gate.moving",
+    "sounds": [
+      {
+        "name": "fossil_frights:animations/security_gate_moving",
+        "stream": false
+      }
+    ]
+  },
+  "security_gate.shut": {
+    "subtitle": "subtitles.fossil_frights.security_gate.shut",
+    "sounds": [
+      {
+        "name": "fossil_frights:animations/security_gate_shut",
+        "stream": false
+      }
+    ]
+  },
   "animations.key": {
     "subtitle": "subtitles.fossil_frights.animations.key",
     "sounds": [

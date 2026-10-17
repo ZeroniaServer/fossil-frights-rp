@@ -1,6 +1,0 @@
-{
-	"parent": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_slot_4_occupied",
-	"textures": {
-		"0": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_medium"
-	}
-}

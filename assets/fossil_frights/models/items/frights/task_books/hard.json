@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "fossil_frights:items/frights/task_easy"
+    "layer0": "fossil_frights:items/frights/task_books/hard"
   }
 }

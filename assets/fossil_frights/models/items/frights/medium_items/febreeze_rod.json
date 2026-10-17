@@ -2,11 +2,10 @@
 	"format_version": "26.3",
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
-	"gui_light": "front",
 	"textures": {
 		"0": "fossil_frights:items/frights/medium_items/febreeze_rod",
-		"emissive": "fossil_frights:items/frights/medium_items/febreeze_rod_emissive",
-		"particle": "fossil_frights:items/frights/medium_items/febreeze_rod"
+		"particle": "fossil_frights:items/frights/medium_items/febreeze_rod",
+		"emissive": "fossil_frights:items/frights/medium_items/febreeze_rod_emissive"
 	},
 	"elements": [
 		{
@@ -51,8 +50,8 @@
 			"name": "fe_emissive",
 			"from": [5, 9, 5.7],
 			"to": [11, 11, 5.7],
-			"shade_direction_override": "up",
 			"light_emission": 15,
+			"shade_direction_override": "up",
 			"rotation": {"angle": 0, "axis": "y", "origin": [6, 9, 3.7]},
 			"faces": {
 				"north": {"uv": [13, 0, 16, 1], "texture": "#emissive"},
@@ -60,7 +59,11 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.8, 0.8, 0.8]
+		},
 		"gui": {
 			"rotation": [30, -143, 0],
 			"translation": [0, 0.5, 0],

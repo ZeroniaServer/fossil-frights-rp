@@ -11,7 +11,7 @@
     },
     {
       "type": "bitmap",
-      "file": "fossil_frights:font/icons/multiplayer.png",
+      "file": "fossil_frights:display/misc/multiplayer.png",
       "ascent": 8,
       "height": 8,
       "chars": [

@@ -178,6 +178,8 @@
   "ff.messages.warning.player_no_longer_online": "Player is no longer online.",
 
   "subtitles.fossil_frights.front_door_close": "Museum door closes",
+  "subtitles.fossil_frights.security_gate.moving": "Security gate",
+  "subtitles.fossil_frights.security_gate.shut": "Security gate shuts",
   "subtitles.fossil_frights.animations.key": "Key turns",
   "subtitles.fossil_frights.hazards.lights": "Lights go out",
   "subtitles.fossil_frights.hazards.breaker_close": "Breaker closes",
@@ -769,10 +771,13 @@
   "ff.security_camera.actionbar.player_spotted": "%1$s spotted %2$s in %3$s",
 
   "ff.survived_to_day": "%1$s survived to day %2$s.",
+  "ff.survived_to_day.multiple": "%1$s and %2$s survived to day %3$s.",
 
   "ff.beat_time": "%1$s beat the game in %2$s.",
+  "ff.beat_time.multiple": "%1$s and %2$s beat the game in %3$s.",
 
   "ff.exit_day_reached": "%1$s made it to day %2$s.",
+  "ff.exit_day_reached.multiple": "%1$s and %2$s made it to day %3$s.",
 
   "ff.guards_win": "%1$s won playing as %2$s.",
   "ff.thieves_win": "%1$s won playing as %2$s.",
@@ -791,7 +796,7 @@
   "ff.crab": "Crab",
   "ff.crab.prompt": "<%1$s> If you have %2$s I can polish that key for you, should have it reset right away!",
   "ff.crab.success": "<%1$s> Thanks for the %2$s! Here's your polished key.",
-  "ff.crab.cooldown": "<%1$s> If you're key is ever recharging, I can polish it for you!",
+  "ff.crab.cooldown": "<%1$s> If your key is ever recharging, I can polish it for you!",
   "ff.crab.key_polished": "Key Polished!",
 
   "ff.dinocoins.required": "Requires %s",
@@ -863,6 +868,12 @@
   "ff.actionbar.trap.too_close": "Too close to another trap",
   "ff.actionbar.locator_bar": "↓ Look at the locator bar ↓",
   "ff.actionbar.ice_cannon_obstructed": "Ice cannon obstructed",
+  "ff.actionbar.hazard.prefix": "Hazard: ",
+  "ff.actionbar.hazard.floor_is_lava": "Floor is Lava",
+  "ff.actionbar.hazard.security_gates": "Security Gates",
+  "ff.actionbar.hazard.floods": "Floods",
+  "ff.actionbar.hazard.lights_out": "Lights Out",
+  "ff.actionbar.hazard.curse": "Curse",
 
   "ff.queue_mannequin.description.in_queue": "Waiting in queue...",
   "ff.queue_mannequin.description.next_up": "Waiting to confirm...",
@@ -888,6 +899,7 @@
   "ff.admin.start_party": "Start Party",
 
   "ff.lobby.leaderboard.best": "BEST",
+  "ff.lobby.leaderboard.party_record": "Party Record",
   "ff.lobby.leaderboard.player": "PLAYER",
 
   "ff.sidebar.tasks": "Tasks",
@@ -1877,6 +1889,10 @@
   "ff.settings.hover.not_available": "Not available",
   "ff.settings.hover.frights_only": "Frights only, punch for info",
   "ff.settings.hover.heists_only": "Heists only, punch for info",
+  "ff.leaderboard.hover.previous": "%s to view previous page",
+  "ff.leaderboard.hover.next": "%s to view next page",
+  "ff.leaderboard.hover.disabled": "(disabled)",
+  "ff.leaderboard.hover.names": "%s to view names",
   "ff.settings.info.title": "%1$s: %2$s",
   "ff.settings.state.on": "On",
   "ff.settings.state.off": "Off",

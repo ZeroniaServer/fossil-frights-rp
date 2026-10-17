@@ -777,7 +777,7 @@
   "ff.crab": "Crab",
   "ff.crab.prompt": "<%1$s> If you have %2$s I can polish that key for you, should have it reset right away!",
   "ff.crab.success": "<%1$s> Thanks for the %2$s! Here's your polished key.",
-  "ff.crab.cooldown": "<%1$s> If you're key is ever recharging, I can polish it for you!",
+  "ff.crab.cooldown": "<%1$s> If your key is ever recharging, I can polish it for you!",
   "ff.crab.key_polished": "Key Polished!",
 
   "ff.dinocoins.required": "Requires %s",
@@ -823,7 +823,7 @@
 
   "ff.lobby.ant_fight": "Ant Fight",
   "ff.lobby.temple_run": "Temple Run",
-  "ff.lobby.sulfur_strikers": "Sulphur Striker",
+  "ff.lobby.sulfur_strikers": "Sulphur Strikers",
   "ff.lobby.bee_parkour": "Bee Parkour",
   "ff.lobby.teleporter": "Teleporter",
   "ff.lobby.parkour_time": "Parkour: %1$ss",

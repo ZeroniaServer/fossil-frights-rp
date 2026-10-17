@@ -1,6 +1,67 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "fossil_frights:items/frights/medium_items/fire_tablet_inventory"
-  }
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+  "gui_light": "front",
+	"textures": {
+		"0": "fossil_frights:items/frights/medium_items/fire_tablet",
+		"particle": "fossil_frights:items/frights/medium_items/fire_tablet"
+	},
+	"elements": [
+		{
+			"from": [4, 6, 4.5],
+			"to": [12, 10, 11.5],
+			"light_emission": 3,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [4, 0, 8, 2], "texture": "#0"},
+				"east": {"uv": [0, 7, 3.5, 9], "texture": "#0"},
+				"south": {"uv": [4, 2, 8, 4], "texture": "#0"},
+				"west": {"uv": [7, 4, 10.5, 6], "texture": "#0"},
+				"up": {"uv": [4, 3.5, 0, 0], "texture": "#0"},
+				"down": {"uv": [4, 3.5, 0, 7], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cube_outline",
+			"from": [12.4625, 10.3625, 11.9375],
+			"to": [3.5375, 5.6375, 4.0625],
+			"light_emission": 15,
+			"shade_direction_override": "up",
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [12, 14, 16, 16], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [12, 14, 15.5, 16], "rotation": 180, "texture": "#0"},
+				"south": {"uv": [12, 14, 16, 16], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [12, 14, 15.5, 16], "rotation": 180, "texture": "#0"},
+				"up": {"uv": [16, 12.5, 12, 16], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [16, 16, 12, 12.5], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"firstperson_righthand": {
+			"translation": [0, 1, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 1, 0]
+		},
+		"gui": {
+			"rotation": [36, 35, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"head": {
+			"translation": [0, 9.5, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -3.53],
+			"scale": [2, 2, 2]
+		},
+		"on_shelf": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 0, -1.5]
+		}
+	}
 }

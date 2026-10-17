@@ -1,6 +1,0 @@
-{
-	"parent": "fossil-frights:display/tasks/star_gazing/constellation_template",
-	"textures": {
-		"constellation": "fossil-frights:display/tasks/star_gazing/constellation_golem"
-	}
-}

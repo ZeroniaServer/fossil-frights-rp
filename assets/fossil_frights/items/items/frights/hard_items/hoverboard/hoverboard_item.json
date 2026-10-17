@@ -1,0 +1,148 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:custom_data",
+    "value": {
+      "ff_invisible": true
+    },
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "thirdperson_righthand",
+            "thirdperson_lefthand"
+          ],
+          "model": {
+            "type": "minecraft:empty"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:custom_data",
+        "value": {
+          "ff_hoverboard_active": true
+        },
+        "on_true": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "thirdperson_righthand",
+                "thirdperson_lefthand",
+                "firstperson_righthand",
+                "firstperson_lefthand"
+              ],
+              "model": {
+                "type": "minecraft:empty"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil_frights:items/frights/hard_items/hoverboard/hoverboard_inventory_active",
+            "tints": [
+              {
+                "type": "minecraft:constant",
+                "value": -1
+              },
+              {
+                "type": "minecraft:custom_model_data",
+                "index": 0,
+                "default": -11407105
+              }
+            ],
+            "transformation": {
+              "right_rotation": [0,0,0,1],
+              "scale": [2,2,2],
+              "left_rotation": [0,0,0,1],
+              "translation": [-0.5,0,0]
+            }
+          }
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "fossil_frights:items/frights/hard_items/hoverboard/hoverboard_inventory",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:custom_model_data",
+              "index": 0,
+              "default": -11407105
+            }
+          ]
+        }
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:custom_data",
+      "value": {
+        "ff_hoverboard_active": true
+      },
+      "on_true": {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+          {
+            "when": [
+              "thirdperson_righthand",
+              "thirdperson_lefthand",
+              "firstperson_righthand",
+              "firstperson_lefthand"
+            ],
+            "model": {
+              "type": "minecraft:empty"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "fossil_frights:items/frights/hard_items/hoverboard/hoverboard_inventory_active",
+          "tints": [
+            {
+              "type": "minecraft:constant",
+              "value": -1
+            },
+            {
+              "type": "minecraft:custom_model_data",
+              "index": 0,
+              "default": -11407105
+            }
+          ],
+          "transformation": {
+            "right_rotation": [0,0,0,1],
+            "scale": [2,2,2],
+            "left_rotation": [0,0,0,1],
+            "translation": [-0.5,0,0]
+          }
+        }
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "fossil_frights:items/frights/hard_items/hoverboard/hoverboard_inventory",
+        "tints": [
+          {
+            "type": "minecraft:constant",
+            "value": -1
+          },
+          {
+            "type": "minecraft:custom_model_data",
+            "index": 0,
+            "default": -11407105
+          }
+        ]
+      }
+    }
+  },
+  "oversized_in_gui": true
+}

@@ -1,0 +1,10 @@
+{
+    "near_distance": 5,
+    "far_distance": 30,
+    "sprites": [
+        "fossil_frights:start_room_0",
+        "fossil_frights:start_room_1",
+        "fossil_frights:start_room_2",
+        "fossil_frights:start_room_3"
+    ]
+}

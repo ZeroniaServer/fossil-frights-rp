@@ -6,7 +6,7 @@
       "y": 270
     },
     "facing=east,in_wall=false,open=true": {
-      "model": "fossil-frights:block/sink",
+      "model": "fossil_frights:block/sink",
       "y": 90
     },
     "facing=east,in_wall=true,open=false": {
@@ -15,7 +15,7 @@
       "y": 270
     },
     "facing=east,in_wall=true,open=true": {
-      "model": "fossil-frights:block/toilet_roll",
+      "model": "fossil_frights:block/toilet_roll",
       "y": 270
     },
     "facing=north,in_wall=false,open=false": {
@@ -24,7 +24,7 @@
       "y": 180
     },
     "facing=north,in_wall=false,open=true": {
-      "model": "fossil-frights:block/sink"
+      "model": "fossil_frights:block/sink"
     },
     "facing=north,in_wall=true,open=false": {
       "model": "minecraft:block/crimson_fence_gate_wall",
@@ -32,7 +32,7 @@
       "y": 180
     },
     "facing=north,in_wall=true,open=true": {
-      "model": "fossil-frights:block/toilet_roll",
+      "model": "fossil_frights:block/toilet_roll",
       "y": 180
     },
     "facing=south,in_wall=false,open=false": {
@@ -40,7 +40,7 @@
       "uvlock": true
     },
     "facing=south,in_wall=false,open=true": {
-      "model": "fossil-frights:block/sink",
+      "model": "fossil_frights:block/sink",
       "y": 180
     },
     "facing=south,in_wall=true,open=false": {
@@ -48,7 +48,7 @@
       "uvlock": true
     },
     "facing=south,in_wall=true,open=true": {
-      "model": "fossil-frights:block/toilet_roll"
+      "model": "fossil_frights:block/toilet_roll"
     },
     "facing=west,in_wall=false,open=false": {
       "model": "minecraft:block/crimson_fence_gate",
@@ -56,7 +56,7 @@
       "y": 90
     },
     "facing=west,in_wall=false,open=true": {
-      "model": "fossil-frights:block/sink",
+      "model": "fossil_frights:block/sink",
       "y": 270
     },
     "facing=west,in_wall=true,open=false": {
@@ -65,7 +65,7 @@
       "y": 90
     },
     "facing=west,in_wall=true,open=true": {
-      "model": "fossil-frights:block/toilet_roll",
+      "model": "fossil_frights:block/toilet_roll",
       "y": 90
     }
   }

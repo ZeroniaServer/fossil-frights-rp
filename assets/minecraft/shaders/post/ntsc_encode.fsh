@@ -1,8 +1,9 @@
 #version 330
+#extension GL_ARB_separate_shader_objects : require
 
 uniform sampler2D InSampler;
 
-in vec2 texCoord;
+layout (location = 0) in vec2 texCoord;
 
 layout(std140) uniform SamplerInfo {
     vec2 OutSize;
@@ -23,7 +24,7 @@ const vec4 QTransform = vec4(0.211456, -0.522591, 0.31135, 0.0);
 const vec4 MinC = vec4(-1.1183);
 const vec4 InvCRange = vec4(1.0 / 3.2366);
 
-out vec4 fragColor;
+layout (location = 0) out vec4 fragColor;
 
 void main() {
     vec2 oneTexel = 1.0 / InSize;

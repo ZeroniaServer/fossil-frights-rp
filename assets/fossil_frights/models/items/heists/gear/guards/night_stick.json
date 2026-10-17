@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "fossil_frights:items/heists/gear/guards/night_stick"
+  }
+}

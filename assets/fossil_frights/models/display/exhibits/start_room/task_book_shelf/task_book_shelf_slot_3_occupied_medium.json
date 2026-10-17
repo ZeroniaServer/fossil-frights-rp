@@ -1,0 +1,16 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_medium",
+		"particle": "fossil_frights:display/exhibits/start_room/task_book_shelf/task_book_shelf_medium"
+	},
+	"elements": [
+		{
+			"from": [10, 1, 0],
+			"to": [15, 7, 0],
+			"faces": {
+				"north": {"uv": [1, 9, 6, 15], "texture": "#0"}
+			}
+		}
+	]
+}

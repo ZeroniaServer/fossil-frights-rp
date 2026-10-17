@@ -1,12 +1,12 @@
 {
   "textures": [
-    "fossil-frights:snowflake_7",
-    "fossil-frights:snowflake_6",
-    "fossil-frights:snowflake_5",
-    "fossil-frights:snowflake_4",
-    "fossil-frights:snowflake_3",
-    "fossil-frights:snowflake_2",
-    "fossil-frights:snowflake_1",
-    "fossil-frights:snowflake_0"
+    "fossil_frights:snowflake_7",
+    "fossil_frights:snowflake_6",
+    "fossil_frights:snowflake_5",
+    "fossil_frights:snowflake_4",
+    "fossil_frights:snowflake_3",
+    "fossil_frights:snowflake_2",
+    "fossil_frights:snowflake_1",
+    "fossil_frights:snowflake_0"
   ]
 }

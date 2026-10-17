@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fossil_frights:items/map/dynamic_map_item/museum_map_item_ruins"
+  },
+  "display": {
+    "fixed": {
+      "scale": [
+        2,
+        2,
+        2
+      ]
+    }
+  }
+}

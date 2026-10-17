@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/actionbar/ac_buttons.png",
+      "ascent": 12,
+      "height": 12,
+      "chars": [
+      ""
+      ]
+    }
+  ]
+}

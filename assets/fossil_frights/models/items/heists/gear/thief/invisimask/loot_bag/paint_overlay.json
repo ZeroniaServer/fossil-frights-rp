@@ -1,0 +1,60 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "fossil_frights:items/heists/gear/thief/invisimask/loot_bag/paint_overlay",
+		"particle": "fossil_frights:items/heists/gear/thief/invisimask/loot_bag/paint_overlay"
+	},
+	"elements": [
+		{
+			"from": [-4.012, -13.013, -4.012],
+			"to": [20.012, 22.022, 17.009],
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4.5045, 6.4985]},
+			"faces": {
+				"north": {"uv": [8.25, 2.625, 11.25, 7], "texture": "#0"},
+				"east": {"uv": [5.625, 2.625, 8.25, 7], "texture": "#0"},
+				"south": {"uv": [2.625, 2.625, 5.625, 7], "texture": "#0"},
+				"west": {"uv": [0, 2.625, 2.625, 7], "texture": "#0"},
+				"up": {"uv": [5.625, 2.625, 2.625, 0], "texture": "#0"},
+				"down": {"uv": [8.625, 0, 5.625, 2.625], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [81, -180, 0],
+			"translation": [3.25, 2.25, 4.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [81, -180, 0],
+			"translation": [3.25, 2.25, 4.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [11, -180, 0],
+			"scale": [0.41, 0.41, 0.41]
+		},
+		"firstperson_lefthand": {
+			"rotation": [11, -180, 0],
+			"scale": [0.41, 0.41, 0.41]
+		},
+		"ground": {
+			"translation": [0, 17.25, 0]
+		},
+		"gui": {
+			"scale": [0, 0, 0]
+		},
+		"head": {
+			"rotation": [-21, 0, 0],
+			"translation": [-4.25, -14.5, 12.75]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -40.5],
+			"scale": [2, 2, 2]
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+    "near_distance": 5,
+    "far_distance": 30,
+    "sprites": [
+        "fossil_frights:task_hard_0",
+        "fossil_frights:task_hard_1",
+        "fossil_frights:task_hard_2",
+        "fossil_frights:task_hard_3"
+    ]
+}

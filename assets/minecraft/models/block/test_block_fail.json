@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cube_all",
   "textures": {
     "all": "minecraft:block/test_block_fail",
-    "particle": "fossil-frights:items/misc/creative_inventory/zombie_head_marker"
+    "particle": "fossil_frights:items/misc/creative_inventory/zombie_head_marker"
   }
 }

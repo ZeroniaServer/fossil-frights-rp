@@ -1,5 +1,5 @@
 {
-	"textures": {
-		"particle": "fossil-frights:display/misc/transparent"
-	}
+  "textures": {
+    "particle": "fossil_frights:display/misc/transparent"
+  }
 }

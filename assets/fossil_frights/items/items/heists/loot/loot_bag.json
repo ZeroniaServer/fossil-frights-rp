@@ -1,0 +1,24 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": "thirdperson_righthand",
+        "model": {
+          "type": "minecraft:empty"
+        }
+      },
+      {
+        "when": "thirdperson_lefthand",
+        "model": {
+          "type": "minecraft:empty"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "fossil_frights:items/heists/loot/loot_bag_item"
+    }
+  }
+}

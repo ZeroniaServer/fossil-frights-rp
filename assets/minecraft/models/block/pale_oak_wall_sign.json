@@ -1,9 +1,9 @@
 {
-	"format_version": "26.2",
+	"format_version": "26.3",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"all": "block/pale_oak_sign",
-		"placard": "fossil-frights:display/general/signs/placards/tuff_placard",
+		"placard": "fossil_frights:display/general/signs/placards/tuff_placard",
 		"particle": "block/pale_oak_sign"
 	},
 	"elements": [

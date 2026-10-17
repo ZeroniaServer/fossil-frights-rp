@@ -2,7 +2,7 @@
   "providers": [
     {
       "type": "bitmap",
-      "file": "fossil-frights:font/title_overlays/fossil_frights.png",
+      "file": "fossil_frights:font/title_overlays/fossil_frights.png",
       "ascent": 28,
       "height": 48,
       "chars": [

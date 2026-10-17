@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "fossil_frights:display/map/locator_dot"
+  }
+}

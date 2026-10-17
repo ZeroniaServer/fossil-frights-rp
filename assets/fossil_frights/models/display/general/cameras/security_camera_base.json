@@ -1,0 +1,36 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "fossil_frights:display/general/cameras/security_camera_on",
+		"particle": "fossil_frights:display/general/cameras/security_camera_on"
+	},
+	"elements": [
+		{
+			"from": [5, 5, 0],
+			"to": [11, 11, 2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6, 0]},
+			"faces": {
+				"north": {"uv": [0, 5, 3, 8], "texture": "#0"},
+				"east": {"uv": [3, 5, 4, 8], "texture": "#0"},
+				"south": {"uv": [6.5, 0, 9.5, 3], "texture": "#0"},
+				"west": {"uv": [8, 8, 9, 11], "texture": "#0"},
+				"up": {"uv": [12, 4, 9, 3], "texture": "#0"},
+				"down": {"uv": [12, 4, 9, 5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 7, 2],
+			"to": [9, 9, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6, 2]},
+			"faces": {
+				"east": {"uv": [9.5, 2, 11.5, 3], "texture": "#0"},
+				"south": {"uv": [3.5, 10.5, 4.5, 11.5], "texture": "#0"},
+				"west": {"uv": [10, 5, 12, 6], "texture": "#0"},
+				"up": {"uv": [11, 8, 10, 6], "texture": "#0"},
+				"down": {"uv": [11, 8, 10, 10], "texture": "#0"}
+			}
+		}
+	]
+}

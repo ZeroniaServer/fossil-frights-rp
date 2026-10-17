@@ -1,0 +1,39 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "fossil_frights:display/tasks/fire_pottery/pot_3_baked"
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "fossil_frights:display/tasks/fire_pottery/pot_3_clay"
+    },
+    "transformation": {
+      "translation": [
+        0,
+        0.5,
+        0
+      ],
+      "left_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "right_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

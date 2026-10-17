@@ -12,28 +12,14 @@
         "fallback": "Official Resource Pack"
       }
     ],
-    "min_format": 88,
+    "min_format": 97,
     "max_format": 97
   },
   "language": {
-    "cm_ze": {
+    "caveman_zeronia": {
       "name": "Cave Man",
       "region": "Zeronia",
       "bidirectional": false
     }
-  },
-  "overlays": {
-    "entries": [
-      {
-        "directory": "overlay-26.3",
-        "min_format": 97,
-        "max_format": 97
-      },
-      {
-        "directory": "overlay-26.2",
-        "min_format": 88,
-        "max_format": 88
-      }
-    ]
   }
 }

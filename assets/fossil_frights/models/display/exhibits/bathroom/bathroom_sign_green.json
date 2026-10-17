@@ -1,0 +1,39 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+			"0": "fossil_frights:display/exhibits/bathroom/bathroom_sign_green",
+			"particle": "fossil_frights:display/exhibits/bathroom/bathroom_sign_green",
+			"emissive": "fossil_frights:display/exhibits/bathroom/bathroom_sign_green_emissive"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 2],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"east": {"uv": [4.5, 0, 4, 4], "texture": "#0"},
+				"south": {"uv": [0, 4, 4, 8], "texture": "#0"},
+				"west": {"uv": [4, 0, 4.5, 4], "texture": "#0"},
+				"up": {"uv": [4.5, 4, 4, 0], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [4.5, 0, 4, 4], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "emissive_0",
+			"from": [0, 0, 0],
+			"to": [16, 16, 2],
+			"shade_direction_override": "up",
+			"light_emission": 5,
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#emissive"},
+				"east": {"uv": [4.5, 0, 4, 4], "texture": "#emissive"},
+				"south": {"uv": [0, 4, 4, 8], "texture": "#emissive"},
+				"west": {"uv": [4, 0, 4.5, 4], "texture": "#emissive"},
+				"up": {"uv": [4.5, 4, 4, 0], "rotation": 90, "texture": "#emissive"},
+				"down": {"uv": [4.5, 0, 4, 4], "rotation": 90, "texture": "#emissive"}
+			}
+		}
+	]
+}

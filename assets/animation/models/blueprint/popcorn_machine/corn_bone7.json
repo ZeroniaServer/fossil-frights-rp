@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"0": "fossil-frights:display/tasks/refill_popcorn/popcorn_machine",
+		"0": "fossil_frights:display/tasks/refill_popcorn/popcorn_machine",
 		"particle": "minecraft:item/pufferfish"
 	},
 	"display": {

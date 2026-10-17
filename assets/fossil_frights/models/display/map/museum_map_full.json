@@ -1,0 +1,74 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "fossil_frights:display/map/museum_map_full",
+		"particle": "fossil_frights:display/map/museum_map_full"
+	},
+	"elements": [
+		{
+			"name": "museum_map_full_0",
+			"from": [0, 9.52809, 0],
+			"to": [16, 16, 0.08989],
+			"faces": {
+				"north": {"uv": [0, 0, 11.125, 4.5], "texture": "#2"},
+				"east": {"uv": [11.0625, 0, 11.125, 4.5], "texture": "#2"},
+				"south": {"uv": [0, 0, 11.125, 4.5], "texture": "#2"},
+				"west": {"uv": [0, 0, 0.0625, 4.5], "texture": "#2"},
+				"up": {"uv": [0, 0, 11.125, 0.0625], "texture": "#2"},
+				"down": {"uv": [0, 4.4375, 11.125, 4.5], "texture": "#2"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [32, 0, 0],
+			"translation": [-6.75, -8.5, 10.75],
+			"scale": [1.49, 1.49, 1.49]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [32, 0, 0],
+			"translation": [-6.75, -8.5, 10.75],
+			"scale": [1.49, 1.49, 1.49]
+		},
+		"firstperson_righthand": {
+			"translation": [-9.75, -19, 16],
+			"scale": [4, 4, 4]
+		},
+		"firstperson_lefthand": {
+			"translation": [-9.75, -19, 16],
+			"scale": [4, 4, 4]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -27.25, -11.25],
+			"scale": [2.48, 2.48, 2.48]
+		},
+		"gui": {
+			"rotation": [-37, -163, -34],
+			"translation": [0.25, -7.5, 0],
+			"scale": [0.96, 0.96, 0.96]
+		},
+		"head": {
+			"translation": [0, -24.5, 16.5],
+			"scale": [3.04, 3.04, 3.04]
+		},
+		"fixed": {
+			"translation": [0, 0, 31.75],
+			"scale": [4, 4, 4]
+		},
+		"on_shelf": {
+			"translation": [0, 13.75, 7.25],
+			"scale": [1.29, 1.29, 1.29]
+		}
+	},
+	"groups": [
+		{
+			"name": "museum_map_full",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

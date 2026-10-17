@@ -1,0 +1,36 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"all": "fossil_frights:block/railing",
+		"particle": "block/stripped_mangrove_log"
+	},
+	"elements": [
+		{
+			"from": [6, 14, 0],
+			"to": [10, 16, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 14, 0]},
+			"faces": {
+				"north": {"uv": [0, 6, 2, 7], "texture": "#all", "cullface": "north"},
+				"east": {"uv": [8, 7, 16, 9], "texture": "#all"},
+				"west": {"uv": [0, 7, 8, 9], "texture": "#all"},
+				"up": {"uv": [0, 6, 8, 2], "rotation": 90, "texture": "#all", "cullface": "up"},
+				"down": {"uv": [8, 2, 0, 6], "rotation": 270, "texture": "#all"}
+			}
+		},
+		{
+			"from": [6, 1, 0],
+			"to": [10, 3, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 1, 0]},
+			"faces": {
+				"north": {"uv": [0, 6, 2, 7], "texture": "#all", "cullface": "north"},
+				"east": {"uv": [8, 7, 16, 9], "texture": "#all"},
+				"west": {"uv": [0, 7, 8, 9], "texture": "#all"},
+				"up": {"uv": [0, 6, 8, 2], "rotation": 90, "texture": "#all", "cullface": "up"},
+				"down": {"uv": [8, 2, 0, 6], "rotation": 270, "texture": "#all"}
+			}
+		}
+	]
+}

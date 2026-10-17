@@ -1,9 +1,9 @@
 {
-	"format_version": "26.2",
+	"format_version": "26.3",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"all": "block/dark_oak_sign",
-		"placard": "fossil-frights:display/general/signs/placards/brass_placard",
+		"placard": "fossil_frights:display/general/signs/placards/brass_placard",
 		"particle": "block/dark_oak_sign"
 	},
 	"elements": [

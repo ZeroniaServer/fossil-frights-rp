@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "fossil-frights:items/misc/creative_inventory/sulfur_brick_wall"
+    "model": "fossil_frights:items/misc/creative_inventory/sulfur_brick_wall"
   }
 }

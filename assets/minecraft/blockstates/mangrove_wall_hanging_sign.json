@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "fossil_frights:block/railing",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "fossil_frights:block/railing"
+    },
+    "facing=south": {
+      "model": "fossil_frights:block/railing"
+    },
+    "facing=west": {
+      "model": "fossil_frights:block/railing",
+      "y": 270
+    }
+  }
+}

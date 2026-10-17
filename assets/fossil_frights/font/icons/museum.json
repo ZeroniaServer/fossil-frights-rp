@@ -1,0 +1,22 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/icons/museum.png",
+      "ascent": 12,
+      "height": 25,
+      "chars": [
+        "\ue125"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:display/misc/multiplayer.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": [
+        "\ue126"
+      ]
+    }
+  ]
+}

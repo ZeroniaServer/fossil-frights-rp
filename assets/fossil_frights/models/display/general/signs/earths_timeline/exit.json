@@ -1,0 +1,6 @@
+{
+  "parent": "fossil_frights:display/general/signs/earths_timeline/large_sign",
+  "textures": {
+    "1": "fossil_frights:display/general/signs/earths_timeline/exit"
+  }
+}

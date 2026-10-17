@@ -1,8 +1,9 @@
 #version 330
+#extension GL_ARB_separate_shader_objects : require
 
 uniform sampler2D InSampler;
 
-in vec2 texCoord;
+layout (location = 0) in vec2 texCoord;
 
 layout(std140) uniform SamplerInfo {
     vec2 OutSize;
@@ -26,7 +27,7 @@ const float ScanlineOffset = 0.0;
 const vec3 Floor = vec3(0.05, 0.05, 0.05);
 const vec3 Power = vec3(0.8, 0.8, 0.8);
 
-out vec4 fragColor;
+layout (location = 0) out vec4 fragColor;
 
 void main() {
     vec2 oneTexel = 1.0 / InSize;
@@ -49,11 +50,13 @@ void main() {
     ScreenClipCoord += Half.xy;
     ScreenClipCoord += CurvatureClipCurve;
 
+    fragColor = vec4(0);
+
     // -- Alpha Clipping --
-    if (ScanCoord.x < 0.0) discard;
-    if (ScanCoord.y < 0.0) discard;
-    if (ScanCoord.x > 1.0) discard;
-    if (ScanCoord.y > 1.0) discard;
+    if (ScanCoord.x < 0.0) return;
+    if (ScanCoord.y < 0.0) return;
+    if (ScanCoord.x > 1.0) return;
+    if (ScanCoord.y > 1.0) return;
 
     // -- Scanline Simulation --
     float InnerSine = ScanCoord.y * InSize.y * ScanlineScale * 0.25;

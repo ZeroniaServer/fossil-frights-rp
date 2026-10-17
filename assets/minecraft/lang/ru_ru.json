@@ -756,7 +756,7 @@
   "ff.crab": "Краб",
   "ff.crab.prompt": "<%1$s> Если у тебя есть %2$s, я могу отполировать твой ключ, мгновенно его сбросив!",
   "ff.crab.success": "<%1$s> Спасибо за %2$s! Держи свой отполированный ключ.",
-  "ff.crab.cooldown": "<%1$s> If you're key is ever recharging, I can polish it for you!",
+  "ff.crab.cooldown": "<%1$s> If your key is ever recharging, I can polish it for you!",
   "ff.crab.key_polished": "Ключ отполирован!",
   "ff.dinocoins.required": "Требуется %s",
   "ff.dinocoin": "Дино-монета",

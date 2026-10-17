@@ -756,7 +756,7 @@
   "ff.crab": "カニ",
   "ff.crab.prompt": "<%1$s> もし%2$sをお持ちなら、その鍵を磨いて差し上げますよ。すぐにリセットできるはずです！",
   "ff.crab.success": "<%1$s> %2$sをありがとうございます！ こちらが磨いた鍵です。",
-  "ff.crab.cooldown": "<%1$s> If you're key is ever recharging, I can polish it for you!",
+  "ff.crab.cooldown": "<%1$s> If your key is ever recharging, I can polish it for you!",
   "ff.crab.key_polished": "鍵を磨いた！",
   "ff.dinocoins.required": "%sが必要",
   "ff.dinocoin": "ディノコイン",

@@ -56,7 +56,7 @@
   "ff.messages.info.challenge_max": "%s set biggest prize for challenge.",
   "ff.messages.info.challenge_set": "%1$s set prize to $%2$s for challenge.",
   "ff.messages.info.challenge_original": "%s put prize back to $1000.",
-  "ff.messages.info.settings": "%1$s: %2$s %3$s",
+  "ff.messages.info.settings": "%1$s: %2$s",
   "ff.messages.info.settings.invite_terminal": "Portal",
   "ff.messages.info.settings.invite_terminal.description": "Bone Scares for two. Do jobs or bye. Use portal find friend or /%s.",
   "ff.messages.info.settings.invite_terminal.more": "No points with friend. Two-friend points in /%s",

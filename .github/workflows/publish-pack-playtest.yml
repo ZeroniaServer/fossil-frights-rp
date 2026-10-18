@@ -24,7 +24,8 @@ jobs:
           zip -r dist/fossil-frights-rp.zip . \
             -x ".git/*" \
             -x ".github/*" \
-            -x "dist/*"
+            -x "dist/*" \
+            -x "realms/*"
 
       - name: Generate SHA1
         run: sha1sum dist/fossil-frights-rp.zip | awk '{print $1}' > dist/fossil-frights-rp.zip.sha1

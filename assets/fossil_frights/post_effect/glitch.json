@@ -8,11 +8,6 @@
             "fragment_shader": "minecraft:post/glitch",
             "inputs": [
                 {
-                    "sampler_name": "Main",
-                    "target": "minecraft:main",
-                    "bilinear": false
-                },
-                {
                     "sampler_name": "Overlay",
                     "location": "fossil_frights:disabled_cameras",
                     "width": 1,

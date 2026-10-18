@@ -1,0 +1,341 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/base"
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 0,
+        "on_true": {
+          "type": "minecraft:select",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "cases": [
+            {
+              "when": "easy",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/easy/slot_0"
+              }
+            },
+            {
+              "when": "medium",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/medium/slot_0"
+              }
+            },
+            {
+              "when": "hard",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/hard/slot_0"
+              }
+            },
+            {
+              "when": "final",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/final/slot_0"
+              }
+            },
+            {
+              "when": "custom/pig_wrangler",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/custom/pig_wrangler/slot_0"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/slot_0"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/empty/slot_0"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 1,
+        "on_true": {
+          "type": "minecraft:select",
+          "property": "minecraft:custom_model_data",
+          "index": 1,
+          "cases": [
+            {
+              "when": "easy",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/easy/slot_1"
+              }
+            },
+            {
+              "when": "medium",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/medium/slot_1"
+              }
+            },
+            {
+              "when": "hard",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/hard/slot_1"
+              }
+            },
+            {
+              "when": "final",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/final/slot_1"
+              }
+            },
+            {
+              "when": "custom/pig_wrangler",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/custom/pig_wrangler/slot_1"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/slot_1"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/empty/slot_1"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 2,
+        "on_true": {
+          "type": "minecraft:select",
+          "property": "minecraft:custom_model_data",
+          "index": 2,
+          "cases": [
+            {
+              "when": "easy",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/easy/slot_2"
+              }
+            },
+            {
+              "when": "medium",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/medium/slot_2"
+              }
+            },
+            {
+              "when": "hard",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/hard/slot_2"
+              }
+            },
+            {
+              "when": "final",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/final/slot_2"
+              }
+            },
+            {
+              "when": "custom/pig_wrangler",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/custom/pig_wrangler/slot_2"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/slot_2"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/empty/slot_2"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 3,
+        "on_true": {
+          "type": "minecraft:select",
+          "property": "minecraft:custom_model_data",
+          "index": 3,
+          "cases": [
+            {
+              "when": "easy",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/easy/slot_3"
+              }
+            },
+            {
+              "when": "medium",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/medium/slot_3"
+              }
+            },
+            {
+              "when": "hard",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/hard/slot_3"
+              }
+            },
+            {
+              "when": "final",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/final/slot_3"
+              }
+            },
+            {
+              "when": "custom/pig_wrangler",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/custom/pig_wrangler/slot_3"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/slot_3"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/empty/slot_3"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 4,
+        "on_true": {
+          "type": "minecraft:select",
+          "property": "minecraft:custom_model_data",
+          "index": 4,
+          "cases": [
+            {
+              "when": "easy",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/easy/slot_4"
+              }
+            },
+            {
+              "when": "medium",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/medium/slot_4"
+              }
+            },
+            {
+              "when": "hard",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/hard/slot_4"
+              }
+            },
+            {
+              "when": "final",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/final/slot_4"
+              }
+            },
+            {
+              "when": "custom/pig_wrangler",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/custom/pig_wrangler/slot_4"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/slot_4"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/empty/slot_4"
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:custom_model_data",
+        "index": 5,
+        "on_true": {
+          "type": "minecraft:select",
+          "property": "minecraft:custom_model_data",
+          "index": 5,
+          "cases": [
+            {
+              "when": "easy",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/easy/slot_5"
+              }
+            },
+            {
+              "when": "medium",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/medium/slot_5"
+              }
+            },
+            {
+              "when": "hard",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/hard/slot_5"
+              }
+            },
+            {
+              "when": "final",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/final/slot_5"
+              }
+            },
+            {
+              "when": "custom/pig_wrangler",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/custom/pig_wrangler/slot_5"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/slot_5"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "fossil_frights:display/exhibits/start_room/task_book_shelf/empty/slot_5"
+        }
+      }
+    ]
+  }
+}

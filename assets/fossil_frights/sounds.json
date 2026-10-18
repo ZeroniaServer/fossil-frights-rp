@@ -8,6 +8,42 @@
       }
     ]
   },
+  "security_gate.moving": {
+    "subtitle": "subtitles.fossil_frights.security_gate.moving",
+    "sounds": [
+      {
+        "name": "fossil_frights:animations/security_gate_moving",
+        "stream": false
+      }
+    ]
+  },
+  "security_gate.moving.medium": {
+    "subtitle": "subtitles.fossil_frights.security_gate.moving",
+    "sounds": [
+      {
+        "name": "fossil_frights:animations/security_gate_moving_medium",
+        "stream": false
+      }
+    ]
+  },
+  "security_gate.moving.short": {
+    "subtitle": "subtitles.fossil_frights.security_gate.moving",
+    "sounds": [
+      {
+        "name": "fossil_frights:animations/security_gate_moving_short",
+        "stream": false
+      }
+    ]
+  },
+  "security_gate.shut": {
+    "subtitle": "subtitles.fossil_frights.security_gate.shut",
+    "sounds": [
+      {
+        "name": "fossil_frights:animations/security_gate_shut",
+        "stream": false
+      }
+    ]
+  },
   "animations.key": {
     "subtitle": "subtitles.fossil_frights.animations.key",
     "sounds": [
@@ -226,18 +262,18 @@
       }
     ]
   },
-  "music_loop.sulfur_striker": {
+  "music_loop.sulfur_strikers": {
     "sounds": [
       {
-        "name": "fossil_frights:music/sulfur_striker_loop",
+        "name": "fossil_frights:music/sulfur_strikers_loop",
         "stream": true
       }
     ]
   },
-  "music_stinger.sulfur_striker": {
+  "music_stinger.sulfur_strikers": {
     "sounds": [
       {
-        "name": "fossil_frights:music/sulfur_striker_stinger",
+        "name": "fossil_frights:music/sulfur_strikers_stinger",
         "stream": true
       }
     ]

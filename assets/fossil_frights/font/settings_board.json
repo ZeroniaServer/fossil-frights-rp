@@ -2,6 +2,13 @@
   "providers": [
     {
       "type": "bitmap",
+      "file": "fossil_frights:font/settings_board/gamemode/party.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["\u0000", "\ue460", "\u0000"]
+    },
+    {
+      "type": "bitmap",
       "file": "fossil_frights:font/settings_board/general/add_player.png",
       "ascent": 16,
       "height": 16,

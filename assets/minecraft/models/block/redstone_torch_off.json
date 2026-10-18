@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_torch_unlit",
+  "textures": {
+    "torch": "fossil_frights:block/burnt_out_torch"
+  }
+}

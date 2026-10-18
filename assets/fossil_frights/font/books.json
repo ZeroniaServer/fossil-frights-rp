@@ -1,0 +1,64 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "\ue001": -257
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/book/easy.png",
+      "ascent": 27,
+      "height": 256,
+      "chars": [
+        "\ue100"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/book/medium.png",
+      "ascent": 27,
+      "height": 256,
+      "chars": [
+        "\ue200"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/book/hard.png",
+      "ascent": 27,
+      "height": 256,
+      "chars": [
+        "\ue300"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/book/custom/pig_wrangler.png",
+      "ascent": 27,
+      "height": 256,
+      "chars": [
+        "\ue301"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/book/final.png",
+      "ascent": 27,
+      "height": 256,
+      "chars": [
+        "\ue400"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/book/custom/sniffer_clone.png",
+      "ascent": 27,
+      "height": 256,
+      "chars": [
+        "\ue401"
+      ]
+    }
+  ]
+}

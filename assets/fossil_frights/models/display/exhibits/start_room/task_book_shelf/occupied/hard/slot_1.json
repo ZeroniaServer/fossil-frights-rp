@@ -1,0 +1,6 @@
+{
+	"parent": "fossil_frights:display/exhibits/start_room/task_book_shelf/occupied/slot_1",
+	"textures": {
+		"0": "fossil_frights:display/exhibits/start_room/task_book_shelf/hard"
+	}
+}

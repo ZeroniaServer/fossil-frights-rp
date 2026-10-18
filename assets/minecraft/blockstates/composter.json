@@ -10,9 +10,6 @@
             "level": "1"
           },
           {
-            "level": "3"
-          },
-          {
             "level": "4"
           },
           {
@@ -51,7 +48,7 @@
     },
     {
       "apply": {
-        "model": "minecraft:block/composter_contents3"
+        "model": "fossil_frights:block/composter_level_6_with_spruce_trapdoors"
       },
       "when": {
         "level": "3"

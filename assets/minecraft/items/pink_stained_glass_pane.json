@@ -2,13 +2,26 @@
   "model": {
     "type": "minecraft:composite",
     "models": [
-       {
-    "type": "minecraft:model",
-    "model": "minecraft:item/pink_stained_glass_pane"
-  }, {
-    "type": "minecraft:model",
-    "model": "minecraft:item/barrier"
-  }
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/pink_stained_glass_pane"
+      },
+      {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+          {
+            "when": "gui",
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/barrier"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
+        }
+      }
     ]
   }
 }

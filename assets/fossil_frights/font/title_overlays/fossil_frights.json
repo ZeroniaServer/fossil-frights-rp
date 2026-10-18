@@ -3,8 +3,8 @@
     {
       "type": "bitmap",
       "file": "fossil_frights:font/title_overlays/fossil_frights.png",
-      "ascent": 28,
-      "height": 56,
+      "ascent": 46,
+      "height": 92,
       "chars": [
         "\ue000"
       ]

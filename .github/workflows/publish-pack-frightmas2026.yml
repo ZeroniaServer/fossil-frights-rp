@@ -1,0 +1,54 @@
+name: Publish Frightmas 2026 Resource Pack
+
+on:
+  push:
+    branches:
+      - frightmas2026
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    if: github.ref_name == 'frightmas2026'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Build pack zip
+        run: |
+          mkdir -p dist
+          zip -r dist/fossil-frights-rp.zip . \
+            -x ".git/*" \
+            -x ".github/*" \
+            -x "dist/*"
+
+      - name: Generate SHA1
+        run: sha1sum dist/fossil-frights-rp.zip | awk '{print $1}' > dist/fossil-frights-rp.zip.sha1
+
+      - name: Create or update rolling release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="resource-pack-frightmas-latest"
+          title="Latest Frightmas Resource Pack"
+          notes="Automated Frightmas 2026 resource pack build for ${GITHUB_SHA}"
+
+          if gh release view "$tag" >/dev/null 2>&1; then
+            gh release upload "$tag" \
+              dist/fossil-frights-rp.zip \
+              dist/fossil-frights-rp.zip.sha1 \
+              --clobber
+            gh release edit "$tag" \
+              --title "$title" \
+              --notes "$notes"
+          else
+            gh release create "$tag" \
+              dist/fossil-frights-rp.zip \
+              dist/fossil-frights-rp.zip.sha1 \
+              --title "$title" \
+              --notes "$notes"
+          fi

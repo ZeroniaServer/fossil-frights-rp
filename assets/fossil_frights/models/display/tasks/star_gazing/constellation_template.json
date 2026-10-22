@@ -4,8 +4,8 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"constellation": "fossil_frights:display/tasks/star_gazing/constellation_bee",
-		"frame": "fossil_frights:display/tasks/star_gazing/constellation_frame",
-		"particle": "fossil_frights:display/tasks/star_gazing/constellation_frame"
+		"particle": "fossil_frights:display/tasks/star_gazing/constellation_frame",
+		"frame": "fossil_frights:display/tasks/star_gazing/constellation_frame"
 	},
 	"elements": [
 		{

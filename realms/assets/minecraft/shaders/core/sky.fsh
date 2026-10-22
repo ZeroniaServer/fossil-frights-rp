@@ -15,7 +15,7 @@ layout(location = 0) out vec4 fragColor;
 void main() {
     vec4 customSkyColor = ColorModulator;
     const vec3 PLAINS_SKY = vec3(120/255., 167/255., 255/255.); // #78a7ff
-    const vec3 MUSEUM_SKY = vec3(126/255., 222/255., 255/255.); // #7edeff
+    const vec3 MUSEUM_SKY = vec3(183/255., 215/255., 242/255.); // #b7d7f2
     vec3 atmosphericFactor = ColorModulator.rgb / PLAINS_SKY;
     customSkyColor = vec4(MUSEUM_SKY * atmosphericFactor, ColorModulator.a);
 

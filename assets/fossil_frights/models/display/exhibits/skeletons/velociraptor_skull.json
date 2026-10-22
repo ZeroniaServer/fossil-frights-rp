@@ -1,9 +1,9 @@
 {
 	"format_version": "26.3",
-	"credit": "Codex",
+	"credit": "Made with Blockbench",
 	"textures": {
-		"texture": "block/cherry_planks",
-		"particle": "block/cherry_planks"
+		"particle": "block/cherry_planks",
+		"texture": "block/cherry_planks"
 	},
 	"elements": [
 		{
@@ -34,7 +34,18 @@
 			}
 		},
 		{
-			"name": "spruce_stairs_lower",
+			"name": "spruce_stairs_upper",
+			"from": [8, -7, 0],
+			"to": [16, 1, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -23, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#texture"},
+				"south": {"uv": [8, 0, 16, 8], "texture": "#texture"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#texture"}
+			}
+		},
+		{
+			"name": "spruce_slab",
 			"from": [16, -7, 0],
 			"to": [32, 1, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [16, -15, 0]},
@@ -42,12 +53,11 @@
 				"north": {"uv": [0, 8, 16, 16], "texture": "#texture"},
 				"east": {"uv": [0, 8, 16, 16], "texture": "#texture"},
 				"south": {"uv": [0, 8, 16, 16], "texture": "#texture"},
-				"west": {"uv": [0, 8, 16, 16], "texture": "#texture"},
 				"up": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#texture"}
 			}
 		},
 		{
-			"name": "spruce_stairs_lower",
+			"name": "spruce_stairs_slab",
 			"from": [16, -15, 0],
 			"to": [32, -7, 16],
 			"rotation": {"angle": 0, "axis": "y", "origin": [16, -23, 0]},
@@ -57,18 +67,6 @@
 				"south": {"uv": [0, 8, 16, 16], "texture": "#texture"},
 				"west": {"uv": [0, 8, 16, 16], "texture": "#texture"},
 				"down": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#texture"}
-			}
-		},
-		{
-			"name": "spruce_stairs_upper",
-			"from": [8, -7, 0],
-			"to": [16, 1, 16],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, -23, 0]},
-			"faces": {
-				"north": {"uv": [0, 0, 8, 8], "texture": "#texture"},
-				"south": {"uv": [8, 0, 16, 8], "texture": "#texture"},
-				"west": {"uv": [0, 0, 16, 8], "texture": "#texture"},
-				"up": {"uv": [8, 0, 16, 16], "texture": "#texture"}
 			}
 		},
 		{
@@ -133,5 +131,19 @@
 			"translation": [-32, 0, -46],
 			"scale": [2, 2, 2]
 		}
-	}
+	},
+	"groups": [
+		0,
+		{
+			"name": "spruce_stair",
+			"origin": [0, -7, 0],
+			"scope": 0,
+			"color": 0,
+			"children": [1, 2]
+		},
+		3,
+		4,
+		5,
+		6
+	]
 }

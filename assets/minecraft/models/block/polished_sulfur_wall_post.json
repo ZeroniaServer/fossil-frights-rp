@@ -1,0 +1,35 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/template_wall_post",
+	"textures": {
+		"wall": "block/andesite"
+	},
+	"elements": [
+		{
+			"name": "Center post",
+			"from": [4, 0, 4],
+			"to": [12, 16, 12],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#wall"},
+				"east": {"uv": [4, 0, 12, 16], "texture": "#wall"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#wall"},
+				"west": {"uv": [4, 0, 12, 16], "texture": "#wall"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#wall", "cullface": "down"}
+			}
+		},
+		{
+			"name": "Center post top",
+			"from": [4, 16, 4],
+			"to": [12, 24, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 16, 0]},
+			"faces": {
+				"north": {"uv": [4, 8, 12, 16], "texture": "#wall", "cullface": "up"},
+				"east": {"uv": [4, 8, 12, 16], "texture": "#wall", "cullface": "up"},
+				"south": {"uv": [4, 8, 12, 16], "texture": "#wall", "cullface": "up"},
+				"west": {"uv": [4, 8, 12, 16], "texture": "#wall", "cullface": "up"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#wall", "cullface": "up"}
+			}
+		}
+	]
+}

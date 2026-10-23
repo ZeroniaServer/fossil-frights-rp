@@ -3,9 +3,60 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"particle": "block/cherry_planks",
-		"texture": "block/cherry_planks"
+		"texture": "block/cherry_planks",
+		"hat": "fossil_frights:display/frightmas/frightmas_hat"
 	},
 	"elements": [
+		{
+			"from": [-0.5, 6.0126, -0.99],
+			"to": [17.414, 11.3868, 16.924],
+			"rotation": {"x": 4.95744, "y": 0.65182, "z": -7.47178, "origin": [8.5, 9.65551, 8.01]},
+			"faces": {
+				"north": {"uv": [2.5, 2.5, 5, 3.25], "texture": "#hat"},
+				"east": {"uv": [0, 2.5, 2.5, 3.25], "texture": "#hat"},
+				"south": {"uv": [7.5, 2.5, 10, 3.25], "texture": "#hat"},
+				"west": {"uv": [5, 2.5, 7.5, 3.25], "texture": "#hat"},
+				"up": {"uv": [5, 2.5, 2.5, 0], "texture": "#hat"},
+				"down": {"uv": [7.5, 0, 5, 2.5], "texture": "#hat"}
+			}
+		},
+		{
+			"from": [0.46459, 8.4751, -0.30527],
+			"to": [16.58719, 13.8493, 15.36948],
+			"rotation": {"x": 19.83399, "y": 2.35432, "z": -12.1748, "origin": [8.5, 9.65551, 8.01]},
+			"faces": {
+				"north": {"uv": [2, 5.25, 4.25, 6], "texture": "#hat"},
+				"east": {"uv": [0, 5.25, 2, 6], "texture": "#hat"},
+				"south": {"uv": [6.25, 5.25, 8.5, 6], "texture": "#hat"},
+				"west": {"uv": [4.25, 5.25, 6.25, 6], "texture": "#hat"},
+				"up": {"uv": [4.25, 5.25, 2, 3.25], "texture": "#hat"}
+			}
+		},
+		{
+			"from": [4.38805, 12.64822, 4.70164],
+			"to": [15.13645, 17.63711, 16.79359],
+			"rotation": {"x": 24.16864, "y": 5.70021, "z": -21.62318, "origin": [8.5, 9.65551, 8.01]},
+			"faces": {
+				"north": {"uv": [1.5, 7.5, 3, 8.25], "texture": "#hat"},
+				"east": {"uv": [0, 7.5, 1.5, 8.25], "texture": "#hat"},
+				"south": {"uv": [4.5, 7.5, 6, 8.25], "texture": "#hat"},
+				"west": {"uv": [3, 7.5, 4.5, 8.25], "texture": "#hat"},
+				"up": {"uv": [3, 7.5, 1.5, 6], "texture": "#hat"}
+			}
+		},
+		{
+			"from": [9.55848, 2.074, 13.52428],
+			"to": [16.72408, 9.2396, 20.24203],
+			"rotation": {"x": -10.13595, "y": 12.91008, "z": -11.12149, "origin": [8.5, 9.65551, 8.01]},
+			"faces": {
+				"north": {"uv": [6.75, 6.75, 7.75, 7.75], "texture": "#hat"},
+				"east": {"uv": [6, 6.75, 6.75, 7.75], "texture": "#hat"},
+				"south": {"uv": [8.5, 6.75, 9.5, 7.75], "texture": "#hat"},
+				"west": {"uv": [7.75, 6.75, 8.5, 7.75], "texture": "#hat"},
+				"up": {"uv": [7.75, 6.75, 6.75, 6], "texture": "#hat"},
+				"down": {"uv": [8.75, 6, 7.75, 6.75], "texture": "#hat"}
+			}
+		},
 		{
 			"name": "spruce_slab",
 			"from": [-16, -7, 0],
@@ -133,17 +184,24 @@
 		}
 	},
 	"groups": [
-		0,
+		{
+			"name": "group",
+			"origin": [3, 0, 3],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		},
+		4,
 		{
 			"name": "spruce_stair",
 			"origin": [0, -7, 0],
 			"scope": 0,
 			"color": 0,
-			"children": [1, 2]
+			"children": [5, 6]
 		},
-		3,
-		4,
-		5,
-		6
+		7,
+		8,
+		9,
+		10
 	]
 }

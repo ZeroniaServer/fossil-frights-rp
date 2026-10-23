@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "fossil_frights:items/frightmas/dinonog"
+    },
+    "on_false": {
+      "type": "minecraft:empty"
+    }
+  }
+}

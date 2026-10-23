@@ -25,12 +25,12 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "fossil_frights:items/frightmas/frightmas_hat"
+        "model": "fossil_frights:display/frightmas/frightmas_hat"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "fossil_frights:items/frightmas/frightmas_hat"
+      "model": "fossil_frights:display/frightmas/frightmas_hat"
     }
   }
 }

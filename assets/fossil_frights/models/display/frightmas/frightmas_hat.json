@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "fossil_frights:items/frightmas/frightmas_hat",
-		"particle": "fossil_frights:items/frightmas/frightmas_hat"
+		"0": "fossil_frights:display/frightmas/frightmas_hat",
+		"particle": "fossil_frights:display/frightmas/frightmas_hat"
 	},
 	"elements": [
 		{

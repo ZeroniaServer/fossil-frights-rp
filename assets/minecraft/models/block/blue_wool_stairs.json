@@ -1,0 +1,35 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/stairs",
+	"textures": {
+		"1": "fossil_frights:block/observatory_security_gate_cutout_light_blue_concrete",
+		"bottom": "block/light_blue_concrete",
+		"particle": "#1"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "texture": "#bottom", "cullface": "north"},
+				"east": {"uv": [0, 8, 16, 16], "texture": "#bottom", "cullface": "east"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#bottom", "cullface": "south"},
+				"west": {"uv": [0, 0, 8, 16], "rotation": 90, "texture": "#1", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"}
+			}
+		},
+		{
+			"from": [8, 8, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#bottom", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#bottom", "cullface": "east"},
+				"south": {"uv": [8, 0, 16, 8], "texture": "#bottom", "cullface": "south"},
+				"west": {"uv": [0, 0, 8, 16], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 8], "rotation": 90, "texture": "#1", "cullface": "up"}
+			}
+		}
+	]
+}

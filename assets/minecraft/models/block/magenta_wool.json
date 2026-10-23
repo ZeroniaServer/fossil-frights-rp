@@ -1,0 +1,24 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"1": "fossil_frights:block/observatory_security_gate_cutout_light_blue_terracotta",
+		"particle": "fossil_frights:block/observatory_security_gate_cutout_light_blue_terracotta",
+		"bottom": "block/light_blue_terracotta"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#1", "cullface": "down"}
+			}
+		}
+	]
+}

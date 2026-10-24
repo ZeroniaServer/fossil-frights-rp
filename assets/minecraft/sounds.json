@@ -656,5 +656,11 @@
     "sounds": [
       "fossil_frights:silent"
     ]
+  },
+  "entity.player.hurt_sweet_berry_bush": {
+    "replace": true,
+    "sounds": [
+      "fossil_frights:silent"
+    ]
   }
 }

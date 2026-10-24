@@ -13,9 +13,7 @@
               "property": "minecraft:component",
               "predicate": "minecraft:custom_data",
               "value": {
-                "ff_invisimask": {
-                  "hidden": true
-                }
+                "ff_invisible": true
               },
               "on_true": {
                 "type": "minecraft:empty"
@@ -155,9 +153,7 @@
                     "property": "minecraft:component",
                     "predicate": "minecraft:custom_data",
                     "value": {
-                      "ff_invisimask": {
-                        "hidden": true
-                      }
+                      "ff_invisible": true
                     },
                     "on_true": {
                       "type": "minecraft:composite",

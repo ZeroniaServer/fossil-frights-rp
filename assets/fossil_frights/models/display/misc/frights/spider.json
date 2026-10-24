@@ -4,7 +4,8 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "fossil_frights:display/misc/frights/spider",
-		"1": "fossil_frights:display/misc/frights/spider_emissive"
+		"1": "fossil_frights:display/misc/frights/spider_emissive",
+		"particle": "fossil_frights:display/misc/frights/spider"
 	},
 	"elements": [
 		{

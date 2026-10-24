@@ -23,8 +23,8 @@ layout(std140) uniform u_Globals {
 
 // Dynamic, continuous fog remapping logic for Plains/Void worlds
 vec4 get_custom_fog_color() {
-    const vec3 MUSEUM_FOG       = vec3(144/255., 199/255.,  166/255.); // #90C7A6
-    const vec3 MUSEUM_WATER_FOG = vec3( 25/255., 139/255.,  143/255.); // #198B8F
+    const vec3 MUSEUM_FOG       = vec3(144/255., 199/255., 166/255.); // #90C7A6
+    const vec3 MUSEUM_WATER_FOG = vec3( 25/255., 139/255., 143/255.); // #198B8F
 
     float lum = dot(u_NativeFogColor.rgb, vec3(0.2126, 0.7152, 0.0722));
     if (lum < 0.001) {

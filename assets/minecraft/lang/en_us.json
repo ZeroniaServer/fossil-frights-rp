@@ -2369,5 +2369,6 @@
   "ff.actionbar.heists.loot_security.already_secured": "Already secured",
   "ff.actionbar.heists.loot_security.recently_secured": "Secured too recently",
   "ff.actionbar.heists.loot_security.in_progress": "A guard is already securing...",
-  "ff.actionbar.task_book_reminder": "Grab your task books from the start room"
+  "ff.actionbar.task_book_reminder": "Grab your task books from the start room",
+  "ff.item.frightmas_star": "Frightmas Star"
 }

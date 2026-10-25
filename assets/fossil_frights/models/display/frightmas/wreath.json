@@ -68,6 +68,37 @@
 			}
 		}
 	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [76, 0, 0],
+			"translation": [0, -3.5, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [76, 0, 0],
+			"translation": [0, -3.5, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -6.25, 0]
+		},
+		"gui": {
+			"rotation": [-23, -180, 0],
+			"translation": [0, -1.5, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"rotation": [0, 0, -45],
+			"translation": [0, -1.5, 2],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"on_shelf": {
+			"rotation": [180, 0, 0],
+			"translation": [0, 0, -11.75],
+			"scale": [4, 4, 4]
+		}
+	},
 	"groups": [
 		{
 			"name": "group",

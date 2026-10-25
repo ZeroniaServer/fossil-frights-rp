@@ -416,5 +416,14 @@
     "sounds": [
       "minecraft:block/beacon/deactivate"
     ]
+  },
+  "goldfish_squeak": {
+    "subtitle": "subtitles.fossil_frights.goldfish_squeak",
+    "sounds": [
+      {
+        "name": "fossil_frights:animations/goldfish_squeak",
+        "stream": false
+      }
+    ]
   }
 }

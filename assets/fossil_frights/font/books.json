@@ -44,6 +44,33 @@
     },
     {
       "type": "bitmap",
+      "file": "fossil_frights:font/book/custom/cotton_candy_sticker.png",
+      "ascent": 27,
+      "height": 256,
+      "chars": [
+        "\ue302"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/book/custom/cotton_candy_sticker_bite.png",
+      "ascent": 27,
+      "height": 256,
+      "chars": [
+        "\ue303"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/book/custom/cotton_candy_sticker_peeled.png",
+      "ascent": 27,
+      "height": 256,
+      "chars": [
+        "\ue304"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "fossil_frights:font/book/final.png",
       "ascent": 27,
       "height": 256,

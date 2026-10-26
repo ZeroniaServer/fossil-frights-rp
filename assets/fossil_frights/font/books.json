@@ -89,6 +89,15 @@
     },
     {
       "type": "bitmap",
+      "file": "fossil_frights:font/book/blueprint/example_blueprint.png",
+      "ascent": 27,
+      "height": 256,
+      "chars": [
+        "\ue500"
+      ]
+    },
+    {
+      "type": "bitmap",
       "file": "fossil_frights:font/book/example/1.png",
       "ascent": 27,
       "height": 256,

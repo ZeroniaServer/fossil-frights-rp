@@ -59,6 +59,24 @@
       "chars": [
         "\ue401"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/book/example/1.png",
+      "ascent": 27,
+      "height": 256,
+      "chars": [
+        "\uef00"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/book/example/2.png",
+      "ascent": 27,
+      "height": 256,
+      "chars": [
+        "\uef01"
+      ]
     }
   ]
 }

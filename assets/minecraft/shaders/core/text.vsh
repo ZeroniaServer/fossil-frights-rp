@@ -94,9 +94,15 @@ void main() {
         vertexColor.rgb = vec3(63/255., 21/255., 21/255.);
     }
 
-    // books
+    // left book
     else if (Color.rgb == vec3(123/255., 123/255., 1/255.)) {
         vec3 newPos = vec3(Position.x + 131, Position.y - 9, Position.z);
+        gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
+        vertexColor.rgb = vec3(1);
+    }
+    // right book
+    else if (Color.rgb == vec3(123/255., 123/255., 2/255.)) {
+        vec3 newPos = vec3(Position.x + 131 + 256, Position.y - 9, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
         vertexColor.rgb = vec3(1);
     }

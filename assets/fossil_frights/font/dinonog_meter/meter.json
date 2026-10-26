@@ -5,280 +5,280 @@
       "file": "fossil_frights:font/dinonog_meter/0.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE700"]
+      "chars": ["\uE700"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/1.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE701"]
+      "chars": ["\uE701"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/2.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE702"]
+      "chars": ["\uE702"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/3.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE703"]
+      "chars": ["\uE703"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/4.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE704"]
+      "chars": ["\uE704"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/5.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE705"]
+      "chars": ["\uE705"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/6.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE706"]
+      "chars": ["\uE706"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/7.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE707"]
+      "chars": ["\uE707"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/8.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE708"]
+      "chars": ["\uE708"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/9.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE709"]
+      "chars": ["\uE709"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/10.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE70A"]
+      "chars": ["\uE70A"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/11.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE70B"]
+      "chars": ["\uE70B"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/12.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE70C"]
+      "chars": ["\uE70C"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/13.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE70D"]
+      "chars": ["\uE70D"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/14.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE70E"]
+      "chars": ["\uE70E"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/15.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE70F"]
+      "chars": ["\uE70F"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/16.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE710"]
+      "chars": ["\uE710"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/17.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE711"]
+      "chars": ["\uE711"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/18.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE712"]
+      "chars": ["\uE712"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/19.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE713"]
+      "chars": ["\uE713"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/20.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE714"]
+      "chars": ["\uE714"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/21.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE715"]
+      "chars": ["\uE715"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/22.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE716"]
+      "chars": ["\uE716"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/23.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE717"]
+      "chars": ["\uE717"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/24.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE718"]
+      "chars": ["\uE718"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/25.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE719"]
+      "chars": ["\uE719"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/26.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE71A"]
+      "chars": ["\uE71A"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/27.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE71B"]
+      "chars": ["\uE71B"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/28.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE71C"]
+      "chars": ["\uE71C"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/29.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE71D"]
+      "chars": ["\uE71D"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/30.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE71E"]
+      "chars": ["\uE71E"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/31.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE71F"]
+      "chars": ["\uE71F"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/32.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE720"]
+      "chars": ["\uE720"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/33.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE721"]
+      "chars": ["\uE721"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/34.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE722"]
+      "chars": ["\uE722"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/35.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE723"]
+      "chars": ["\uE723"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/36.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE724"]
+      "chars": ["\uE724"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/37.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE725"]
+      "chars": ["\uE725"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/38.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE726"]
+      "chars": ["\uE726"]
     },
     {
       "type": "bitmap",
       "file": "fossil_frights:font/dinonog_meter/39.png",
       "ascent": 9,
       "height": 9,
-      "chars": ["\\uE727"]
+      "chars": ["\uE727"]
     }
   ]
 }

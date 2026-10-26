@@ -42,7 +42,7 @@ void main() {
     // speedrun timer
     if (Color.rgb == vec3(172/255., 168/255., 0)) {
         // nudge it some
-        vec3 newPos = vec3(Position.x + 27.0, Position.y - 38.0, Position.z);
+        vec3 newPos = vec3(Position.x + 27.0, Position.y - 38.0 - 19.0, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
 
         // move to top right corner
@@ -55,7 +55,7 @@ void main() {
     // speedrun timer shadow 
     else if (Color.rgb == vec3(43/255., 42/255., 0)) {
         // nudge it some
-        vec3 newPos = vec3(Position.x + 27.0, Position.y - 38.0, Position.z);
+        vec3 newPos = vec3(Position.x + 27.0, Position.y - 38.0 - 19.0, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
 
         // move to top right corner
@@ -67,28 +67,28 @@ void main() {
 
     // speedrun delta
     else if (Color.rgb == vec3(172/255., 168/255., 16/255.) || Color.rgb == vec3(0, 172/255., 168/255.)) {
-        vec3 newPos = vec3(Position.x + 27.0, Position.y - 48.0, Position.z);
+        vec3 newPos = vec3(Position.x + 27.0, Position.y - 48.0 - 19.0, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
         gl_Position.x -= gl_Position.w;
         vertexColor.rgb = vec3(85/255., 1.0, 85/255.);
     }
 
     else if (Color.rgb == vec3(43/255., 42/255., 4/255.) || Color.rgb == vec3(0, 43/255., 42/255.)) {
-        vec3 newPos = vec3(Position.x + 27.0, Position.y - 48.0, Position.z);
+        vec3 newPos = vec3(Position.x + 27.0, Position.y - 48.0 - 19.0, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
         gl_Position.x -= gl_Position.w;
         vertexColor.rgb = vec3(21/255., 63/255., 21/255.);
     }
 
     else if (Color.rgb == vec3(172/255., 168/255., 32/255.) || Color.rgb == vec3(172/255., 0, 168/255.)) {
-        vec3 newPos = vec3(Position.x + 27.0, Position.y - 48.0, Position.z);
+        vec3 newPos = vec3(Position.x + 27.0, Position.y - 48.0 - 19.0, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
         gl_Position.x -= gl_Position.w;
         vertexColor.rgb = vec3(1.0, 85/255., 85/255.);
     }
 
     else if (Color.rgb == vec3(43/255., 42/255., 8/255.) || Color.rgb == vec3(43/255., 0, 42/255.)) {
-        vec3 newPos = vec3(Position.x + 27.0, Position.y - 48.0, Position.z);
+        vec3 newPos = vec3(Position.x + 27.0, Position.y - 48.0 - 19.0, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
         gl_Position.x -= gl_Position.w;
         vertexColor.rgb = vec3(63/255., 21/255., 21/255.);
@@ -98,6 +98,14 @@ void main() {
     else if (Color.rgb == vec3(123/255., 123/255., 1/255.)) {
         vec3 newPos = vec3(Position.x + 131, Position.y - 9, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
+        vertexColor.rgb = vec3(1);
+    }
+
+    // dinonog
+    else if (Color.rgb == vec3(124/255., 124/255., 8/255.)) {
+        vec3 newPos = vec3(Position.x + 51.0, Position.y - 78.0, Position.z);
+        gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
+        gl_Position.y -= 2*gl_Position.w;
         vertexColor.rgb = vec3(1);
     }
 #endif

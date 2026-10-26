@@ -533,6 +533,8 @@
   "ff.item.invisimask.description.3": "Speed boost for 20 seconds",
   "ff.item.paint_armor": "Paint Splat",
   "ff.item.dinocoin.description": "Can be spent throughout the museum",
+  "ff.item.rock": "Rock",
+  "ff.item.rock.description": "%s to throw",
 
   "ff.tooltip.heist_loot": "Throw into the capture point for %s",
   "ff.tooltip.heist_loot.amount": "$%s",

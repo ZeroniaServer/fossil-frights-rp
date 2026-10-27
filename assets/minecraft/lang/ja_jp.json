@@ -611,7 +611,7 @@
   "ff.credits.role.game_designer": "ゲームデザイナー",
   "ff.credits.role.build_lead": "主要建築者",
   "ff.credits.role.developers": "開発者",
-  ".credits.role.plugin_developers": "プラグイン開発者",
+  "ff.credits.role.plugin_developers": "プラグイン開発者",
   "ff.credits.role.resource_pack": "リソースパック",
   "ff.credits.role.shaders": "シェーダー",
   "ff.credits.role.builders": "建築者",

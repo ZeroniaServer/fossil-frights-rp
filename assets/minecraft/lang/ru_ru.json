@@ -611,7 +611,7 @@
   "ff.credits.role.game_designer": "Дизайнер игры",
   "ff.credits.role.build_lead": "Главный строитель",
   "ff.credits.role.developers": "Разработчики",
-  "ff.credits.role.plugin_developer": "Разработчики плагинов",
+  ".credits.role.plugin_developers": "Разработчики плагинов",
   "ff.credits.role.resource_pack": "Набор ресурсов",
   "ff.credits.role.shaders": "Шейдеры",
   "ff.credits.role.builders": "Строители",

@@ -611,7 +611,7 @@
   "ff.credits.role.game_designer": "游戏设计师",
   "ff.credits.role.build_lead": "建筑负责人",
   "ff.credits.role.developers": "开发者",
-  "ff.credits.role.plugin_developer": "插件开发者",
+  ".credits.role.plugin_developers": "插件开发者",
   "ff.credits.role.resource_pack": "资源包",
   "ff.credits.role.shaders": "光影",
   "ff.credits.role.builders": "建筑师",

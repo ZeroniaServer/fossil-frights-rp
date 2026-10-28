@@ -1,0 +1,96 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "fossil_frights:display/frightmas/presents/present_dark_green",
+		"particle": "fossil_frights:display/frightmas/presents/present_dark_green"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 6, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [10, 0, 3]},
+			"faces": {
+				"north": {"uv": [8, 0, 16, 6], "texture": "#0"},
+				"east": {"uv": [8, 0, 16, 6], "texture": "#0"},
+				"south": {"uv": [8, 0, 16, 6], "texture": "#0"},
+				"west": {"uv": [8, 0, 16, 6], "texture": "#0"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3.5, 6, 3.5],
+			"to": [12.5, 8, 12.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [10, 1, 3]},
+			"faces": {
+				"north": {"uv": [8, 6, 16, 8], "texture": "#0"},
+				"east": {"uv": [8, 6, 16, 8], "texture": "#0"},
+				"south": {"uv": [8, 6, 16, 8], "texture": "#0"},
+				"west": {"uv": [8, 6, 16, 8], "texture": "#0"},
+				"up": {"uv": [8, 8, 16, 16], "texture": "#0"},
+				"down": {"uv": [8, 8, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4.5, 8, 8],
+			"to": [11.5, 11, 8],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 3, 8]},
+			"faces": {
+				"north": {"uv": [0, 13, 7, 16], "texture": "#0"},
+				"east": {"uv": [5.25, 0, 5.25, 3], "texture": "#0"},
+				"south": {"uv": [0, 13, 7, 16], "texture": "#0"},
+				"west": {"uv": [5.5, 0, 5.5, 3], "texture": "#0"},
+				"up": {"uv": [0.5, 5.5, 9.5, 5.5], "texture": "#0"},
+				"down": {"uv": [0.5, 5.25, 9.5, 5.25], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [44, 0, 0],
+			"translation": [-6, 3.25, 3.25],
+			"scale": [1.09, 1.09, 1.09]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [44, 0, 0],
+			"translation": [-6, 3.25, 3.25],
+			"scale": [1.09, 1.09, 1.09]
+		},
+		"firstperson_righthand": {
+			"translation": [-7.75, 2.25, 2.5],
+			"scale": [1.19, 1.19, 1.19]
+		},
+		"firstperson_lefthand": {
+			"translation": [-7.75, 2.25, 2.5],
+			"scale": [1.19, 1.19, 1.19]
+		},
+		"ground": {
+			"translation": [0, 5.25, 0]
+		},
+		"gui": {
+			"rotation": [30, -45, 0],
+			"translation": [0, 3, 0]
+		},
+		"head": {
+			"rotation": [180, 0, 0],
+			"translation": [0, -6.75, 0],
+			"scale": [1.84, 1.84, 1.84]
+		}
+	},
+	"groups": [
+		{
+			"name": "present",
+			"origin": [2, 0, -5],
+			"scope": 0,
+			"color": 0,
+			"configs": {
+				"default": {},
+				"variants": {}
+			},
+			"itemModelProperties": {
+				"tints": []
+			},
+			"children": [0, 1, 2]
+		}
+	]
+}

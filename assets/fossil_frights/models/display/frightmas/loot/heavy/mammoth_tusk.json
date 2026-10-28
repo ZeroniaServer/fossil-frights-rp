@@ -1,0 +1,48 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "fossil_frights:display/frightmas/loot/heavy/mammoth_tusk",
+		"particle": "fossil_frights:display/frightmas/loot/heavy/mammoth_tusk"
+	},
+	"elements": [
+		{
+			"from": [5, 4, -16],
+			"to": [11, 10, -1],
+			"rotation": {"angle": 15, "axis": "x", "origin": [0, 4, -16]},
+			"faces": {
+				"north": {"uv": [10.5, 7.5, 13.5, 10.5], "texture": "#0"},
+				"east": {"uv": [10.5, 0, 13.5, 7.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [10.5, 7.5, 13.5, 10.5], "texture": "#0"},
+				"west": {"uv": [10.5, 0, 13.5, 7.5], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [10.5, 0, 13.5, 7.5], "texture": "#0"},
+				"down": {"uv": [10.5, 0, 13.5, 7.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.5, 0.5, -2],
+			"to": [10.5, 5.5, 19],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, -1]},
+			"faces": {
+				"east": {"uv": [13.5, 0, 16, 8], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [13.5, 8, 16, 10.5], "texture": "#0"},
+				"west": {"uv": [13.5, 0, 16, 8], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [13.5, 0, 16, 8], "texture": "#0"},
+				"down": {"uv": [13.5, 0, 16, 8], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, -0.5, 19],
+			"to": [10, 3.5, 32],
+			"rotation": {"angle": -12.5, "axis": "x", "origin": [0, -1.5, 13]},
+			"faces": {
+				"east": {"uv": [0, 0, 2, 6.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0, 6.5, 2, 8.5], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 6.5], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0, 0, 2, 6.5], "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 6.5], "texture": "#0"}
+			}
+		}
+	]
+}

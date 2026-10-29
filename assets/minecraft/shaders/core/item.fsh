@@ -39,13 +39,17 @@ layout(location = 6) in vec2 texCoordGlint;
 layout(location = 0) out vec4 fragColor;
 #endif
 
+// CUSTOM CODE
+const vec3 AURORA_MARKER = vec3(123/255., 123/255., 0);
+// END CUSTOM CODE
+
 #ifndef OIT_ALPHA_ONLY
 vec4 calculateFinalColor(vec4 color) {
     color.rgb = mix(overlayColor.rgb, color.rgb, overlayColor.a);
 
     // CUSTOM CODE
     float alpha = textureLod(Sampler0, texCoord0, 0.0).a * 255.0;
-    if (!check_alpha(alpha, 250.0)) {
+    if (!check_alpha(alpha, 250.0) && distance(diffuseColor.rgb, AURORA_MARKER) > 0.01) {
         color *= lightMapColor;
     }
     // END CUSTOM CODE
@@ -77,9 +81,9 @@ void main() {
 
     // CUSTOM CODE
     float alpha = textureLod(Sampler0, texCoord0, 0.0).a * 255.0;
-    if (!check_alpha(alpha, 250.0)) {
+    if (!check_alpha(alpha, 250.0) && distance(diffuseColor.rgb, AURORA_MARKER) > 0.01) {
         color *= vertexColor;
-    } else {
+    } else if (distance(diffuseColor.rgb, AURORA_MARKER) > 0.01) {
         color *= diffuseColor;
         color.a = 1.0;
     }

@@ -1,6 +1,12 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "fossil_frights:display/frightmas/aurora"
+    "model": "fossil_frights:display/frightmas/aurora",
+    "tints": [
+      {
+        "type": "constant",
+        "value": 8092416
+      }
+    ]
   }
 }

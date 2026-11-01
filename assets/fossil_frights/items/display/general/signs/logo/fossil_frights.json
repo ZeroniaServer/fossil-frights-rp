@@ -1,6 +1,15 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "fossil_frights:display/general/signs/logo/christmas/fossil_frights"
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/signs/logo/christmas/lower"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/signs/logo/christmas/upper"
+      }
+    ]
   }
 }

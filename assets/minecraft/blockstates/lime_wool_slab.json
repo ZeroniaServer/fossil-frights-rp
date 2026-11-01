@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/lime_wool_slab"
+    },
+    "type=double": {
+      "model": "fossil_frights:block/green_swirl"
+    },
+    "type=top": {
+      "model": "minecraft:block/lime_wool_slab_top"
+    }
+  }
+}

@@ -418,6 +418,7 @@
   "ff.item.credit_reel": "Credit Reel",
   "ff.item.muddy_sherd": "Muddy Sherd",
   "ff.item.carrot_cake": "Carrot Cake",
+  "ff.item.hot_chocolate": "Hot Chocolate",
   "ff.item.cookie": "Cookie",
   "ff.item.lady_bug": "Ladybug",
   "ff.lady_bug.escaped": "Woohoo! I escaped",
@@ -2002,6 +2003,7 @@
   "ff.lootbook.loot.brush.description": "Found in Basement Storage. Requires a key.",
   "ff.lootbook.loot.carrot_cake.name": "Carrot Cake",
   "ff.lootbook.loot.carrot_cake.description": "1st Floor Cafe, at the counter. Requires a key.",
+  "ff.lootbook.loot.hot_chocolate.description": "1st Floor Cafe, near the drinks. Requires a key.",
   "ff.lootbook.loot.chlorine_tablet.name": "Chlorine Tablet",
   "ff.lootbook.loot.chlorine_tablet.description": "Found in Basement Storage. Requires a key.",
   "ff.lootbook.loot.cookie.name": "Cookie",
@@ -2375,5 +2377,13 @@
   "ff.actionbar.heists.loot_security.recently_secured": "Secured too recently",
   "ff.actionbar.heists.loot_security.in_progress": "A guard is already securing...",
   "ff.actionbar.task_book_reminder": "Grab your task books from the start room",
-  "ff.item.frightmas_star": "Frightmas Star"
+  "ff.item.frightmas_star": "Frightmas Star",
+  "ff.item.pumpkin": "Pumpkin",
+  "ff.item.coal": "Coal",
+  "ff.item.star": "Star",
+  "ff.item.dinonog": "Dinonog",
+  "ff.lootbook.loot.pumpkin.description": "Found in Basement Storage. Requires a key.",
+  "ff.lootbook.loot.coal.description": "Found in Cafe Chimney. Requires a key.",
+  "ff.lootbook.loot.star.description": "Found in Basement Storage. Requires a key.",
+  "ff.lootbook.loot.dinonog.description": "Found in Dinonog Bar. Requires a key."
 }

@@ -4,7 +4,8 @@
 	"parent": "minecraft:block/carpet",
 	"textures": {
 		"top": "fossil_frights:block/red_carpet_vertical_stripe",
-		"side": "block/red_wool"
+		"side": "block/red_wool",
+		"particle": "block/red_wool"
 	},
 	"elements": [
 		{

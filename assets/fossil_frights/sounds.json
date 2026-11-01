@@ -318,89 +318,149 @@
       }
     ]
   },
-  "task.coffee_top_up": {
-    "subtitle": "subtitles.fossil_frights.task.coffee_top_up",
-    "sounds": [{ "name": "fossil_frights:tasks/coffee_top_up", "stream": false }]
-  },
   "task.credit_reel": {
     "subtitle": "subtitles.fossil_frights.task.credit_reel",
-    "sounds": [{ "name": "fossil_frights:tasks/credit_reel", "stream": false }]
+    "sounds": [
+      {
+        "name": "fossil_frights:tasks/credit_reel",
+        "stream": false
+      }
+    ]
   },
   "task.feed_parrot": {
     "subtitle": "subtitles.fossil_frights.task.feed_parrot",
-    "sounds": [{ "name": "fossil_frights:tasks/feed_parrot", "stream": false }]
+    "sounds": [
+      {
+        "name": "fossil_frights:tasks/feed_parrot",
+        "stream": false
+      }
+    ]
   },
   "task.feed_the_plants": {
     "subtitle": "subtitles.fossil_frights.task.feed_the_plants",
-    "sounds": [{ "name": "fossil_frights:tasks/feed_the_plants", "stream": false }]
+    "sounds": [
+      {
+        "name": "fossil_frights:tasks/feed_the_plants",
+        "stream": false
+      }
+    ]
   },
   "task.picnic_with_trike": {
     "subtitle": "subtitles.fossil_frights.task.picnic_with_trike",
-    "sounds": [{ "name": "fossil_frights:tasks/picnic_with_trike", "stream": false }]
+    "sounds": [
+      {
+        "name": "fossil_frights:tasks/picnic_with_trike",
+        "stream": false
+      }
+    ]
   },
   "task.popcorn_buckets": {
     "subtitle": "subtitles.fossil_frights.task.popcorn_buckets",
-    "sounds": [{ "name": "fossil_frights:tasks/popcorn_buckets", "stream": false }]
-  },
-  "task.refill_coffee": {
-    "subtitle": "subtitles.fossil_frights.task.refill_coffee",
-    "sounds": [{ "name": "fossil_frights:tasks/refill_coffee", "stream": false }]
+    "sounds": [
+      {
+        "name": "fossil_frights:tasks/popcorn_buckets",
+        "stream": false
+      }
+    ]
   },
   "task.refill_ice": {
     "subtitle": "subtitles.fossil_frights.task.refill_ice",
-    "sounds": [{ "name": "fossil_frights:tasks/refill_ice", "stream": false }]
+    "sounds": [
+      {
+        "name": "fossil_frights:tasks/refill_ice",
+        "stream": false
+      }
+    ]
   },
   "task.return_the_key": {
     "subtitle": "subtitles.fossil_frights.task.return_the_key",
-    "sounds": [{ "name": "fossil_frights:tasks/return_the_key", "stream": false }]
+    "sounds": [
+      {
+        "name": "fossil_frights:tasks/return_the_key",
+        "stream": false
+      }
+    ]
   },
   "task.sweep_popcorn": {
     "subtitle": "subtitles.fossil_frights.task.sweep_popcorn",
-    "sounds": [{ "name": "fossil_frights:tasks/sweep_popcorn", "stream": false }]
+    "sounds": [
+      {
+        "name": "fossil_frights:tasks/sweep_popcorn",
+        "stream": false
+      }
+    ]
   },
   "task.a_c_reset": {
     "subtitle": "subtitles.fossil_frights.task.a_c_reset",
-    "sounds": [{ "name": "fossil_frights:tasks/a_c_reset", "stream": false }]
-  },
-  "task.basketball_dance": {
-    "subtitle": "subtitles.fossil_frights.task.basketball_dance",
-    "sounds": [{ "name": "fossil_frights:tasks/basketball_dance", "stream": false }]
+    "sounds": [
+      {
+        "name": "fossil_frights:tasks/a_c_reset",
+        "stream": false
+      }
+    ]
   },
   "task.bathroom_leak": {
     "subtitle": "subtitles.fossil_frights.task.bathroom_leak",
-    "sounds": [{ "name": "fossil_frights:tasks/bathroom_leak", "stream": false }]
-  },
-  "task.check_ankylo": {
-    "subtitle": "subtitles.fossil_frights.task.check_ankylo",
-    "sounds": [{ "name": "fossil_frights:tasks/check_ankylo", "stream": false }]
+    "sounds": [
+      {
+        "name": "fossil_frights:tasks/bathroom_leak",
+        "stream": false
+      }
+    ]
   },
   "task.cool_it": {
     "subtitle": "subtitles.fossil_frights.task.cool_it",
-    "sounds": [{ "name": "fossil_frights:tasks/cool_it", "stream": false }]
+    "sounds": [
+      {
+        "name": "fossil_frights:tasks/cool_it",
+        "stream": false
+      }
+    ]
   },
   "task.holy_grail": {
     "subtitle": "subtitles.fossil_frights.task.holy_grail",
-    "sounds": [{ "name": "fossil_frights:tasks/holy_grail", "stream": false }]
+    "sounds": [
+      {
+        "name": "fossil_frights:tasks/holy_grail",
+        "stream": false
+      }
+    ]
   },
   "task.lock_register": {
     "subtitle": "subtitles.fossil_frights.task.lock_register",
-    "sounds": [{ "name": "fossil_frights:tasks/lock_register", "stream": false }]
+    "sounds": [
+      {
+        "name": "fossil_frights:tasks/lock_register",
+        "stream": false
+      }
+    ]
   },
   "task.nautilus_guard": {
     "subtitle": "subtitles.fossil_frights.task.nautilus_guard",
-    "sounds": [{ "name": "fossil_frights:tasks/nautilus_guard", "stream": false }]
+    "sounds": [
+      {
+        "name": "fossil_frights:tasks/nautilus_guard",
+        "stream": false
+      }
+    ]
   },
   "task.smelly_toilet": {
     "subtitle": "subtitles.fossil_frights.task.smelly_toilet",
-    "sounds": [{ "name": "fossil_frights:tasks/smelly_toilet", "stream": false }]
-  },
-  "task.the_lost_code": {
-    "subtitle": "subtitles.fossil_frights.task.the_lost_code",
-    "sounds": [{ "name": "fossil_frights:tasks/the_lost_code", "stream": false }]
+    "sounds": [
+      {
+        "name": "fossil_frights:tasks/smelly_toilet",
+        "stream": false
+      }
+    ]
   },
   "task.toilet_clog": {
     "subtitle": "subtitles.fossil_frights.task.toilet_clog",
-    "sounds": [{ "name": "fossil_frights:tasks/toilet_clog", "stream": false }]
+    "sounds": [
+      {
+        "name": "fossil_frights:tasks/toilet_clog",
+        "stream": false
+      }
+    ]
   },
   "hoverboard.enable": {
     "subtitle": "subtitles.fossil_frights.task.hoveraptor",

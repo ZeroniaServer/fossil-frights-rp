@@ -1,6 +1,6 @@
 {
 	"parent": "fossil_frights:display/frightmas/presents/template",
 	"textures": {
-		"present": "fossil_frights:display/frightmas/presents/present_green"
+		"present": "fossil_frights:display/frightmas/presents/present_dark_green"
 	}
 }

@@ -1,0 +1,6 @@
+{
+	"parent": "fossil_frights:display/frightmas/lights/no_chain/template",
+	"textures": {
+		"light": "fossil_frights:display/frightmas/lights/white_light"
+	}
+}

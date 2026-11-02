@@ -345,11 +345,11 @@
       }
     ]
   },
-  "task.picnic_with_trike": {
-    "subtitle": "subtitles.fossil_frights.task.picnic_with_trike",
+  "task.drink_with_trike": {
+    "subtitle": "subtitles.fossil_frights.task.drink_with_trike",
     "sounds": [
       {
-        "name": "fossil_frights:tasks/picnic_with_trike",
+        "name": "fossil_frights:tasks/drink_with_trike",
         "stream": false
       }
     ]

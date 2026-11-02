@@ -4,8 +4,8 @@
 	"texture_size": [32, 32],
 	"gui_light": "front",
 	"textures": {
-		"0": "fossil_frights:display/tasks/picnic_with_trike/drink_with_straw",
-		"particle": "fossil_frights:display/tasks/picnic_with_trike/drink_with_straw"
+		"0": "fossil_frights:display/tasks/drink_with_trike/drink_with_straw",
+		"particle": "fossil_frights:display/tasks/drink_with_trike/drink_with_straw"
 	},
 	"elements": [
 		{

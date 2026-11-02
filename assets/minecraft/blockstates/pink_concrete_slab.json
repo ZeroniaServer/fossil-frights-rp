@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fossil_frights:block/dripstone_slab"
+    },
+    "type=double": {
+      "model": "fossil_frights:block/fireplace_rug_pattern"
+    },
+    "type=top": {
+      "model": "fossil_frights:block/dripstone_slab_top"
+    }
+  }
+}

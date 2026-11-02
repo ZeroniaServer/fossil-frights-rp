@@ -462,6 +462,15 @@
       }
     ]
   },
+  "task.kiss_t_rex": {
+    "subtitle": "subtitles.fossil_frights.task.kiss_t_rex",
+    "sounds": [
+      {
+        "name": "fossil_frights:tasks/kiss",
+        "stream": false
+      }
+    ]
+  },
   "hoverboard.enable": {
     "subtitle": "subtitles.fossil_frights.task.hoveraptor",
     "sounds": [

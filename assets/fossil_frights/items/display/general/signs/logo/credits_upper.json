@@ -1,0 +1,57 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:local_time",
+    "pattern": "MM-dd",
+    "cases": [
+      {
+        "when": [
+          "10-18",
+          "10-19",
+          "10-20",
+          "10-21",
+          "10-22",
+          "10-23",
+          "10-24",
+          "10-25",
+          "10-26",
+          "10-27",
+          "10-28",
+          "10-29",
+          "10-30",
+          "10-31"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil_frights:display/general/signs/logo/halloween/credits_upper"
+        }
+      },
+      {
+        "when": [
+          "12-12",
+          "12-13",
+          "12-14",
+          "12-15",
+          "12-16",
+          "12-17",
+          "12-18",
+          "12-19",
+          "12-20",
+          "12-21",
+          "12-22",
+          "12-23",
+          "12-24",
+          "12-25"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "fossil_frights:display/general/signs/logo/christmas/credits_upper"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "fossil_frights:display/general/signs/logo/default/credits_upper"
+    }
+  }
+}

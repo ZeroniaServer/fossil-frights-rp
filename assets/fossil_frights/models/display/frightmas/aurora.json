@@ -896,7 +896,7 @@
 			"to": [17, 1, 7],
 			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 6]},
 			"faces": {
-				"north": {"uv": [7, 12, 8, 13], "texture": "#0"}
+				"north": {"uv": [7, 12, 8, 13], "texture": "#0", "tintindex": 0}
 			}
 		},
 		{

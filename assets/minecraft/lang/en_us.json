@@ -581,7 +581,7 @@
 
   "ff.bossbar.available": "AVAILABLE",
   "ff.bossbar.waiting_for_queue": "WAITING FOR NEXT UP...",
-  "ff.bossbar.victory": "VICTORY",
+  "ff.bossbar.victory": "GAME OVER",
   "ff.bossbar.waiting_to_start": "WAITING TO START",
   "ff.bossbar.game_starting": "GAME STARTING...",
   "ff.bossbar.on_break": "ON BREAK",

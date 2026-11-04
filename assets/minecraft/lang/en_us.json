@@ -372,6 +372,7 @@
   "ff.task.pig_wrangler": "Pig Wrangler",
   "ff.task.return_the_key": "Return the Key",
   "ff.task.star_gazing": "Star Gazing",
+  "ff.task.defrost_timeline": "Defrost Timeline",
   "ff.task.decorate_tree": "Decorate Tree",
   "ff.task.star_gazing.no_constellation": "No constellation tonight",
 
@@ -2272,6 +2273,8 @@
   "ff.task_book.task.return_the_key.description.0": "I like to move the Super Secret Key between a few locations to keep it safe. Currently, it's in the treasure chest. Can you grab it and move it to my vault?",
   "ff.task_book.task.star_gazing.description.0": "Since you're the only one here at night, I'll need you to go check which star patterns are visible. Look through the telescope and check which constellation you can see. Compare it with the images on the",
   "ff.task_book.task.star_gazing.description.1": "walls, and mark which one is visible. You should note depending on the time of year the constellations may appear rotated.",
+  "ff.task_book.task.defrost_timeline.description.0": "Something strange is happening in Earth's timeline exhibit. It's looking icier each day, and I think it's spreading.",
+  "ff.task_book.task.defrost_timeline.description.1": "Please bring up some fire tablets to the warmest sections to help stop the spread. I'm not sure how many we need, hopefully 2 is enough. I'd suggest bringing one to the Hadean and one to the Permian.",
   "ff.task_book.task.decorate_tree.description.0": "Don't you just love our new tree! I do miss Bronto however. I think it needs a star on top, grab one from the basement and climb the tree to put the star on top!",
   "ff.task_book.task.ancient_portal.description.0": "The portal in the deep dark is emitting a bad odor, can you please toss in some febreeze? Be careful however: if you shake the canister it may explode, and cause the portal",
   "ff.task_book.task.ancient_portal.description.1": "to light. It's dangerous entering the portal as it could teleport you somewhere you don't want to be... or maybe you do want to be there? I don't care, do what you want.",

@@ -668,6 +668,7 @@
   "ff.death.explosive_trap.self": "%1$s was blown up by their own explosive trap",
   "ff.death.forklift": "%1$s was pinned by a forklift",
   "ff.death.deep_dark_elevator": "%1$s got squished under an elevator",
+  "ff.death.left_museum_bounds": "%1$s was checked into the boards by the Fossil Frights developers. Sorry, bud!",
 
   "ff.stats.title": "========== Your Stats ==========",
   "ff.stats.best_time": "Best Time: %s",

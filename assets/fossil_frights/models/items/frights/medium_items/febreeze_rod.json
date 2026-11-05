@@ -4,7 +4,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "fossil_frights:items/frights/medium_items/febreeze_rod",
-		"particle": "fossil_frights:items/frights/medium_items/febreeze_rod",
+		"particle": "fossil_frights:items/frights/medium_items/febreeze_rod_particle",
 		"emissive": "fossil_frights:items/frights/medium_items/febreeze_rod_emissive"
 	},
 	"elements": [

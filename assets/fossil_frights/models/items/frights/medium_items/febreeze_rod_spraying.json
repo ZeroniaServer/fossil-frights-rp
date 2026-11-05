@@ -1,0 +1,14 @@
+{
+	"parent": "fossil_frights:items/frights/medium_items/febreeze_rod",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -22.5, 0],
+			"translation": [0, -4.5, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_righthand": {
+			"rotation": [-7, 0, 16],
+			"translation": [-7.25, -1, 0.5]
+		}
+	}
+}

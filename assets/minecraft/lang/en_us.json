@@ -800,8 +800,12 @@
   "ff.exit_day_reached": "%1$s made it to day %2$s.",
   "ff.exit_day_reached.multiple": "%1$s and %2$s made it to day %3$s.",
 
-  "ff.guards_win": "%1$s won playing as %2$s.",
-  "ff.thieves_win": "%1$s won playing as %2$s.",
+  "ff.guards_win.none": "%2$s won!",
+  "ff.guards_win.singular": "%1$s won playing as %2$s!",
+  "ff.guards_win.plural": "%1$s won playing as %2$s!",
+  "ff.thieves_win.none": "%2$s won!",
+  "ff.thieves_win.singular": "%1$s won playing as %2$s!",
+  "ff.thieves_win.plural": "%1$s won playing as %2$s!",
 
   "ff.separator": " and ",
 

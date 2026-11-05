@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"2": "animation:blueprint/vending_machine/pteranadon_twist_1_",
+		"2": "animation:blueprint/vending_machine/pteranodon_twist_1_",
 		"particle": "minecraft:item/pufferfish"
 	},
 	"display": {

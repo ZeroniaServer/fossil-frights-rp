@@ -22,7 +22,7 @@
         "models": [
           {
             "type": "model",
-            "model": "fossil_frights:items/drinks/pteranadon_twist"
+            "model": "fossil_frights:items/drinks/pteranodon_twist"
           },
           {
             "type": "model",
@@ -36,7 +36,7 @@
       "models": [
         {
           "type": "model",
-          "model": "fossil_frights:items/drinks/pteranadon_twist"
+          "model": "fossil_frights:items/drinks/pteranodon_twist"
         },
         {
           "type": "model",

@@ -4,7 +4,7 @@
 	"textures": {
 		"0": "animation:blueprint/vending_machine/vending_machine",
 		"1": "animation:blueprint/vending_machine/bubbly_bat",
-		"2": "animation:blueprint/vending_machine/pteranadon_twist_1_",
+		"2": "animation:blueprint/vending_machine/pteranodon_twist_1_",
 		"particle": "item/pufferfish"
 	},
 	"elements": [

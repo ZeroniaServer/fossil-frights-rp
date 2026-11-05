@@ -4,8 +4,8 @@
 	"texture_size": [32, 32],
 	"gui_light": "front",
 	"textures": {
-		"0": "fossil_frights:items/drinks/pteranadon_twist",
-		"particle": "fossil_frights:items/drinks/pteranadon_twist"
+		"0": "fossil_frights:items/drinks/pteranodon_twist",
+		"particle": "fossil_frights:items/drinks/pteranodon_twist"
 	},
 	"elements": [
 		{

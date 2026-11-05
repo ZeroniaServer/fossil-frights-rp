@@ -1,0 +1,65 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "fossil_frights:display/tasks/lab_experiment/eggs/pterodactyl_egg",
+		"particle": "fossil_frights:display/tasks/lab_experiment/eggs/pterodactyl_egg"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 12.5],
+			"to": [6, 7, 17.5],
+			"rotation": {"angle": 30, "axis": "y", "origin": [-7, 0, 3.5]},
+			"faces": {
+				"north": {"uv": [0, 6, 1.25, 7.75], "texture": "#0"},
+				"east": {"uv": [1.25, 6, 2.5, 7.75], "texture": "#0"},
+				"south": {"uv": [2.5, 6, 3.75, 7.75], "texture": "#0"},
+				"west": {"uv": [3.75, 6, 5, 7.75], "texture": "#0"},
+				"up": {"uv": [8.75, 2.5, 7.5, 1.25], "texture": "#0", "cullface": "up"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [40, 45, 0],
+			"translation": [-0.75, 3, 3.25],
+			"scale": [0.71, 0.71, 0.71]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [40, 45, 0],
+			"translation": [-0.75, 3, 3.25],
+			"scale": [0.71, 0.71, 0.71]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 3.5, 0],
+			"scale": [1.05, 1.05, 1.05]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, 3.5, 0],
+			"scale": [1.05, 1.05, 1.05]
+		},
+		"ground": {
+			"translation": [0, 5.5, 0],
+			"scale": [0.99, 0.99, 0.99]
+		},
+		"gui": {
+			"rotation": [30, -166, 0],
+			"translation": [0, 3.75, 0],
+			"scale": [1.01, 1.01, 1.01]
+		},
+		"head": {
+			"translation": [0, 12.5, 0]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -16],
+			"scale": [2, 2, 2]
+		},
+		"on_shelf": {
+			"scale": [2.38, 2.38, 2.38]
+		}
+	}
+}

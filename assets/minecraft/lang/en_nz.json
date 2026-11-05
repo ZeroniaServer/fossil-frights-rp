@@ -786,7 +786,8 @@
   "ff.thieves_win.singular": "%1$s won playing as %2$s!",
   "ff.thieves_win.plural": "%1$s won playing as %2$s!",
 
-  "ff.separator": " and ",
+  "ff.separator.comma": ", ",
+  "ff.separator.and": " and ",
 
   "ff.talking_skull": "Talking Skull",
   "ff.talking_skull.prompt": "<%1$s> You want to see the power of my sarcophagus? Give me %2$s and I'll show ya.",

@@ -392,6 +392,7 @@
   "ff.item.golden_sword": "Golden Sword",
   "ff.item.ancient_portal_core": "Ancient Portal Core",
   "ff.item.febreeze_rod": "Febreeze Rod",
+  "ff.item.febreeze_rod.description.spray": "Hold %s to spray",
   "ff.item.fertilizer": "Fertilizer",
   "ff.item.water_balloon": "Water Balloon",
   "ff.item.chlorine_tablet": "Chlorine Tablet",

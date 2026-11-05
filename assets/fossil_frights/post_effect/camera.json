@@ -7,7 +7,7 @@
     "passes": [
         {
             "vertex_shader": "minecraft:core/screenquad",
-            "fragment_shader": "minecraft:post/ntsc_encode",
+            "fragment_shader": "fossil_frights:post/ntsc_encode",
             "inputs": [
                 {
                     "sampler_name": "In",
@@ -19,7 +19,7 @@
         },
         {
             "vertex_shader": "minecraft:core/screenquad",
-            "fragment_shader": "minecraft:post/ntsc_decode",
+            "fragment_shader": "fossil_frights:post/ntsc_decode",
             "inputs": [
                 {
                     "sampler_name": "In",
@@ -87,7 +87,7 @@
         },
         {
             "vertex_shader": "minecraft:core/screenquad",
-            "fragment_shader": "minecraft:post/scan_pincushion",
+            "fragment_shader": "fossil_frights:post/scan_pincushion",
             "inputs": [
                 {
                     "sampler_name": "In",

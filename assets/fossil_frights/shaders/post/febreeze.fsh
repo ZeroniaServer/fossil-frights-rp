@@ -156,19 +156,17 @@ float specks(vec2 p, float t) {
 // --------------------------------------------------
 
 void main() {
-    vec2 uv = gl_FragCoord.xy / ScreenSize.xy;
-
     float intensity = clamp(fade, 0.0, 1.0);
 
     if (intensity <= 0.0) {
-        fragColor = texture(InSampler, uv);
+        fragColor = texture(InSampler, texCoord);
         return;
     }
 
     float aspect = ScreenSize.x / ScreenSize.y;
     float t = GameTime * 1200. * SPEED;
 
-    vec2 p = uv * FILM_SCALE;
+    vec2 p = texCoord * FILM_SCALE;
     p.x *= aspect;
 
     // --------------------------------------------------
@@ -194,7 +192,7 @@ void main() {
     // Aerosol droplets
     // --------------------------------------------------
 
-    vec2 speckUV = uv * SPECK_SCALE;
+    vec2 speckUV = texCoord * SPECK_SCALE;
     speckUV.x *= aspect;
 
     float droplets = specks(speckUV, t);
@@ -221,7 +219,7 @@ void main() {
     displacement *= coverage * intensity;
 
     vec2 refractedUV = clamp(
-        uv + displacement, 0.0, 1.0
+        texCoord + displacement, 0.0, 1.0
     );
 
     // --------------------------------------------------

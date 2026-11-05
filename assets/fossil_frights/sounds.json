@@ -453,6 +453,15 @@
       }
     ]
   },
+  "task.scribble": {
+    "subtitle": "subtitles.fossil_frights.task.scribble",
+    "sounds": [
+      {
+        "name": "fossil_frights:tasks/scribble",
+        "stream": false
+      }
+    ]
+  },
   "task.toilet_clog": {
     "subtitle": "subtitles.fossil_frights.task.toilet_clog",
     "sounds": [

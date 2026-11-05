@@ -1,0 +1,31 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/frightmas/tasks/reindeer_counting/x_sprite.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": [
+        "\ue600"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/frightmas/tasks/reindeer_counting/reindeer_sprite.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": [
+        "\ue601"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/frightmas/tasks/reindeer_counting/sleigh_sprite.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": [
+        "\ue602"
+      ]
+    }
+  ]
+}

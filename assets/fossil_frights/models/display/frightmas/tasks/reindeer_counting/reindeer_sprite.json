@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fossil_frights:display/frightmas/tasks/reindeer_counting/reindeer_sprite"
+  }
+}

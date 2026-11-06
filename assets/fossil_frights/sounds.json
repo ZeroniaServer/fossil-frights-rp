@@ -503,5 +503,14 @@
         "stream": false
       }
     ]
+  },
+  "task.hohoho": {
+    "subtitle": "subtitles.fossil_frights.task.hohoho",
+    "sounds": [
+      {
+        "name": "fossil_frights:tasks/hohoho",
+        "stream": false
+      }
+    ]
   }
 }

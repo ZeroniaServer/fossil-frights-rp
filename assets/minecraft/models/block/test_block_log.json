@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "minecraft:block/test_block_log",
+    "particle": "fossil_frights:items/frights/medium_items/febreeze_rod_particle"
+  }
+}

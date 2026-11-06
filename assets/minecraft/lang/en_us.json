@@ -420,6 +420,7 @@
   "ff.item.golden_sword": "Golden Sword",
   "ff.item.ancient_portal_core": "Ancient Portal Core",
   "ff.item.febreeze_rod": "Febreeze Rod",
+  "ff.item.febreeze_rod.description.spray": "Hold %s to spray",
   "ff.item.chlorine_tablet": "Chlorine Tablet",
   "ff.item.scrap_metal": "Scrap Metal",
   "ff.item.scrap_metal.description.use_on_anvil": "%1$s on the anvil to craft a %2$s",

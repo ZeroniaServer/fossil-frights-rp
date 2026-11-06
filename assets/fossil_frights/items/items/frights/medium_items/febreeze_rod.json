@@ -18,13 +18,29 @@
         }
       ],
       "fallback": {
-        "type": "minecraft:model",
-        "model": "fossil_frights:items/frights/medium_items/febreeze_rod"
+        "type": "minecraft:condition",
+        "property": "minecraft:using_item",
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "fossil_frights:items/frights/medium_items/febreeze_rod_spraying"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "fossil_frights:items/frights/medium_items/febreeze_rod"
+        }
       }
     },
     "on_false": {
-      "type": "minecraft:model",
-      "model": "fossil_frights:items/frights/medium_items/febreeze_rod"
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "fossil_frights:items/frights/medium_items/febreeze_rod_spraying"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "fossil_frights:items/frights/medium_items/febreeze_rod"
+      }
     }
   }
 }

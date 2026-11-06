@@ -5,7 +5,7 @@
     "passes": [
         {
             "vertex_shader": "minecraft:core/screenquad",
-            "fragment_shader": "minecraft:post/red_alert",
+            "fragment_shader": "fossil_frights:post/red_alert",
             "inputs": [
                 {
                     "sampler_name": "Main",

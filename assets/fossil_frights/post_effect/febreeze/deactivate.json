@@ -1,0 +1,71 @@
+{
+    "targets": {
+        "fade": {"width": 3, "height": 1, "persistent": true},
+        "fade_swap": {"width": 3, "height": 1},
+        "swap": {}
+    },
+    "passes": [
+        {
+            "vertex_shader": "d_shader_utils:post/screentriangle",
+            "fragment_shader": "d_shader_utils:post/blit",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "fade"
+                }
+            ],
+            "output": "fade_swap"
+        },
+        {
+            "vertex_shader": "d_shader_utils:post/screentriangle",
+            "fragment_shader": "d_shader_utils:post/fade",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "fade_swap"
+                }
+            ],
+            "output": "fade",
+            "uniforms": {
+                "FadeConfig": [
+                    {
+                        "name": "Initial",
+                        "type": "float",
+                        "value": 1.0
+                    },
+                    {
+                        "name": "Rate",
+                        "type": "float",
+                        "value": -1.0
+                    }
+                ]
+            }
+        },
+        {
+            "vertex_shader": "d_shader_utils:post/screentriangle_fade",
+            "fragment_shader": "fossil_frights:post/febreeze",
+            "inputs": [
+                {
+                    "sampler_name": "Main",
+                    "target": "minecraft:main"
+                },
+                {
+                    "sampler_name": "Fade",
+                    "target": "fade"
+                }
+            ],
+            "output": "swap"
+        },
+        {
+            "vertex_shader": "d_shader_utils:post/screentriangle",
+            "fragment_shader": "d_shader_utils:post/blit",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "swap"
+                }
+            ],
+            "output": "minecraft:main"
+        }
+    ]
+}

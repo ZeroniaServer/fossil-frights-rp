@@ -1,34 +1,34 @@
 {
-  "pack": {
-    "description": [
-      {
-        "color": "gold",
-        "translate": "ff.pack.description.1",
-        "fallback": "Fossil Frights\n"
-      },
-      {
-        "color": "yellow",
-        "translate": "ff.pack.description.2",
-        "fallback": "Official Resource Pack"
-      }
-    ],
-    "min_format": 97,
-    "max_format": 97
-  },
-  "language": {
-    "caveman_zeronia": {
-      "name": "Cave Man",
-      "region": "Zeronia",
-      "bidirectional": false
-    }
-  },
-  "overlays": {
-    "entries": [
-      {
-        "directory": "realms",
-        "min_format": 97,
-        "max_format": 97
-      }
-    ]
-  }
+	"pack": {
+		"description": [
+			{
+				"color": "gold",
+				"translate": "ff.pack.description.1",
+				"fallback": "Fossil Frights\n"
+			},
+			{
+				"color": "yellow",
+				"translate": "ff.pack.description.2",
+				"fallback": "Official Resource Pack"
+			}
+		],
+		"min_format": 88,
+		"max_format": 88
+	},
+	"language": {
+		"caveman_zeronia": {
+			"name": "Cave Man",
+			"region": "Zeronia",
+			"bidirectional": false
+		}
+	},
+	"overlays": {
+		"entries": [
+			{
+				"directory": "realms",
+				"min_format": 97,
+				"max_format": 97
+			}
+		]
+	}
 }

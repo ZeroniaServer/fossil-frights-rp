@@ -1,0 +1,82 @@
+{
+	"credit": "Made with Animated Java (https://github.com/Animated-Java/animated-java) via Blockbench",
+	"textures": {
+		"0": "fossil_frights:display/frightmas/santasaurus",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [16.59312, -15.41603, 30.03268],
+			"to": [16.59312, -3.61213, 32],
+			"rotation": {
+				"x": 81.0963,
+				"y": 34.84748,
+				"z": 3.49226,
+				"origin": [15.60946, 16.06103, 24.13073]
+			},
+			"faces": {
+				"north": {
+					"uv": [1.5, 7.125, 1.75, 7.875],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [5.875, 7.25, 6, 8],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [1.75, 7.125, 2, 7.875],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [6.25, 4, 6.5, 4.125],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [6.375, 1.25, 6.625, 1.375],
+					"texture": "#0"
+				}
+			}
+		},
+		{
+			"from": [16.59312, -15.41603, 30.03268],
+			"to": [20.52775, -3.61213, 32],
+			"rotation": {
+				"x": 81.0963,
+				"y": 34.84748,
+				"z": 3.49226,
+				"origin": [15.60946, 16.06103, 24.13073]
+			},
+			"faces": {
+				"north": {
+					"uv": [1.5, 7.125, 1.75, 7.875],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [4.25, 7.25, 4.375, 8],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [1.75, 7.125, 2, 7.875],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [5.875, 7.25, 6, 8],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [6.25, 4, 6.5, 4.125],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [6.375, 1.25, 6.625, 1.375],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

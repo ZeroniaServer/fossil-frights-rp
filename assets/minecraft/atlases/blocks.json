@@ -1,29 +1,29 @@
 {
-  "sources": [
-    {
-      "type": "directory",
-      "source": "display",
-      "prefix": "display/"
-    },
-    {
-      "type": "directory",
-      "source": "items",
-      "prefix": "items/"
-    },
-    {
-      "type": "directory",
-      "source": "gui/sprites/hud/sidebar",
-      "prefix": "gui/sprites/hud/sidebar/"
-    },
-    {
-      "type": "directory",
-      "source": "blueprint",
-      "prefix": "blueprint/"
-    },
-    {
-      "type": "directory",
-      "source": "skins/players",
-      "prefix": "skins/players/"
-    }
-  ]
+	"sources": [
+		{
+			"type": "directory",
+			"source": "display",
+			"prefix": "display/"
+		},
+		{
+			"type": "directory",
+			"source": "items",
+			"prefix": "items/"
+		},
+		{
+			"type": "directory",
+			"source": "gui/sprites/hud/sidebar",
+			"prefix": "gui/sprites/hud/sidebar/"
+		},
+		{
+			"type": "directory",
+			"source": "blueprint",
+			"prefix": "blueprint/"
+		},
+		{
+			"type": "directory",
+			"source": "skins/players",
+			"prefix": "skins/players/"
+		}
+	]
 }

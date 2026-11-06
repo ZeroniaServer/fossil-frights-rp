@@ -1,0 +1,50 @@
+{
+	"credit": "Made with Animated Java (https://github.com/Animated-Java/animated-java) via Blockbench",
+	"textures": {
+		"0": "fossil_frights:display/frightmas/santasaurus",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [5.23077, -16, -0.98462],
+			"to": [10.76923, -9.23077, 10.70769],
+			"rotation": {
+				"x": 55,
+				"y": 0,
+				"z": 0,
+				"origin": [8, -12.30769, 8.24615]
+			},
+			"faces": {
+				"north": {
+					"uv": [1.75, 5.125, 2.875, 6.5],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [2.25, 0, 4.625, 1.375],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [5.25, 0, 6.375, 1.375],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [2.25, 1.375, 4.625, 2.75],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [2.25, 2.75, 3.375, 5.125],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [0, 3.25, 1.125, 5.625],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

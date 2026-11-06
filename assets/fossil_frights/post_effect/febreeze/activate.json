@@ -46,7 +46,7 @@
             "fragment_shader": "fossil_frights:post/febreeze",
             "inputs": [
                 {
-                    "sampler_name": "In",
+                    "sampler_name": "Main",
                     "target": "minecraft:main"
                 },
                 {

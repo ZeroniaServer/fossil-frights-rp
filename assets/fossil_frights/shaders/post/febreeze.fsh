@@ -3,7 +3,7 @@
 
 #include <minecraft:globals.glsl>
 
-uniform sampler2D InSampler;
+uniform sampler2D MainSampler;
 
 layout(std140) uniform SamplerInfo {
     vec2 OutSize;
@@ -159,7 +159,7 @@ void main() {
     float intensity = clamp(fade, 0.0, 1.0);
 
     if (intensity <= 0.0) {
-        fragColor = texture(InSampler, texCoord);
+        fragColor = texture(MainSampler, texCoord);
         return;
     }
 
@@ -227,7 +227,7 @@ void main() {
     // --------------------------------------------------
 
     vec3 color = texture(
-        InSampler, refractedUV
+        MainSampler, refractedUV
     ).rgb;
 
     // --------------------------------------------------
@@ -242,10 +242,10 @@ void main() {
     );
 
     vec3 blurred = (
-        texture(InSampler, clamp(refractedUV + offset, 0.0, 1.0)).rgb +
-        texture(InSampler, clamp(refractedUV - offset, 0.0, 1.0)).rgb +
-        texture(InSampler, clamp(refractedUV + offset * vec2(1.0, -1.0), 0.0, 1.0)).rgb +
-        texture(InSampler, clamp(refractedUV + offset * vec2(-1.0, 1.0), 0.0, 1.0)).rgb
+        texture(MainSampler, clamp(refractedUV + offset, 0.0, 1.0)).rgb +
+        texture(MainSampler, clamp(refractedUV - offset, 0.0, 1.0)).rgb +
+        texture(MainSampler, clamp(refractedUV + offset * vec2(1.0, -1.0), 0.0, 1.0)).rgb +
+        texture(MainSampler, clamp(refractedUV + offset * vec2(-1.0, 1.0), 0.0, 1.0)).rgb
     ) * 0.25;
 
     color = mix(

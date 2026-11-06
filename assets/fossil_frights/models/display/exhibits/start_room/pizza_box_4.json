@@ -3,105 +3,14 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "fossil_frights:display/exhibits/start_room/pizza_box",
 		"particle": "fossil_frights:display/exhibits/start_room/pizza",
 		"1_0": "fossil_frights:display/exhibits/start_room/pizza"
 	},
 	"elements": [
 		{
-			"from": [1, 0, 1],
-			"to": [15, 0, 15],
-			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 1]},
-			"faces": {
-				"up": {"uv": [3.5, 3.5, 0, 0], "texture": "#0"},
-				"down": {"uv": [3.5, 3.5, 0, 7], "texture": "#0"}
-			}
-		},
-		{
-			"from": [1, 0, 1],
-			"to": [1, 2, 15],
-			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 1]},
-			"faces": {
-				"east": {"uv": [0, 7, 3.5, 7.5], "texture": "#0"},
-				"west": {"uv": [7, 0, 10.5, 0.5], "texture": "#0"}
-			}
-		},
-		{
-			"from": [1, 0, 15],
-			"to": [15, 2, 15],
-			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 1]},
-			"faces": {
-				"north": {"uv": [7, 0.5, 10.5, 1], "texture": "#0"},
-				"south": {"uv": [7, 1, 10.5, 1.5], "texture": "#0"}
-			}
-		},
-		{
-			"from": [15, 0, 1],
-			"to": [15, 2, 15],
-			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 1]},
-			"faces": {
-				"east": {"uv": [7, 1.5, 10.5, 2], "texture": "#0"},
-				"west": {"uv": [7, 2, 10.5, 2.5], "texture": "#0"}
-			}
-		},
-		{
-			"from": [1, 0, 1],
-			"to": [15, 2, 1],
-			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 1]},
-			"faces": {
-				"north": {"uv": [7, 2.5, 10.5, 3], "texture": "#0"},
-				"south": {"uv": [7, 3, 10.5, 3.5], "texture": "#0"}
-			}
-		},
-		{
-			"from": [1, 12.5, -3.6],
-			"to": [15, 12.5, 10.4],
-			"rotation": {"angle": -40, "axis": "x", "origin": [1, 12.5, 10.4]},
-			"faces": {
-				"up": {"uv": [7, 3.5, 3.5, 0], "texture": "#0"},
-				"down": {"uv": [7, 3.5, 3.5, 7], "texture": "#0"}
-			}
-		},
-		{
-			"from": [1, 10.5, -3.6],
-			"to": [1, 12.5, 10.4],
-			"rotation": {"angle": -40, "axis": "x", "origin": [1, 12.5, 10.4]},
-			"faces": {
-				"east": {"uv": [3.5, 7, 7, 7.5], "texture": "#0"},
-				"west": {"uv": [7, 3.5, 10.5, 4], "texture": "#0"}
-			}
-		},
-		{
-			"from": [1, 10.5, -3.6],
-			"to": [15, 12.5, -3.6],
-			"rotation": {"angle": -40, "axis": "x", "origin": [1, 12.5, 10.4]},
-			"faces": {
-				"north": {"uv": [7, 4, 10.5, 4.5], "texture": "#0"},
-				"south": {"uv": [7, 4.5, 10.5, 5], "texture": "#0"}
-			}
-		},
-		{
-			"from": [15, 10.5, -3.6],
-			"to": [15, 12.5, 10.4],
-			"rotation": {"angle": -40, "axis": "x", "origin": [1, 12.5, 10.4]},
-			"faces": {
-				"east": {"uv": [7, 5, 10.5, 5.5], "texture": "#0"},
-				"west": {"uv": [7, 5.5, 10.5, 6], "texture": "#0"}
-			}
-		},
-		{
-			"from": [1, 10.5, 10.4],
-			"to": [15, 12.5, 10.4],
-			"rotation": {"angle": -40, "axis": "x", "origin": [1, 12.5, 10.4]},
-			"faces": {
-				"north": {"uv": [7, 6, 10.5, 6.5], "texture": "#0"},
-				"south": {"uv": [7, 6.5, 10.5, 7], "texture": "#0"}
-			}
-		},
-		{
 			"name": "slice1",
 			"from": [3, 0.05, 3],
-			"to": [8, 0.55, 8],
+			"to": [8, 1.05, 8],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0.05, 0]},
 			"faces": {
 				"up": {"uv": [5, 5, 2.5, 2.5], "texture": "#1_0"}
@@ -110,7 +19,7 @@
 		{
 			"name": "slice2",
 			"from": [8, 0.05, 3],
-			"to": [13, 0.55, 8],
+			"to": [13, 1.05, 8],
 			"rotation": {"angle": 0, "axis": "y", "origin": [5, 0.05, 0]},
 			"faces": {
 				"up": {"uv": [2.5, 5, 0, 2.5], "texture": "#1_0"}
@@ -119,7 +28,7 @@
 		{
 			"name": "slice3",
 			"from": [8, 0.05, 8],
-			"to": [13, 0.55, 13],
+			"to": [13, 1.05, 13],
 			"rotation": {"angle": 0, "axis": "y", "origin": [5, 0.05, 5]},
 			"faces": {
 				"up": {"uv": [2.5, 2.5, 0, 0], "texture": "#1_0"}
@@ -128,7 +37,7 @@
 		{
 			"name": "slice4",
 			"from": [3, 0.05, 8],
-			"to": [8, 0.55, 13],
+			"to": [8, 1.05, 13],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0.05, 5]},
 			"faces": {
 				"up": {"uv": [5, 2.5, 2.5, 0], "texture": "#1_0"}
@@ -269,43 +178,21 @@
 	},
 	"groups": [
 		{
-			"name": "box",
-			"origin": [1, 0, 1],
-			"scope": 0,
-			"color": 0,
-			"children": [
-				{
-					"name": "bottom",
-					"origin": [1, 0, 1],
-					"scope": 0,
-					"color": 0,
-					"children": [0, 1, 2, 3, 4]
-				},
-				{
-					"name": "lid",
-					"origin": [1, 0, 1],
-					"scope": 0,
-					"color": 0,
-					"children": [5, 6, 7, 8, 9]
-				}
-			]
-		},
-		{
 			"name": "pizza",
 			"origin": [8, 8, 8],
 			"scope": 0,
 			"color": 0,
 			"children": [
-				10,
-				11,
-				12,
-				13,
+				0,
+				1,
+				2,
+				3,
 				{
 					"name": "crust",
 					"origin": [1, 0, 0],
 					"scope": 0,
 					"color": 0,
-					"children": [14, 15, 16, 17, 18, 19, 20, 21]
+					"children": [4, 5, 6, 7, 8, 9, 10, 11]
 				}
 			]
 		}

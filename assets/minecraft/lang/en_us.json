@@ -2375,10 +2375,5 @@
   "ff.lootbook.loot.pumpkin.description": "Found in Basement Storage. Requires a key.",
   "ff.lootbook.loot.coal.description": "Found in Cafe Chimney. Requires a key.",
   "ff.lootbook.loot.star.description": "Found in Basement Storage. Requires a key.",
-  "ff.lootbook.loot.dinonog.description": "Found in Dinonog Bar. Requires a key.",
-
-  "ff.stocking.gold_shark": "G.Shark",
-  "ff.stocking.trike": "Trike",
-  "ff.stocking.crab": "Crab",
-  "ff.stocking.t_rex": "T-Rex"
+  "ff.lootbook.loot.dinonog.description": "Found in Dinonog Bar. Requires a key."
 }

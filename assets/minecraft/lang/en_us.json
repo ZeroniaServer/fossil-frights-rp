@@ -499,6 +499,7 @@
   "ff.item.museum_map": "Museum Map",
   "ff.item.glowberry": "Glowberry",
   "ff.item.ice_sculpture_salt": "Salt",
+  "ff.item.ice_sculpture_salt.description": "Toss on ice sculpture to melt (reset)",
   "ff.item.lost_egg": "Lost Egg",
   "ff.item.vault_key": "Vault Key",
   "ff.item.storage_key": "Storage Key",

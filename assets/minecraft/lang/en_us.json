@@ -923,6 +923,7 @@
   "ff.actionbar.trap.too_close": "Too close to another trap",
   "ff.actionbar.locator_bar": "↓ Look at the locator bar ↓",
   "ff.actionbar.ice_cannon_obstructed": "Ice cannon obstructed",
+  "ff.actionbar.heists.ice_sculpture.reset_guard": "Can only be reset by thieves",
   "ff.actionbar.hazard.prefix": "Hazard: ",
   "ff.actionbar.hazard.floor_is_lava": "Floor is Lava",
   "ff.actionbar.hazard.security_gates": "Security Gates",
@@ -2390,5 +2391,7 @@
   "ff.lootbook.loot.mammoth_tusk.name": "Mammoth Tusk",
   "ff.lootbook.loot.mammoth_tusk.description": "2nd Floor Ice Age.",
   "ff.lootbook.loot.claw.name": "Claw",
-  "ff.lootbook.loot.claw.description": "Basement."
+  "ff.lootbook.loot.claw.description": "Basement.",
+  "ff.item.ice_sculpture": "Ice Sculpture",
+  "ff.lootbook.loot.ice_sculpture.description": "Ruins, Snow Castle. Requires a strong push"
 }

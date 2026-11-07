@@ -662,5 +662,61 @@
     "sounds": [
       "fossil_frights:silent"
     ]
+  },
+  "block.stem.break": {
+    "replace": true,
+    "sounds": [
+      "dig/wood1",
+      "dig/wood2",
+      "dig/wood3",
+      "dig/wood4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.stem.fall": {
+    "replace": true,
+    "sounds": [
+      "step/wood1",
+      "step/wood2",
+      "step/wood3",
+      "step/wood4",
+      "step/wood5",
+      "step/wood6"
+    ],
+    "subtitle": "subtitles.block.generic.fall"
+  },
+  "block.stem.hit": {
+    "replace": true,
+    "sounds": [
+      "step/wood1",
+      "step/wood2",
+      "step/wood3",
+      "step/wood4",
+      "step/wood5",
+      "step/wood6"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.stem.place": {
+    "replace": true,
+    "sounds": [
+      "dig/wood1",
+      "dig/wood2",
+      "dig/wood3",
+      "dig/wood4"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.stem.step": {
+    "replace": true,
+    "sounds": [
+      "step/wood1",
+      "step/wood2",
+      "step/wood3",
+      "step/wood4",
+      "step/wood5",
+      "step/wood6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
   }
 }

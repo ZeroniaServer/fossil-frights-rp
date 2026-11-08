@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Animated Java (https://github.com/Animated-Java/animated-java) via Blockbench",
 	"textures": {
-		"4": "aj:blueprint/elfsembly_line/present_red",
+		"4": "fossil_frights:display/frightmas/presents/present_red",
 		"particle": "minecraft:item/pufferfish"
 	},
 	"display": {

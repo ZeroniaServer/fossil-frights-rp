@@ -5,7 +5,7 @@
 		"2": "fossil_frights:display/frightmas/presents/present_gold",
 		"3": "fossil_frights:display/frightmas/presents/present_lime",
 		"4": "fossil_frights:display/frightmas/presents/present_red",
-		"7": "aj:blueprint/elfsembly_line/red_wool",
+		"7": "minecraft:block/red_wool",
 		"particle": "minecraft:item/pufferfish"
 	},
 	"display": {

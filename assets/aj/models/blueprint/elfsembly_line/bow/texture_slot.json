@@ -2,7 +2,7 @@
 	"credit": "Made with Animated Java (https://github.com/Animated-Java/animated-java) via Blockbench",
 	"textures": {
 		"particle": "minecraft:item/pufferfish",
-		"slot_texture_slot": "aj:blueprint/elfsembly_line/present_dark_red"
+		"slot_texture_slot": "fossil_frights:display/frightmas/presents/present_dark_red"
 	},
 	"display": {
 		"head": {

@@ -1,0 +1,49 @@
+{
+	"credit": "Made with Animated Java (https://github.com/Animated-Java/animated-java) via Blockbench",
+	"textures": {
+		"8": "aj:blueprint/elfsembly_line/spyglass_model",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [7, 6.02289, 5.70971],
+			"to": [9, 8.02289, 10.70971],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [8, 7.02289, 10.95971]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 2, 2],
+					"texture": "#8"
+				},
+				"east": {
+					"uv": [0, 2, 2, 7],
+					"rotation": 90,
+					"texture": "#8"
+				},
+				"west": {
+					"uv": [0, 2, 2, 7],
+					"rotation": 270,
+					"texture": "#8"
+				},
+				"up": {
+					"uv": [0, 2, 2, 7],
+					"texture": "#8"
+				},
+				"down": {
+					"uv": [0, 2, 2, 7],
+					"rotation": 180,
+					"texture": "#8"
+				}
+			}
+		}
+	]
+}

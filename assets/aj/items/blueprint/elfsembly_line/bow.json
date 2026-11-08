@@ -1,0 +1,36 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"index": 0,
+		"cases": [
+			{
+				"when": "present_lime",
+				"model": {
+					"type": "minecraft:model",
+					"model": "aj:blueprint/elfsembly_line/bow/texture_slot/present_lime",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
+				}
+			},
+			{
+				"when": "present_red",
+				"model": {
+					"type": "minecraft:model",
+					"model": "aj:blueprint/elfsembly_line/bow/texture_slot/present_red",
+					"tints": [
+						{"type": "minecraft:dye", "default": [1, 1, 1]}
+					]
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "aj:blueprint/elfsembly_line/bow/texture_slot",
+			"tints": [
+				{"type": "minecraft:dye", "default": [1, 1, 1]}
+			]
+		}
+	}
+}

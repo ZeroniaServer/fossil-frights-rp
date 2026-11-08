@@ -1,0 +1,50 @@
+{
+	"credit": "Made with Animated Java (https://github.com/Animated-Java/animated-java) via Blockbench",
+	"textures": {
+		"3": "aj:blueprint/elfsembly_line/present_lime",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [4.49999, 6.52328, 8],
+			"to": [11.49999, 9.52328, 8],
+			"rotation": {
+				"x": 0,
+				"y": -45,
+				"z": 0,
+				"origin": [7.99999, 1.52328, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 13, 7, 16],
+					"texture": "#3"
+				},
+				"east": {
+					"uv": [5.25, 0, 5.25, 3],
+					"texture": "#3"
+				},
+				"south": {
+					"uv": [0, 13, 7, 16],
+					"texture": "#3"
+				},
+				"west": {
+					"uv": [5.5, 0, 5.5, 3],
+					"texture": "#3"
+				},
+				"up": {
+					"uv": [0.5, 5.5, 9.5, 5.5],
+					"texture": "#3"
+				},
+				"down": {
+					"uv": [0.5, 5.25, 9.5, 5.25],
+					"texture": "#3"
+				}
+			}
+		}
+	]
+}

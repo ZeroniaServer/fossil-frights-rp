@@ -27,8 +27,8 @@ void main(){
     // Sample Inputs
     fragColor = texture(InSampler, texCoord);
     
-    vec3 data1 = texelFetch(InSampler, ivec2(0, 0), 0).rgb;
-    vec3 data2 = texelFetch(InSampler, ivec2(0, 1), 0).rgb;
+    vec3 data1 = texelFetch(InSampler, ivec2(ScreenSize.x/2, 0), 0).rgb;
+    vec3 data2 = texelFetch(InSampler, ivec2(ScreenSize.x/2+1, 1), 0).rgb;
     float ProjMatY = decodeColor(vec4(data1.rgb, data2.r));
     
     // Mix depth

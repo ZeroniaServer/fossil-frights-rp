@@ -9,6 +9,8 @@ layout(std140) uniform SamplerInfo {
 uniform sampler2D InSampler;
 uniform sampler2D MainSampler;
 
+#include <minecraft:globals.glsl>
+
 layout(location = 0) in vec2 texCoord;
 
 layout(location = 0) out vec4 fragColor;
@@ -17,7 +19,7 @@ void main() {
     fragColor = texture(InSampler, texCoord);
     int x = int(gl_FragCoord.x);
     int y = int(gl_FragCoord.y);
-    if (x == 0 && (y == 0 || y == 1)) {
+    if (y == 0 && (x == ScreenSize.x/2 || x == ScreenSize.x/2 + 1)) {
         fragColor = texture(MainSampler, texCoord);
     }
 }

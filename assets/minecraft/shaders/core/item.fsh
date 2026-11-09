@@ -14,6 +14,7 @@
 // FOG
 #include <d_shader_utils:float.glsl>
 #include <minecraft:projection.glsl>
+#include <minecraft:globals.glsl>
 
 // END CUSTOM CODE
 
@@ -83,18 +84,16 @@ void main() {
     // CUSTOM CODE -- FOG
     int x = int(gl_FragCoord.x);
     int y = int(gl_FragCoord.y);
-    if (x == 0 && (y == 0 || y == 1))
+    if (y == 0 && (x == ScreenSize.x/2 || x == ScreenSize.x/2 + 1))
     {
         #ifndef OIT_ALPHA_ONLY
         if (markerType == 2)
         {
             float ProjMatY = ProjMat[1][1];
-            if (y == 0) {
+            if (x == ScreenSize.x/2) {
                 fragColor = vec4(encodeFloat(ProjMatY).rgb, 1);
-            } else if (y == 1) {
-                fragColor = vec4(encodeFloat(ProjMatY).a, 0, 0, 1);
             } else {
-                discard;
+                fragColor = vec4(encodeFloat(ProjMatY).a, 0, 0, 1);
             }
             return;
         }

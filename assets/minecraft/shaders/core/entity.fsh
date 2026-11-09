@@ -10,6 +10,7 @@
 
 // CUSTOM CODE
 #include <minecraft:emissive_utils.glsl>
+#include <minecraft:globals.glsl>
 // END CUSTOM CODE
 
 uniform sampler2D Sampler0;
@@ -82,7 +83,7 @@ void main() {
     // CUSTOM CODE -- FOG
     int x = int(gl_FragCoord.x);
     int y = int(gl_FragCoord.y);
-    if (x == 0 && (y == 0 || y == 1)) discard;
+    if (y == 0 && (x == ScreenSize.x/2 || x == ScreenSize.x/2 + 1)) discard;
     // END CUSTOM CODE
     
     vec4 color = texture(Sampler0, texCoord0);

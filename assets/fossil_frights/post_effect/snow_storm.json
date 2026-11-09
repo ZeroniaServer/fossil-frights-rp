@@ -1,6 +1,7 @@
 {
     "targets": {
-        "final": {}
+        "final": {},
+        "swap": {}
     },
     "passes": [
         {
@@ -40,11 +41,23 @@
         },
         {
             "vertex_shader": "minecraft:core/screenquad",
+            "fragment_shader": "fossil_frights:post/cover_marker",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "final",
+                    "bilinear": true
+                }
+            ],
+            "output": "swap"
+        },
+        {
+            "vertex_shader": "minecraft:core/screenquad",
             "fragment_shader": "minecraft:post/blit",
             "inputs": [
                 {
                     "sampler_name": "In",
-                    "target": "final"
+                    "target": "swap"
                 }
             ],
             "uniforms": {

@@ -1,0 +1,141 @@
+{
+    "targets": {
+        "fade": {"width": 3, "height": 1, "persistent": true},
+        "fade_swap": {"width": 3, "height": 1},
+        "final": {},
+        "swap": {}
+    },
+    "passes": [
+        {
+            "vertex_shader": "d_shader_utils:post/screentriangle",
+            "fragment_shader": "d_shader_utils:post/blit",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "fade"
+                }
+            ],
+            "output": "fade_swap"
+        },
+        {
+            "vertex_shader": "d_shader_utils:post/screentriangle",
+            "fragment_shader": "d_shader_utils:post/fade",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "fade_swap"
+                }
+            ],
+            "output": "fade",
+            "uniforms": {
+                "FadeConfig": [
+                    {
+                        "name": "Initial",
+                        "type": "float",
+                        "value": 1.0
+                    },
+                    {
+                        "name": "Rate",
+                        "type": "float",
+                        "value": -0.5
+                    }
+                ]
+            }
+        },
+        {
+            "vertex_shader": "d_shader_utils:post/screentriangle_fade",
+            "fragment_shader": "fossil_frights:post/fog_fade",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "minecraft:main"
+                },
+                {
+                    "sampler_name": "MainDepth",
+                    "target": "minecraft:main",
+                    "use_depth_buffer": true
+                },
+                {
+                    "sampler_name": "Fade",
+                    "target": "fade"
+                }
+            ],
+            "output": "final",
+            "uniforms": {
+                "FogConfig": [
+                    {
+                        "name": "FogColor",
+                        "type": "vec4",
+                        "value": [ 0, 0, 0, 0.8 ]
+                    },
+                    {
+                        "name": "FogStartDepth",
+                        "type": "float",
+                        "value": 1
+                    },
+                    {
+                        "name": "FogEndDepth",
+                        "type": "float",
+                        "value": 6
+                    }
+                ]
+            }
+        },
+        {
+            "vertex_shader": "minecraft:core/screenquad",
+            "fragment_shader": "fossil_frights:post/cover_marker",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "final",
+                    "bilinear": true
+                }
+            ],
+            "output": "swap"
+        },
+        {
+            "vertex_shader": "d_shader_utils:post/screentriangle_fade",
+            "fragment_shader": "fossil_frights:post/desaturate_fade",
+            "inputs": [
+                {
+                    "sampler_name": "Main",
+                    "target": "swap"
+                },
+                {
+                    "sampler_name": "Fade",
+                    "target": "fade"
+                }
+            ],
+            "uniforms": {
+                "DesaturateConfig": [
+                    {
+                        "type": "float",
+                        "name": "Intensity",
+                        "value": 0.75
+                    }
+                ]
+            },
+            "output": "final"
+        },
+        {
+            "vertex_shader": "minecraft:core/screenquad",
+            "fragment_shader": "minecraft:post/blit",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "final"
+                }
+            ],
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [ 1.0, 1.0, 1.0, 1.0 ]
+                    }
+                ]
+            },
+            "output": "minecraft:main"
+        }
+    ]
+}

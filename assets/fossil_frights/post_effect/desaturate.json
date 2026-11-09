@@ -54,6 +54,15 @@
                     "target": "fade"
                 }
             ],
+            "uniforms": {
+                "DesaturateConfig": [
+                    {
+                        "name": "MaxIntensity",
+                        "type": "float",
+                        "value": 1
+                    }
+                ]
+            },
             "output": "swap"
         },
         {

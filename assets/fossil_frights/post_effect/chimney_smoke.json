@@ -63,8 +63,8 @@
             "uniforms": {
                 "DesaturateConfig": [
                     {
-                        "type": "float",
                         "name": "Intensity",
+                        "type": "float",
                         "value": 0.75
                     }
                 ]

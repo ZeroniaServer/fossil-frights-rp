@@ -1,0 +1,67 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/icons/hallucinations/avalanche.png",
+      "ascent": 10,
+      "height": 16,
+      "chars": [
+        "\ue130"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/icons/hallucinations/chimney_smoke.png",
+      "ascent": 10,
+      "height": 16,
+      "chars": [
+        "\ue131"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/icons/hallucinations/elf_infestation.png",
+      "ascent": 10,
+      "height": 16,
+      "chars": [
+        "\ue132"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/icons/hallucinations/freezing_flood.png",
+      "ascent": 10,
+      "height": 16,
+      "chars": [
+        "\ue133"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/icons/hallucinations/jolly_curse.png",
+      "ascent": 10,
+      "height": 16,
+      "chars": [
+        "\ue134"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/icons/hallucinations/lights.png",
+      "ascent": 10,
+      "height": 16,
+      "chars": [
+        "\ue135"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/icons/hallucinations/snow_storm.png",
+      "ascent": 10,
+      "height": 16,
+      "chars": [
+        "\ue136"
+      ]
+    }
+  ]
+}

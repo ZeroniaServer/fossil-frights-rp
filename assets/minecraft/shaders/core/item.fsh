@@ -10,6 +10,11 @@
 
 // CUSTOM CODE
 #include <minecraft:emissive_utils.glsl>
+
+// FOG
+#include <d_shader_utils:float.glsl>
+#include <minecraft:projection.glsl>
+
 // END CUSTOM CODE
 
 uniform sampler2D Sampler0;
@@ -34,6 +39,9 @@ layout(location = 5) in vec2 texCoord0;
 #ifdef GLINT
 layout(location = 6) in vec2 texCoordGlint;
 #endif
+// CUSTOM CODE -- FOG
+layout(location = 7) flat in int markerType;
+// END CUSTOM CODE
 
 #ifndef OIT_ALPHA_ONLY
 layout(location = 0) out vec4 fragColor;
@@ -72,6 +80,30 @@ vec4 calculateFinalColor(vec4 color) {
 #endif
 
 void main() {
+    // CUSTOM CODE -- FOG
+    int x = int(gl_FragCoord.x);
+    int y = int(gl_FragCoord.y);
+    if (x == 0 && (y == 0 || y == 1))
+    {
+        #ifndef OIT_ALPHA_ONLY
+        if (markerType == 2)
+        {
+            float ProjMatY = ProjMat[1][1];
+            if (y == 0) {
+                fragColor = vec4(encodeFloat(ProjMatY).rgb, 1);
+            } else if (y == 1) {
+                fragColor = vec4(encodeFloat(ProjMatY).a, 0, 0, 1);
+            } else {
+                discard;
+            }
+            return;
+        }
+        #endif
+        discard;
+    }
+    if (markerType != -1) discard;
+    // END CUSTOM CODE
+
     vec4 color = texture(Sampler0, texCoord0);
     #ifdef ALPHA_CUTOUT
     if (color.a < ALPHA_CUTOUT) {

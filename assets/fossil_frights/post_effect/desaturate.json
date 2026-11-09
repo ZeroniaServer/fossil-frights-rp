@@ -43,7 +43,7 @@
         },
         {
             "vertex_shader": "d_shader_utils:post/screentriangle_fade",
-            "fragment_shader": "fossil_frights:post/desaturate",
+            "fragment_shader": "fossil_frights:post/desaturate_fade",
             "inputs": [
                 {
                     "sampler_name": "Main",

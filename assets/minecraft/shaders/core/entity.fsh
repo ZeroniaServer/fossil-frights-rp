@@ -79,6 +79,12 @@ vec4 calculateFinalColor(vec4 color) {
 }
 
 void main() {
+    // CUSTOM CODE -- FOG
+    int x = int(gl_FragCoord.x);
+    int y = int(gl_FragCoord.y);
+    if (x == 0 && (y == 0 || y == 1)) discard;
+    // END CUSTOM CODE
+    
     vec4 color = texture(Sampler0, texCoord0);
 
     #ifdef OIT_ADDITIVE

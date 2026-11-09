@@ -38,6 +38,18 @@ layout(location = 5) out vec2 texCoord0;
 layout(location = 6) out vec2 texCoordGlint;
 #endif
 
+// CUSTOM CODE -- FOG
+uniform sampler2D Sampler0;
+layout(location = 7) flat out int markerType;
+
+vec2[] corners = vec2[](
+    vec2(-2.0, 2.0),
+    vec2(-2.0, -1.0),
+    vec2(1.0, -1.0),
+    vec2(1.0, 2.0)
+);
+// END CUSTOM CODE
+
 void main() {
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
 
@@ -46,7 +58,9 @@ void main() {
     cylindricalVertexDistance = fog_cylindrical_distance(Position);
     #endif
     vertexColor = minecraft_mix_light(Light0_Direction, Light1_Direction, Normal, Color);
+    // CUSTOM CODE
     diffuseColor = Color;
+    // END CUSTOM CODE
     #ifndef OIT_ALPHA_ONLY
     lightMapColor = sample_lightmap(Sampler2, UV2);
     overlayColor = texelFetch(Sampler1, UV1, 0);
@@ -60,4 +74,14 @@ void main() {
     texCoordGlint = (TextureMat * vec4(UV0, 0.0, 1.0)).xy;
     #endif
     #endif
+
+    // CUSTOM CODE -- FOG
+    ivec3 markerColor = ivec3(round(255. * texture(Sampler0, UV0).rgb));
+    if (markerColor.rg == ivec2(254, 0)) {
+        markerType = markerColor.b;
+        gl_Position = vec4(corners[gl_VertexIndex % 4], 1, 1);
+    } else {
+        markerType = -1;
+    }
+    // END CUSTOM CODE
 }

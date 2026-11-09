@@ -1,0 +1,6 @@
+{
+    "model": {
+        "type": "model",
+        "model": "d_shader_utils:shader/fog_marker"
+    }
+}

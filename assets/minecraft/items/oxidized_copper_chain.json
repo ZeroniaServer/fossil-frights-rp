@@ -1,0 +1,39 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:block/oxidized_copper_chain"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:block/climbable_chain_rungs"
+      }
+    ],
+    "transformation": {
+      "translation": [
+        -0.25,
+        -0.25,
+        -0.25
+      ],
+      "left_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "right_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    }
+  }
+}

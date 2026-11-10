@@ -1,0 +1,36 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "fossil_frights:block/climbable_chain_rungs"
+      }
+    },
+    {
+      "when": {
+        "axis": "x"
+      },
+      "apply": {
+        "model": "minecraft:block/oxidized_copper_chain",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "axis": "y"
+      },
+      "apply": {
+        "model": "minecraft:block/oxidized_copper_chain"
+      }
+    },
+    {
+      "when": {
+        "axis": "z"
+      },
+      "apply": {
+        "model": "minecraft:block/oxidized_copper_chain",
+        "x": 90
+      }
+    }
+  ]
+}

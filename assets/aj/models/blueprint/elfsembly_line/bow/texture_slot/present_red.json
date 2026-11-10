@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Animated Java (https://github.com/Animated-Java/animated-java) via Blockbench",
+	"parent": "aj:blueprint/elfsembly_line/bow/texture_slot",
+	"textures": {
+		"slot_texture_slot": "fossil_frights:display/frightmas/presents/present_red"
+	}
+}

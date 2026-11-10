@@ -1,0 +1,50 @@
+{
+	"credit": "Made with Animated Java (https://github.com/Animated-Java/animated-java) via Blockbench",
+	"textures": {
+		"6": "minecraft:entity/copper_golem/copper_golem_oxidized",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [5, -1, 6],
+			"to": [8, 9, 10],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [12, -3, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [10, 5, 10.75, 7.5],
+					"texture": "#6"
+				},
+				"east": {
+					"uv": [9, 5, 10, 7.5],
+					"texture": "#6"
+				},
+				"south": {
+					"uv": [11.75, 5, 12.5, 7.5],
+					"texture": "#6"
+				},
+				"west": {
+					"uv": [10.75, 5, 11.75, 7.5],
+					"texture": "#6"
+				},
+				"up": {
+					"uv": [10.75, 5, 10, 4],
+					"texture": "#6"
+				},
+				"down": {
+					"uv": [11.5, 4, 10.75, 5],
+					"texture": "#6"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,118 @@
+{
+	"credit": "Made with Animated Java (https://github.com/Animated-Java/animated-java) via Blockbench",
+	"textures": {
+		"4": "fossil_frights:display/frightmas/presents/present_red",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [4.1777, 4, 4.1777],
+			"to": [12.1777, 10, 12.1777],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [10.1777, 4, 3.1777]
+			},
+			"faces": {
+				"north": {
+					"uv": [8, 0, 16, 6],
+					"texture": "#4"
+				},
+				"east": {
+					"uv": [8, 0, 16, 6],
+					"texture": "#4"
+				},
+				"south": {
+					"uv": [8, 0, 16, 6],
+					"texture": "#4"
+				},
+				"west": {
+					"uv": [8, 0, 16, 6],
+					"texture": "#4"
+				},
+				"down": {
+					"uv": [0, 0, 8, 8],
+					"texture": "#4"
+				}
+			}
+		},
+		{
+			"from": [3.6777, 10, 3.6777],
+			"to": [12.6777, 12, 12.6777],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [10.1777, 5, 3.1777]
+			},
+			"faces": {
+				"north": {
+					"uv": [8, 6, 16, 8],
+					"texture": "#4"
+				},
+				"east": {
+					"uv": [8, 6, 16, 8],
+					"texture": "#4"
+				},
+				"south": {
+					"uv": [8, 6, 16, 8],
+					"texture": "#4"
+				},
+				"west": {
+					"uv": [8, 6, 16, 8],
+					"texture": "#4"
+				},
+				"up": {
+					"uv": [8, 8, 16, 16],
+					"texture": "#4"
+				},
+				"down": {
+					"uv": [8, 8, 16, 16],
+					"texture": "#4"
+				}
+			}
+		},
+		{
+			"from": [4.6777, 12, 8.1777],
+			"to": [11.6777, 15, 8.1777],
+			"rotation": {
+				"x": 0,
+				"y": 45,
+				"z": 0,
+				"origin": [8.1777, 7, 8.1777]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 13, 7, 16],
+					"texture": "#4"
+				},
+				"east": {
+					"uv": [5.25, 0, 5.25, 3],
+					"texture": "#4"
+				},
+				"south": {
+					"uv": [0, 13, 7, 16],
+					"texture": "#4"
+				},
+				"west": {
+					"uv": [5.5, 0, 5.5, 3],
+					"texture": "#4"
+				},
+				"up": {
+					"uv": [0.5, 5.5, 9.5, 5.5],
+					"texture": "#4"
+				},
+				"down": {
+					"uv": [0.5, 5.25, 9.5, 5.25],
+					"texture": "#4"
+				}
+			}
+		}
+	]
+}

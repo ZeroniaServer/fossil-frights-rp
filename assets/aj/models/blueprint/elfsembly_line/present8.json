@@ -1,0 +1,82 @@
+{
+	"credit": "Made with Animated Java (https://github.com/Animated-Java/animated-java) via Blockbench",
+	"textures": {
+		"4": "fossil_frights:display/frightmas/presents/present_red",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [4.17678, 4, 4.17678],
+			"to": [12.17678, 10, 12.17678],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [10.17678, 4, 3.17678]
+			},
+			"faces": {
+				"north": {
+					"uv": [8, 0, 16, 6],
+					"texture": "#4"
+				},
+				"east": {
+					"uv": [8, 0, 16, 6],
+					"texture": "#4"
+				},
+				"south": {
+					"uv": [8, 0, 16, 6],
+					"texture": "#4"
+				},
+				"west": {
+					"uv": [8, 0, 16, 6],
+					"texture": "#4"
+				},
+				"down": {
+					"uv": [0, 0, 8, 8],
+					"texture": "#4"
+				}
+			}
+		},
+		{
+			"from": [3.67678, 10, 3.67678],
+			"to": [12.67678, 12, 12.67678],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [10.17678, 5, 3.17678]
+			},
+			"faces": {
+				"north": {
+					"uv": [8, 6, 16, 8],
+					"texture": "#4"
+				},
+				"east": {
+					"uv": [8, 6, 16, 8],
+					"texture": "#4"
+				},
+				"south": {
+					"uv": [8, 6, 16, 8],
+					"texture": "#4"
+				},
+				"west": {
+					"uv": [8, 6, 16, 8],
+					"texture": "#4"
+				},
+				"up": {
+					"uv": [8, 8, 16, 16],
+					"texture": "#4"
+				},
+				"down": {
+					"uv": [8, 8, 16, 16],
+					"texture": "#4"
+				}
+			}
+		}
+	]
+}

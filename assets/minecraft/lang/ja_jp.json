@@ -742,7 +742,6 @@
   "ff.survived_to_day": "%1$sは%2$s日まで生き残った。",
   "ff.survived_to_day.multiple": "%1$s and %2$s survived to day %3$s.",
   "ff.beat_time": "%1$sは%2$sで勝利した。",
-  "ff.beat_time.multiple": "%1$s and %2$s beat the game in %3$s.",
   "ff.exit_day_reached": "%1$sは%2$s日目を迎えた。",
   "ff.exit_day_reached.multiple": "%1$s and %2$s made it to day %3$s.",
   "ff.guards_win": "%1$sは%2$sとしてプレイし、勝利した。",

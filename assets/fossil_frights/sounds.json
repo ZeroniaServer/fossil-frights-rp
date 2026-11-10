@@ -512,5 +512,21 @@
         "stream": false
       }
     ]
+  },
+  "hallucinations.avalanche": {
+    "sounds": [
+      {
+        "name": "fossil_frights:hazards/avalanche",
+        "stream": false
+      }
+    ]
+  },
+  "hallucinations.jolly_curse": {
+    "sounds": [
+      {
+        "name": "fossil_frights:hazards/jolly_curse",
+        "stream": false
+      }
+    ]
   }
 }

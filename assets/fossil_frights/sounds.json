@@ -53,15 +53,6 @@
       }
     ]
   },
-  "hazards.lights": {
-    "subtitle": "subtitles.fossil_frights.hazards.lights",
-    "sounds": [
-      {
-        "name": "fossil_frights:hazards/lights",
-        "stream": false
-      }
-    ]
-  },
   "hazards.breaker_close": {
     "subtitle": "subtitles.fossil_frights.hazards.breaker_close",
     "sounds": [
@@ -94,15 +85,6 @@
     "sounds": [
       {
         "name": "fossil_frights:hazards/security",
-        "stream": false
-      }
-    ]
-  },
-  "hazards.curse": {
-    "subtitle": "subtitles.fossil_frights.hazards.curse",
-    "sounds": [
-      {
-        "name": "fossil_frights:hazards/curse",
         "stream": false
       }
     ]
@@ -525,6 +507,14 @@
     "sounds": [
       {
         "name": "fossil_frights:hazards/jolly_curse",
+        "stream": false
+      }
+    ]
+  },
+  "hallucinations.darkness": {
+    "sounds": [
+      {
+        "name": "fossil_frights:hallucinations/darkness",
         "stream": false
       }
     ]

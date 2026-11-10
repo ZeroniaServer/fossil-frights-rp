@@ -1,46 +1,144 @@
 {
-  "variants": {
-    "powered=false,shape=ascending_east": {
-      "model": "minecraft:block/activator_rail_raised_ne",
-      "y": 90
+  "multipart": [
+    {
+      "when": {
+        "AND": [
+          {
+            "powered": "false"
+          },
+          {
+            "OR": [
+              {
+                "shape": "north_south"
+              },
+              {
+                "shape": "ascending_east"
+              },
+              {
+                "shape": "ascending_north"
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "fossil_frights:block/rope/red/straight"
+      }
     },
-    "powered=false,shape=ascending_north": {
-      "model": "minecraft:block/activator_rail_raised_ne"
+    {
+      "when": {
+        "AND": [
+          {
+            "powered": "false"
+          },
+          {
+            "OR": [
+              {
+                "shape": "east_west"
+              },
+              {
+                "shape": "ascending_west"
+              },
+              {
+                "shape": "ascending_south"
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "fossil_frights:block/rope/red/straight",
+        "y": 90
+      }
     },
-    "powered=false,shape=ascending_south": {
-      "model": "minecraft:block/activator_rail_raised_sw"
+    {
+      "when": {
+        "AND": [
+          {
+            "powered": "true"
+          },
+          {
+            "OR": [
+              {
+                "shape": "north_south"
+              },
+              {
+                "shape": "ascending_east"
+              },
+              {
+                "shape": "ascending_north"
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "fossil_frights:block/rope/blue/straight"
+      }
     },
-    "powered=false,shape=ascending_west": {
-      "model": "minecraft:block/activator_rail_raised_sw",
-      "y": 90
+    {
+      "when": {
+        "AND": [
+          {
+            "powered": "true"
+          },
+          {
+            "OR": [
+              {
+                "shape": "east_west"
+              },
+              {
+                "shape": "ascending_west"
+              },
+              {
+                "shape": "ascending_south"
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "fossil_frights:block/rope/blue/straight",
+        "y": 90
+      }
     },
-    "powered=false,shape=east_west": {
-      "model": "minecraft:block/activator_rail",
-      "y": 90
+    {
+      "when": {
+        "AND": [
+          {
+            "OR": [
+              {
+                "shape": "ascending_east"
+              },
+              {
+                "shape": "ascending_west"
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "minecraft:block/snow_height2"
+      }
     },
-    "powered=false,shape=north_south": {
-      "model": "minecraft:block/activator_rail"
-    },
-    "powered=true,shape=ascending_east": {
-      "model": "minecraft:block/activator_rail_on_raised_ne",
-      "y": 90
-    },
-    "powered=true,shape=ascending_north": {
-      "model": "minecraft:block/activator_rail_on_raised_ne"
-    },
-    "powered=true,shape=ascending_south": {
-      "model": "minecraft:block/activator_rail_on_raised_sw"
-    },
-    "powered=true,shape=ascending_west": {
-      "model": "minecraft:block/activator_rail_on_raised_sw",
-      "y": 90
-    },
-    "powered=true,shape=east_west": {
-      "model": "minecraft:block/activator_rail_on",
-      "y": 90
-    },
-    "powered=true,shape=north_south": {
-      "model": "minecraft:block/activator_rail_on"
+    {
+      "when": {
+        "AND": [
+          {
+            "OR": [
+              {
+                "shape": "ascending_north"
+              },
+              {
+                "shape": "ascending_south"
+              }
+            ]
+          }
+        ]
+      },
+      "apply": {
+        "model": "minecraft:block/snow_height4"
+      }
     }
-  }
+  ]
 }

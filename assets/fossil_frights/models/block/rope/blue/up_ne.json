@@ -1,0 +1,6 @@
+{
+	"parent": "fossil_frights:block/rope/red/up_ne",
+	"textures": {
+		"rope": "fossil_frights:display/general/blue_rope"
+	}
+}

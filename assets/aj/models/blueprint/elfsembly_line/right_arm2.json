@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Animated Java (https://github.com/Animated-Java/animated-java) via Blockbench",
 	"textures": {
-		"5": "minecraft:entity/copper_golem/copper_golem",
+		"5": "fossil_frights:display/frightmas/elfsembly_line/copper_golem/copper_golem",
 		"particle": "minecraft:item/pufferfish"
 	},
 	"display": {

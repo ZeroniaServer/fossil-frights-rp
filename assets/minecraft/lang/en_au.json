@@ -774,15 +774,22 @@
   "ff.security_camera.actionbar.thief_visible.prompt": "Press %1$s to Report.",
   "ff.security_camera.actionbar.player_spotted": "%1$s spotted %2$s in %3$s",
 
-  "ff.survived_to_day": "%1$s survived to day %2$s.",
+  "ff.survived_to_day.none": "Players survived to day %2$s.",
+  "ff.survived_to_day.singular": "%1$s survived to day %2$s.",
+  "ff.survived_to_day.plural": "%1$s survived to day %2$s.",
 
-  "ff.beat_time": "%1$s beat the game in %2$s.",
+  "ff.beat_time.none": "Players beat the game in %2$s.",
+  "ff.beat_time.singular": "%1$s beat the game in %2$s.",
+  "ff.beat_time.plural": "%1$s beat the game in %2$s.",
 
-  "ff.exit_day_reached": "%1$s made it to day %2$s.",
+  "ff.exit_day_reached.none": "Players made it to day %2$s.",
+  "ff.exit_day_reached.singular": "%1$s made it to day %2$s.",
+  "ff.exit_day_reached.plural": "%1$s made it to day %2$s.",
 
   "ff.guards_win.none": "%2$s won!",
   "ff.guards_win.singular": "%1$s won playing as %2$s!",
   "ff.guards_win.plural": "%1$s won playing as %2$s!",
+
   "ff.thieves_win.none": "%2$s won!",
   "ff.thieves_win.singular": "%1$s won playing as %2$s!",
   "ff.thieves_win.plural": "%1$s won playing as %2$s!",

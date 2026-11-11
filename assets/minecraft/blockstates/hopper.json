@@ -4,18 +4,18 @@
       "model": "minecraft:block/hopper"
     },
     "facing=east": {
-      "model": "minecraft:block/hopper_side",
+      "model": "fossil_frights:block/poplar_burrow",
       "y": 90
     },
     "facing=north": {
-      "model": "minecraft:block/hopper_side"
+      "model": "fossil_frights:block/poplar_burrow"
     },
     "facing=south": {
-      "model": "minecraft:block/hopper_side",
+      "model": "fossil_frights:block/poplar_burrow",
       "y": 180
     },
     "facing=west": {
-      "model": "minecraft:block/hopper_side",
+      "model": "fossil_frights:block/poplar_burrow",
       "y": 270
     }
   }

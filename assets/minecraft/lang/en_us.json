@@ -17,6 +17,7 @@
   "tutorial.craft_planks.description": "",
   "soundCategory.record": "Fossil Frights Music",
   "effect.minecraft.luck": "Double Jump",
+  "effect.minecraft.wither": "Freezing",
 
   "key.mouse.left": "Left Click",
   "key.mouse.right": "Right Click",
@@ -933,7 +934,6 @@
   "ff.actionbar.hazard.prefix": "Hazard: ",
   "ff.actionbar.hazard.floor_is_lava": "Floor is Lava",
   "ff.actionbar.hazard.security_gates": "Security Gates",
-  "ff.actionbar.hazard.floods": "Floods",
   "ff.actionbar.hallucination.prefix": "Hallucination: ",
   "ff.actionbar.hallucination.jolly_curse": "Jolly Curse",
   "ff.actionbar.hallucination.avalanche": "Avalanche",

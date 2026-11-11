@@ -62,15 +62,6 @@
       }
     ]
   },
-  "hazards.lava": {
-    "subtitle": "subtitles.fossil_frights.hazards.lava",
-    "sounds": [
-      {
-        "name": "fossil_frights:hazards/lava",
-        "stream": false
-      }
-    ]
-  },
   "hazards.floods": {
     "subtitle": "subtitles.fossil_frights.hazards.floods",
     "sounds": [

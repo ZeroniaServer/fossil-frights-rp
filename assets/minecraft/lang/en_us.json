@@ -493,7 +493,6 @@
   "ff.item.t_rex_plushie": "T-Rex Plushie",
   "ff.item.trike_plushie": "Trike Plushie",
   "ff.item.velociraptor_plushie": "Velociraptor Plushie",
-  "ff.item.museum_map": "Museum Map",
   "ff.item.glowberry": "Glowberry",
   "ff.item.ice_sculpture_salt": "Salt",
   "ff.item.ice_sculpture_salt.description": "Toss on ice sculpture to melt (reset)",
@@ -780,7 +779,6 @@
   "ff.bookshelf_creature.hey": "<%1$s> Hey! You! You forgot your task book!",
   "ff.bookshelf_creature.coffee": "<%1$s> Mmm. Coffee!",
 
-  "ff.museum_map_already_claimed": "You already have a map",
 
   "ff.museum_map.aquatic": "Aquatic",
   "ff.museum_map.aviary": "Aviary",

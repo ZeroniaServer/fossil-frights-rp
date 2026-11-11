@@ -509,5 +509,14 @@
         "stream": false
       }
     ]
+  },
+  "frightmas.crow": {
+    "subtitle": "subtitles.fossil_frights.frightmas.crow",
+    "sounds": [
+      {
+        "name": "fossil_frights:frightmas/crow",
+        "stream": false
+      }
+    ]
   }
 }

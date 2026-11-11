@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fossil_frights:items/heists/loot/penguin_eggs_ground"
+  },
+  "display": {
+    "ground": {
+      "scale": [1,1,0.5]
+    }
+  }
+}

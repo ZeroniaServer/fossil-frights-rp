@@ -15,6 +15,15 @@
           "model": {
             "type": "minecraft:empty"
           }
+        },
+        {
+          "when": [
+            "ground"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil_frights:items/heists/loot/penguin_eggs_ground"
+          }
         }
       ],
       "fallback": {
@@ -23,8 +32,23 @@
       }
     },
     "on_false": {
-      "type": "minecraft:model",
-      "model": "fossil_frights:items/heists/loot/penguin_eggs"
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": [
+            "ground"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil_frights:items/heists/loot/penguin_eggs_ground"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "fossil_frights:items/heists/loot/penguin_eggs"
+      }
     }
   }
 }

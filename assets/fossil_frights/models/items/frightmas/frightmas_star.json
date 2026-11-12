@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "fossil_frights:display/frightmas/task/star"
+    "layer0": "fossil_frights:items/frightmas/frightmas_star"
   }
 }

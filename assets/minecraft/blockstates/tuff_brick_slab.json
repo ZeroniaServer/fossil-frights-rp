@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/tuff_brick_slab"
+    },
+    "type=double": {
+      "model": "fossil_frights:block/snow_topped_tuff_bricks"
+    },
+    "type=top": {
+      "model": "minecraft:block/tuff_brick_slab_top"
+    }
+  }
+}

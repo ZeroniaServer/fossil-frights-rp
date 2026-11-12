@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+	"textures": {
+		"top": "minecraft:block/snow",
+		"side": "fossil_frights:block/snow_topped_tuff_bricks_side",
+		"bottom": "minecraft:block/tuff_bricks"
+	}
+}

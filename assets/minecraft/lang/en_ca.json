@@ -15,5 +15,7 @@
   "recipe.toast.description": "",
   "recipe.toast.title": "",
   "tutorial.craft_planks.description": "",
-  "soundCategory.record": "Fossil Frights Music"
+  "soundCategory.record": "Fossil Frights Music",
+  "effect.minecraft.luck": "Double Jump",
+  "effect.minecraft.wither": "Freezing"
 }

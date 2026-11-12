@@ -17,10 +17,13 @@
   "tutorial.craft_planks.description": "",
   "soundCategory.record": "Fossil Frights Music",
   "effect.minecraft.luck": "Bounce Bounce",
+  "effect.minecraft.wither": "Cold",
   
   "language.name": "Cave Man",
   "language.region": "Zeronia",
   "language.code": "caveman_zeronia",
+
+  "effect.minecraft.freezing": "Cold",
 
   "ff.messages.info": "ℹ %s",
   "ff.messages.warning": "⚠ %s",

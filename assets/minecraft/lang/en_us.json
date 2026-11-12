@@ -859,6 +859,12 @@
   "ff.crab.cooldown": "<%1$s> If your key is ever recharging, I can polish it for you!",
   "ff.crab.key_polished": "Key Polished!",
 
+  "ff.good_karma.crow": "Crow",
+  "ff.good_karma.call": "<%1$s> KAW!",
+  "ff.good_karma.call.shiny": "<%1$s> Oo! Shiny! Kaw! Shiny. May I see? KAW!",
+  "ff.good_karma.thanks": "<%1$s> Shiny! Thank you! I'll put in stocking, tomorrows tasks might be easier, KAW!",
+  "ff.good_karma.used": "<%1$s> Good easy tasks! KAW!",
+
   "ff.dinocoins.required": "Requires %s",
 
   "ff.dinocoin": "Dino Coin",

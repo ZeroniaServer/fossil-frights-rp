@@ -15,12 +15,14 @@
   "recipe.toast.description": "",
   "recipe.toast.title": "",
   "tutorial.craft_planks.description": "",
-  "soundCategory.record": "Fossil Frights Music",
+  "soundCategory.record": "Fossil Frights Boom Boom",
   "effect.minecraft.luck": "Bounce Bounce",
   
   "language.name": "Cave Man",
   "language.region": "Zeronia",
   "language.code": "caveman_zeronia",
+
+  "effect.minecraft.freezing": "Cold",
 
   "ff.messages.info": "ℹ %s",
   "ff.messages.warning": "⚠ %s",

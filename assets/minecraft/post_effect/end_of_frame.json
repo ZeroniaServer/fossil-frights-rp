@@ -139,12 +139,28 @@
             "output": "swap2"
         },
         {
+            "_comment": "Febreeze post effect",
+            "fragment_shader": "fossil_frights:post/febreeze",
+            "vertex_shader": "minecraft:core/screenquad",
+            "inputs": [
+                {
+                    "sampler_name": "Main",
+                    "target": "swap2"
+                },
+                {
+                    "sampler_name": "Data",
+                    "target": "data"
+                }
+            ],
+            "output": "swap"
+        },
+        {
             "vertex_shader": "minecraft:core/screenquad",
             "fragment_shader": "minecraft:post/blit",
             "inputs": [
                 {
                     "sampler_name": "In",
-                    "target": "swap2"
+                    "target": "swap"
                 }
             ],
             "uniforms": {

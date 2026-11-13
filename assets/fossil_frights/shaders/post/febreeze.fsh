@@ -4,6 +4,11 @@
 #include <minecraft:globals.glsl>
 
 uniform sampler2D MainSampler;
+uniform sampler2D DataSampler;
+
+#include <shader_selector:marker_settings.glsl>
+#include <shader_selector:utils.glsl>
+#include <shader_selector:data_reader.glsl>
 
 layout(std140) uniform SamplerInfo {
     vec2 OutSize;
@@ -30,7 +35,6 @@ layout(std140) uniform SamplerInfo {
 #define HIGHLIGHT 0.1
 
 layout (location = 0) in vec2 texCoord;
-layout (location = 1) flat in float fade;
 
 layout (location = 0) out vec4 fragColor;
 
@@ -156,9 +160,10 @@ float specks(vec2 p, float t) {
 // --------------------------------------------------
 
 void main() {
-    float intensity = clamp(fade, 0.0, 1.0);
+    float intensity = readChannel(FEBREEZE_CHANNEL);
+    float cam = readChannel(CAMERA_CHANNEL);
 
-    if (intensity <= 0.0) {
+    if (intensity <= 0.0 || cam == 1.0) {
         fragColor = texture(MainSampler, texCoord);
         return;
     }

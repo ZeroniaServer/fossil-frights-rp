@@ -718,5 +718,15 @@
       "step/wood6"
     ],
     "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.anvil.land": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "random/anvil_land",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.block.anvil.use"
   }
 }

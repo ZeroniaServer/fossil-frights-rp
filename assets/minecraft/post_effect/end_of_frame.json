@@ -1,8 +1,8 @@
 {
     "_comment": "ShaderSelectorV4 pipeline. In 26.3 the vanilla transparency post-chain was removed (translucency is now composited engine-side via OIT), so the old post_effect/transparency.json hook is gone. Instead we define the minecraft:end_of_frame post effect, which the client always runs once per frame while this pack is loaded (before any /posteffect effects). minecraft:main already contains the fully composited scene, including the marker particles that core/particle.* wrote as opaque pixels near the top-left corner.",
     "targets": {
-        "data": {"width": 5, "height": 3, "persistent": true},
-        "data_swap": {"width": 5, "height": 3},
+        "data": {"width": 5, "height": 5, "persistent": true},
+        "data_swap": {"width": 5, "height": 5},
         "clean": {},
         "swap": {},
         "swap2": {}

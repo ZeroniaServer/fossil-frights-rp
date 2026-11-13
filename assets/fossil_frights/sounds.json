@@ -152,6 +152,13 @@
       }
     ]
   },
+  "heists.loot_stolen": {
+    "subtitle": "subtitles.fossil_frights.heists.loot_stolen",
+    "sounds": [
+      "block/respawn_anchor/deplete1",
+      "block/respawn_anchor/deplete2"
+    ]
+  },
   "heists.loot_capture": {
     "subtitle": "subtitles.fossil_frights.heists.loot_capture",
     "sounds": [

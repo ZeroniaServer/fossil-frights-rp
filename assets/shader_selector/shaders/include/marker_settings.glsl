@@ -15,9 +15,9 @@ signature:
  ADD_MARKER(channel, green, alpha, op, rate)
 */
 // append different marker definitions
-#define LIST_MARKERS ADD_MARKER(SNOW_STORM_CHANNEL, 253, 251, 3, 0.5) ADD_MARKER(SNOW_STORM_CHANNEL, 252, 251, 0, 0.0) ADD_MARKER(CHIMNEY_SMOKE_CHANNEL, 251, 251, 3, 0.5) ADD_MARKER(CHIMNEY_SMOKE_CHANNEL, 250, 251, 0, 0.0) ADD_MARKER(FEBREEZE_CHANNEL, 249, 251, 1, 1.0) ADD_MARKER(FEBREEZE_CHANNEL, 248, 251, 0, 0.0) ADD_MARKER(CAMERA_CHANNEL, 247, 251, 0, 0.0)
+#define LIST_MARKERS ADD_MARKER(SNOW_STORM_CHANNEL, 253, 0, 3, 0.5) ADD_MARKER(SNOW_STORM_CHANNEL, 252, 0, 0, 0.0) ADD_MARKER(CHIMNEY_SMOKE_CHANNEL, 251, 0, 3, 0.5) ADD_MARKER(CHIMNEY_SMOKE_CHANNEL, 250, 251, 0, 0.0) ADD_MARKER(FEBREEZE_CHANNEL, 249, 251, 1, 1.0) ADD_MARKER(FEBREEZE_CHANNEL, 248, 0, 0, 0.0) ADD_MARKER(CAMERA_CHANNEL, 247, 0, 0, 0.0)
 
-#define MARKER_RED 254
+#define MARKER_RED 123
 
 // Screen pixel that the marker ends up on if it uses channel k:
 // Mapping follows structure that is like an inverted cantor pairing (but only producing coordinates with an even sum)

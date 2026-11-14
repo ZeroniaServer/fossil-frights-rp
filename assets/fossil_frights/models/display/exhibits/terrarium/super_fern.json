@@ -245,42 +245,49 @@
 		{
 			"name": "leaf",
 			"origin": [8, 10, 0],
+			"scope": 0,
 			"color": 0,
 			"children": [0, 1]
 		},
 		{
 			"name": "leaf",
 			"origin": [8, 10, 0],
+			"scope": 0,
 			"color": 0,
 			"children": [2, 3]
 		},
 		{
 			"name": "leaf",
 			"origin": [8, 10, 0],
+			"scope": 0,
 			"color": 0,
 			"children": [4, 5]
 		},
 		{
 			"name": "leaf",
 			"origin": [8, 10, 0],
+			"scope": 0,
 			"color": 0,
 			"children": [6, 7]
 		},
 		{
 			"name": "leaf",
 			"origin": [8, 10, 0],
+			"scope": 0,
 			"color": 0,
 			"children": [8, 9]
 		},
 		{
 			"name": "leaf",
 			"origin": [8, 10, 0],
+			"scope": 0,
 			"color": 0,
 			"children": [10, 11]
 		},
 		{
 			"name": "leaf",
 			"origin": [8, 10, 0],
+			"scope": 0,
 			"color": 0,
 			"children": [12, 13]
 		}

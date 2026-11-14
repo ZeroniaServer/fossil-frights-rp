@@ -1,7 +1,7 @@
 {
 	"model": {
 		"type": "minecraft:model",
-		"model": "aj:blueprint/my_blueprint/group3",
+		"model": "aj:blueprint/santasaurus/frightmas_hat",
 		"tints": [
 			{"type": "minecraft:dye", "default": [1, 1, 1]}
 		]

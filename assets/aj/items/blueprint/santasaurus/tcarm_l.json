@@ -1,7 +1,7 @@
 {
 	"model": {
 		"type": "minecraft:model",
-		"model": "aj:blueprint/my_blueprint/tcneck",
+		"model": "aj:blueprint/santasaurus/tcarm_l",
 		"tints": [
 			{"type": "minecraft:dye", "default": [1, 1, 1]}
 		]

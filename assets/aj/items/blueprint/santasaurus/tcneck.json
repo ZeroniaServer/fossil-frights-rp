@@ -1,7 +1,7 @@
 {
 	"model": {
 		"type": "minecraft:model",
-		"model": "aj:blueprint/my_blueprint/bone2",
+		"model": "aj:blueprint/santasaurus/tcneck",
 		"tints": [
 			{"type": "minecraft:dye", "default": [1, 1, 1]}
 		]

@@ -1,7 +1,7 @@
 {
 	"model": {
 		"type": "minecraft:model",
-		"model": "aj:blueprint/my_blueprint/tctail",
+		"model": "aj:blueprint/santasaurus/group1",
 		"tints": [
 			{"type": "minecraft:dye", "default": [1, 1, 1]}
 		]

@@ -1,86 +1,40 @@
 {
+	"format_version": "26.3",
 	"credit": "Made with Animated Java (https://github.com/Animated-Java/animated-java) via Blockbench",
 	"textures": {
 		"0": "fossil_frights:display/frightmas/santasaurus",
-		"particle": "minecraft:item/pufferfish"
-	},
-	"display": {
-		"head": {
-			"rotation": [0, 180, 0]
-		}
+		"particle": "item/pufferfish"
 	},
 	"elements": [
 		{
 			"from": [12.13507, -11.08912, -6.12346],
 			"to": [18.75119, 3.79714, 2.14669],
-			"rotation": {
-				"x": 2.5,
-				"y": 10,
-				"z": 0,
-				"origin": [13.7891, 11.30806, 7.8346]
-			},
+			"rotation": {"x": 2.5, "y": 10, "z": 0, "origin": [13.7891, 11.30806, 7.8346]},
 			"faces": {
-				"north": {
-					"uv": [1.75, 3.25, 2.25, 4.375],
-					"texture": "#0"
-				},
-				"east": {
-					"uv": [6.125, 1.375, 6.75, 2.5],
-					"texture": "#0"
-				},
-				"south": {
-					"uv": [1.25, 6, 1.75, 7.125],
-					"texture": "#0"
-				},
-				"west": {
-					"uv": [6.125, 4.125, 6.75, 5.25],
-					"texture": "#0"
-				},
-				"up": {
-					"uv": [1.75, 4.375, 2.25, 5],
-					"texture": "#0"
-				},
-				"down": {
-					"uv": [2.375, 6.5, 2.875, 7.125],
-					"texture": "#0"
-				}
+				"north": {"uv": [1.75, 3.25, 2.25, 4.375], "texture": "#0"},
+				"east": {"uv": [6.125, 1.375, 6.75, 2.5], "texture": "#0"},
+				"south": {"uv": [1.25, 6, 1.75, 7.125], "texture": "#0"},
+				"west": {"uv": [6.125, 4.125, 6.75, 5.25], "texture": "#0"},
+				"down": {"uv": [2.375, 6.5, 2.875, 7.125], "texture": "#0"}
 			}
 		},
 		{
 			"from": [11.30806, -5.28344, 4.22587],
 			"to": [19.57821, 12.91088, 15.80407],
-			"rotation": {
-				"x": 82.5,
-				"y": 10,
-				"z": 0,
-				"origin": [13.7891, 11.30806, 7.8346]
-			},
+			"rotation": {"x": 82.5, "y": 10, "z": 0, "origin": [13.7891, 11.30806, 7.8346]},
 			"faces": {
-				"north": {
-					"uv": [0, 5.625, 0.625, 7],
-					"texture": "#0"
-				},
-				"east": {
-					"uv": [5.25, 1.375, 6.125, 2.75],
-					"texture": "#0"
-				},
-				"south": {
-					"uv": [0.625, 6, 1.25, 7.375],
-					"texture": "#0"
-				},
-				"west": {
-					"uv": [5.375, 2.75, 6.25, 4.125],
-					"texture": "#0"
-				},
-				"up": {
-					"uv": [6.25, 2.5, 6.875, 3.375],
-					"texture": "#0"
-				},
-				"down": {
-					"uv": [6.375, 0, 7, 0.875],
-					"texture": "#0"
-				}
+				"north": {"uv": [0, 5.625, 0.625, 7], "texture": "#0"},
+				"east": {"uv": [5.25, 1.375, 6.125, 2.75], "texture": "#0"},
+				"south": {"uv": [0.625, 6, 1.25, 7.375], "texture": "#0"},
+				"west": {"uv": [5.375, 2.75, 6.25, 4.125], "texture": "#0"},
+				"up": {"uv": [6.25, 2.5, 6.875, 3.375], "texture": "#0"},
+				"down": {"uv": [6.375, 0, 7, 0.875], "texture": "#0"}
 			}
 		}
-	]
+	],
+	"display": {
+		"head": {
+			"rotation": [0, -180, 0]
+		}
+	}
 }

@@ -5,6 +5,7 @@
 #include <minecraft:globals.glsl>
 
 uniform sampler2D InSampler;
+uniform sampler2D FogDataSampler;
 uniform sampler2D DataSampler;
 uniform sampler2D MainDepthSampler;
 
@@ -36,8 +37,8 @@ void main() {
     }
 
     // Sample Inputs
-    vec3 data1 = texelFetch(InSampler, ivec2(ScreenSize.x/2, 0), 0).rgb;
-    vec3 data2 = texelFetch(InSampler, ivec2(ScreenSize.x/2+1, 1), 0).rgb;
+    vec3 data1 = texelFetch(FogDataSampler, ivec2(ScreenSize.x/2, 0), 0).rgb;
+    vec3 data2 = texelFetch(FogDataSampler, ivec2(ScreenSize.x/2+1, 1), 0).rgb;
     float ProjMatY = decodeColor(vec4(data1.rgb, data2.r));
     
     // Mix depth
@@ -63,11 +64,11 @@ void main() {
         fragColor.rgb = mix(fragColor.rgb, grayscale, intensity * 0.75);
     }
 
-    //#define DEBUG
+    // #define DEBUG
 #ifdef DEBUG
     // Show data sampler on screen
     if (texCoord.x < .25 && texCoord.y < .25) {
-        uv = texCoord * 4.0;
+        vec2 uv = texCoord * 4.0;
         vec4 col = texture(DataSampler, uv);
         if (uv.x > 1./5.)
             col = vec4(vec3(fract(decodeColor(col))), 1.0);

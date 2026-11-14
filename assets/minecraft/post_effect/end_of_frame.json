@@ -58,6 +58,10 @@
                     "target": "clean"
                 },
                 {
+                    "sampler_name": "FogData",
+                    "target": "clean"
+                },
+                {
                     "sampler_name": "Data",
                     "target": "data"
                 },
@@ -101,6 +105,10 @@
                 {
                     "sampler_name": "In",
                     "target": "swap"
+                },
+                {
+                    "sampler_name": "FogData",
+                    "target": "clean"
                 },
                 {
                     "sampler_name": "Data",

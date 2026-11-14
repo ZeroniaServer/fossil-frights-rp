@@ -163,12 +163,24 @@
             "output": "swap"
         },
         {
+            "_comment": "Cover up camera marker pixels",
+            "fragment_shader": "fossil_frights:post/cover_marker",
+            "vertex_shader": "minecraft:core/screenquad",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "swap"
+                }
+            ],
+            "output": "swap2"
+        },
+        {
             "vertex_shader": "minecraft:core/screenquad",
             "fragment_shader": "minecraft:post/blit",
             "inputs": [
                 {
                     "sampler_name": "In",
-                    "target": "swap"
+                    "target": "swap2"
                 }
             ],
             "uniforms": {

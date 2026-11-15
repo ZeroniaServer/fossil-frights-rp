@@ -621,7 +621,7 @@
   "ff.talking_skull.prompt": "<%1$s> Want skull magic? Give %2$s. I show.",
   "ff.talking_skull.activate": "<%1$s> Go in :)",
   "ff.sculkadillo": "Skulkadillo",
-  "ff.sculkadillo.thanks": "<%1$s> Thanks for %2$s. Hurry, you have %3$s to go up.",
+  "ff.sculkadillo.thanks": "<%1$s> Thanks for %2$s! Hurry, you have %3$s to go up.",
   "ff.sculkadillo.broke": "<%1$s> No %2$s? You must Jump up.",
   "ff.crab": "Claw Guy",
   "ff.crab.prompt": "<%1$s> Have %2$s? I shine key. Done fast!",

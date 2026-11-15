@@ -25,6 +25,10 @@ layout(location = 0) out vec2 texCoord0;
 layout(location = 1) out vec4 vertexColor;
 
 // CUSTOM CODE
+
+// ShaderSelector
+layout(location = 2) flat out int isPerspective;
+
 /*
  * Vertex Color utility function provided by Ts
  * Retrieves the color of a vertex by adjusting the coordinates depending on the vertex id
@@ -48,6 +52,11 @@ vec4 getVertexColor(sampler2D Sampler, int vertexIndex, vec2 coords) {
 // END CUSTOM CODE
 
 void main() {
+	// CUSTOM CODE - ShaderSelector
+    // Isolates 3D first-person overlays (e.g. underwater) from 2D overlays (e.g. vignette and HUD elements), which should not be discarded
+    isPerspective = (ProjMat[3][3] == 0.0) ? 1 : 0;
+	// END CUSTOM CODE
+
     gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
 
     texCoord0 = UV0;

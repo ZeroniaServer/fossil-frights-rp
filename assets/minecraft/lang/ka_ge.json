@@ -15,6 +15,7 @@
   "recipe.toast.description": "",
   "recipe.toast.title": "",
   "tutorial.craft_planks.description": "",
+  "book.pageIndicator": "%1$s/%2$s",
   "soundCategory.record": "Fossil Frights Music",
   "effect.minecraft.luck": "Double Jump",
   "effect.minecraft.wither": "გაყინვა"

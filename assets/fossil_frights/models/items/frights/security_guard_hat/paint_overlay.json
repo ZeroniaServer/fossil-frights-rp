@@ -1,0 +1,57 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"parent": "fossil_frights:items/frights/security_guard_hat/hat",
+	"textures": {
+		"paint_overlay": "fossil_frights:items/frights/security_guard_hat/paint_overlay"
+	},
+	"elements": [
+		{
+			"name": "hat_mid",
+			"from": [3.455, -0.01, 3.455],
+			"to": [12.545, 2.01, 12.545],
+			"rotation": {"angle": 0, "axis": "y", "origin": [10.525, -0.01, 2.445]},
+			"faces": {
+				"north": {"uv": [10, 1.5, 14.5, 2.5], "texture": "#paint_overlay"},
+				"east": {"uv": [10, 2.5, 14.5, 3.5], "texture": "#paint_overlay"},
+				"south": {"uv": [10, 3.5, 14.5, 4.5], "texture": "#paint_overlay"},
+				"west": {"uv": [10, 4.5, 14.5, 5.5], "texture": "#paint_overlay"},
+				"down": {"uv": [10, 4.5, 5.5, 9], "texture": "#paint_overlay"}
+			}
+		},
+		{
+			"name": "hat_top",
+			"from": [2.445, 1.9974, 2.44483],
+			"to": [13.555, 3.0074, 13.55483],
+			"rotation": {"angle": 2.5, "axis": "x", "origin": [10.525, 1.9974, 2.44483]},
+			"faces": {
+				"north": {"uv": [10, 5.5, 15.5, 6], "texture": "#paint_overlay"},
+				"east": {"uv": [10, 6, 15.5, 6.5], "texture": "#paint_overlay"},
+				"south": {"uv": [10, 6.5, 15.5, 7], "texture": "#paint_overlay"},
+				"west": {"uv": [10, 7, 15.5, 7.5], "texture": "#paint_overlay"},
+				"up": {"uv": [5.5, 5.5, 0, 0], "texture": "#paint_overlay"},
+				"down": {"uv": [5.5, 5.5, 0, 11], "texture": "#paint_overlay"}
+			}
+		},
+		{
+			"name": "map_brim",
+			"from": [3.5, -0.11, 0.6],
+			"to": [12.5, -0.09, 3.6],
+			"rotation": {"angle": -8, "axis": "x", "origin": [10.5, -0.11, 2.6]},
+			"faces": {
+				"up": {"uv": [10, 10.5, 5.5, 9], "texture": "#paint_overlay"},
+				"down": {"uv": [14.5, 0, 10, 1.5], "texture": "#paint_overlay"}
+			}
+		},
+		{
+			"from": [-1, 0.65, 7.99],
+			"to": [17, 11.65, 8.01],
+			"rotation": {"angle": 5, "axis": "x", "origin": [0, 0.65, 7.99]},
+			"faces": {
+				"north": {"uv": [7, 10.5, 16, 16], "texture": "#paint_overlay"},
+				"south": {"uv": [16, 10.5, 7, 16], "texture": "#paint_overlay"}
+			}
+		}
+	]
+}

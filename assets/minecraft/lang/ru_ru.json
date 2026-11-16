@@ -414,7 +414,7 @@
   "ff.item.hoverboard": "Ховерборд",
   "ff.item.creator_hoverboard": "Ховерборд создателя",
   "ff.item.hoverboard.description.activate": "Нажмите %s, чтобы активировать.",
-  "ff.item.hoverboard.description.dismount": "Нажмите %s, чтобы спешиться.",
+  "ff.item.hoverboard.description.when_riding.dismount": "Нажмите %s, чтобы спешиться.",
   "ff.item.sniffer_dna_cloth": "ДНК Нюхача",
   "ff.item.trike_dna_cloth": "ДНК Трайка",
   "ff.item.t_rex_dna_cloth": "ДНК Т-Рекса",

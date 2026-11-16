@@ -414,7 +414,7 @@
   "ff.item.hoverboard": "悬浮滑板",
   "ff.item.creator_hoverboard": "创作者悬浮滑板",
   "ff.item.hoverboard.description.activate": "%s 激活。",
-  "ff.item.hoverboard.description.dismount": "按 %s 下车。",
+  "ff.item.hoverboard.description.when_riding.dismount": "按 %s 下车。",
   "ff.item.sniffer_dna_cloth": "嗅探兽DNA",
   "ff.item.trike_dna_cloth": "三角龙DNA",
   "ff.item.t_rex_dna_cloth": "霸王龙DNA",

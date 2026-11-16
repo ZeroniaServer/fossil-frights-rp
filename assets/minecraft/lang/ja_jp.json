@@ -414,7 +414,7 @@
   "ff.item.hoverboard": "ホバーボード",
   "ff.item.creator_hoverboard": "クリエイターのホバーボード",
   "ff.item.hoverboard.description.activate": "%sで起動する。",
-  "ff.item.hoverboard.description.dismount": "%sで降りる。",
+  "ff.item.hoverboard.description.when_riding.dismount": "%sで降りる。",
   "ff.item.sniffer_dna_cloth": "スニッファーのDNA",
   "ff.item.trike_dna_cloth": "トリケラトプスのDNA",
   "ff.item.t_rex_dna_cloth": "ティラノサウルスのDNA",

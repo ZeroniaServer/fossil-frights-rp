@@ -4,8 +4,8 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "fossil_frights:items/frights/medium_items/febreeze_rod",
-		"particle": "fossil_frights:items/frights/medium_items/febreeze_rod_particle",
-		"emissive": "fossil_frights:items/frights/medium_items/febreeze_rod_emissive"
+		"emissive": "fossil_frights:items/frights/medium_items/febreeze_rod_emissive",
+		"particle": "fossil_frights:items/frights/medium_items/febreeze_rod_particle"
 	},
 	"elements": [
 		{
@@ -23,31 +23,7 @@
 			}
 		},
 		{
-			"name": "breeze",
-			"from": [5, 11, 5],
-			"to": [11, 13, 11],
-			"rotation": {"angle": 0, "axis": "y", "origin": [9, 11, 5]},
-			"faces": {
-				"north": {"uv": [3, 15, 6, 16], "texture": "#0"},
-				"east": {"uv": [0, 15, 3, 16], "texture": "#0"},
-				"south": {"uv": [6, 15, 9, 16], "texture": "#0"},
-				"west": {"uv": [9, 15, 12, 16], "texture": "#0"},
-				"up": {"uv": [1.5, 9.5, 2.5, 12.5], "texture": "#0"},
-				"down": {"uv": [1.5, 9.5, 2.5, 12.5], "texture": "#0"}
-			}
-		},
-		{
-			"name": "fe",
-			"from": [5, 9, 5.7],
-			"to": [11, 11, 5.7],
-			"rotation": {"angle": 0, "axis": "y", "origin": [6, 9, 3.7]},
-			"faces": {
-				"north": {"uv": [13, 0, 16, 1], "texture": "#0"},
-				"south": {"uv": [13.5, 0, 16, 1], "texture": "#0"}
-			}
-		},
-		{
-			"name": "fe_emissive",
+			"name": "eyes_emissive",
 			"from": [5, 9, 5.7],
 			"to": [11, 11, 5.7],
 			"light_emission": 15,
@@ -55,7 +31,57 @@
 			"rotation": {"angle": 0, "axis": "y", "origin": [6, 9, 3.7]},
 			"faces": {
 				"north": {"uv": [13, 0, 16, 1], "texture": "#emissive"},
-				"south": {"uv": [13.5, 0, 16, 1], "texture": "#emissive"}
+				"south": {"uv": [13, 0, 16, 1], "texture": "#emissive"}
+			}
+		},
+		{
+			"name": "wind",
+			"from": [5, 11, 5],
+			"to": [11, 13, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 11, 8]},
+			"faces": {
+				"north": {"uv": [3, 15, 6, 16], "texture": "#0"},
+				"south": {"uv": [6, 15, 3, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "wind",
+			"from": [11, 11, 5],
+			"to": [11, 13, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 11, 8]},
+			"faces": {
+				"east": {"uv": [0, 15, 3, 16], "texture": "#0"},
+				"west": {"uv": [3, 15, 0, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "wind",
+			"from": [5, 11, 11],
+			"to": [11, 13, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 11, 8]},
+			"faces": {
+				"north": {"uv": [12, 15, 9, 16], "texture": "#0"},
+				"south": {"uv": [9, 15, 12, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "wind",
+			"from": [5, 11, 5],
+			"to": [5, 13, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 11, 8]},
+			"faces": {
+				"east": {"uv": [9, 15, 6, 16], "texture": "#0"},
+				"west": {"uv": [6, 15, 9, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "eyes",
+			"from": [5, 9, 5.7],
+			"to": [11, 11, 5.7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 9, 3.7]},
+			"faces": {
+				"north": {"uv": [13, 0, 16, 1], "texture": "#0"},
+				"south": {"uv": [13, 0, 16, 1], "texture": "#0"}
 			}
 		}
 	],
@@ -63,6 +89,9 @@
 	"display": {
 		"thirdperson_righthand": {
 			"scale": [0.8, 0.8, 0.8]
+		},
+		"ground": {
+			"scale": [0.75, 0.75, 0.75]
 		},
 		"gui": {
 			"rotation": [30, -143, 0],

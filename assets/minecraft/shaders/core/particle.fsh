@@ -43,9 +43,10 @@ vec4 calculateFinalColor(vec4 color) {
 
 void main() {
     // CUSTOM CODE
+    float alpha = textureLod(Sampler0, texCoord0, 0.0).a * 255.0;
 
     // ShaderSelector
-    if (isMarker == 1) {
+    if (isMarker == 1 && check_alpha(alpha, 1.0)) {
         // Output the marker color only at its exact target pixel.
         // The marker is written with alpha 1.0 so the engine's OIT pipeline treats it
         // as a fully opaque fragment (alpha > OIT_FULLY_OPAQUE_ALPHA) and composites it
@@ -66,7 +67,6 @@ void main() {
     vec4 color = texture(Sampler0, texCoord0) * vertexColor * ColorModulator;
 
     // Discards vertexColor (tint) on obsidian tear particles
-    float alpha = textureLod(Sampler0, texCoord0, 0.0).a * 255.0;
     if (check_alpha(alpha, 250.0)) {
         color = texture(Sampler0, texCoord0) * ColorModulator;
         color.a = 1;

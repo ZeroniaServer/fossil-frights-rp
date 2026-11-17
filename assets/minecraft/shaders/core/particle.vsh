@@ -65,7 +65,7 @@ void main() {
 
         sphericalVertexDistance = 0.0;
         cylindricalVertexDistance = 0.0;
-        texCoord0 = vec2(0.0);
+        texCoord0 = UV0;
         vertexColor = vec4(0.0);
         return;
     }

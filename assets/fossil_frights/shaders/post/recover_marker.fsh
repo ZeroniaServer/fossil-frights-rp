@@ -10,6 +10,7 @@ uniform sampler2D InSampler;
 uniform sampler2D MainSampler;
 
 #include <minecraft:globals.glsl>
+#include <shader_selector:marker_settings.glsl>
 
 layout(location = 0) in vec2 texCoord;
 
@@ -22,4 +23,9 @@ void main() {
     if (y == 0 && (x == ScreenSize.x/2 || x == ScreenSize.x/2 + 1)) {
         fragColor = texture(MainSampler, texCoord);
     }
+    ivec2 iCoord = ivec2(gl_FragCoord.xy);
+    if (false
+        #define ADD_MARKER(i, green, alpha, op, r) || MARKER_POS(i) == iCoord
+        LIST_MARKERS
+    ) fragColor = texture(MainSampler, texCoord);
 }

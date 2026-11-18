@@ -116,36 +116,36 @@ void main() {
 
     // invisipunch actionbar
     else if (Color.rgb == vec3(124/255., 124/255., 8/255.)) {
-        vec3 newPos = vec3(Position.x, Position.y - 8, Position.z);
+        vec3 newPos = vec3(Position.x, Position.y - 11, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
         vertexColor.rgb = vec3(1);
     }
     else if (Color.rgb == vec3(124/255., 124/255., 8/255.)/4.)
     {
-        vec3 newPos = vec3(Position.x, Position.y - 8, Position.z);
+        vec3 newPos = vec3(Position.x, Position.y - 11, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
         vertexColor.rgb = vec3(0.25);
     }
 
     else if (Color.rgb == vec3(124/255., 124/255., 16/255.)) {
-        vec3 newPos = vec3(Position.x, Position.y - 8, Position.z);
+        vec3 newPos = vec3(Position.x, Position.y - 11, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
         vertexColor.rgb = vec3(144/255., 204/255., 237/255.);
     }
     else if (Color.rgb == vec3(124/255., 124/255., 16/255.)/4.) {
-        vec3 newPos = vec3(Position.x, Position.y - 8, Position.z);
+        vec3 newPos = vec3(Position.x, Position.y - 11, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
         vertexColor.rgb = vec3(144/255., 204/255., 237/255.)/4.;
     }
 
     else if (Color.rgb == vec3(124/255., 124/255., 12/255.)) {
-        vec3 newPos = vec3(Position.x, Position.y - 8, Position.z);
+        vec3 newPos = vec3(Position.x, Position.y - 11, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
         vertexColor.rgb = vec3(1, 170/255., 0);
     }
     else if (Color.rgb == vec3(124/255., 124/255., 12/255.)/4.)
     {
-        vec3 newPos = vec3(Position.x, Position.y - 8, Position.z);
+        vec3 newPos = vec3(Position.x, Position.y - 11, Position.z);
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
         vertexColor.rgb = vec3(1, 170/255., 0)/4.;
     }

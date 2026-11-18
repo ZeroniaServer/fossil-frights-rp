@@ -100,5 +100,30 @@ void main() {
         gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
         vertexColor.rgb = vec3(1);
     }
+
+    // ladybug actionbar
+    else if (Color.rgb == vec3(124/255., 124/255., 4/255.) || Color.rgb == vec3(124/255., 124/255., 4/255.)/4.) {
+        vec3 newPos = vec3(Position.x, Position.y - 3, Position.z);
+        gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
+        vertexColor.rgb = vec3(1);
+    }
+
+    // invisipunch actionbar
+    else if (Color.rgb == vec3(124/255., 124/255., 8/255.) || Color.rgb == vec3(124/255., 124/255., 8/255.)/4.) {
+        vec3 newPos = vec3(Position.x, Position.y + 8, Position.z);
+        gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
+        vertexColor.rgb = vec3(1);
+    }
+
+    else if (Color.rgb == vec3(144/255., 204/255., 237/255.) || Color.rgb == vec3(144/255., 204/255., 237/255.)/4.) {
+        vec3 newPos = vec3(Position.x, Position.y + 8, Position.z);
+        gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
+    }
+
+    else if (Color.rgb == vec3(124/255., 124/255., 12/255.) || Color.rgb == vec3(124/255., 124/255., 12/255.)/4.) {
+        vec3 newPos = vec3(Position.x, Position.y + 8, Position.z);
+        gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
+        vertexColor.rgb = vec3(1, 170/255., 0);
+    }
 #endif
 }

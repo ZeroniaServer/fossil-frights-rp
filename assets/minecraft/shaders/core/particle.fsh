@@ -65,7 +65,13 @@ void main() {
     }
 
     vec4 color = texture(Sampler0, texCoord0) * vertexColor * ColorModulator;
-
+    
+    // Discards color and boosts alpha on teleport pad particles
+    if (check_alpha(alpha, 251.0)) {
+        color = texture(Sampler0, texCoord0) * ColorModulator;
+        if (color.a != 0) color.a = 1;
+        color.a *= vertexColor.a + 0.4;
+    }
     // Discards vertexColor (tint) on obsidian tear particles
     if (check_alpha(alpha, 250.0)) {
         color = texture(Sampler0, texCoord0) * ColorModulator;

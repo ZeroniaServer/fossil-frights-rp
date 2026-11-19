@@ -1,28 +1,18 @@
 {
   "model": {
-    "type": "minecraft:condition",
-    "property": "minecraft:component",
-    "predicate": "minecraft:custom_data",
-    "value": {
-      "ff_invisible": true
-    },
-    "on_true": {
-      "type": "minecraft:select",
-      "property": "minecraft:display_context",
-      "cases": [
-        {
-          "when": ["thirdperson_righthand","thirdperson_lefthand","firstperson_righthand","firstperson_lefthand"],
-          "model": {
-            "type": "minecraft:empty"
-          }
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:empty"
         }
-      ],
-      "fallback": {
-        "type": "minecraft:model",
-        "model": "fossil_frights:items/heists/gear/guards/trap_placer/trap_explosive"
       }
-    },
-    "on_false": {
+    ],
+    "fallback": {
       "type": "minecraft:model",
       "model": "fossil_frights:items/heists/gear/guards/trap_placer/trap_explosive"
     }

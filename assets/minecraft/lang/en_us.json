@@ -709,6 +709,8 @@
   "ff.stats.ant_score": "Ant Score: %s",
   "ff.stats.ant_top_score": "Ant Top Score: %s",
 
+  "ff.time_seconds_shorthand": "%ss",
+
   "ff.day_complete": "Day %s Complete!",
 
   "ff.unlocking": "Unlocking...",

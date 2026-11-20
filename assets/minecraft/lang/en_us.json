@@ -596,6 +596,7 @@
   "ff.tooltip.heist_loot.amount": "$%s",
   "ff.tooltip.indented": "  %s",
   "ff.tooltip.one_time_use": "One time use",
+  "ff.tooltip.extra_properties_in_heists": "This item has extra properties during heists",
 
   "ff.drink_purchased": "Purchased: %1$s",
 

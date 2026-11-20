@@ -161,7 +161,6 @@
   "ff.messages.warning.heists_mode_required_to_join_team": "The heists game mode must be active to join that team.",
   "ff.messages.warning.heists_need_players": "Fossil Heists needs at least one Guard and one Thief before it can start.",
   "ff.messages.warning.heists_start_round_before_edit_loot": "Start a heist round before editing loot.",
-  "ff.messages.warning.hold_reward_item_first": "Hold the reward item in your main hand first.",
   "ff.messages.warning.must_invite_before_starting_game": "You must invite a player before starting the game.",
   "ff.messages.warning.no_active_player": "There is no active player to spectate.",
   "ff.messages.warning.no_day_active": "No day is currently active.",

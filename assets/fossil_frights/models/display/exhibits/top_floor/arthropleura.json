@@ -3,7 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"arthropleura": "fossil_frights:display/exhibits/top_floor/arthropleura"
+		"arthropleura": "fossil_frights:display/exhibits/top_floor/arthropleura",
+		"particle": "fossil_frights:display/exhibits/top_floor/arthropleura"
 	},
 	"elements": [
 		{

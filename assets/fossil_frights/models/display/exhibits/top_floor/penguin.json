@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"penguin": "fossil_frights:display/exhibits/top_floor/penguin",
-		"particle": "#penguin"
+		"particle": "fossil_frights:display/exhibits/top_floor/penguin",
+		"penguin": "fossil_frights:display/exhibits/top_floor/penguin"
 	},
 	"elements": [
 		{
@@ -115,8 +115,7 @@
 				"east": {"uv": [8.5, 9, 9.75, 9.25], "texture": "#penguin"},
 				"south": {"uv": [9.25, 4.75, 10, 5], "texture": "#penguin"},
 				"west": {"uv": [9, 8.75, 10.25, 9], "texture": "#penguin"},
-				"up": {"uv": [4.25, 10, 3.5, 8.75], "texture": "#penguin"},
-				"down": {"uv": [5, 8.75, 4.25, 10], "texture": "#penguin"}
+				"up": {"uv": [4.25, 10, 3.5, 8.75], "texture": "#penguin"}
 			}
 		},
 		{
@@ -128,8 +127,7 @@
 				"east": {"uv": [9, 6.5, 10.25, 6.75], "texture": "#penguin"},
 				"south": {"uv": [9.25, 4.25, 10, 4.5], "texture": "#penguin"},
 				"west": {"uv": [9, 6.75, 10.25, 7], "texture": "#penguin"},
-				"up": {"uv": [9, 7.75, 8.25, 6.5], "texture": "#penguin"},
-				"down": {"uv": [9, 7.75, 8.25, 9], "texture": "#penguin"}
+				"up": {"uv": [9, 7.75, 8.25, 6.5], "texture": "#penguin"}
 			}
 		}
 	],

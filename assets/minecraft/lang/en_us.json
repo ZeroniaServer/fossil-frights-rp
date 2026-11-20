@@ -902,6 +902,7 @@
   "ff.lobby.ant_fight.hit_by": "You were hit by %s",
   "ff.lobby.ant_fight.below_name": "SCORE: %s",
   "ff.lobby.ant_fight.no_scores_yet": "No scores yet",
+  "ff.lobby.creator_below_name": "CREATOR",
 
   "ff.tablist.in_queue": "IN QUEUE (%1$s)",
   "ff.tablist.in_queue.up_next": "UP NEXT",

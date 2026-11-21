@@ -154,7 +154,6 @@
   "ff.messages.warning.heists_mode_required_to_join_team": "そのチームに参加するには、ゲームモード「強盗」が有効になっている必要があります。",
   "ff.messages.warning.heists_need_players": "化石強盗を始めるには、警備員と泥棒がそれぞれ最低1人必要です。",
   "ff.messages.warning.heists_start_round_before_edit_loot": "戦利品を編集する前に、強盗ミッションのラウンドを開始してください。",
-  "ff.messages.warning.hold_reward_item_first": "最初に報酬アイテムをメインハンドに持ってください。",
   "ff.messages.warning.must_invite_before_starting_game": "ゲームを開始する前にプレイヤーを招待する必要があります。",
   "ff.messages.warning.no_active_player": "観戦できるアクティブなプレイヤーがいません。",
   "ff.messages.warning.no_day_active": "現在、有効な日はありません。",

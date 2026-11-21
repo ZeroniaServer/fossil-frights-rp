@@ -156,7 +156,6 @@
   "ff.messages.warning.heists_mode_required_to_join_team": "必须启用劫案模式才能加入该队伍。",
   "ff.messages.warning.heists_need_players": "化石劫案模式至少需要一名保安和一名盗贼才能开始。",
   "ff.messages.warning.heists_start_round_before_edit_loot": "请先开始劫案回合，再编辑展品。",
-  "ff.messages.warning.hold_reward_item_first": "请先将奖励物品拿在主手中。",
   "ff.messages.warning.must_invite_before_starting_game": "开始游戏前必须邀请一名玩家。",
   "ff.messages.warning.no_active_player": "没有可供旁观的活动玩家。",
   "ff.messages.warning.no_day_active": "当前没有正在进行的天数。",

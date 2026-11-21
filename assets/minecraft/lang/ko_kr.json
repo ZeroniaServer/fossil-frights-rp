@@ -108,7 +108,6 @@
   "ff.messages.warning.heists_enable_party_mode": "파티 모드가 활성화된 동안에는 화석 강도를 활성화할 수 없습니다.",
   "ff.messages.warning.heists_need_players": "화석 강도는 시작하려면 최소 한 명의 경비과 한 명의 도둑이 필요합니다.",
   "ff.messages.warning.heists_start_round_before_edit_loot": "전리품을 편집하기 전에 강도 라운드를 시작하세요.",
-  "ff.messages.warning.hold_reward_item_first": "먼저 보상 아이템을 주 손에 들어주세요.",
   "ff.messages.warning.must_invite_before_starting_game": "게임을 시작하기 전에 플레이어를 초대해야 합니다.",
   "ff.messages.warning.no_active_player": "관전할 활성 플레이어가 없습니다.",
   "ff.messages.warning.no_day_active": "현재 활성화된 일차가 없습니다.",

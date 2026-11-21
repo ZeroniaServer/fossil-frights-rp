@@ -62,6 +62,15 @@
       "chars": [
         "\ue136"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/icons/hallucinations/permavalanche.png",
+      "ascent": 10,
+      "height": 16,
+      "chars": [
+        "\ue137"
+      ]
     }
   ]
 }

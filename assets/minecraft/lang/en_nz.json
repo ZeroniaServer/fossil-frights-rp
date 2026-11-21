@@ -708,13 +708,6 @@
   "ff.join_party": "JOIN PARTY",
   "ff.spectate": "SPECTATE",
 
-  "ff.command.start": "start",
-  "ff.command.leave": "leave",
-  "ff.command.spectate": "spectate",
-  "ff.command.stats": "stats",
-  "ff.command.invite": "invite",
-  "ff.command.info": "info",
-  "ff.command.tutorial": "tutorial",
   "ff.command.start.description": "join game (or queue)",
   "ff.command.leave.description": "leave game (or spectate)",
   "ff.command.spectate.description": "spectate game",

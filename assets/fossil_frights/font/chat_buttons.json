@@ -109,6 +109,114 @@
       ]
     },
     {
+      "type": "bitmap",
+      "file": "fossil_frights:font/chat_buttons/bounty/1000.png",
+      "ascent": 8,
+      "height": 11,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/chat_buttons/bounty/1000_selected.png",
+      "ascent": 8,
+      "height": 11,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/chat_buttons/bounty/1250.png",
+      "ascent": 8,
+      "height": 11,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/chat_buttons/bounty/1250_selected.png",
+      "ascent": 8,
+      "height": 11,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/chat_buttons/bounty/1500.png",
+      "ascent": 8,
+      "height": 11,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/chat_buttons/bounty/1500_selected.png",
+      "ascent": 8,
+      "height": 11,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/chat_buttons/bounty/1750.png",
+      "ascent": 8,
+      "height": 11,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/chat_buttons/bounty/1750_selected.png",
+      "ascent": 8,
+      "height": 11,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/chat_buttons/bounty/2000.png",
+      "ascent": 8,
+      "height": 11,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/chat_buttons/bounty/2000_selected.png",
+      "ascent": 8,
+      "height": 11,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/chat_buttons/bounty/all.png",
+      "ascent": 8,
+      "height": 11,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "fossil_frights:font/chat_buttons/bounty/all_selected.png",
+      "ascent": 8,
+      "height": 11,
+      "chars": [
+        ""
+      ]
+    },
+    {
       "type": "reference",
       "id": "minecraft:default"
     }

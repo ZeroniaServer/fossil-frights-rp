@@ -964,6 +964,7 @@
   "ff.actionbar.trap.picked_up": "Picked up Trap",
   "ff.actionbar.trap.too_close": "Too close to another trap",
   "ff.actionbar.locator_bar": "↓ Look at the locator bar ↓",
+  "ff.actionbar.dinonog_already_have": "Finish your nog before getting more",
   "ff.actionbar.drink_dinonog": "You're hallucinating, drink some dinonog",
   "ff.actionbar.ice_cannon_obstructed": "Ice cannon obstructed",
   "ff.actionbar.heists.ice_sculpture.reset_guard": "Can only be reset by thieves",

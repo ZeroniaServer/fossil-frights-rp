@@ -1,6 +1,7 @@
 #version 330
 #extension GL_ARB_separate_shader_objects : require
 
+
 uniform sampler2D InSampler;
 
 layout (location = 0) in vec2 texCoord;
@@ -11,9 +12,11 @@ layout(std140) uniform SamplerInfo {
     vec2 InSize;
 };
 
+#include <minecraft:globals.glsl> // Using GlintAlpha as a setting for controlling distortion
+
 layout (location = 0) out vec4 fragColor;
 
-const float BLUR_STRENGTH   = 0.085; // Max radial streak length at the corners
+const float BLUR_STRENGTH   = 0.045; // Max radial streak length at the corners
 const float BLUR_START      = 0.30;  // Radius where blur begins (keeps center subject sharp)
 const float BLUR_END        = 1.55;  // Radius where blur reaches full intensity
 
@@ -49,7 +52,7 @@ void main() {
     float dist = length(vigCoord) * 2.0; // ~0.0 at center, ~1.0 at top/bottom, ~1.55 at corners
 
     // Progressive radial zoom blur
-    float blurAmount = smoothstep(BLUR_START, BLUR_END, dist) * BLUR_STRENGTH * intensity;
+    float blurAmount = smoothstep(BLUR_START, BLUR_END, dist) * BLUR_STRENGTH * intensity * GlintAlpha;
     vec3 col = vec3(0.0);
 
     if (blurAmount <= 0.0001) {

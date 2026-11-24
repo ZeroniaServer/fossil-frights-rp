@@ -17,6 +17,8 @@
   "tutorial.craft_planks.description": "",
   "book.pageIndicator": "%1$s/%2$s",
   "soundCategory.record": "Fossil Frights Music",
+  "options.glintStrength": "Dinonog Distortion",
+  "options.glintStrength.tooltip": "Controls how intense the screen distortion effect is for running out of Dinonog.",
   "effect.minecraft.luck": "Double Jump",
   "effect.minecraft.wither": "Membekoe"
 }

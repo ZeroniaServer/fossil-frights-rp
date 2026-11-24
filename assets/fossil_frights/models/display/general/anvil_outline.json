@@ -1,332 +1,68 @@
 {
-  "format_version": "26.3",
-  "parent": "block/block",
-  "textures": {
-    "1": "fossil_frights:display/general/anvil_outline",
-    "particle": "minecraft:block/anvil"
-  },
-  "elements": [
-    {
-      "name": "Anvil base_outline",
-      "from": [
-        14.4,
-        4.81,
-        14.4
-      ],
-      "to": [
-        1.6,
-        0.01,
-        1.6
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            2,
-            12,
-            14,
-            16
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        },
-        "east": {
-          "uv": [
-            0,
-            2,
-            4,
-            14
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        },
-        "south": {
-          "uv": [
-            2,
-            12,
-            14,
-            16
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        },
-        "west": {
-          "uv": [
-            4,
-            2,
-            0,
-            14
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        },
-        "up": {
-          "uv": [
-            2,
-            2,
-            14,
-            14
-          ],
-          "rotation": 180,
-          "texture": "#1",
-          "cullface": "down"
-        },
-        "down": {
-          "uv": [
-            2,
-            2,
-            14,
-            14
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        }
-      }
-    },
-    {
-      "name": "Lower narrow portion_outline",
-      "from": [
-        12.4,
-        5.4,
-        13.4
-      ],
-      "to": [
-        3.6,
-        3.6,
-        2.6
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            4,
-            11,
-            12,
-            12
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        },
-        "east": {
-          "uv": [
-            4,
-            3,
-            5,
-            13
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        },
-        "south": {
-          "uv": [
-            4,
-            11,
-            12,
-            12
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        },
-        "west": {
-          "uv": [
-            5,
-            3,
-            4,
-            13
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            0,
-            0
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        },
-        "down": {
-          "uv": [
-            4,
-            3,
-            12,
-            13
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        }
-      }
-    },
-    {
-      "name": "Wider section beneath top portion_outline",
-      "from": [
-        10.4,
-        10.4,
-        12.4
-      ],
-      "to": [
-        5.6,
-        4.6,
-        3.6
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            6,
-            6,
-            10,
-            11
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        },
-        "east": {
-          "uv": [
-            5,
-            4,
-            10,
-            12
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        },
-        "south": {
-          "uv": [
-            6,
-            6,
-            10,
-            11
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        },
-        "west": {
-          "uv": [
-            10,
-            4,
-            5,
-            12
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        },
-        "up": {
-          "uv": [
-            0,
-            0,
-            0,
-            0
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        },
-        "down": {
-          "uv": [
-            0,
-            0,
-            0,
-            0
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        }
-      }
-    },
-    {
-      "name": "Anvil top_outline",
-      "from": [
-        13.4,
-        16.4,
-        16.4
-      ],
-      "to": [
-        2.6,
-        9.6,
-        -0.4
-      ],
-      "faces": {
-        "north": {
-          "uv": [
-            3,
-            0,
-            13,
-            6
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        },
-        "east": {
-          "uv": [
-            10,
-            0,
-            16,
-            16
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        },
-        "south": {
-          "uv": [
-            3,
-            0,
-            13,
-            6
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        },
-        "west": {
-          "uv": [
-            16,
-            0,
-            10,
-            16
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        },
-        "up": {
-          "uv": [
-            3,
-            0,
-            13,
-            16
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        },
-        "down": {
-          "uv": [
-            3,
-            0,
-            13,
-            16
-          ],
-          "rotation": 180,
-          "texture": "#1"
-        }
-      }
-    }
-  ],
-  "display": {
-    "fixed": {
-      "rotation": [
-        0,
-        90,
-        0
-      ],
-      "scale": [
-        0.5,
-        0.5,
-        0.5
-      ]
-    },
-    "on_shelf": {
-      "rotation": [
-        0,
-        90,
-        0
-      ]
-    }
-  }
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "fossil_frights:display/general/anvil_outline",
+		"anvil_outline": "#particle"
+	},
+	"elements": [
+		{
+			"from": [14.4, 4.81, 14.4],
+			"to": [1.6, 0.01, 1.6],
+			"faces": {
+				"north": {"texture": "#anvil_outline"},
+				"east": {"texture": "#anvil_outline"},
+				"south": {"texture": "#anvil_outline"},
+				"west": {"texture": "#anvil_outline"},
+				"up": {"texture": "#anvil_outline"},
+				"down": {"texture": "#anvil_outline"}
+			}
+		},
+		{
+			"from": [12.4, 5.4, 13.4],
+			"to": [3.6, 3.6, 2.6],
+			"faces": {
+				"north": {"texture": "#anvil_outline"},
+				"east": {"texture": "#anvil_outline"},
+				"south": {"texture": "#anvil_outline"},
+				"west": {"texture": "#anvil_outline"},
+				"up": {"texture": "#anvil_outline"},
+				"down": {"texture": "#anvil_outline"}
+			}
+		},
+		{
+			"from": [10.4, 10.4, 12.4],
+			"to": [5.6, 4.6, 3.6],
+			"faces": {
+				"north": {"texture": "#anvil_outline"},
+				"east": {"texture": "#anvil_outline"},
+				"south": {"texture": "#anvil_outline"},
+				"west": {"texture": "#anvil_outline"},
+				"up": {"texture": "#anvil_outline"},
+				"down": {"texture": "#anvil_outline"}
+			}
+		},
+		{
+			"from": [13.4, 16.4, 16.4],
+			"to": [2.6, 9.6, -0.4],
+			"faces": {
+				"north": {"texture": "#anvil_outline"},
+				"east": {"texture": "#anvil_outline"},
+				"south": {"texture": "#anvil_outline"},
+				"west": {"texture": "#anvil_outline"},
+				"up": {"texture": "#anvil_outline"},
+				"down": {"texture": "#anvil_outline"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"on_shelf": {
+			"rotation": [0, 90, 0]
+		}
+	}
 }

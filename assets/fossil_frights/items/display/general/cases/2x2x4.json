@@ -1,0 +1,927 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_left_top_north",
+        "transformation": {
+          "translation": [
+            -0.03125,
+            0.03125,
+            -0.125
+          ],
+          "left_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_left_bottom_north",
+        "transformation": {
+          "translation": [
+            -0.03125,
+            -0.03125,
+            -0.125
+          ],
+          "left_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_right_top_north",
+        "transformation": {
+          "translation": [
+            0.03125,
+            0.03125,
+            -0.125
+          ],
+          "left_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_right_bottom_north",
+        "transformation": {
+          "translation": [
+            0.03125,
+            -0.03125,
+            -0.125
+          ],
+          "left_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_left_top_south",
+        "transformation": {
+          "translation": [
+            -0.03125,
+            0.03125,
+            0.125
+          ],
+          "left_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_left_bottom_south",
+        "transformation": {
+          "translation": [
+            -0.03125,
+            -0.03125,
+            0.125
+          ],
+          "left_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_right_top_south",
+        "transformation": {
+          "translation": [
+            0.03125,
+            0.03125,
+            0.125
+          ],
+          "left_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_right_bottom_south",
+        "transformation": {
+          "translation": [
+            0.03125,
+            -0.03125,
+            0.125
+          ],
+          "left_rotation": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_left_top_south",
+        "transformation": {
+          "translation": [
+            0.0,
+            0.03125,
+            -0.09375
+          ],
+          "left_rotation": [
+            0,
+            -0.7071067811865476,
+            0,
+            0.7071067811865476
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_left_bottom_south",
+        "transformation": {
+          "translation": [
+            0.0,
+            -0.03125,
+            -0.09375
+          ],
+          "left_rotation": [
+            0,
+            -0.7071067811865476,
+            0,
+            0.7071067811865476
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_middle_top_south",
+        "transformation": {
+          "translation": [
+            0.0,
+            0.03125,
+            -0.03125
+          ],
+          "left_rotation": [
+            0,
+            -0.7071067811865476,
+            0,
+            0.7071067811865476
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_middle_bottom_south",
+        "transformation": {
+          "translation": [
+            0.0,
+            -0.03125,
+            -0.03125
+          ],
+          "left_rotation": [
+            0,
+            -0.7071067811865476,
+            0,
+            0.7071067811865476
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_middle_top_south",
+        "transformation": {
+          "translation": [
+            0.0,
+            0.03125,
+            0.03125
+          ],
+          "left_rotation": [
+            0,
+            -0.7071067811865476,
+            0,
+            0.7071067811865476
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_middle_bottom_south",
+        "transformation": {
+          "translation": [
+            0.0,
+            -0.03125,
+            0.03125
+          ],
+          "left_rotation": [
+            0,
+            -0.7071067811865476,
+            0,
+            0.7071067811865476
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_right_top_south",
+        "transformation": {
+          "translation": [
+            0.0,
+            0.03125,
+            0.09375
+          ],
+          "left_rotation": [
+            0,
+            -0.7071067811865476,
+            0,
+            0.7071067811865476
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_right_bottom_south",
+        "transformation": {
+          "translation": [
+            0.0,
+            -0.03125,
+            0.09375
+          ],
+          "left_rotation": [
+            0,
+            -0.7071067811865476,
+            0,
+            0.7071067811865476
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_left_top_north",
+        "transformation": {
+          "translation": [
+            0.125,
+            0.03125,
+            -0.09375
+          ],
+          "left_rotation": [
+            0,
+            -0.7071067811865476,
+            0,
+            0.7071067811865476
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_left_bottom_north",
+        "transformation": {
+          "translation": [
+            0.125,
+            -0.03125,
+            -0.09375
+          ],
+          "left_rotation": [
+            0,
+            -0.7071067811865476,
+            0,
+            0.7071067811865476
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_middle_top_north",
+        "transformation": {
+          "translation": [
+            0.125,
+            0.03125,
+            -0.03125
+          ],
+          "left_rotation": [
+            0,
+            -0.7071067811865476,
+            0,
+            0.7071067811865476
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_middle_bottom_north",
+        "transformation": {
+          "translation": [
+            0.125,
+            -0.03125,
+            -0.03125
+          ],
+          "left_rotation": [
+            0,
+            -0.7071067811865476,
+            0,
+            0.7071067811865476
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_middle_top_north",
+        "transformation": {
+          "translation": [
+            0.125,
+            0.03125,
+            0.03125
+          ],
+          "left_rotation": [
+            0,
+            -0.7071067811865476,
+            0,
+            0.7071067811865476
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_middle_bottom_north",
+        "transformation": {
+          "translation": [
+            0.125,
+            -0.03125,
+            0.03125
+          ],
+          "left_rotation": [
+            0,
+            -0.7071067811865476,
+            0,
+            0.7071067811865476
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_right_top_north",
+        "transformation": {
+          "translation": [
+            0.125,
+            0.03125,
+            0.09375
+          ],
+          "left_rotation": [
+            0,
+            -0.7071067811865476,
+            0,
+            0.7071067811865476
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_right_bottom_north",
+        "transformation": {
+          "translation": [
+            0.125,
+            -0.03125,
+            0.09375
+          ],
+          "left_rotation": [
+            0,
+            -0.7071067811865476,
+            0,
+            0.7071067811865476
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_left_top_south",
+        "transformation": {
+          "translation": [
+            -0.03125,
+            0.0625,
+            -0.03125
+          ],
+          "left_rotation": [
+            -0.7071067811865476,
+            0,
+            0,
+            0.7071067811865476
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_left_middle_south",
+        "transformation": {
+          "translation": [
+            -0.03125,
+            0.0625,
+            0.03125
+          ],
+          "left_rotation": [
+            -0.7071067811865476,
+            0,
+            0,
+            0.7071067811865476
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_left_middle_south",
+        "transformation": {
+          "translation": [
+            -0.03125,
+            0.0625,
+            0.09375
+          ],
+          "left_rotation": [
+            -0.7071067811865476,
+            0,
+            0,
+            0.7071067811865476
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_left_bottom_south",
+        "transformation": {
+          "translation": [
+            -0.03125,
+            0.0625,
+            0.15625
+          ],
+          "left_rotation": [
+            -0.7071067811865476,
+            0,
+            0,
+            0.7071067811865476
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_right_top_south",
+        "transformation": {
+          "translation": [
+            0.03125,
+            0.0625,
+            -0.03125
+          ],
+          "left_rotation": [
+            -0.7071067811865476,
+            0,
+            0,
+            0.7071067811865476
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_right_middle_south",
+        "transformation": {
+          "translation": [
+            0.03125,
+            0.0625,
+            0.03125
+          ],
+          "left_rotation": [
+            -0.7071067811865476,
+            0,
+            0,
+            0.7071067811865476
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_right_middle_south",
+        "transformation": {
+          "translation": [
+            0.03125,
+            0.0625,
+            0.09375
+          ],
+          "left_rotation": [
+            -0.7071067811865476,
+            0,
+            0,
+            0.7071067811865476
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "fossil_frights:display/general/cases/tile_right_bottom_south",
+        "transformation": {
+          "translation": [
+            0.03125,
+            0.0625,
+            0.15625
+          ],
+          "left_rotation": [
+            -0.7071067811865476,
+            0,
+            0,
+            0.7071067811865476
+          ],
+          "scale": [
+            0.0625,
+            0.0625,
+            0.0625
+          ],
+          "right_rotation": [
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      }
+    ],
+    "transformation": {
+      "translation": [
+        0.46875,
+        0.53125,
+        0.46875
+      ],
+      "left_rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "right_rotation": [
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  }
+}

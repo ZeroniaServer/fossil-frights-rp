@@ -1,0 +1,31 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "fossil_frights:block/tall_grass",
+		"tall_grass": "fossil_frights:block/tall_grass"
+	},
+	"elements": [
+		{
+			"from": [8, 0, -6.4],
+			"to": [8, 32, 22.4],
+			"shade_direction_override": "up",
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 16, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#tall_grass"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#tall_grass"}
+			}
+		},
+		{
+			"from": [-6.4, 0, 8],
+			"to": [22.4, 32, 8],
+			"shade_direction_override": "up",
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 16, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#tall_grass"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#tall_grass"}
+			}
+		}
+	]
+}

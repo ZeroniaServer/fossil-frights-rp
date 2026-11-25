@@ -1,6 +1,40 @@
 {
 	"formatVersion": "1.0.0",
 	"rigs": {
+		"aj:barytender": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/aj/items/blueprint/barytender/cup.json",
+				"assets/aj/items/blueprint/barytender/head.json",
+				"assets/aj/items/blueprint/barytender/left_arm.json",
+				"assets/aj/items/blueprint/barytender/left_ear.json",
+				"assets/aj/items/blueprint/barytender/left_leg.json",
+				"assets/aj/items/blueprint/barytender/neck.json",
+				"assets/aj/items/blueprint/barytender/right_arm.json",
+				"assets/aj/items/blueprint/barytender/right_ear.json",
+				"assets/aj/items/blueprint/barytender/right_leg.json",
+				"assets/aj/items/blueprint/barytender/sponge.json",
+				"assets/aj/items/blueprint/barytender/tail1.json",
+				"assets/aj/items/blueprint/barytender/tail2.json",
+				"assets/aj/items/blueprint/barytender/waist.json",
+				"assets/aj/models/blueprint/barytender/cup.json",
+				"assets/aj/models/blueprint/barytender/head.json",
+				"assets/aj/models/blueprint/barytender/left_arm.json",
+				"assets/aj/models/blueprint/barytender/left_ear.json",
+				"assets/aj/models/blueprint/barytender/left_leg.json",
+				"assets/aj/models/blueprint/barytender/neck.json",
+				"assets/aj/models/blueprint/barytender/right_arm.json",
+				"assets/aj/models/blueprint/barytender/right_ear.json",
+				"assets/aj/models/blueprint/barytender/right_leg.json",
+				"assets/aj/models/blueprint/barytender/sponge.json",
+				"assets/aj/models/blueprint/barytender/tail1.json",
+				"assets/aj/models/blueprint/barytender/tail2.json",
+				"assets/aj/models/blueprint/barytender/waist.json",
+				"assets/aj/textures/blueprint/barytender/barytender.png",
+				"assets/aj/textures/blueprint/barytender/dinonog.png",
+				"assets/aj/textures/blueprint/barytender/sponge.png"
+			]
+		},
 		"aj:elfsembly_line": {
 			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
 			"versionedFiles": [

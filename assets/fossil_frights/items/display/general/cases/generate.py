@@ -77,4 +77,8 @@ if __name__ == '__main__':
     except FileExistsError:
         sys.exit(f'{path.name} already exists')
     print(f'created {path.name}')
-    print(f'/give @s minecraft:glass[minecraft:item_model="fossil_frights:display/general/cases/{path.stem}"]')
+    print('/summon minecraft:item_display ~ ~ ~ '
+          '{item:{id:"minecraft:glass",count:1,components:{"minecraft:item_model":'
+          f'"fossil_frights:display/general/cases/{path.stem}"'
+          '}},item_display:"none",transformation:{scale:[16f,16f,16f],'
+          'translation:[0f,0f,0f],left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f]}}')

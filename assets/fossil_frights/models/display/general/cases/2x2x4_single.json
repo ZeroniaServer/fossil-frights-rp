@@ -1,0 +1,67 @@
+{
+  "textures": {
+    "glass": "fossil_frights:display/general/cases/2x2x4_single",
+    "particle": "minecraft:block/glass"
+  },
+  "elements": [
+    {
+      "from": [
+        7,
+        8,
+        6
+      ],
+      "to": [
+        9,
+        10,
+        10
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            0.0,
+            2.0,
+            4.0
+          ],
+          "texture": "#glass"
+        },
+        "south": {
+          "uv": [
+            2.0,
+            0.0,
+            4.0,
+            4.0
+          ],
+          "texture": "#glass"
+        },
+        "west": {
+          "uv": [
+            4.0,
+            0.0,
+            8.0,
+            4.0
+          ],
+          "texture": "#glass"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            0.0,
+            12.0,
+            4.0
+          ],
+          "texture": "#glass"
+        },
+        "up": {
+          "uv": [
+            12.0,
+            0.0,
+            14.0,
+            8.0
+          ],
+          "texture": "#glass"
+        }
+      }
+    }
+  ]
+}

@@ -1,9 +1,36 @@
 {
 	"model": {
-		"type": "minecraft:model",
-		"model": "animation:blueprint/vending_machine/lemon_bone",
-		"tints": [
-			{"type": "minecraft:dye", "default": [1, 1, 1]}
-		]
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"index": 0,
+		"cases": [
+			{
+				"when": "chorus",
+				"model": {
+					"type": "minecraft:model",
+					"model": "animation:blueprint/vending_machine/chorus_bone",
+					"tints": [
+						{
+							"type": "minecraft:dye",
+							"default": [ 1, 1, 1 ]
+						}
+					]
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "animation:blueprint/vending_machine/lemon_bone",
+			"tints": [
+				{
+					"type": "minecraft:dye",
+					"default": [
+						1,
+						1,
+						1
+					]
+				}
+			]
+		}
 	}
 }

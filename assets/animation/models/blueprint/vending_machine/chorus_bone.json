@@ -1,0 +1,24 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "animation:blueprint/vending_machine/chorus_cola_1_",
+		"particle": "item/pufferfish"
+	},
+	"elements": [
+		{
+			"from": [7, 15, 8],
+			"to": [7, 18, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [11, 0, 9, 1.5], "texture": "#2"},
+				"west": {"uv": [9, 0, 11, 1.5], "texture": "#2"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [0, -180, 0]
+		}
+	}
+}

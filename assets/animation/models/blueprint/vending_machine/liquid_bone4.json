@@ -1,49 +1,26 @@
 {
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"4": "animation:blueprint/vending_machine/chorus_cola_1_",
-		"particle": "minecraft:item/pufferfish"
-	},
-	"display": {
-		"head": {
-			"rotation": [0, 180, 0]
-		}
+		"particle": "item/pufferfish"
 	},
 	"elements": [
 		{
 			"from": [7.625, 0, 7.625],
 			"to": [8.375, 10, 8.375],
-			"rotation": {
-				"x": 0,
-				"y": 0,
-				"z": 0,
-				"origin": [8, 8, 8]
-			},
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
 			"faces": {
-				"north": {
-					"uv": [7, 0, 7.5, 5],
-					"texture": "#4"
-				},
-				"east": {
-					"uv": [6, 1.5, 6.5, 6.5],
-					"texture": "#4"
-				},
-				"south": {
-					"uv": [6.5, 2.5, 7, 7.5],
-					"texture": "#4"
-				},
-				"west": {
-					"uv": [6.5, 0.5, 7, 5.5],
-					"texture": "#4"
-				},
-				"up": {
-					"uv": [1, 1, 1, 1],
-					"texture": "#4"
-				},
-				"down": {
-					"uv": [1, 1, 1, 1],
-					"texture": "#4"
-				}
+				"north": {"uv": [7, 0, 7.5, 5], "texture": "#4"},
+				"east": {"uv": [6, 1.5, 6.5, 6.5], "texture": "#4"},
+				"south": {"uv": [6.5, 2.5, 7, 7.5], "texture": "#4"},
+				"west": {"uv": [6.5, 0.5, 7, 5.5], "texture": "#4"}
 			}
 		}
-	]
+	],
+	"display": {
+		"head": {
+			"rotation": [0, -180, 0]
+		}
+	}
 }

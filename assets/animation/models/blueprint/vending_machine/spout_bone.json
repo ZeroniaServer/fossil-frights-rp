@@ -1,49 +1,27 @@
 {
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "animation:blueprint/vending_machine/vending_machine",
-		"particle": "minecraft:item/pufferfish"
-	},
-	"display": {
-		"head": {
-			"rotation": [0, 180, 0]
-		}
+		"particle": "item/pufferfish"
 	},
 	"elements": [
 		{
 			"from": [0.55172, 31.17241, 7.17241],
 			"to": [2.2069, 32, 8.82759],
-			"rotation": {
-				"x": 0,
-				"y": 0,
-				"z": 0,
-				"origin": [1.37931, 30.34483, 8]
-			},
+			"rotation": {"angle": 0, "axis": "y", "origin": [1.37931, 30.34483, 8]},
 			"faces": {
-				"north": {
-					"uv": [1, 6, 1.5, 6.25],
-					"texture": "#0"
-				},
-				"east": {
-					"uv": [1.5, 6, 2, 6.25],
-					"texture": "#0"
-				},
-				"south": {
-					"uv": [2, 6, 2.5, 6.25],
-					"texture": "#0"
-				},
-				"west": {
-					"uv": [1, 6.25, 1.5, 6.5],
-					"texture": "#0"
-				},
-				"up": {
-					"uv": [0.5, 6.5, 0, 6],
-					"texture": "#0"
-				},
-				"down": {
-					"uv": [1, 6, 0.5, 6.5],
-					"texture": "#0"
-				}
+				"north": {"uv": [1, 6, 1.5, 6.25], "texture": "#0"},
+				"east": {"uv": [1.5, 6, 2, 6.25], "texture": "#0"},
+				"south": {"uv": [2, 6, 2.5, 6.25], "texture": "#0"},
+				"west": {"uv": [1, 6.25, 1.5, 6.5], "texture": "#0"},
+				"down": {"uv": [1, 6, 0.5, 6.5], "texture": "#0"}
 			}
 		}
-	]
+	],
+	"display": {
+		"head": {
+			"rotation": [0, -180, 0]
+		}
+	}
 }

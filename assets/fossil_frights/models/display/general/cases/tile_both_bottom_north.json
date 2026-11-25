@@ -1,0 +1,31 @@
+{
+  "textures": {
+    "glass": "fossil_frights:display/general/cases/tile_both_bottom",
+    "particle": "minecraft:block/glass"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        8
+      ],
+      "to": [
+        16,
+        16,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ],
+          "texture": "#glass"
+        }
+      }
+    }
+  ]
+}

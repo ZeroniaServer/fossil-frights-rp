@@ -1,0 +1,50 @@
+{
+	"credit": "Made with Animated Java (https://github.com/Animated-Java/animated-java) via Blockbench",
+	"textures": {
+		"0": "aj:blueprint/barytender/barytender",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [6, 1, 6.5],
+			"to": [9, 8, 10.5],
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": 0,
+				"origin": [8, 8, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [12.75, 0.5, 13.5, 2.25],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [11.75, 0.5, 12.75, 2.25],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [13.5, 0.5, 14.25, 2.25],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [10.75, 0.5, 11.75, 2.25],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [8, 4.5, 8.75, 5.5],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [8, 5.5, 8.75, 6.5],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

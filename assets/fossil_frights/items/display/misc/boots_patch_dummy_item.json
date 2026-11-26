@@ -1,6 +1,25 @@
 {
   "model": {
-    "type": "minecraft:model",
-    "model": "fossil_frights:display/misc/boots_patch_dummy_item"
+    "type": "minecraft:condition",
+    "property": "minecraft:carried",
+    "on_true": {
+      "type": "minecraft:empty"
+    },
+    "on_false": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "cases": [
+        {
+          "when": "gui",
+          "model": {
+            "type": "minecraft:model",
+            "model": "fossil_frights:display/misc/boots_patch_dummy_item"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:empty"
+      }
+    }
   }
 }

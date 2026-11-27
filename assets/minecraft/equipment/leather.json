@@ -1,0 +1,36 @@
+{
+  "layers": {
+    "horse_body": [
+      {
+        "texture": "minecraft:leather"
+      },
+      {
+        "texture": "minecraft:leather_overlay"
+      }
+    ],
+    "humanoid": [
+      {
+        "texture": "minecraft:leather"
+      },
+      {
+        "texture": "minecraft:leather_overlay"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "minecraft:leather"
+      },
+      {
+        "texture": "minecraft:leather_overlay"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "minecraft:leather"
+      },
+      {
+        "texture": "minecraft:leather_overlay"
+      }
+    ]
+  }
+}

@@ -19,22 +19,32 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "minecraft:item/leather_boots",
+        "model": "fossil_frights:items/frightmas/bunny_slippers",
         "tints": [
           {
-            "type": "minecraft:constant",
-            "value": -6265536
+            "type": "minecraft:custom_model_data",
+            "index": 0,
+            "default": [
+              1,
+              1,
+              1
+            ]
           }
         ]
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "minecraft:item/leather_boots",
+      "model": "fossil_frights:items/frightmas/bunny_slippers",
       "tints": [
         {
-          "type": "minecraft:constant",
-          "value": -6265536
+          "type": "minecraft:custom_model_data",
+          "index": 0,
+          "default": [
+            1,
+            1,
+            1
+          ]
         }
       ]
     }

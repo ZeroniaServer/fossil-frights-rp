@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fossil_frights:items/frightmas/bunny_slippers",
+    "layer1": "fossil_frights:items/frightmas/bunny_slippers_overlay"
+  }
+}

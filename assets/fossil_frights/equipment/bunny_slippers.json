@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "fossil_frights:bunny_slippers",
+        "dyeable": {
+          "color_when_undyed": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "texture": "fossil_frights:bunny_slippers_overlay"
+      }
+    ]
+  }
+}

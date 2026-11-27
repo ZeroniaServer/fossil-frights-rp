@@ -587,6 +587,7 @@
   "ff.item.dinonog": "Dinonog",
   "ff.item.ice_sculpture": "Ice Sculpture",
   "ff.item.bunny_slippers": "Bunny Slippers",
+  "ff.item.bunny_slippers.description.step_on_powder_snow": "Can be used to walk on powder snow",
 
   "ff.tooltip.heist_loot": "Throw into the capture point for %s",
   "ff.tooltip.heist_loot.amount": "$%s",

@@ -550,5 +550,16 @@
         "volume": 0.9
       }
     ]
+  },
+  "item.bunny_slippers.equip": {
+    "subtitle": "subtitles.fossil_frights.bunny_slippers.equip",
+    "sounds": [
+      "item/armor/equip_leather1",
+      "item/armor/equip_leather2",
+      "item/armor/equip_leather3",
+      "item/armor/equip_leather4",
+      "item/armor/equip_leather5",
+      "item/armor/equip_leather6"
+    ]
   }
 }

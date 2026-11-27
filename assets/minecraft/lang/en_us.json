@@ -305,6 +305,8 @@
   "ff.advancement.portal_travel.description": "Take a step into the ancient portal after activating it.",
   "ff.advancement.shiny": "Shiny!",
   "ff.advancement.shiny.description": "Have the Crab polish your key.",
+  "ff.advancement.ineggscusable": "Ineggscuable",
+  "ff.advancement.ineggscusable.description": "Purchase 8 nog from the Capybartender at once."
 
   "ff.task.bathroom_leak": "Bathroom Leak",
   "ff.task.check_security": "Check Security",

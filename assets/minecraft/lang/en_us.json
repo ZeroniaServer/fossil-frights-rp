@@ -882,7 +882,7 @@
 
   "ff.crab": "Crab",
   "ff.barytender.name": "Capybartender",
-  "ff.barytender.prompt": "<%1$s> Don't want to use your key on the lock? 1 Dinonog for a Dinocoin",
+  "ff.barytender.prompt": "<%1$s> Care for a cold glass of nog? %2$s for one! I guess you have a key for it too though...",
   "ff.barytender.success_0": "<%1$s> Merry Frightmas! Enjoy your nog",
   "ff.barytender.success_1": "<%1$s> Another? Of course, here you go!",
   "ff.barytender.success_2": "<%1$s> You must be thirsty...",

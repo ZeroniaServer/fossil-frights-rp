@@ -586,6 +586,7 @@
   "ff.item.coal.description.attack.punch": "Punch",
   "ff.item.dinonog": "Dinonog",
   "ff.item.ice_sculpture": "Ice Sculpture",
+  "ff.item.bunny_slippers": "Bunny Slippers",
 
   "ff.tooltip.heist_loot": "Throw into the capture point for %s",
   "ff.tooltip.heist_loot.amount": "$%s",
